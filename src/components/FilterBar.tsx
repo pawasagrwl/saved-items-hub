@@ -62,9 +62,9 @@ export default function FilterBar() {
       </div>
 
       {/* Controls row */}
-      <div className="flex items-center gap-2 px-4 py-2 flex-wrap">
+      <div className="flex items-center gap-2 px-4 py-2 overflow-x-auto scrollbar-thin flex-nowrap sm:flex-wrap">
         <Select value={filters.sort} onValueChange={(v) => updateFilter('sort', v as SortOption)}>
-          <SelectTrigger className="w-[160px] h-8 text-xs bg-secondary border-border">
+          <SelectTrigger className="w-[140px] sm:w-[160px] h-8 text-xs bg-secondary border-border shrink-0">
             <ArrowUpDown className="h-3 w-3 mr-1 text-muted-foreground" />
             <SelectValue />
           </SelectTrigger>
@@ -76,7 +76,7 @@ export default function FilterBar() {
         </Select>
 
         <Select value={filters.nsfwFilter} onValueChange={(v) => updateFilter('nsfwFilter', v as NsfwFilter)}>
-          <SelectTrigger className="w-[120px] h-8 text-xs bg-secondary border-border">
+          <SelectTrigger className="w-[110px] sm:w-[120px] h-8 text-xs bg-secondary border-border shrink-0">
             <SelectValue />
           </SelectTrigger>
           <SelectContent>
@@ -141,7 +141,7 @@ export default function FilterBar() {
           )}
         </div>
 
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 shrink-0">
           <span className="text-[10px] text-muted-foreground uppercase tracking-wider">Min votes:</span>
           <input
             type="number"
