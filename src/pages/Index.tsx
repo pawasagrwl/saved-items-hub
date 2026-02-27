@@ -24,7 +24,7 @@ function Dashboard() {
       <Header />
       <FilterBar />
 
-      <div className="flex-1 flex gap-4 p-4 max-w-[1600px] mx-auto w-full">
+      <div className="flex-1 flex gap-4 p-2 sm:p-4 max-w-[1600px] mx-auto w-full">
         {/* Main feed */}
         <div className="flex-1 min-w-0">
           {filteredItems.length === 0 ? (

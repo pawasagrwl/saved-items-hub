@@ -76,7 +76,7 @@ function PostCard({ item }: { item: RedditPost }) {
         )}
 
         {/* Actions row */}
-        <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
+        <div className="flex items-center gap-2 sm:gap-3 text-[11px] text-muted-foreground flex-wrap">
           <span className="flex items-center gap-0.5 font-mono">
             <ArrowUp className="h-3 w-3" />
             {item.score.toLocaleString()}
@@ -116,8 +116,8 @@ function PostCard({ item }: { item: RedditPost }) {
             )}
           </div>
 
-          <button onClick={() => unsaveItem(item.id)} className="flex items-center gap-0.5 hover:text-destructive transition-colors ml-auto opacity-0 group-hover:opacity-100">
-            <Trash2 className="h-3 w-3" /> Unsave
+          <button onClick={() => unsaveItem(item.id)} className="flex items-center gap-0.5 hover:text-destructive transition-colors ml-auto sm:opacity-0 sm:group-hover:opacity-100">
+            <Trash2 className="h-3 w-3" /> <span className="hidden sm:inline">Unsave</span>
           </button>
         </div>
       </div>
@@ -181,7 +181,7 @@ function CommentCard({ item }: { item: RedditComment }) {
           </div>
         )}
 
-        <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
+        <div className="flex items-center gap-2 sm:gap-3 text-[11px] text-muted-foreground flex-wrap">
           <span className="flex items-center gap-0.5 font-mono">
             <ArrowUp className="h-3 w-3" />
             {item.score.toLocaleString()}
@@ -202,8 +202,8 @@ function CommentCard({ item }: { item: RedditComment }) {
               </div>
             )}
           </div>
-          <button onClick={() => unsaveItem(item.id)} className="flex items-center gap-0.5 hover:text-destructive transition-colors ml-auto opacity-0 group-hover:opacity-100">
-            <Trash2 className="h-3 w-3" /> Unsave
+          <button onClick={() => unsaveItem(item.id)} className="flex items-center gap-0.5 hover:text-destructive transition-colors ml-auto sm:opacity-0 sm:group-hover:opacity-100">
+            <Trash2 className="h-3 w-3" /> <span className="hidden sm:inline">Unsave</span>
           </button>
         </div>
       </div>
