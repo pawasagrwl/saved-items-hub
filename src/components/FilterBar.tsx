@@ -1,6 +1,8 @@
 import { useApp } from '@/context/AppContext';
+import { useBulkSelect } from '@/context/BulkSelectContext';
 import { SortOption, NsfwFilter, ViewTab } from '@/types/reddit';
-import { ArrowUpDown, Filter, Tag, X, Plus } from 'lucide-react';
+import { ArrowUpDown, Filter, Tag, X, Plus, CheckSquare } from 'lucide-react';
+import BulkActions from '@/components/BulkActions';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import {
