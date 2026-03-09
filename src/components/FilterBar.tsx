@@ -201,6 +201,10 @@ export default function FilterBar() {
           )}
         </div>
 
+        <div className="hidden lg:block">
+          <BulkActions />
+        </div>
+
         {hasActiveFilters && (
           <Button variant="ghost" size="sm" className="h-7 text-xs text-muted-foreground gap-1" onClick={resetFilters}>
             <X className="h-3 w-3" /> Clear
