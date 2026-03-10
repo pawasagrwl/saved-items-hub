@@ -17,7 +17,6 @@ function Dashboard() {
   const [selectedCollectionId, setSelectedCollectionId] = useState<string | null>(null);
   const { collections } = useCollections();
 
-  // Filter by collection if one is selected
   const displayItems = useMemo(() => {
     if (!selectedCollectionId) return filteredItems;
     const col = collections.find(c => c.id === selectedCollectionId);
@@ -42,7 +41,6 @@ function Dashboard() {
       <Header />
       <FilterBar />
 
-      {/* Bulk actions bar */}
       {bulkActive && (
         <div className="border-b border-border bg-card/50 px-4 py-2">
           <BulkActions />
@@ -50,7 +48,6 @@ function Dashboard() {
       )}
 
       <div className="flex-1 flex gap-4 p-2 sm:p-4 max-w-[1600px] mx-auto w-full">
-        {/* Sidebar left - Collections */}
         {allItems.length > 0 && (
           <div className="hidden lg:block w-56 shrink-0">
             <div className="sticky top-16 space-y-3">
@@ -62,7 +59,6 @@ function Dashboard() {
           </div>
         )}
 
-        {/* Main feed */}
         <div className="flex-1 min-w-0">
           {!bulkActive && (
             <div className="flex items-center justify-end mb-2 lg:hidden">
@@ -82,7 +78,6 @@ function Dashboard() {
           )}
         </div>
 
-        {/* Sidebar right */}
         {allItems.length > 0 && (
           <div className="hidden xl:block w-64 shrink-0">
             <div className="sticky top-16">

@@ -4,11 +4,11 @@ import { BarChart3 } from 'lucide-react';
 import { useMemo } from 'react';
 
 export default function InsightsPanel() {
-  const { allItems } = useApp();
+  const { allItems, fetchMetadata } = useApp();
 
   const topSubs = useMemo(() => getTopSubreddits(allItems, 5), [allItems]);
-  const totalPosts = allItems.filter(i => i.kind === 't3').length;
-  const totalComments = allItems.filter(i => i.kind === 't1').length;
+  const totalPosts = allItems.filter(i => i.kind === 'post').length;
+  const totalComments = allItems.filter(i => i.kind === 'comment').length;
   const maxCount = topSubs.length > 0 ? topSubs[0][1] : 1;
 
   return (
@@ -17,6 +17,12 @@ export default function InsightsPanel() {
         <BarChart3 className="h-4 w-4 text-primary" />
         <h2 className="text-xs font-semibold text-foreground uppercase tracking-wider">Insights</h2>
       </div>
+
+      {fetchMetadata && (
+        <p className="text-[10px] text-muted-foreground mb-3">
+          Last fetched: {fetchMetadata.lastFetchedOn}
+        </p>
+      )}
 
       <div className="grid grid-cols-2 gap-2 mb-4">
         <div className="bg-secondary rounded p-2 text-center">

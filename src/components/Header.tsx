@@ -1,5 +1,6 @@
 import { useApp } from '@/context/AppContext';
-import { Search, Download, LogOut, Bookmark, BarChart3 } from 'lucide-react';
+import { SavedDataFile } from '@/types/reddit';
+import { Search, Download, BarChart3, Upload } from 'lucide-react';
 import { exportToJSON, exportToCSV } from '@/lib/exportData';
 import {
   DropdownMenu,
@@ -9,19 +10,38 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Button } from '@/components/ui/button';
 import ThemeToggle from '@/components/ThemeToggle';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import StatsPanel from '@/components/StatsPanel';
 
 export default function Header() {
-  const { auth, filters, updateFilter, allItems, userTags, logout, isMockMode } = useApp();
+  const { filters, updateFilter, allItems, userTags, isMockMode, loadFromJSON } = useApp();
   const [showStats, setShowStats] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      try {
+        const data = JSON.parse(ev.target?.result as string) as SavedDataFile;
+        if (data.content?.posts && data.content?.comments) {
+          loadFromJSON(data);
+        }
+      } catch (err) {
+        console.error('Invalid JSON file', err);
+      }
+    };
+    reader.readAsText(file);
+    // Reset input
+    e.target.value = '';
+  };
 
   return (
     <>
       <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
         <div className="flex items-center gap-3 px-4 h-14">
           <div className="flex items-center gap-2 shrink-0">
-            <Bookmark className="h-5 w-5 text-primary" />
             <h1 className="text-sm font-semibold tracking-tight hidden sm:block">
               <span className="text-gradient">Saved</span>
               <span className="text-muted-foreground ml-1">Viewer</span>
@@ -42,6 +62,24 @@ export default function Header() {
           </div>
 
           <div className="flex items-center gap-1 shrink-0">
+            {/* Upload JSON */}
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept=".json"
+              onChange={handleFileUpload}
+              className="hidden"
+            />
+            <Button
+              variant="ghost"
+              size="sm"
+              className="h-8 w-8 p-0 text-muted-foreground hover:text-foreground"
+              onClick={() => fileInputRef.current?.click()}
+              title="Load saved_items.json"
+            >
+              <Upload className="h-4 w-4" />
+            </Button>
+
             <Button
               variant="ghost"
               size="sm"
@@ -70,17 +108,11 @@ export default function Header() {
 
             <ThemeToggle />
 
-            <div className="flex items-center gap-1 text-xs text-muted-foreground">
-              {isMockMode && (
-                <span className="px-1.5 py-0.5 rounded bg-accent-amber/10 text-accent-amber font-mono text-[10px] uppercase tracking-wider">
-                  Mock
-                </span>
-              )}
-              <span className="hidden sm:inline font-mono">{auth.username}</span>
-              <Button variant="ghost" size="sm" onClick={logout} className="h-8 w-8 p-0 text-muted-foreground hover:text-foreground">
-                <LogOut className="h-3.5 w-3.5" />
-              </Button>
-            </div>
+            {isMockMode && (
+              <span className="px-1.5 py-0.5 rounded bg-accent-amber/10 text-accent-amber font-mono text-[10px] uppercase tracking-wider">
+                Mock
+              </span>
+            )}
           </div>
         </div>
       </header>

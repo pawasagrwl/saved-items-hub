@@ -1,66 +1,156 @@
-export interface RedditPost {
-  kind: 't3';
-  id: string;
-  name: string;
-  subreddit: string;
-  subreddit_name_prefixed: string;
-  author: string;
+// Matches the Python script's JSON output structure
+
+export interface SavedDataFile {
+  last_fetched_on: string;
+  last_fetch_duration: number;
+  counts: {
+    subreddits: Record<string, { posts: number; comments: number; icon: string }>;
+    votes: Record<string, { posts: number; comments: number }>;
+    dates: Record<string, { posts: number; comments: number }>;
+  };
+  content: {
+    posts: RawPost[];
+    comments: RawComment[];
+  };
+}
+
+export interface RawPost {
   title: string;
-  selftext: string;
-  selftext_html: string | null;
+  author: string;
   url: string;
-  permalink: string;
-  thumbnail: string;
-  preview?: {
-    images: Array<{
-      source: { url: string; width: number; height: number };
-      resolutions: Array<{ url: string; width: number; height: number }>;
-    }>;
-  };
-  is_video: boolean;
-  media?: {
-    reddit_video?: { fallback_url: string; width: number; height: number };
-  };
-  post_hint?: string;
-  link_flair_text: string | null;
-  link_flair_background_color: string;
-  score: number;
-  num_comments: number;
-  over_18: boolean;
-  created_utc: number;
-  saved: boolean;
-  // Computed
-  saved_at?: number;
+  subreddit: string;
+  body: string;
+  media: string | null;
+  datetime: string;
+  votes: number;
+  nsfw: boolean;
+  flairs: string[];
+  archived: boolean;
+}
+
+export interface RawComment {
+  post_title: string;
+  post_subreddit: string;
+  post_url: string;
+  comment_url: string;
+  comment_text: string;
+  author: string;
+  datetime: string;
+  votes: number;
+  nsfw: boolean;
+  archived: boolean;
+}
+
+// Internal normalized types with generated IDs
+export interface RedditPost {
+  kind: 'post';
+  id: string;
+  title: string;
+  author: string;
+  url: string;
+  subreddit: string;
+  body: string;
+  media: string | null;
+  datetime: string;
+  timestamp: number; // parsed epoch ms
+  votes: number;
+  nsfw: boolean;
+  flairs: string[];
+  archived: boolean;
 }
 
 export interface RedditComment {
-  kind: 't1';
+  kind: 'comment';
   id: string;
-  name: string;
-  subreddit: string;
-  subreddit_name_prefixed: string;
+  post_title: string;
+  post_subreddit: string;
+  post_url: string;
+  comment_url: string;
+  comment_text: string;
   author: string;
-  body: string;
-  body_html: string;
-  link_title: string;
-  link_permalink: string;
-  link_author: string;
-  permalink: string;
-  score: number;
-  over_18: boolean;
-  created_utc: number;
-  saved: boolean;
-  saved_at?: number;
+  datetime: string;
+  timestamp: number;
+  votes: number;
+  nsfw: boolean;
+  archived: boolean;
 }
 
 export type SavedItem = RedditPost | RedditComment;
 
 export function isPost(item: SavedItem): item is RedditPost {
-  return item.kind === 't3';
+  return item.kind === 'post';
 }
 
 export function isComment(item: SavedItem): item is RedditComment {
-  return item.kind === 't1';
+  return item.kind === 'comment';
+}
+
+// Helper to get subreddit from any item
+export function getSubreddit(item: SavedItem): string {
+  return isPost(item) ? item.subreddit : item.post_subreddit;
+}
+
+// Parse datetime like "2026-02-03 15:37:15 IST"
+export function parseDatetime(dt: string): number {
+  // Remove timezone abbreviation and parse
+  const cleaned = dt.replace(/\s+[A-Z]{2,4}$/, '');
+  const date = new Date(cleaned);
+  return isNaN(date.getTime()) ? Date.now() : date.getTime();
+}
+
+// Convert raw JSON to internal types
+export function normalizeData(data: SavedDataFile): SavedItem[] {
+  const items: SavedItem[] = [];
+
+  data.content.posts.forEach((post, i) => {
+    items.push({
+      kind: 'post',
+      id: `post_${i}_${simpleHash(post.url)}`,
+      title: post.title,
+      author: post.author,
+      url: post.url,
+      subreddit: post.subreddit,
+      body: post.body,
+      media: post.media || null,
+      datetime: post.datetime,
+      timestamp: parseDatetime(post.datetime),
+      votes: post.votes,
+      nsfw: post.nsfw,
+      flairs: post.flairs || [],
+      archived: post.archived,
+    });
+  });
+
+  data.content.comments.forEach((comment, i) => {
+    items.push({
+      kind: 'comment',
+      id: `comment_${i}_${simpleHash(comment.comment_url)}`,
+      post_title: comment.post_title,
+      post_subreddit: comment.post_subreddit,
+      post_url: comment.post_url,
+      comment_url: comment.comment_url,
+      comment_text: comment.comment_text,
+      author: comment.author,
+      datetime: comment.datetime,
+      timestamp: parseDatetime(comment.datetime),
+      votes: comment.votes,
+      nsfw: comment.nsfw,
+      archived: comment.archived,
+    });
+  });
+
+  // Sort by timestamp descending (newest first)
+  items.sort((a, b) => b.timestamp - a.timestamp);
+  return items;
+}
+
+function simpleHash(str: string): string {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = ((hash << 5) - hash) + str.charCodeAt(i);
+    hash |= 0;
+  }
+  return Math.abs(hash).toString(36);
 }
 
 export interface TagAssignment {
@@ -72,14 +162,14 @@ export interface UserTags {
   assignments: TagAssignment;
 }
 
-export type SortOption = 'saved_newest' | 'saved_oldest' | 'created_newest' | 'created_oldest' | 'votes_high' | 'votes_low';
+export type SortOption = 'newest' | 'oldest' | 'votes_high' | 'votes_low';
 export type NsfwFilter = 'all' | 'hide' | 'only';
 export type ViewTab = 'all' | 'posts' | 'comments';
 
 export interface FilterState {
   search: string;
   subreddits: string[];
-  dateRange: [number | null, number | null];
+  yearRange: [number, number]; // min year, max year
   minVotes: number;
   nsfwFilter: NsfwFilter;
   sort: SortOption;
@@ -87,9 +177,8 @@ export interface FilterState {
   tags: string[];
 }
 
-export interface AuthState {
-  accessToken: string | null;
-  username: string | null;
-  isAuthenticated: boolean;
-  expiresAt: number | null;
+export interface FetchMetadata {
+  lastFetchedOn: string;
+  lastFetchDuration: number;
+  subredditIcons: Record<string, string>;
 }

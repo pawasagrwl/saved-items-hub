@@ -1,10 +1,11 @@
 import { useApp } from '@/context/AppContext';
 import { useBulkSelect } from '@/context/BulkSelectContext';
 import { SortOption, NsfwFilter, ViewTab } from '@/types/reddit';
-import { ArrowUpDown, Filter, Tag, X, Plus, CheckSquare } from 'lucide-react';
+import { ArrowUpDown, Filter, Tag, X, Plus, Calendar } from 'lucide-react';
 import BulkActions from '@/components/BulkActions';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
+import { Slider } from '@/components/ui/slider';
 import {
   Select,
   SelectContent,
@@ -12,12 +13,17 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
 
 const sortLabels: Record<SortOption, string> = {
-  saved_newest: 'Saved (Newest)',
-  saved_oldest: 'Saved (Oldest)',
-  created_newest: 'Created (Newest)',
-  created_oldest: 'Created (Oldest)',
+  newest: 'Newest First',
+  oldest: 'Oldest First',
   votes_high: 'Votes (High)',
   votes_low: 'Votes (Low)',
 };
@@ -29,10 +35,10 @@ const nsfwLabels: Record<NsfwFilter, string> = {
 };
 
 export default function FilterBar() {
-  const { filters, updateFilter, resetFilters, availableSubreddits, postCount, commentCount, filteredItems, userTags, createTag } = useApp();
-  const [showSubFilter, setShowSubFilter] = useState(false);
+  const { filters, updateFilter, resetFilters, availableSubreddits, postCount, commentCount, filteredItems, userTags, createTag, yearBounds } = useApp();
   const [subSearch, setSubSearch] = useState('');
   const [newTag, setNewTag] = useState('');
+  const [subModalOpen, setSubModalOpen] = useState(false);
 
   const tabs: { value: ViewTab; label: string; count: number }[] = [
     { value: 'all', label: 'All', count: filteredItems.length },
@@ -41,7 +47,8 @@ export default function FilterBar() {
   ];
 
   const filteredSubs = availableSubreddits.filter(s => s.toLowerCase().includes(subSearch.toLowerCase()));
-  const hasActiveFilters = filters.subreddits.length > 0 || filters.minVotes > 0 || filters.nsfwFilter !== 'hide' || filters.tags.length > 0;
+  const hasActiveFilters = filters.subreddits.length > 0 || filters.minVotes > 0 || filters.nsfwFilter !== 'hide' || filters.tags.length > 0 ||
+    (filters.yearRange[0] !== yearBounds[0] || filters.yearRange[1] !== yearBounds[1]);
 
   return (
     <div className="border-b border-border bg-card/50">
@@ -88,37 +95,50 @@ export default function FilterBar() {
           </SelectContent>
         </Select>
 
-        <div className="relative">
-          <Button
-            variant="outline"
-            size="sm"
-            className="h-8 text-xs gap-1"
-            onClick={() => setShowSubFilter(!showSubFilter)}
-          >
-            <Filter className="h-3 w-3" />
-            Subreddits
-            {filters.subreddits.length > 0 && (
-              <span className="ml-1 px-1.5 rounded-full bg-primary text-primary-foreground text-[10px] font-mono">
-                {filters.subreddits.length}
-              </span>
-            )}
-          </Button>
-
-          {showSubFilter && (
-            <div className="absolute top-full left-0 mt-1 w-64 bg-popover border border-border rounded-md shadow-xl z-50 animate-fade-in">
-              <div className="p-2">
-                <input
-                  type="text"
-                  placeholder="Filter subreddits…"
-                  value={subSearch}
-                  onChange={e => setSubSearch(e.target.value)}
-                  className="w-full h-7 bg-secondary border border-border rounded text-xs px-2 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary"
-                  autoFocus
-                />
-              </div>
-              <div className="max-h-48 overflow-y-auto scrollbar-thin px-1 pb-1">
+        {/* Subreddit filter - modal button */}
+        <Dialog open={subModalOpen} onOpenChange={setSubModalOpen}>
+          <DialogTrigger asChild>
+            <Button variant="outline" size="sm" className="h-8 text-xs gap-1 shrink-0">
+              <Filter className="h-3 w-3" />
+              Subreddits
+              {filters.subreddits.length > 0 && (
+                <span className="ml-1 px-1.5 rounded-full bg-primary text-primary-foreground text-[10px] font-mono">
+                  {filters.subreddits.length}
+                </span>
+              )}
+            </Button>
+          </DialogTrigger>
+          <DialogContent className="max-w-md">
+            <DialogHeader>
+              <DialogTitle className="text-sm">Filter by Subreddit</DialogTitle>
+            </DialogHeader>
+            <div className="space-y-3">
+              <input
+                type="text"
+                placeholder="Search subreddits…"
+                value={subSearch}
+                onChange={e => setSubSearch(e.target.value)}
+                className="w-full h-9 bg-secondary border border-border rounded-md text-sm px-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary"
+                autoFocus
+              />
+              {filters.subreddits.length > 0 && (
+                <div className="flex flex-wrap gap-1">
+                  {filters.subreddits.map(sub => (
+                    <span key={sub} className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-primary/15 text-primary text-xs">
+                      r/{sub}
+                      <button onClick={() => updateFilter('subreddits', filters.subreddits.filter(s => s !== sub))}>
+                        <X className="h-3 w-3" />
+                      </button>
+                    </span>
+                  ))}
+                  <Button variant="ghost" size="sm" className="h-7 text-xs" onClick={() => updateFilter('subreddits', [])}>
+                    Clear all
+                  </Button>
+                </div>
+              )}
+              <div className="max-h-64 overflow-y-auto scrollbar-thin space-y-0.5">
                 {filteredSubs.map(sub => (
-                  <label key={sub} className="flex items-center gap-2 px-2 py-1 rounded text-xs hover:bg-secondary cursor-pointer">
+                  <label key={sub} className="flex items-center gap-2.5 px-2 py-1.5 rounded-md text-sm hover:bg-secondary cursor-pointer">
                     <input
                       type="checkbox"
                       checked={filters.subreddits.includes(sub)}
@@ -133,15 +153,30 @@ export default function FilterBar() {
                     <span className="text-foreground">r/{sub}</span>
                   </label>
                 ))}
-              </div>
-              <div className="border-t border-border p-1">
-                <Button variant="ghost" size="sm" className="w-full h-7 text-xs" onClick={() => { updateFilter('subreddits', []); setShowSubFilter(false); }}>
-                  Clear
-                </Button>
+                {filteredSubs.length === 0 && (
+                  <p className="text-sm text-muted-foreground text-center py-4">No subreddits match</p>
+                )}
               </div>
             </div>
-          )}
-        </div>
+          </DialogContent>
+        </Dialog>
+
+        {/* Year range slider */}
+        {yearBounds[0] > 0 && yearBounds[1] > 0 && (
+          <div className="flex items-center gap-2 shrink-0 min-w-[180px]">
+            <Calendar className="h-3 w-3 text-muted-foreground shrink-0" />
+            <span className="text-[10px] font-mono text-muted-foreground">{filters.yearRange[0]}</span>
+            <Slider
+              min={yearBounds[0]}
+              max={yearBounds[1]}
+              step={1}
+              value={[filters.yearRange[0], filters.yearRange[1]]}
+              onValueChange={(val) => updateFilter('yearRange', [val[0], val[1]] as [number, number])}
+              className="w-24 sm:w-32"
+            />
+            <span className="text-[10px] font-mono text-muted-foreground">{filters.yearRange[1]}</span>
+          </div>
+        )}
 
         <div className="flex items-center gap-1 shrink-0">
           <span className="text-[10px] text-muted-foreground uppercase tracking-wider">Min votes:</span>

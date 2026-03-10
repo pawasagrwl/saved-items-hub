@@ -2,15 +2,15 @@ import { useState } from 'react';
 import { SavedItem, isPost, isComment, RedditPost, RedditComment } from '@/types/reddit';
 import { useApp } from '@/context/AppContext';
 import { useBulkSelect } from '@/context/BulkSelectContext';
-import { ExternalLink, ChevronDown, ChevronUp, ArrowUp, MessageSquare, Clock, Trash2, Tag, X, FolderPlus } from 'lucide-react';
+import { ExternalLink, ChevronDown, ChevronUp, ArrowUp, Clock, Trash2, Tag, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
 import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card';
 import ContentPreview from '@/components/ContentPreview';
 import { formatDistanceToNow } from 'date-fns';
 
-function formatTime(utc: number) {
-  return formatDistanceToNow(new Date(utc * 1000), { addSuffix: true });
+function formatTime(timestamp: number) {
+  return formatDistanceToNow(new Date(timestamp), { addSuffix: true });
 }
 
 function ItemCheckbox({ itemId }: { itemId: string }) {
@@ -43,11 +43,6 @@ function TagMenu({ itemId, onClose }: { itemId: string; onClose: () => void }) {
   );
 }
 
-function CollectionMenu({ itemId, onClose }: { itemId: string; onClose: () => void }) {
-  // Collections are managed externally; for now show via context
-  return null;
-}
-
 function ItemTags({ itemId }: { itemId: string }) {
   const { userTags, untagItem } = useApp();
   const itemTags = userTags.assignments[itemId] || [];
@@ -70,8 +65,8 @@ function PostCard({ item }: { item: RedditPost }) {
   const [expanded, setExpanded] = useState(false);
   const { unsaveItem } = useApp();
   const [showTagMenu, setShowTagMenu] = useState(false);
-  const hasImage = item.post_hint === 'image' || item.url?.match(/\.(jpg|jpeg|png|gif|webp)$/i);
-  const hasText = item.selftext && item.selftext.length > 0;
+  const hasImage = !!item.media;
+  const hasText = item.body && item.body.length > 0;
 
   return (
     <article className="group border border-border rounded-md bg-card hover:border-primary/30 transition-colors animate-fade-in">
@@ -86,16 +81,21 @@ function PostCard({ item }: { item: RedditPost }) {
             <span>·</span>
             <span className="font-mono flex items-center gap-0.5">
               <Clock className="h-3 w-3" />
-              {formatTime(item.created_utc)}
+              {formatTime(item.timestamp)}
             </span>
-            {item.link_flair_text && (
-              <span className="px-1.5 py-0.5 rounded bg-secondary text-secondary-foreground text-[10px]">
-                {item.link_flair_text}
+            {item.flairs.map(flair => (
+              <span key={flair} className="px-1.5 py-0.5 rounded bg-secondary text-secondary-foreground text-[10px]">
+                {flair}
               </span>
-            )}
-            {item.over_18 && (
+            ))}
+            {item.nsfw && (
               <span className="px-1.5 py-0.5 rounded bg-nsfw text-destructive-foreground text-[10px] font-bold uppercase">
                 NSFW
+              </span>
+            )}
+            {item.archived && (
+              <span className="px-1.5 py-0.5 rounded bg-muted text-muted-foreground text-[10px]">
+                Archived
               </span>
             )}
           </div>
@@ -115,14 +115,14 @@ function PostCard({ item }: { item: RedditPost }) {
           {/* Inline image */}
           {hasImage && expanded && (
             <div className="mb-2 rounded overflow-hidden bg-secondary">
-              <img src={item.url} alt={item.title} className="max-h-96 w-auto mx-auto" loading="lazy" />
+              <img src={item.media!} alt={item.title} className="max-h-96 w-auto mx-auto" loading="lazy" />
             </div>
           )}
 
           {/* Inline text */}
           {hasText && expanded && (
             <div className="mb-2 p-3 bg-secondary rounded text-xs text-secondary-foreground leading-relaxed whitespace-pre-wrap max-h-64 overflow-y-auto scrollbar-thin">
-              {item.selftext}
+              {item.body}
             </div>
           )}
 
@@ -132,11 +132,7 @@ function PostCard({ item }: { item: RedditPost }) {
           <div className="flex items-center gap-2 sm:gap-3 text-[11px] text-muted-foreground flex-wrap">
             <span className="flex items-center gap-0.5 font-mono">
               <ArrowUp className="h-3 w-3" />
-              {item.score.toLocaleString()}
-            </span>
-            <span className="flex items-center gap-0.5 font-mono">
-              <MessageSquare className="h-3 w-3" />
-              {item.num_comments.toLocaleString()}
+              {item.votes.toLocaleString()}
             </span>
 
             {(hasImage || hasText) && (
@@ -146,7 +142,7 @@ function PostCard({ item }: { item: RedditPost }) {
               </button>
             )}
 
-            <a href={`https://reddit.com${item.permalink}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-0.5 hover:text-foreground transition-colors">
+            <a href={item.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-0.5 hover:text-foreground transition-colors">
               <ExternalLink className="h-3 w-3" /> Open
             </a>
 
@@ -171,7 +167,7 @@ function CommentCard({ item }: { item: RedditComment }) {
   const [expanded, setExpanded] = useState(false);
   const { unsaveItem } = useApp();
   const [showTagMenu, setShowTagMenu] = useState(false);
-  const isLong = item.body.length > 200;
+  const isLong = item.comment_text.length > 200;
 
   return (
     <article className="group border border-border rounded-md bg-card hover:border-primary/30 transition-colors animate-fade-in">
@@ -179,15 +175,15 @@ function CommentCard({ item }: { item: RedditComment }) {
         <ItemCheckbox itemId={item.id} />
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 text-[11px] text-muted-foreground mb-1.5 flex-wrap">
-            <span className="font-medium text-primary">r/{item.subreddit}</span>
+            <span className="font-medium text-primary">r/{item.post_subreddit}</span>
             <span>·</span>
             <span>u/{item.author}</span>
             <span>·</span>
             <span className="font-mono flex items-center gap-0.5">
               <Clock className="h-3 w-3" />
-              {formatTime(item.created_utc)}
+              {formatTime(item.timestamp)}
             </span>
-            {item.over_18 && (
+            {item.nsfw && (
               <span className="px-1.5 py-0.5 rounded bg-nsfw text-destructive-foreground text-[10px] font-bold uppercase">NSFW</span>
             )}
           </div>
@@ -196,7 +192,7 @@ function CommentCard({ item }: { item: RedditComment }) {
           <HoverCard openDelay={400} closeDelay={100}>
             <HoverCardTrigger asChild>
               <p className="text-[11px] text-muted-foreground mb-1.5 truncate cursor-default">
-                Re: <span className="text-secondary-foreground">{item.link_title}</span>
+                Re: <span className="text-secondary-foreground">{item.post_title}</span>
               </p>
             </HoverCardTrigger>
             <HoverCardContent side="right" className="p-0 w-auto hidden sm:block">
@@ -208,11 +204,11 @@ function CommentCard({ item }: { item: RedditComment }) {
           <div className="text-sm text-foreground leading-relaxed mb-2">
             {isLong && !expanded ? (
               <>
-                {item.body.substring(0, 200)}…
+                {item.comment_text.substring(0, 200)}…
                 <button onClick={() => setExpanded(true)} className="text-primary text-xs ml-1 hover:underline">more</button>
               </>
             ) : (
-              <span className="whitespace-pre-wrap">{item.body}</span>
+              <span className="whitespace-pre-wrap">{item.comment_text}</span>
             )}
             {expanded && isLong && (
               <button onClick={() => setExpanded(false)} className="text-primary text-xs ml-1 hover:underline block mt-1">less</button>
@@ -224,9 +220,9 @@ function CommentCard({ item }: { item: RedditComment }) {
           <div className="flex items-center gap-2 sm:gap-3 text-[11px] text-muted-foreground flex-wrap">
             <span className="flex items-center gap-0.5 font-mono">
               <ArrowUp className="h-3 w-3" />
-              {item.score.toLocaleString()}
+              {item.votes.toLocaleString()}
             </span>
-            <a href={`https://reddit.com${item.permalink}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-0.5 hover:text-foreground transition-colors">
+            <a href={item.comment_url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-0.5 hover:text-foreground transition-colors">
               <ExternalLink className="h-3 w-3" /> Open
             </a>
             <div className="relative">
