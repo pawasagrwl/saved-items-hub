@@ -1,4 +1,4 @@
-import { SavedItem, FilterState, isPost, isComment } from '@/types/reddit';
+import { SavedItem, FilterState, isPost, isComment, getSubreddit } from '@/types/reddit';
 
 export function filterAndSort(items: SavedItem[], filters: FilterState, tagAssignments: Record<string, string[]>): SavedItem[] {
   let result = [...items];
@@ -12,33 +12,35 @@ export function filterAndSort(items: SavedItem[], filters: FilterState, tagAssig
     const q = filters.search.toLowerCase();
     result = result.filter(item => {
       if (isPost(item)) {
-        return item.title.toLowerCase().includes(q) || item.author.toLowerCase().includes(q) || item.selftext.toLowerCase().includes(q);
+        return item.title.toLowerCase().includes(q) || item.author.toLowerCase().includes(q) || item.body.toLowerCase().includes(q);
       }
-      return (item as any).body?.toLowerCase().includes(q) || item.author.toLowerCase().includes(q) || (item as any).link_title?.toLowerCase().includes(q);
+      if (isComment(item)) {
+        return item.comment_text.toLowerCase().includes(q) || item.author.toLowerCase().includes(q) || item.post_title.toLowerCase().includes(q);
+      }
+      return false;
     });
   }
 
   // Subreddit filter
   if (filters.subreddits.length > 0) {
-    result = result.filter(item => filters.subreddits.includes(item.subreddit));
+    result = result.filter(item => filters.subreddits.includes(getSubreddit(item)));
   }
 
-  // Date range
-  if (filters.dateRange[0]) {
-    result = result.filter(item => (item.saved_at || item.created_utc) >= filters.dateRange[0]!);
-  }
-  if (filters.dateRange[1]) {
-    result = result.filter(item => (item.saved_at || item.created_utc) <= filters.dateRange[1]!);
+  // Year range
+  if (filters.yearRange[0] > 0 && filters.yearRange[1] > 0) {
+    const minTs = new Date(filters.yearRange[0], 0, 1).getTime();
+    const maxTs = new Date(filters.yearRange[1] + 1, 0, 1).getTime(); // end of max year
+    result = result.filter(item => item.timestamp >= minTs && item.timestamp < maxTs);
   }
 
   // Min votes
   if (filters.minVotes > 0) {
-    result = result.filter(item => item.score >= filters.minVotes);
+    result = result.filter(item => item.votes >= filters.minVotes);
   }
 
   // NSFW
-  if (filters.nsfwFilter === 'hide') result = result.filter(item => !item.over_18);
-  if (filters.nsfwFilter === 'only') result = result.filter(item => item.over_18);
+  if (filters.nsfwFilter === 'hide') result = result.filter(item => !item.nsfw);
+  if (filters.nsfwFilter === 'only') result = result.filter(item => item.nsfw);
 
   // Tag filter
   if (filters.tags.length > 0) {
@@ -51,12 +53,10 @@ export function filterAndSort(items: SavedItem[], filters: FilterState, tagAssig
   // Sort
   result.sort((a, b) => {
     switch (filters.sort) {
-      case 'saved_newest': return (b.saved_at || b.created_utc) - (a.saved_at || a.created_utc);
-      case 'saved_oldest': return (a.saved_at || a.created_utc) - (b.saved_at || b.created_utc);
-      case 'created_newest': return b.created_utc - a.created_utc;
-      case 'created_oldest': return a.created_utc - b.created_utc;
-      case 'votes_high': return b.score - a.score;
-      case 'votes_low': return a.score - b.score;
+      case 'newest': return b.timestamp - a.timestamp;
+      case 'oldest': return a.timestamp - b.timestamp;
+      case 'votes_high': return b.votes - a.votes;
+      case 'votes_low': return a.votes - b.votes;
       default: return 0;
     }
   });
@@ -67,7 +67,8 @@ export function filterAndSort(items: SavedItem[], filters: FilterState, tagAssig
 export function getSubredditCounts(items: SavedItem[]): Record<string, number> {
   const counts: Record<string, number> = {};
   items.forEach(item => {
-    counts[item.subreddit] = (counts[item.subreddit] || 0) + 1;
+    const sub = getSubreddit(item);
+    counts[sub] = (counts[sub] || 0) + 1;
   });
   return counts;
 }

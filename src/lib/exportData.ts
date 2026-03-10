@@ -13,20 +13,21 @@ export function exportToJSON(items: SavedItem[], tagAssignments: Record<string, 
 }
 
 export function exportToCSV(items: SavedItem[], tagAssignments: Record<string, string[]>): void {
-  const headers = ['type', 'id', 'subreddit', 'author', 'title_or_body', 'score', 'over_18', 'created_utc', 'saved_at', 'permalink', 'tags'];
+  const headers = ['type', 'id', 'subreddit', 'author', 'title_or_body', 'votes', 'nsfw', 'datetime', 'url', 'tags'];
   const rows = items.map(item => {
-    const content = isPost(item) ? item.title : isComment(item) ? item.body.substring(0, 200) : '';
+    const content = isPost(item) ? item.title : isComment(item) ? item.comment_text.substring(0, 200) : '';
+    const sub = isPost(item) ? item.subreddit : isComment(item) ? item.post_subreddit : '';
+    const url = isPost(item) ? item.url : isComment(item) ? item.comment_url : '';
     return [
-      item.kind === 't3' ? 'post' : 'comment',
+      item.kind,
       item.id,
-      item.subreddit,
+      sub,
       item.author,
       `"${content.replace(/"/g, '""')}"`,
-      item.score,
-      item.over_18,
-      new Date(item.created_utc * 1000).toISOString(),
-      item.saved_at ? new Date(item.saved_at * 1000).toISOString() : '',
-      `https://reddit.com${item.permalink}`,
+      item.votes,
+      item.nsfw,
+      item.datetime,
+      url,
       (tagAssignments[item.id] || []).join(';'),
     ].join(',');
   });
