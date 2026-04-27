@@ -58,6 +58,11 @@ export interface RedditPost {
   subreddit: string;
   body: string;
   media: string | null;
+  media_type: MediaType;
+  gallery: string[];
+  thumbnail: string | null;
+  preview_image: string | null;
+  domain: string;
   datetime: string;
   timestamp: number; // parsed epoch ms
   votes: number;
