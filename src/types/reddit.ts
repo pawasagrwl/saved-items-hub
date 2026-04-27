@@ -1,4 +1,5 @@
 // Matches the Python script's JSON output structure
+import { inferMediaTypeFromUrl, extractDomain } from '@/lib/mediaDetect';
 
 export interface SavedDataFile {
   last_fetched_on: string;
