@@ -115,6 +115,7 @@ export function normalizeData(data: SavedDataFile): SavedItem[] {
   const items: SavedItem[] = [];
 
   data.content.posts.forEach((post, i) => {
+    const inferredType = post.media_type || inferMediaTypeFromUrl(post.media, post.body);
     items.push({
       kind: 'post',
       id: `post_${i}_${simpleHash(post.url)}`,
@@ -124,6 +125,11 @@ export function normalizeData(data: SavedDataFile): SavedItem[] {
       subreddit: post.subreddit,
       body: post.body,
       media: post.media || null,
+      media_type: inferredType,
+      gallery: post.gallery || [],
+      thumbnail: post.thumbnail || null,
+      preview_image: post.preview_image || null,
+      domain: post.domain || extractDomain(post.media || post.url),
       datetime: post.datetime,
       timestamp: parseDatetime(post.datetime),
       votes: post.votes,
