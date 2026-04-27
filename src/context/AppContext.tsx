@@ -68,7 +68,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   // Try to load saved_items.json from public folder on mount
   useEffect(() => {
     setIsLoading(true);
-    fetch('/saved_items.json')
+    fetch(`${import.meta.env.BASE_URL}saved_items.json`)
       .then(res => {
         if (!res.ok) throw new Error('Not found');
         return res.json();
