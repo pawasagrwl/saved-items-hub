@@ -1,14 +1,22 @@
+import os
+import json
+import time
+import shutil
 from datetime import datetime, timedelta
-import pytz  # Ensure this is installed or add it to your project requirements
+from zoneinfo import ZoneInfo
 from dotenv import load_dotenv
-import os, praw, json, time, inquirer
+import praw
+import inquirer
 
-# Load environment variables from .env file
+# Load environment variables
 load_dotenv()
 
 # Define the UTC and IST time zones
-utc_zone = pytz.utc
-ist_zone = pytz.timezone('Asia/Kolkata')
+utc_zone = ZoneInfo('UTC')
+ist_zone = ZoneInfo('Asia/Kolkata')
+
+IMAGE_EXT = ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.bmp')
+VIDEO_EXT = ('.mp4', '.webm', '.mov', '.m4v')
 
 def format_time(seconds):
     td = timedelta(seconds=seconds)
@@ -18,58 +26,38 @@ def format_time(seconds):
     return f"{hours} hours, {minutes} minutes, {seconds} seconds"
 
 def get_readable_datetime(utc_timestamp):
-    utc_time = datetime.utcfromtimestamp(utc_timestamp).replace(tzinfo=utc_zone)
+    utc_time = datetime.fromtimestamp(utc_timestamp, tz=utc_zone)
     ist_time = utc_time.astimezone(ist_zone)
     return ist_time.strftime('%Y-%m-%d %H:%M:%S IST')
 
 def initialize_counts(vote_ranges):
-    counts = {
+    return {
         "subreddits": {},
         "votes": {f"{range_[0]}-{range_[1]}": {"posts": 0, "comments": 0} for range_ in vote_ranges},
         "dates": {}
     }
-    return counts
-
-def update_counts(counts, item, is_post, vote_ranges):
-    type_ = "posts" if is_post else "comments"
-    subreddit_name = str(item.subreddit if hasattr(item, 'subreddit') else item.submission.subreddit)
-    subreddit_counts = counts["subreddits"].setdefault(subreddit_name, {"posts": 0, "comments": 0})
-    subreddit_counts[type_] += 1
-
-    for range_ in vote_ranges:
-        range_key = f"{range_[0]}-{range_[1]}"
-        if range_[0] <= item.score < range_[1]:
-            counts["votes"][range_key][type_] += 1
-            break
-
-    year_month = get_readable_datetime(item.created_utc).split()[0][:7]
-    date_counts = counts["dates"].setdefault(year_month, {"posts": 0, "comments": 0})
-    date_counts[type_] += 1
 
 def fetch_subreddit_icon(subreddit, counts):
     subreddit_name = subreddit.display_name
     if subreddit_name in counts['subreddits'] and 'icon' in counts['subreddits'][subreddit_name]:
         return counts['subreddits'][subreddit_name]['icon']
     try:
-        icon_url = subreddit.icon_img if hasattr(subreddit, 'icon_img') else ''
-        counts['subreddits'][subreddit_name]['icon'] = icon_url
+        icon_url = getattr(subreddit, 'icon_img', '') or getattr(subreddit, 'community_icon', '') or ''
+        # Sometimes community_icon has query parameters, strip them
+        if icon_url and '?' in icon_url:
+            icon_url = icon_url.split('?')[0]
+        counts['subreddits'].setdefault(subreddit_name, {})['icon'] = icon_url
         return icon_url
-    except Exception as e:
-        print(f"Could not fetch icon for subreddit {subreddit_name}: {e}")
+    except Exception:
         return ''
 
-IMAGE_EXT = ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.bmp')
-VIDEO_EXT = ('.mp4', '.webm', '.mov', '.m4v')
-
 def _safe_thumb(item):
-    """Return a usable thumbnail URL or None."""
     thumb = getattr(item, 'thumbnail', '') or ''
     if isinstance(thumb, str) and thumb.startswith('http'):
         return thumb
     return None
 
 def _safe_preview(item):
-    """Pull a high-res preview image URL from item.preview if present."""
     try:
         preview = getattr(item, 'preview', None)
         if not preview:
@@ -83,9 +71,6 @@ def _safe_preview(item):
     return None
 
 def extract_media(item):
-    """Return dict: {type, gallery: [urls], thumbnail, preview}.
-    type is one of: image, gif, video, gallery, youtube, link, text.
-    Pure best-effort; safe on any submission."""
     result = {"type": "link", "gallery": [], "thumbnail": _safe_thumb(item), "preview": _safe_preview(item)}
     try:
         url = (getattr(item, 'url', '') or '').lower()
@@ -141,114 +126,273 @@ def extract_media(item):
     return result
 
 def prompt_user_to_fetch():
-    question = [
-        inquirer.Confirm('refetch', message="Do you want to fetch the data again?", default=False)
+    questions = [
+        inquirer.List('sync_type',
+                      message="Which type of sync do you want to perform?",
+                      choices=['Fast Sync (New items only)', 'Full Sync (Sync deletions)', 'Cancel'],
+                      default='Fast Sync (New items only)'
+        )
     ]
-    answer = inquirer.prompt(question)
-    return answer['refetch']
+    answer = inquirer.prompt(questions)
+    return answer['sync_type']
 
-def fetch_saved_items():
-    json_file_path = "src/data/saved_items.json"
-    if os.path.exists(json_file_path):
-        with open(json_file_path, 'r') as file:
-            data = json.load(file)
-            posts = len(data['content']['posts'])
-            comments = len(data['content']['comments'])
-            items = posts + comments
-            last_fetch_duration = format_time(data['last_fetch_duration'])
-            print(f"Last Fetched on: {data['last_fetched_on']}")
-            print(f"Number of Items: {posts + comments} ({posts} Posts, {comments} Comments)")
-            print(f"Last Fetch Duration: {last_fetch_duration}")
-            print(" ")
-        if not prompt_user_to_fetch():
-            return
-    else:
-        print("No saved_items.json found, fetching now.")
-        print(" ")
+def get_saved_items_file():
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    target_path = os.path.abspath(os.path.join(base_dir, "..", "src", "data", "saved_items.json"))
+    api_path = os.path.abspath(os.path.join(base_dir, "saved_items.json"))
+    
+    data = None
+    if os.path.exists(target_path):
+        try:
+            with open(target_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if 'content' not in data:
+                    data = None # Invalid data
+        except Exception:
+            data = None
+            
+    # If target is invalid or missing, try the fallback one in api/
+    if data is None and os.path.exists(api_path):
+        try:
+            with open(api_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if 'content' in data:
+                    print(f"Recovered valid data from {api_path}")
+                else:
+                    data = None
+        except Exception:
+            data = None
+            
+    if data is None:
+        data = {
+            "last_fetched_on": "Never",
+            "last_fetch_duration": 0,
+            "counts": {},
+            "content": {"posts": [], "comments": []}
+        }
+    return data, target_path
 
-    reddit = praw.Reddit(
-        client_id=os.getenv("REDDIT_CLIENT_ID"),
-        client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
-        password=os.getenv("REDDIT_PASSWORD"),
-        user_agent=f"Fetch Saved Posts and Comments by /u/{os.getenv('REDDIT_USERNAME')}",
-        username=os.getenv("REDDIT_USERNAME"),
-    )
-    saved_items = {"posts": [], "comments": []}
+def recompute_counts(data):
     vote_ranges = [(0, 100), (100, 1000), (1000, 10000), (10000, 100000), (100000, 1000000)]
     counts = initialize_counts(vote_ranges)
+    
+    # Maintain icons
+    old_subreddits = data.get("counts", {}).get("subreddits", {})
+    for sub, info in old_subreddits.items():
+        counts["subreddits"][sub] = {"posts": 0, "comments": 0, "icon": info.get("icon", "")}
+
+    def process_items(items, is_post):
+        type_ = "posts" if is_post else "comments"
+        for item in items:
+            subreddit_name = item.get("subreddit") if is_post else item.get("post_subreddit")
+            if not subreddit_name:
+                continue
+            counts["subreddits"].setdefault(subreddit_name, {"posts": 0, "comments": 0, "icon": ""})[type_] += 1
+            
+            score = item.get("votes", 0)
+            for range_ in vote_ranges:
+                range_key = f"{range_[0]}-{range_[1]}"
+                if range_[0] <= score < range_[1]:
+                    counts["votes"][range_key][type_] += 1
+                    break
+                    
+            if item.get("datetime"):
+                parts = item["datetime"].split("-")
+                if len(parts) >= 2:
+                    year_month = f"{parts[0]}-{parts[1]}"
+                    counts["dates"].setdefault(year_month, {"posts": 0, "comments": 0})[type_] += 1
+
+    process_items(data["content"]["posts"], True)
+    process_items(data["content"]["comments"], False)
+    return counts
+
+def fetch_saved_items():
+    data, json_file_path = get_saved_items_file()
+    
+    posts = len(data['content']['posts'])
+    comments = len(data['content']['comments'])
+    
+    if posts > 0 or comments > 0:
+        last_fetch_duration = format_time(data.get('last_fetch_duration', 0))
+        print(f"Last Fetched on: {data.get('last_fetched_on')}")
+        print(f"Number of Items: {posts + comments} ({posts} Posts, {comments} Comments)")
+        print(f"Last Fetch Duration: {last_fetch_duration}")
+        print(" ")
+        sync_type = prompt_user_to_fetch()
+        if sync_type == 'Cancel':
+            return
+    else:
+        print("No valid saved_items.json found, starting fresh (Full Sync).")
+        sync_type = 'Full Sync (Sync deletions)'
+        print(" ")
+
+    client_id = os.getenv("REDDIT_CLIENT_ID")
+    client_secret = os.getenv("REDDIT_CLIENT_SECRET")
+    password = os.getenv("REDDIT_PASSWORD")
+    username = os.getenv("REDDIT_USERNAME")
+
+    if not all([client_id, client_secret, password, username]):
+        print("Error: Missing Reddit API credentials in .env file.")
+        print("Please ensure REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_PASSWORD, and REDDIT_USERNAME are set.")
+        return
+
+    try:
+        reddit = praw.Reddit(
+            client_id=client_id,
+            client_secret=client_secret,
+            password=password,
+            user_agent=f"Fetch Saved Posts and Comments by /u/{username}",
+            username=username,
+        )
+        me = reddit.user.me()
+        if me is None:
+            raise Exception("Authentication failed. Check your credentials.")
+        print(f"Successfully authenticated as {me.name}")
+    except Exception as e:
+        print(f"Reddit Authentication Error: {e}")
+        return
+
+    # Extract existing items to avoid duplicates and save time
+    existing_urls = set()
+    existing_posts = {}
+    existing_comments = {}
+    
+    for p in data["content"]["posts"]:
+        url = p.get("url")
+        if url:
+            existing_urls.add(url)
+            existing_posts[url] = p
+            
+    for c in data["content"]["comments"]:
+        url = c.get("comment_url")
+        if url:
+            existing_urls.add(url)
+            existing_comments[url] = c
+
+    new_posts = []
+    new_comments = []
+    
+    # We will need the counts dict to fetch missing icons
+    counts = data.get("counts", {})
+    if "subreddits" not in counts:
+        counts["subreddits"] = {}
 
     try:
         count = 0
         start_time = time.time()
+        print("Fetching saved items from Reddit...")
+        
+        # limit=None pulls everything, but we will break early
         items = reddit.user.me().saved(limit=None)
+        
         for item in items:
-            count += 1
-            print(f"{count} items processed", end='\r', flush=True)
-
             is_post = hasattr(item, 'title')
-            update_counts(counts, item, is_post, vote_ranges)
+            
+            # Check if we already have it
+            url = f"https://reddit.com{item.permalink}" if hasattr(item, 'permalink') else ''
+            
+            if sync_type == 'Fast Sync (New items only)':
+                if url in existing_urls:
+                    print(f"\nFound existing item, stopping fetch early (Fast Sync).")
+                    break
+
+            count += 1
+            print(f"Items processed: {count}", end='\r', flush=True)
+
+            # Optimization for Full Sync: Reuse already parsed data to save time
+            if is_post and url in existing_posts:
+                new_posts.append(existing_posts[url])
+                continue
+            elif not is_post and url in existing_comments:
+                new_comments.append(existing_comments[url])
+                continue
 
             author = item.author.name if item.author else "[deleted]"
-
-            subreddit_name = str(item.subreddit if hasattr(item, 'subreddit') else item.submission.subreddit)
-            subreddit_icon = fetch_subreddit_icon(item.subreddit, counts)
+            subreddit_obj = item.subreddit if hasattr(item, 'subreddit') else item.submission.subreddit
+            subreddit_name = str(subreddit_obj)
+            
+            # Cache icon if not present
+            if subreddit_name not in counts["subreddits"] or not counts["subreddits"][subreddit_name].get("icon"):
+                fetch_subreddit_icon(subreddit_obj, counts)
 
             if is_post:
-                post_flairs = [flair.get('t', '') for flair in item.link_flair_richtext] if item.link_flair_richtext else []
+                post_flairs = [flair.get('t', '') for flair in getattr(item, 'link_flair_richtext', [])] if getattr(item, 'link_flair_richtext', []) else []
                 media_info = extract_media(item)
                 post_data = {
                     "title": item.title,
                     "author": author,
-                    "url": f"https://reddit.com{item.permalink}",
+                    "url": url,
                     "subreddit": subreddit_name,
-                    "body": item.selftext if item.selftext else "",
-                    "media": item.url,
+                    "body": getattr(item, 'selftext', ""),
+                    "media": getattr(item, 'url', ""),
                     "media_type": media_info["type"],
                     "gallery": media_info["gallery"],
                     "thumbnail": media_info["thumbnail"],
                     "preview_image": media_info["preview"],
                     "domain": getattr(item, "domain", ""),
-                    "datetime": get_readable_datetime(item.created_utc),
-                    "votes": item.score,
-                    "nsfw": item.over_18,
+                    "datetime": get_readable_datetime(item.created_utc) if hasattr(item, 'created_utc') else "",
+                    "votes": getattr(item, 'score', 0),
+                    "nsfw": getattr(item, 'over_18', False),
                     "flairs": post_flairs,
-                    "archived": item.archived
+                    "archived": getattr(item, 'archived', False)
                 }
-                saved_items["posts"].append(post_data)
+                new_posts.append(post_data)
             else:
                 comment_data = {
-                    "post_title": item.link_title,
+                    "post_title": getattr(item, 'link_title', ''),
                     "post_subreddit": subreddit_name,
-                    "post_url": f"{item.link_permalink}",
-                    "comment_url": f"https://reddit.com{item.permalink}",
-                    "comment_text": item.body,
+                    "post_url": getattr(item, 'link_permalink', ''),
+                    "comment_url": url,
+                    "comment_text": getattr(item, 'body', ''),
                     "author": author,
-                    "datetime": get_readable_datetime(item.created_utc),
-                    "votes": item.score,
-                    "nsfw": item.submission.over_18,
-                    "archived": item.submission.archived
+                    "datetime": get_readable_datetime(item.created_utc) if hasattr(item, 'created_utc') else "",
+                    "votes": getattr(item, 'score', 0),
+                    "nsfw": getattr(item.submission, 'over_18', False) if hasattr(item, 'submission') else False,
+                    "archived": getattr(item.submission, 'archived', False) if hasattr(item, 'submission') else False
                 }
-                saved_items["comments"].append(comment_data)
+                new_comments.append(comment_data)
 
         elapsed_time = time.time() - start_time
         fetched_on = datetime.now(ist_zone).strftime('%Y-%m-%d %H:%M:%S IST')
-        final_output = {
-            "last_fetched_on": fetched_on,
-            "last_fetch_duration": elapsed_time,
-            "counts": counts,
-            "content": saved_items
-        }
+        
+        if sync_type == 'Fast Sync (New items only)':
+            # Prepend new items to the top
+            data["content"]["posts"] = new_posts + data["content"]["posts"]
+            data["content"]["comments"] = new_comments + data["content"]["comments"]
+        else:
+            # Replace entirely for full sync
+            data["content"]["posts"] = new_posts
+            data["content"]["comments"] = new_comments
+        
+        # Recompute counts
+        data["counts"] = recompute_counts(data)
+        data["last_fetched_on"] = fetched_on
+        data["last_fetch_duration"] = elapsed_time
 
-        print(f"Completed fetching items at {fetched_on} in {elapsed_time:.2f} seconds.")
+        print(f"\nCompleted fetching items at {fetched_on} in {elapsed_time:.2f} seconds.")
+        print(f"Added {len(new_posts)} new posts and {len(new_comments)} new comments.")
 
     except Exception as e:
-        print(f"An error occurred: {e}")
-        final_output = {}
+        print(f"\nAn error occurred while fetching items: {e}")
+        if len(new_posts) == 0 and len(new_comments) == 0:
+            print("No new data to save, exiting.")
+            return
+        print("Saving whatever was successfully processed so far...")
 
+    # Safe save
     os.makedirs(os.path.dirname(json_file_path), exist_ok=True)
-
-    with open(json_file_path, "w") as outfile:
-        json.dump(final_output, outfile, indent=4)
+    temp_path = json_file_path + ".tmp"
+    
+    try:
+        with open(temp_path, "w", encoding="utf-8") as outfile:
+            json.dump(data, outfile, indent=4)
+        # Rename to target
+        if os.path.exists(json_file_path):
+            os.remove(json_file_path)
+        shutil.move(temp_path, json_file_path)
+        print(f"Successfully saved to {json_file_path}.")
+    except Exception as e:
+        print(f"Error saving file: {e}")
 
     print("\nFinished processing items.")
 
