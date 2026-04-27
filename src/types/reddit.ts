@@ -14,6 +14,8 @@ export interface SavedDataFile {
   };
 }
 
+export type MediaType = 'image' | 'gif' | 'video' | 'gallery' | 'youtube' | 'link' | 'text';
+
 export interface RawPost {
   title: string;
   author: string;
@@ -21,6 +23,11 @@ export interface RawPost {
   subreddit: string;
   body: string;
   media: string | null;
+  media_type?: MediaType;
+  gallery?: string[];
+  thumbnail?: string | null;
+  preview_image?: string | null;
+  domain?: string;
   datetime: string;
   votes: number;
   nsfw: boolean;
