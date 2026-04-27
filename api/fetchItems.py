@@ -113,6 +113,7 @@ def fetch_saved_items():
 
             if is_post:
                 post_flairs = [flair.get('t', '') for flair in item.link_flair_richtext] if item.link_flair_richtext else []
+                media_info = extract_media(item)
                 post_data = {
                     "title": item.title,
                     "author": author,
@@ -120,6 +121,11 @@ def fetch_saved_items():
                     "subreddit": subreddit_name,
                     "body": item.selftext if item.selftext else "",
                     "media": item.url,
+                    "media_type": media_info["type"],
+                    "gallery": media_info["gallery"],
+                    "thumbnail": media_info["thumbnail"],
+                    "preview_image": media_info["preview"],
+                    "domain": getattr(item, "domain", ""),
                     "datetime": get_readable_datetime(item.created_utc),
                     "votes": item.score,
                     "nsfw": item.over_18,
