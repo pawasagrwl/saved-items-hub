@@ -1,4 +1,4 @@
-import { MediaType, RedditPost } from '@/types/reddit';
+import type { MediaType, RedditPost } from '@/types/reddit';
 
 const IMAGE_EXT = /\.(jpe?g|png|webp|bmp)(\?.*)?$/i;
 const GIF_EXT = /\.(gif|gifv)(\?.*)?$/i;
