@@ -134,6 +134,7 @@
 
   .scrollbar-thin::-webkit-scrollbar {
     width: 6px;
+    height: 6px;
   }
 
   .scrollbar-thin::-webkit-scrollbar-track {
@@ -154,5 +155,30 @@
 
   .glow-accent {
     box-shadow: 0 0 20px -5px hsl(175 70% 50% / 0.3);
+  }
+
+  .bg-nsfw {
+    background-color: hsl(var(--nsfw-bg));
+  }
+}
+
+/* Mobile touch tweaks */
+@media (hover: none) and (pointer: coarse) {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  button, a {
+    touch-action: manipulation;
+  }
+}
+
+/* Improve form-control sizing on iOS to avoid zoom */
+@media (max-width: 767px) {
+  input[type="text"],
+  input[type="number"],
+  input[type="search"],
+  textarea,
+  select {
+    font-size: 16px;
   }
 }
