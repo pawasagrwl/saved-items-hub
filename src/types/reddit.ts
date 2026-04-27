@@ -1,4 +1,5 @@
 // Matches the Python script's JSON output structure
+import { inferMediaTypeFromUrl, extractDomain } from '@/lib/mediaDetect';
 
 export interface SavedDataFile {
   last_fetched_on: string;
@@ -14,6 +15,8 @@ export interface SavedDataFile {
   };
 }
 
+export type MediaType = 'image' | 'gif' | 'video' | 'gallery' | 'youtube' | 'link' | 'text';
+
 export interface RawPost {
   title: string;
   author: string;
@@ -21,6 +24,11 @@ export interface RawPost {
   subreddit: string;
   body: string;
   media: string | null;
+  media_type?: MediaType;
+  gallery?: string[];
+  thumbnail?: string | null;
+  preview_image?: string | null;
+  domain?: string;
   datetime: string;
   votes: number;
   nsfw: boolean;
@@ -51,6 +59,11 @@ export interface RedditPost {
   subreddit: string;
   body: string;
   media: string | null;
+  media_type: MediaType;
+  gallery: string[];
+  thumbnail: string | null;
+  preview_image: string | null;
+  domain: string;
   datetime: string;
   timestamp: number; // parsed epoch ms
   votes: number;
@@ -103,6 +116,7 @@ export function normalizeData(data: SavedDataFile): SavedItem[] {
   const items: SavedItem[] = [];
 
   data.content.posts.forEach((post, i) => {
+    const inferredType = post.media_type || inferMediaTypeFromUrl(post.media, post.body);
     items.push({
       kind: 'post',
       id: `post_${i}_${simpleHash(post.url)}`,
@@ -112,6 +126,11 @@ export function normalizeData(data: SavedDataFile): SavedItem[] {
       subreddit: post.subreddit,
       body: post.body,
       media: post.media || null,
+      media_type: inferredType,
+      gallery: post.gallery || [],
+      thumbnail: post.thumbnail || null,
+      preview_image: post.preview_image || null,
+      domain: post.domain || extractDomain(post.media || post.url),
       datetime: post.datetime,
       timestamp: parseDatetime(post.datetime),
       votes: post.votes,

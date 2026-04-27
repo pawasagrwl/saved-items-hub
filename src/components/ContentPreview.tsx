@@ -1,13 +1,17 @@
 import { SavedItem, isPost, isComment, RedditPost, RedditComment } from '@/types/reddit';
 import { ArrowUp } from 'lucide-react';
+import { resolveMediaType } from '@/lib/mediaDetect';
 
 function PostPreview({ item }: { item: RedditPost }) {
+  const type = resolveMediaType(item);
+  const previewSrc = item.preview_image || item.thumbnail || (type === 'image' || type === 'gif' ? item.media : null);
+
   return (
     <div className="max-w-xs p-3 space-y-2">
       <p className="text-[11px] text-primary font-medium">r/{item.subreddit}</p>
       <p className="text-xs text-foreground font-medium leading-snug">{item.title}</p>
-      {item.media && (
-        <img src={item.media} alt="" className="w-full max-h-40 object-cover rounded" loading="lazy" />
+      {previewSrc && (
+        <img src={previewSrc} alt="" className={`w-full max-h-40 object-cover rounded ${item.nsfw ? 'blur-md' : ''}`} loading="lazy" />
       )}
       {item.body && (
         <p className="text-[11px] text-muted-foreground leading-relaxed line-clamp-4">{item.body}</p>
@@ -16,6 +20,7 @@ function PostPreview({ item }: { item: RedditPost }) {
         <span className="flex items-center gap-0.5 font-mono">
           <ArrowUp className="h-2.5 w-2.5" /> {item.votes.toLocaleString()}
         </span>
+        <span className="capitalize">{type}</span>
       </div>
     </div>
   );

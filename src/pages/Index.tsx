@@ -7,15 +7,24 @@ import InsightsPanel from '@/components/InsightsPanel';
 import BulkActions from '@/components/BulkActions';
 import CollectionsPanel from '@/components/CollectionsPanel';
 import { useCollections } from '@/components/CollectionsPanel';
-import { Loader2 } from 'lucide-react';
-import { useState, useMemo } from 'react';
+import MobileTabBar from '@/components/MobileTabBar';
+import { Loader2, ArrowUp } from 'lucide-react';
+import { useState, useMemo, useEffect } from 'react';
 import { ThemeProvider } from 'next-themes';
+import { Button } from '@/components/ui/button';
 
 function Dashboard() {
   const { filteredItems, isLoading, allItems } = useApp();
   const { isActive: bulkActive } = useBulkSelect();
   const [selectedCollectionId, setSelectedCollectionId] = useState<string | null>(null);
   const { collections } = useCollections();
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setShowScrollTop(window.scrollY > 600);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   const displayItems = useMemo(() => {
     if (!selectedCollectionId) return filteredItems;
@@ -37,12 +46,19 @@ function Dashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-background flex flex-col">
-      <Header />
-      <FilterBar />
+    <div className="min-h-screen bg-background flex flex-col pb-16 md:pb-0">
+      <Header
+        selectedCollectionId={selectedCollectionId}
+        onSelectCollection={setSelectedCollectionId}
+      />
+
+      {/* Desktop-only filter bar */}
+      <div className="hidden md:block">
+        <FilterBar />
+      </div>
 
       {bulkActive && (
-        <div className="border-b border-border bg-card/50 px-4 py-2">
+        <div className="border-b border-border bg-card/50 px-4 py-2 hidden md:block">
           <BulkActions />
         </div>
       )}
@@ -60,13 +76,8 @@ function Dashboard() {
         )}
 
         <div className="flex-1 min-w-0">
-          {!bulkActive && (
-            <div className="flex items-center justify-end mb-2 lg:hidden">
-              <BulkActions />
-            </div>
-          )}
           {displayItems.length === 0 ? (
-            <div className="flex items-center justify-center h-64 text-muted-foreground text-sm">
+            <div className="flex items-center justify-center h-64 text-muted-foreground text-sm px-4 text-center">
               No items match your filters.
             </div>
           ) : (
@@ -86,6 +97,20 @@ function Dashboard() {
           </div>
         )}
       </div>
+
+      <MobileTabBar />
+
+      {showScrollTop && (
+        <Button
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          size="sm"
+          className="md:hidden fixed bottom-20 right-4 h-10 w-10 p-0 rounded-full shadow-lg z-40"
+          style={{ marginBottom: 'env(safe-area-inset-bottom)' }}
+          aria-label="Scroll to top"
+        >
+          <ArrowUp className="h-4 w-4" />
+        </Button>
+      )}
     </div>
   );
 }

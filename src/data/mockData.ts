@@ -51,14 +51,42 @@ export function generateMockData(count: number = 150): SavedDataFile {
 
     if (Math.random() < 0.65) {
       subCounts[sub].posts++;
-      const hasImage = Math.random() < 0.3;
+      const r = Math.random();
+      let media: string | null = null;
+      let mediaType: 'image' | 'gallery' | 'video' | 'youtube' | 'link' | 'text' = 'text';
+      let gallery: string[] = [];
+      let preview: string | null = null;
+      if (r < 0.25) {
+        mediaType = 'image';
+        media = `https://picsum.photos/seed/${i}/800/600`;
+        preview = media;
+      } else if (r < 0.35) {
+        mediaType = 'gallery';
+        gallery = [0, 1, 2, 3].map(j => `https://picsum.photos/seed/${i}_${j}/800/600`);
+        media = gallery[0];
+        preview = gallery[0];
+      } else if (r < 0.42) {
+        mediaType = 'youtube';
+        media = `https://www.youtube.com/watch?v=dQw4w9WgXcQ`;
+      } else if (r < 0.55) {
+        mediaType = 'link';
+        media = `https://example.com/article-${i}`;
+      } else {
+        mediaType = 'text';
+        media = null;
+      }
       posts.push({
         title: randomItem(postTitles),
         author: randomItem(authors),
         url: `https://reddit.com/r/${sub}/comments/abc${i}/post_${i}`,
         subreddit: sub,
-        body: Math.random() < 0.5 ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." : '',
-        media: hasImage ? `https://picsum.photos/seed/${i}/800/600` : null,
+        body: mediaType === 'text' ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." : '',
+        media,
+        media_type: mediaType,
+        gallery,
+        thumbnail: preview,
+        preview_image: preview,
+        domain: media ? new URL(media).hostname : '',
         datetime: randomDatetime(),
         votes: randomInt(-5, 15000),
         nsfw: Math.random() < 0.08,
