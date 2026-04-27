@@ -58,6 +58,88 @@ def fetch_subreddit_icon(subreddit, counts):
         print(f"Could not fetch icon for subreddit {subreddit_name}: {e}")
         return ''
 
+IMAGE_EXT = ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.bmp')
+VIDEO_EXT = ('.mp4', '.webm', '.mov', '.m4v')
+
+def _safe_thumb(item):
+    """Return a usable thumbnail URL or None."""
+    thumb = getattr(item, 'thumbnail', '') or ''
+    if isinstance(thumb, str) and thumb.startswith('http'):
+        return thumb
+    return None
+
+def _safe_preview(item):
+    """Pull a high-res preview image URL from item.preview if present."""
+    try:
+        preview = getattr(item, 'preview', None)
+        if not preview:
+            return None
+        images = preview.get('images') if isinstance(preview, dict) else None
+        if images and len(images) > 0:
+            src = images[0].get('source', {}).get('url', '')
+            return src.replace('&amp;', '&') if src else None
+    except Exception:
+        pass
+    return None
+
+def extract_media(item):
+    """Return dict: {type, gallery: [urls], thumbnail, preview}.
+    type is one of: image, gif, video, gallery, youtube, link, text.
+    Pure best-effort; safe on any submission."""
+    result = {"type": "link", "gallery": [], "thumbnail": _safe_thumb(item), "preview": _safe_preview(item)}
+    try:
+        url = (getattr(item, 'url', '') or '').lower()
+        domain = (getattr(item, 'domain', '') or '').lower()
+
+        if getattr(item, 'is_self', False):
+            result["type"] = "text"
+            return result
+
+        if getattr(item, 'is_gallery', False):
+            try:
+                meta = getattr(item, 'media_metadata', {}) or {}
+                gallery_order = []
+                gallery_data = getattr(item, 'gallery_data', None)
+                if gallery_data and isinstance(gallery_data, dict):
+                    gallery_order = [g.get('media_id') for g in gallery_data.get('items', [])]
+                if not gallery_order:
+                    gallery_order = list(meta.keys())
+                urls = []
+                for media_id in gallery_order:
+                    info = meta.get(media_id)
+                    if not info:
+                        continue
+                    ext = info.get('m', 'image/jpeg').split('/')[-1]
+                    if ext == 'jpeg':
+                        ext = 'jpg'
+                    urls.append(f"https://i.redd.it/{media_id}.{ext}")
+                result["type"] = "gallery"
+                result["gallery"] = urls
+                return result
+            except Exception:
+                pass
+
+        if getattr(item, 'is_video', False) or 'v.redd.it' in url or url.endswith(VIDEO_EXT):
+            result["type"] = "video"
+            return result
+
+        if 'youtube.com' in domain or 'youtu.be' in domain:
+            result["type"] = "youtube"
+            return result
+
+        if url.endswith('.gif') or url.endswith('.gifv'):
+            result["type"] = "gif"
+            return result
+
+        if url.endswith(IMAGE_EXT) or domain in ('i.redd.it', 'i.imgur.com'):
+            result["type"] = "image"
+            return result
+
+        result["type"] = "link"
+    except Exception:
+        result["type"] = "link"
+    return result
+
 def prompt_user_to_fetch():
     question = [
         inquirer.Confirm('refetch', message="Do you want to fetch the data again?", default=False)
