@@ -46,11 +46,14 @@ function Dashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-background flex flex-col pb-16 md:pb-0">
+    <div className="min-h-screen bg-background flex flex-col">
       <Header
         selectedCollectionId={selectedCollectionId}
         onSelectCollection={setSelectedCollectionId}
       />
+
+      {/* Mobile segmented tabs — clear division between All / Posts / Comments */}
+      <MobileTabBar />
 
       {/* Desktop-only filter bar */}
       <div className="hidden md:block">
@@ -98,13 +101,11 @@ function Dashboard() {
         )}
       </div>
 
-      <MobileTabBar />
-
       {showScrollTop && (
         <Button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           size="sm"
-          className="md:hidden fixed bottom-20 right-4 h-10 w-10 p-0 rounded-full shadow-lg z-40"
+          className="md:hidden fixed bottom-4 right-4 h-10 w-10 p-0 rounded-full shadow-lg z-40"
           style={{ marginBottom: 'env(safe-area-inset-bottom)' }}
           aria-label="Scroll to top"
         >
