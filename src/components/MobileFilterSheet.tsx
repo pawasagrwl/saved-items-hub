@@ -121,45 +121,50 @@ export default function MobileFilterSheet({ selectedCollectionId, onSelectCollec
               </Select>
             </Section>
 
-            {/* Subreddits */}
+            {/* Subreddits — inline collapsible (no nested Dialog to avoid portal/z-index issues) */}
             <Section label="Subreddits">
-              <Dialog open={subModalOpen} onOpenChange={setSubModalOpen}>
-                <DialogTrigger asChild>
-                  <Button variant="outline" className="w-full h-10 text-sm justify-start gap-2">
-                    <Filter className="h-4 w-4" />
-                    {filters.subreddits.length === 0 ? 'All subreddits' : `${filters.subreddits.length} selected`}
-                  </Button>
-                </DialogTrigger>
-                <DialogContent className="max-w-md max-h-[85vh] flex flex-col">
-                  <DialogHeader>
-                    <DialogTitle className="text-sm">Filter by Subreddit</DialogTitle>
-                  </DialogHeader>
+              <Button
+                variant="outline"
+                className="w-full h-10 text-sm justify-between gap-2"
+                onClick={() => setSubPickerOpen(v => !v)}
+              >
+                <span className="flex items-center gap-2 truncate">
+                  <Filter className="h-4 w-4 shrink-0" />
+                  {filters.subreddits.length === 0 ? 'All subreddits' : `${filters.subreddits.length} selected`}
+                </span>
+                <ChevronDown className={`h-4 w-4 shrink-0 transition-transform ${subPickerOpen ? 'rotate-180' : ''}`} />
+              </Button>
+
+              {subPickerOpen && (
+                <div className="mt-2 rounded-md border border-border bg-secondary/30 p-2 space-y-2">
                   <input
                     type="text"
                     placeholder="Search subreddits…"
                     value={subSearch}
                     onChange={e => setSubSearch(e.target.value)}
-                    className="w-full h-10 bg-secondary border border-border rounded-md text-sm px-3 text-foreground"
-                    autoFocus
+                    className="w-full h-9 bg-background border border-border rounded-md text-sm px-3 text-foreground"
                   />
                   {filters.subreddits.length > 0 && (
                     <div className="flex flex-wrap gap-1.5">
                       {filters.subreddits.map(sub => (
-                        <span key={sub} className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-primary/15 text-primary text-xs">
+                        <span key={sub} className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-primary/15 text-primary text-xs">
                           r/{sub}
                           <button onClick={() => updateFilter('subreddits', filters.subreddits.filter(s => s !== sub))}>
                             <X className="h-3 w-3" />
                           </button>
                         </span>
                       ))}
-                      <Button variant="ghost" size="sm" className="h-7 text-xs" onClick={() => updateFilter('subreddits', [])}>
+                      <Button variant="ghost" size="sm" className="h-6 text-[11px] px-2" onClick={() => updateFilter('subreddits', [])}>
                         Clear
                       </Button>
                     </div>
                   )}
-                  <div className="flex-1 overflow-y-auto scrollbar-thin space-y-0.5">
+                  <div className="max-h-64 overflow-y-auto scrollbar-thin space-y-0.5 -mr-1 pr-1">
+                    {filteredSubs.length === 0 && (
+                      <div className="text-xs text-muted-foreground p-2">No matches</div>
+                    )}
                     {filteredSubs.map(sub => (
-                      <label key={sub} className="flex items-center gap-3 px-2 py-2.5 rounded-md text-sm hover:bg-secondary cursor-pointer">
+                      <label key={sub} className="flex items-center gap-3 px-2 py-2 rounded-md text-sm hover:bg-secondary cursor-pointer">
                         <input
                           type="checkbox"
                           checked={filters.subreddits.includes(sub)}
@@ -175,8 +180,8 @@ export default function MobileFilterSheet({ selectedCollectionId, onSelectCollec
                       </label>
                     ))}
                   </div>
-                </DialogContent>
-              </Dialog>
+                </div>
+              )}
             </Section>
 
             {/* Year range */}
