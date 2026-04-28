@@ -5,10 +5,9 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/co
 import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { exportToJSON, exportToCSV } from '@/lib/exportData';
 import {
-  SlidersHorizontal, Filter, Calendar, Tag, X, Plus, Download, BarChart3, Upload, Folder,
+  SlidersHorizontal, Filter, Calendar, Tag, X, Plus, Download, BarChart3, Upload, Folder, ChevronDown,
 } from 'lucide-react';
 import { useRef } from 'react';
 import StatsPanel from './StatsPanel';
@@ -40,7 +39,7 @@ export default function MobileFilterSheet({ selectedCollectionId, onSelectCollec
   const [open, setOpen] = useState(false);
   const [subSearch, setSubSearch] = useState('');
   const [newTag, setNewTag] = useState('');
-  const [subModalOpen, setSubModalOpen] = useState(false);
+  const [subPickerOpen, setSubPickerOpen] = useState(false);
   const [showStats, setShowStats] = useState(false);
   const [showCollections, setShowCollections] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -81,9 +80,9 @@ export default function MobileFilterSheet({ selectedCollectionId, onSelectCollec
           </Button>
         </SheetTrigger>
 
-        <SheetContent side="bottom" className="h-[85vh] overflow-y-auto p-0 rounded-t-2xl">
-          <SheetHeader className="sticky top-0 z-10 bg-background border-b border-border px-4 py-3">
-            <SheetTitle className="text-sm flex items-center justify-between">
+        <SheetContent side="bottom" className="h-[88vh] max-h-[88vh] overflow-hidden p-0 rounded-t-2xl flex flex-col gap-0">
+          <SheetHeader className="shrink-0 bg-background border-b border-border px-4 py-3">
+            <SheetTitle className="text-sm flex items-center justify-between pr-8">
               <span>Filters & Tools</span>
               {activeCount > 0 && (
                 <Button variant="ghost" size="sm" className="h-7 text-xs" onClick={resetFilters}>
@@ -93,7 +92,7 @@ export default function MobileFilterSheet({ selectedCollectionId, onSelectCollec
             </SheetTitle>
           </SheetHeader>
 
-          <div className="p-4 space-y-5 pb-20">
+          <div className="flex-1 overflow-y-auto p-4 space-y-5 pb-8">
             {/* Sort */}
             <Section label="Sort by">
               <Select value={filters.sort} onValueChange={(v) => updateFilter('sort', v as SortOption)}>
