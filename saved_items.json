@@ -1,37 +1,17 @@
 {
-    "last_fetched_on": "2026-05-01 10:37:12 IST",
-    "last_fetch_duration": 2.720602035522461,
+    "last_fetched_on": "2026-05-01 16:04:34 IST",
+    "last_fetch_duration": 7.228314399719238,
     "counts": {
         "subreddits": {
             "foundsatan": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_r681a/styles/communityIcon_wiv4ffadspz11.jpg"
-            },
-            "AskTheWorld": {
-                "posts": 0,
-                "comments": 0,
-                "icon": "https://styles.redditmedia.com/t5_2so0f/styles/communityIcon_4zwji9cdbin71.png"
-            },
-            "ExplainTheJoke": {
-                "posts": 0,
-                "comments": 1,
-                "icon": "https://styles.redditmedia.com/t5_2vmj2/styles/communityIcon_ckakoqp1tffc1.png"
-            },
-            "india": {
-                "posts": 2,
-                "comments": 1,
-                "icon": "https://b.thumbs.redditmedia.com/WoSMQXqqmdy4J7UKa67YWX1ylVWs7So801pH5dQND2A.png"
             },
             "IndiaCareers": {
                 "posts": 0,
                 "comments": 1,
                 "icon": "https://styles.redditmedia.com/t5_3ai50/styles/communityIcon_nr30gxb3a99d1.jpg"
-            },
-            "TopCharacterTropes": {
-                "posts": 0,
-                "comments": 1,
-                "icon": "https://styles.redditmedia.com/t5_9t6uuf/styles/communityIcon_1zp9bw0b2txb1.jpg"
             },
             "ChildfreeIndia": {
                 "posts": 2,
@@ -50,7 +30,7 @@
             },
             "CATpreparation": {
                 "posts": 29,
-                "comments": 5,
+                "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_2g7xmc/styles/communityIcon_3v01zjq4lftf1.png"
             },
             "Watches": {
@@ -103,14 +83,9 @@
                 "comments": 3,
                 "icon": "https://b.thumbs.redditmedia.com/LSHrisQApf1H5F8nWShTx3_KjTOMc3R_ss3kx3XAyXQ.png"
             },
-            "WhitePeopleTwitter": {
-                "posts": 0,
-                "comments": 1,
-                "icon": "https://styles.redditmedia.com/t5_35n7t/styles/communityIcon_cn66l18a5zf51.png"
-            },
             "delhi": {
                 "posts": 1,
-                "comments": 3,
+                "comments": 2,
                 "icon": "https://a.thumbs.redditmedia.com/gxGzI4c7NKYL3LwsZjDDfASwtuVmzBeJgizEAz-Cxa4.png"
             },
             "dataisbeautiful": {
@@ -145,7 +120,7 @@
             },
             "ChatGPT": {
                 "posts": 6,
-                "comments": 1,
+                "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_7hqomg/styles/communityIcon_bzj6d1z1oizc1.png"
             },
             "AskMen": {
@@ -160,7 +135,7 @@
             },
             "YouShouldKnow": {
                 "posts": 11,
-                "comments": 2,
+                "comments": 1,
                 "icon": "https://a.thumbs.redditmedia.com/7uVDMO7_sDgkyDpvDmAT5D777ZOWAeU82PIG-L4kHL8.png"
             },
             "ADHD_Programmers": {
@@ -185,7 +160,7 @@
             },
             "developersIndia": {
                 "posts": 16,
-                "comments": 4,
+                "comments": 3,
                 "icon": "https://b.thumbs.redditmedia.com/v6GGyP2tC0O10P3Pnv8-GPr6eL5Z_br3Y2qX5ARvi3I.png"
             },
             "blackmirror": {
@@ -268,11 +243,6 @@
                 "comments": 1,
                 "icon": "https://b.thumbs.redditmedia.com/7mFHwB7NZOpUllEog6bENAK24pKX90GpiSDmVcsh-lU.png"
             },
-            "ProgrammerHumor": {
-                "posts": 0,
-                "comments": 1,
-                "icon": "https://b.thumbs.redditmedia.com/DI5tO-0DYsiHrXIn7lPGbtYWVxosoTsUsHtXrzSWGgI.png"
-            },
             "meirl": {
                 "posts": 0,
                 "comments": 1,
@@ -348,24 +318,14 @@
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_2r0f4/styles/communityIcon_wslpot15gz761.png"
             },
-            "memes": {
-                "posts": 0,
-                "comments": 1,
-                "icon": "https://b.thumbs.redditmedia.com/z8vbPEvW2wtTmdsRy99C_dQdp1mcKA6F3syAliqzRPI.png"
-            },
             "TwoXIndia": {
                 "posts": 5,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_3eg84/styles/communityIcon_2cw1s6ux00ac1.jpg"
             },
-            "Android": {
-                "posts": 0,
-                "comments": 1,
-                "icon": "https://b.thumbs.redditmedia.com/fI7UdJ-vgpnLdxy28QdKIYBGg-fEo7KxQ_PS7pn4QzM.png"
-            },
             "webdev": {
                 "posts": 5,
-                "comments": 1,
+                "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/vk8EAqzcLRGYh_Yisi68CglMMuheNEFKNaDLZy7h2ZE.png"
             },
             "DesiFragranceAddicts": {
@@ -388,11 +348,6 @@
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_72lgko/styles/communityIcon_eoc80ibjj4p91.png"
             },
-            "NSFWgaming": {
-                "posts": 1,
-                "comments": 0,
-                "icon": "https://styles.redditmedia.com/t5_2wn8y/styles/communityIcon_ru8vzgnwz1vb1.png"
-            },
             "Indiangirlsontinder": {
                 "posts": 0,
                 "comments": 1,
@@ -402,6 +357,11 @@
                 "posts": 1,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_mvcq5/styles/communityIcon_twjztnhoy2691.jpg"
+            },
+            "india": {
+                "posts": 2,
+                "comments": 0,
+                "icon": "https://b.thumbs.redditmedia.com/WoSMQXqqmdy4J7UKa67YWX1ylVWs7So801pH5dQND2A.png"
             },
             "explainlikeimfive": {
                 "posts": 1,
@@ -417,15 +377,15 @@
         "votes": {
             "0-100": {
                 "posts": 33,
-                "comments": 22
+                "comments": 11
             },
             "100-1000": {
                 "posts": 71,
-                "comments": 11
+                "comments": 6
             },
             "1000-10000": {
-                "posts": 52,
-                "comments": 4
+                "posts": 50,
+                "comments": 3
             },
             "10000-100000": {
                 "posts": 60,
@@ -437,13 +397,9 @@
             }
         },
         "dates": {
-            "2026-04": {
-                "posts": 1,
-                "comments": 0
-            },
             "2026-02": {
                 "posts": 2,
-                "comments": 2
+                "comments": 1
             },
             "2026-01": {
                 "posts": 1,
@@ -463,7 +419,7 @@
             },
             "2025-03": {
                 "posts": 2,
-                "comments": 1
+                "comments": 0
             },
             "2024-07": {
                 "posts": 1,
@@ -471,7 +427,7 @@
             },
             "2025-02": {
                 "posts": 2,
-                "comments": 2
+                "comments": 0
             },
             "2022-11": {
                 "posts": 6,
@@ -483,11 +439,11 @@
             },
             "2025-01": {
                 "posts": 4,
-                "comments": 1
+                "comments": 0
             },
             "2024-12": {
                 "posts": 13,
-                "comments": 2
+                "comments": 0
             },
             "2024-11": {
                 "posts": 2,
@@ -499,7 +455,7 @@
             },
             "2024-08": {
                 "posts": 3,
-                "comments": 1
+                "comments": 0
             },
             "2020-07": {
                 "posts": 6,
@@ -598,7 +554,7 @@
                 "comments": 0
             },
             "2021-12": {
-                "posts": 3,
+                "posts": 2,
                 "comments": 0
             },
             "2022-01": {
@@ -611,7 +567,7 @@
             },
             "2022-05": {
                 "posts": 5,
-                "comments": 2
+                "comments": 1
             },
             "2022-06": {
                 "posts": 2,
@@ -631,15 +587,15 @@
             },
             "2023-12": {
                 "posts": 2,
-                "comments": 1
+                "comments": 0
             },
             "2023-11": {
                 "posts": 1,
-                "comments": 1
+                "comments": 0
             },
             "2023-10": {
                 "posts": 3,
-                "comments": 1
+                "comments": 0
             },
             "2023-06": {
                 "posts": 14,
@@ -647,15 +603,15 @@
             },
             "2023-09": {
                 "posts": 2,
-                "comments": 2
+                "comments": 1
             },
             "2023-08": {
                 "posts": 3,
-                "comments": 1
+                "comments": 0
             },
             "2023-07": {
                 "posts": 6,
-                "comments": 1
+                "comments": 0
             },
             "2023-05": {
                 "posts": 5,
@@ -693,10 +649,6 @@
                 "posts": 2,
                 "comments": 0
             },
-            "2026-03": {
-                "posts": 0,
-                "comments": 2
-            },
             "2024-06": {
                 "posts": 0,
                 "comments": 1
@@ -714,24 +666,6 @@
     "content": {
         "posts": [
             {
-                "title": "You're projecting",
-                "author": "flowerdonkey",
-                "url": "https://reddit.com/r/foundsatan/comments/1swt78k/youre_projecting/",
-                "subreddit": "foundsatan",
-                "body": "",
-                "media": "https://v.redd.it/nnabt7r8tnxg1",
-                "media_type": "video",
-                "gallery": [],
-                "thumbnail": "https://external-preview.redd.it/emRvdmFqcjh0bnhnMYU_lSdVPyHAeNw0HqcjNhZDurIzW9lwoW9vLubcP03_.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp&s=84c370a072f5d620abb318ef170c5f5fc4b2557a",
-                "preview_image": "https://external-preview.redd.it/emRvdmFqcjh0bnhnMYU_lSdVPyHAeNw0HqcjNhZDurIzW9lwoW9vLubcP03_.png?format=pjpg&auto=webp&s=3189be4223cd6b0e24d40a9aed4d085650391db9",
-                "domain": "v.redd.it",
-                "datetime": "2026-04-27 09:50:30 IST",
-                "votes": 2335,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
                 "title": "Article in Mint today about Childfree Indians",
                 "author": "_Live__and__Learn_",
                 "url": "https://reddit.com/r/ChildfreeIndia/comments/1quo437/article_in_mint_today_about_childfree_indians/",
@@ -744,7 +678,7 @@
                 "preview_image": "https://preview.redd.it/igkcgg2g79hg1.jpeg?auto=webp&s=6b105b1765c46c4c63061732042136b9261f231a",
                 "domain": "i.redd.it",
                 "datetime": "2026-02-03 15:37:15 IST",
-                "votes": 211,
+                "votes": 209,
                 "nsfw": false,
                 "flairs": [
                     "Article"
@@ -764,7 +698,7 @@
                 "preview_image": "https://preview.redd.it/kpmc0m2js1hg1.png?auto=webp&s=df9f37cfce473971357ec516f19392a30dcd625d",
                 "domain": "i.redd.it",
                 "datetime": "2026-02-02 14:43:02 IST",
-                "votes": 142,
+                "votes": 143,
                 "nsfw": false,
                 "flairs": [
                     "Discussion ",
@@ -785,7 +719,7 @@
                 "preview_image": null,
                 "domain": "self.selfimprovement",
                 "datetime": "2026-01-30 02:39:35 IST",
-                "votes": 971,
+                "votes": 978,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -829,7 +763,7 @@
                 "preview_image": null,
                 "domain": "reddit.com",
                 "datetime": "2025-05-16 05:42:09 IST",
-                "votes": 802,
+                "votes": 800,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -847,7 +781,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2025-05-11 13:41:46 IST",
-                "votes": 377,
+                "votes": 378,
                 "nsfw": false,
                 "flairs": [
                     "Wisdom ",
@@ -868,7 +802,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2025-05-05 06:18:45 IST",
-                "votes": 253,
+                "votes": 254,
                 "nsfw": false,
                 "flairs": [
                     "Wisdom ",
@@ -889,7 +823,7 @@
                 "preview_image": null,
                 "domain": "self.thelastofus",
                 "datetime": "2025-04-21 07:31:28 IST",
-                "votes": 3720,
+                "votes": 3724,
                 "nsfw": false,
                 "flairs": [
                     "MOD POST"
@@ -909,7 +843,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2025-04-19 12:00:25 IST",
-                "votes": 753,
+                "votes": 755,
                 "nsfw": false,
                 "flairs": [
                     "Wisdom ",
@@ -930,7 +864,7 @@
                 "preview_image": "https://external-preview.redd.it/CLkLH5beZZ0hDx7ND2bIf0S3xnt9eO_ucDgUiOnoq4o.jpeg?auto=webp&s=80ec2ccebefc6f0c5c6330a286bddfc96b0ea565",
                 "domain": "self.CATpreparation",
                 "datetime": "2025-04-17 14:03:25 IST",
-                "votes": 178,
+                "votes": 175,
                 "nsfw": false,
                 "flairs": [
                     "Community Resources ",
@@ -951,7 +885,7 @@
                 "preview_image": null,
                 "domain": "self.ChatGPTPromptGenius",
                 "datetime": "2025-04-16 22:51:44 IST",
-                "votes": 165,
+                "votes": 167,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -969,7 +903,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2025-04-01 10:49:44 IST",
-                "votes": 2275,
+                "votes": 2279,
                 "nsfw": false,
                 "flairs": [
                     "Wisdom ",
@@ -1023,7 +957,7 @@
                 "preview_image": null,
                 "domain": "reddit.com",
                 "datetime": "2025-03-23 20:51:14 IST",
-                "votes": 9163,
+                "votes": 9161,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -1041,7 +975,7 @@
                 "preview_image": "https://preview.redd.it/i7wvyimi25pe1.jpeg?auto=webp&s=b5ac1a3c041d9e60d075c74de0b888979701c563",
                 "domain": "i.redd.it",
                 "datetime": "2025-03-17 05:17:53 IST",
-                "votes": 3377,
+                "votes": 3382,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -1059,7 +993,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-07-31 01:04:27 IST",
-                "votes": 30,
+                "votes": 29,
                 "nsfw": false,
                 "flairs": [
                     "Wisdom ",
@@ -1098,7 +1032,7 @@
                 "preview_image": "https://external-preview.redd.it/60jV1zcoxaoYN2W19biSZ-vlevNaGDIjgevUb6ulr1M.jpg?auto=webp&s=30511f954e47b17d4fe925b53beb8344d96a6040",
                 "domain": "self.cscareerquestions",
                 "datetime": "2025-02-20 22:20:20 IST",
-                "votes": 1029,
+                "votes": 1027,
                 "nsfw": false,
                 "flairs": [
                     "Experienced"
@@ -1118,7 +1052,7 @@
                 "preview_image": "https://preview.redd.it/gc6k54129mz91.jpg?auto=webp&s=1fc9fc759eebfc37c7df8a0d1d214341cb6f4a61",
                 "domain": "i.redd.it",
                 "datetime": "2022-11-13 06:22:02 IST",
-                "votes": 286,
+                "votes": 289,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -1136,7 +1070,7 @@
                 "preview_image": "https://preview.redd.it/p5hbarxd5z261.png?auto=webp&s=b1e4e86e0a745f271f63d9c93f2bbe8acb7529fa",
                 "domain": "i.redd.it",
                 "datetime": "2020-12-03 19:02:18 IST",
-                "votes": 397,
+                "votes": 392,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -1154,7 +1088,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2025-01-26 20:45:11 IST",
-                "votes": 10008,
+                "votes": 10002,
                 "nsfw": true,
                 "flairs": [],
                 "archived": true
@@ -1175,7 +1109,7 @@
                 "preview_image": null,
                 "domain": "reddit.com",
                 "datetime": "2025-01-13 22:29:50 IST",
-                "votes": 4987,
+                "votes": 4991,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -1193,7 +1127,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2025-01-05 16:08:28 IST",
-                "votes": 211,
+                "votes": 207,
                 "nsfw": false,
                 "flairs": [
                     "GDPI-WAT ",
@@ -1214,7 +1148,7 @@
                 "preview_image": "https://preview.redd.it/f6maljpbb5be1.jpeg?auto=webp&s=9a01ed13c1e094570bfd470a20859041547c074a",
                 "domain": "i.redd.it",
                 "datetime": "2025-01-05 15:09:24 IST",
-                "votes": 1297,
+                "votes": 1299,
                 "nsfw": false,
                 "flairs": [
                     "TV/Movies/Theatre"
@@ -1234,7 +1168,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-12-25 21:21:34 IST",
-                "votes": 333,
+                "votes": 337,
                 "nsfw": false,
                 "flairs": [
                     "GDPI-WAT ",
@@ -1255,7 +1189,7 @@
                 "preview_image": "https://preview.redd.it/4pjbzqxwp58e1.jpeg?auto=webp&s=c3f3ee9524493eb48e34bdf2faa8a3a05856d799",
                 "domain": "i.redd.it",
                 "datetime": "2024-12-21 13:18:45 IST",
-                "votes": 8676,
+                "votes": 8687,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -1273,7 +1207,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2024-12-17 22:41:48 IST",
-                "votes": 12857,
+                "votes": 12851,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -1291,7 +1225,7 @@
                 "preview_image": "https://preview.redd.it/jphknl3ic27e1.png?auto=webp&s=5426367d1dda1aef9359c885a891438716c58ea9",
                 "domain": "i.redd.it",
                 "datetime": "2024-12-16 00:55:10 IST",
-                "votes": 4232,
+                "votes": 4229,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -1309,7 +1243,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-12-12 00:32:19 IST",
-                "votes": 35,
+                "votes": 34,
                 "nsfw": false,
                 "flairs": [
                     "General Discussion ",
@@ -1330,7 +1264,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-12-10 18:31:49 IST",
-                "votes": 104,
+                "votes": 106,
                 "nsfw": false,
                 "flairs": [
                     "GDPI-WAT ",
@@ -1393,7 +1327,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-12-08 01:48:18 IST",
-                "votes": 321,
+                "votes": 322,
                 "nsfw": false,
                 "flairs": [
                     "Ask Me Anything (AMA) ",
@@ -1414,7 +1348,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-12-06 15:50:54 IST",
-                "votes": 111,
+                "votes": 112,
                 "nsfw": false,
                 "flairs": [
                     "GDPI-WAT ",
@@ -1435,7 +1369,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-12-05 19:41:01 IST",
-                "votes": 42,
+                "votes": 44,
                 "nsfw": false,
                 "flairs": [
                     "Ask Me Anything (AMA) ",
@@ -1456,7 +1390,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-12-05 13:10:07 IST",
-                "votes": 43,
+                "votes": 45,
                 "nsfw": false,
                 "flairs": [
                     "B-school Calls ",
@@ -1478,7 +1412,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-12-04 11:30:55 IST",
-                "votes": 671,
+                "votes": 672,
                 "nsfw": false,
                 "flairs": [
                     "Profile Review ",
@@ -1517,7 +1451,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-11-08 01:38:59 IST",
-                "votes": 98,
+                "votes": 93,
                 "nsfw": false,
                 "flairs": [
                     "Wisdom ",
@@ -1538,7 +1472,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2024-10-22 03:26:37 IST",
-                "votes": 5416,
+                "votes": 5414,
                 "nsfw": false,
                 "flairs": [
                     "Careers & Work"
@@ -1558,7 +1492,7 @@
                 "preview_image": null,
                 "domain": "self.ChildfreeIndia",
                 "datetime": "2024-10-14 22:52:47 IST",
-                "votes": 77,
+                "votes": 79,
                 "nsfw": false,
                 "flairs": [
                     "Discussion"
@@ -1578,7 +1512,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2024-09-10 14:46:17 IST",
-                "votes": 30777,
+                "votes": 30778,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -1596,7 +1530,7 @@
                 "preview_image": null,
                 "domain": "self.TrueOffMyChest",
                 "datetime": "2024-09-06 07:23:40 IST",
-                "votes": 1528,
+                "votes": 1524,
                 "nsfw": false,
                 "flairs": [
                     "CONTENT WARNING: VIOLENCE/DEATH"
@@ -1616,7 +1550,7 @@
                 "preview_image": "https://preview.redd.it/0ja5o672b0nd1.png?auto=webp&s=0aa2b2049c8267887528c37fcd2f872bc4c1866a",
                 "domain": "i.redd.it",
                 "datetime": "2024-09-05 20:39:46 IST",
-                "votes": 12920,
+                "votes": 12923,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -1634,7 +1568,7 @@
                 "preview_image": "https://preview.redd.it/j9pvjpsizumd1.jpeg?auto=webp&s=1377ebc5c7a33eef442c6ac3640a991b04833cd4",
                 "domain": "i.redd.it",
                 "datetime": "2024-09-05 02:51:35 IST",
-                "votes": 726,
+                "votes": 730,
                 "nsfw": false,
                 "flairs": [
                     "Resources "
@@ -1654,7 +1588,7 @@
                 "preview_image": null,
                 "domain": "self.AskMen",
                 "datetime": "2024-08-25 20:51:01 IST",
-                "votes": 432,
+                "votes": 434,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -1672,7 +1606,7 @@
                 "preview_image": "https://preview.redd.it/5scd08jcp1kd1.jpeg?auto=webp&s=4ebac4ba6ea935b1cb41cc881936fcc2e31b089c",
                 "domain": "i.redd.it",
                 "datetime": "2024-08-21 22:09:13 IST",
-                "votes": 708,
+                "votes": 710,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -1690,7 +1624,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2024-08-06 09:34:21 IST",
-                "votes": 12547,
+                "votes": 12549,
                 "nsfw": true,
                 "flairs": [],
                 "archived": true
@@ -1726,7 +1660,7 @@
                 "preview_image": null,
                 "domain": "self.GetMotivated",
                 "datetime": "2024-05-12 18:09:22 IST",
-                "votes": 409,
+                "votes": 411,
                 "nsfw": false,
                 "flairs": [
                     "DISCUSSION"
@@ -1746,7 +1680,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-04-30 20:35:26 IST",
-                "votes": 844,
+                "votes": 843,
                 "nsfw": false,
                 "flairs": [
                     "Words of Wisdom ",
@@ -1767,7 +1701,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-04-29 10:59:20 IST",
-                "votes": 437,
+                "votes": 441,
                 "nsfw": false,
                 "flairs": [
                     "Words of Wisdom ",
@@ -1788,7 +1722,7 @@
                 "preview_image": null,
                 "domain": "self.AskIndia",
                 "datetime": "2024-04-27 10:35:50 IST",
-                "votes": 678,
+                "votes": 675,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -1827,7 +1761,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2024-04-19 06:21:07 IST",
-                "votes": 3675,
+                "votes": 3681,
                 "nsfw": false,
                 "flairs": [
                     "Miscellaneous"
@@ -1847,7 +1781,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-04-14 12:36:55 IST",
-                "votes": 716,
+                "votes": 725,
                 "nsfw": false,
                 "flairs": [
                     "Discussion ",
@@ -1889,7 +1823,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-04-08 19:59:05 IST",
-                "votes": 89,
+                "votes": 88,
                 "nsfw": false,
                 "flairs": [
                     "Discussion ",
@@ -1910,7 +1844,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-04-06 08:49:01 IST",
-                "votes": 1006,
+                "votes": 1004,
                 "nsfw": false,
                 "flairs": [
                     "Words of Wisdom ",
@@ -1931,7 +1865,7 @@
                 "preview_image": null,
                 "domain": "self.cscareerquestions",
                 "datetime": "2024-03-28 23:44:52 IST",
-                "votes": 4582,
+                "votes": 4586,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -1949,7 +1883,7 @@
                 "preview_image": null,
                 "domain": "self.onexindia",
                 "datetime": "2024-03-24 14:26:08 IST",
-                "votes": 76,
+                "votes": 78,
                 "nsfw": false,
                 "flairs": [
                     "Men Only"
@@ -1990,7 +1924,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-03-14 22:32:15 IST",
-                "votes": 295,
+                "votes": 297,
                 "nsfw": false,
                 "flairs": [
                     "Words of Wisdom ",
@@ -2011,7 +1945,7 @@
                 "preview_image": null,
                 "domain": "self.CATpreparation",
                 "datetime": "2024-03-04 08:46:50 IST",
-                "votes": 34,
+                "votes": 36,
                 "nsfw": false,
                 "flairs": [
                     "Discussion ",
@@ -2053,7 +1987,7 @@
                 "preview_image": null,
                 "domain": "self.YouShouldKnow",
                 "datetime": "2020-02-27 17:34:22 IST",
-                "votes": 13381,
+                "votes": 13386,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2071,7 +2005,7 @@
                 "preview_image": null,
                 "domain": "self.YouShouldKnow",
                 "datetime": "2020-03-07 06:36:12 IST",
-                "votes": 43239,
+                "votes": 43237,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2089,7 +2023,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2020-05-02 21:36:12 IST",
-                "votes": 35941,
+                "votes": 35955,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2107,7 +2041,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2020-05-09 22:44:11 IST",
-                "votes": 34802,
+                "votes": 34793,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2143,7 +2077,7 @@
                 "preview_image": null,
                 "domain": "self.blackmirror",
                 "datetime": "2020-05-12 01:19:56 IST",
-                "votes": 741,
+                "votes": 736,
                 "nsfw": false,
                 "flairs": [
                     "DISCUSSION"
@@ -2163,7 +2097,7 @@
                 "preview_image": null,
                 "domain": "reddit.com",
                 "datetime": "2020-04-17 23:58:43 IST",
-                "votes": 9337,
+                "votes": 9343,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -2199,7 +2133,7 @@
                 "preview_image": "https://external-preview.redd.it/ueSSaJPBQiiqi4kuFf43afX52sZV2T45tgp6VeIUTQ0.png?format=pjpg&auto=webp&s=0489d1947a60e09118b81cce89f4b6543bed66ce",
                 "domain": "v.redd.it",
                 "datetime": "2020-07-16 18:57:25 IST",
-                "votes": 162713,
+                "votes": 162715,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2217,7 +2151,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2020-07-21 17:54:44 IST",
-                "votes": 32575,
+                "votes": 32583,
                 "nsfw": false,
                 "flairs": [
                     "Social"
@@ -2237,7 +2171,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2020-06-17 19:05:58 IST",
-                "votes": 8149,
+                "votes": 8142,
                 "nsfw": false,
                 "flairs": [
                     "Productivity"
@@ -2257,7 +2191,7 @@
                 "preview_image": "https://external-preview.redd.it/TlmRQRSz_vBj8T1J4J_1A7eNtmza6qOVfMQ9wuzcAkc.jpg?auto=webp&s=e5fd8147cbbee83fbfd9413def8487f2db7448b0",
                 "domain": "self.cscareerquestions",
                 "datetime": "2020-07-28 06:52:13 IST",
-                "votes": 1108,
+                "votes": 1107,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -2275,7 +2209,7 @@
                 "preview_image": "https://external-preview.redd.it/X1NS9PhddpsrKMTk6fK5zhWzxGMpm521qIuiLpfhHOk.jpg?auto=webp&s=6f9c29d25063051cf0122f6d104346ecbe40de4e",
                 "domain": "i.imgur.com",
                 "datetime": "2020-07-31 12:08:05 IST",
-                "votes": 48266,
+                "votes": 48267,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2293,7 +2227,7 @@
                 "preview_image": null,
                 "domain": "self.YouShouldKnow",
                 "datetime": "2020-08-03 19:58:41 IST",
-                "votes": 37852,
+                "votes": 37846,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2311,7 +2245,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2020-08-05 01:43:50 IST",
-                "votes": 73221,
+                "votes": 73222,
                 "nsfw": false,
                 "flairs": [
                     "Social"
@@ -2331,7 +2265,7 @@
                 "preview_image": null,
                 "domain": "self.college",
                 "datetime": "2020-08-08 06:14:41 IST",
-                "votes": 900,
+                "votes": 893,
                 "nsfw": false,
                 "flairs": [
                     "Global"
@@ -2369,7 +2303,7 @@
                 "preview_image": "https://external-preview.redd.it/5_X77Pa8zEKy8w_P0niLfjP7k4G6SwFRw1pjfkZB5I0.jpg?auto=webp&s=f05b9cc0ab0c32bf588d8c6f473500184cdc0864",
                 "domain": "self.movies",
                 "datetime": "2020-08-16 21:08:56 IST",
-                "votes": 39511,
+                "votes": 39508,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -2387,7 +2321,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2020-08-17 07:28:41 IST",
-                "votes": 8837,
+                "votes": 8839,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2405,7 +2339,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2020-08-18 12:34:01 IST",
-                "votes": 62002,
+                "votes": 61995,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2423,7 +2357,7 @@
                 "preview_image": "https://external-preview.redd.it/xa1vhvDjduwty0XTLmamFLLR3K4T7JipJtDOPit199s.jpg?auto=webp&s=489f4dc38db844ec94493d02582c064e46acf1fb",
                 "domain": "self.YouShouldKnow",
                 "datetime": "2020-08-18 16:59:21 IST",
-                "votes": 11373,
+                "votes": 11370,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2441,7 +2375,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2020-08-21 03:12:48 IST",
-                "votes": 79256,
+                "votes": 79270,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2459,7 +2393,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2011-04-05 04:26:05 IST",
-                "votes": 39,
+                "votes": 40,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2477,7 +2411,7 @@
                 "preview_image": null,
                 "domain": "self.YouShouldKnow",
                 "datetime": "2020-09-04 23:45:42 IST",
-                "votes": 25436,
+                "votes": 25442,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2495,7 +2429,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2020-09-30 04:05:01 IST",
-                "votes": 51519,
+                "votes": 51514,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2531,7 +2465,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2020-10-02 04:44:12 IST",
-                "votes": 64792,
+                "votes": 64787,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2549,7 +2483,7 @@
                 "preview_image": "https://external-preview.redd.it/jSziG7Y6edclYdeyC5TKihadrPG38c-qLUt58xelAME.jpg?auto=webp&s=eaab223d42f2d2ba831f69057aff841bbc4d56e3",
                 "domain": "self.YouShouldKnow",
                 "datetime": "2020-10-02 19:19:11 IST",
-                "votes": 24755,
+                "votes": 24763,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2567,7 +2501,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2020-09-28 06:52:36 IST",
-                "votes": 80557,
+                "votes": 80559,
                 "nsfw": false,
                 "flairs": [
                     "Miscellaneous"
@@ -2587,7 +2521,7 @@
                 "preview_image": null,
                 "domain": "self.unpopularopinion",
                 "datetime": "2020-10-09 10:05:10 IST",
-                "votes": 28444,
+                "votes": 28439,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2605,7 +2539,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2020-10-21 00:25:22 IST",
-                "votes": 29195,
+                "votes": 29204,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2623,7 +2557,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2020-10-21 23:58:26 IST",
-                "votes": 95839,
+                "votes": 95849,
                 "nsfw": false,
                 "flairs": [
                     "Social"
@@ -2643,7 +2577,7 @@
                 "preview_image": "https://external-preview.redd.it/hBvEjog1n8GICf9gxRlPcqgLwJvsOotjv07QaglBwMA.png?format=pjpg&auto=webp&s=d1ccadb290bb10f5bf2d900b905e9ddf9b49dcc5",
                 "domain": "v.redd.it",
                 "datetime": "2020-10-29 02:18:39 IST",
-                "votes": 37281,
+                "votes": 37283,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -2661,7 +2595,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2020-11-01 02:50:43 IST",
-                "votes": 62503,
+                "votes": 62510,
                 "nsfw": false,
                 "flairs": [
                     "Miscellaneous"
@@ -2681,7 +2615,7 @@
                 "preview_image": null,
                 "domain": "self.ITCareerQuestions",
                 "datetime": "2017-03-08 18:50:40 IST",
-                "votes": 219,
+                "votes": 217,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2717,7 +2651,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2020-12-08 21:18:44 IST",
-                "votes": 85870,
+                "votes": 85865,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2735,7 +2669,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2020-12-11 19:01:03 IST",
-                "votes": 56731,
+                "votes": 56732,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2753,7 +2687,7 @@
                 "preview_image": "https://external-preview.redd.it/2fX0nnZtXDO2tOLB1OY8eUBwrntjmunkgK-ct_KMJAY.jpg?auto=webp&s=6fa61a5cf675962ac1a7a7c0107c283b84d5e3bc",
                 "domain": "self.YouShouldKnow",
                 "datetime": "2020-12-18 03:15:20 IST",
-                "votes": 19984,
+                "votes": 19978,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2771,7 +2705,7 @@
                 "preview_image": null,
                 "domain": "self.AskMen",
                 "datetime": "2020-12-19 02:01:51 IST",
-                "votes": 10505,
+                "votes": 10502,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2789,7 +2723,7 @@
                 "preview_image": "https://preview.redd.it/0y96r3v5m0661.jpg?auto=webp&s=5ff894d9004e1530ff13f1829047fd3aa9f03df5",
                 "domain": "i.redd.it",
                 "datetime": "2020-12-19 03:09:55 IST",
-                "votes": 63,
+                "votes": 61,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -2807,7 +2741,7 @@
                 "preview_image": null,
                 "domain": "self.csMajors",
                 "datetime": "2020-12-27 10:24:40 IST",
-                "votes": 481,
+                "votes": 486,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -2825,7 +2759,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2021-01-01 19:17:30 IST",
-                "votes": 34015,
+                "votes": 34019,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -2861,7 +2795,7 @@
                 "preview_image": "https://external-preview.redd.it/_1ldHwkPczbbQQXHjTn3wdlnY-EgZMmmOg7Zvog_Lgo.jpg?auto=webp&s=5a1b1653559c58f62cbf2a2fce201ce820d8ada1",
                 "domain": "self.InclinedBedTherapy",
                 "datetime": "2019-09-23 18:10:56 IST",
-                "votes": 35,
+                "votes": 32,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -2879,7 +2813,7 @@
                 "preview_image": "https://external-preview.redd.it/-ZVTWts35Q7jZSGYQkc1LxgVmSlN3yrQME0anUjkSSQ.jpg?auto=webp&s=e510fc675fe4f53ed746601360df4ba9f9aecbbb",
                 "domain": "self.cscareerquestions",
                 "datetime": "2021-02-08 10:25:52 IST",
-                "votes": 863,
+                "votes": 860,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -2897,7 +2831,7 @@
                 "preview_image": "https://external-preview.redd.it/Lob9SsJpAKh1hGyQGOwpEhVmvxCVc1h67jmAf1mYzEw.jpg?auto=webp&s=8f1c46fe3b7609cd38f40cb8cbc1681ac7f01963",
                 "domain": "self.LifeProTips",
                 "datetime": "2021-02-19 18:53:21 IST",
-                "votes": 32527,
+                "votes": 32526,
                 "nsfw": false,
                 "flairs": [
                     "Arts & Culture"
@@ -2917,7 +2851,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2021-02-24 18:01:54 IST",
-                "votes": 51811,
+                "votes": 51812,
                 "nsfw": false,
                 "flairs": [
                     "Home & Garden"
@@ -2937,7 +2871,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2021-03-16 22:21:55 IST",
-                "votes": 71619,
+                "votes": 71617,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2955,7 +2889,7 @@
                 "preview_image": null,
                 "domain": "self.cscareerquestions",
                 "datetime": "2021-04-23 04:59:42 IST",
-                "votes": 1137,
+                "votes": 1139,
                 "nsfw": false,
                 "flairs": [
                     "Experienced"
@@ -2975,7 +2909,7 @@
                 "preview_image": null,
                 "domain": "self.cscareerquestions",
                 "datetime": "2021-04-24 11:18:37 IST",
-                "votes": 1039,
+                "votes": 1040,
                 "nsfw": false,
                 "flairs": [
                     "Experienced"
@@ -2995,7 +2929,7 @@
                 "preview_image": null,
                 "domain": "self.cscareerquestions",
                 "datetime": "2021-04-27 18:56:41 IST",
-                "votes": 2739,
+                "votes": 2740,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3013,7 +2947,7 @@
                 "preview_image": "https://preview.redd.it/u1vidd184v171.jpg?auto=webp&s=e4ab1bc56641be2f484ad33534e6319deaf6d755",
                 "domain": "i.redd.it",
                 "datetime": "2021-05-28 18:52:45 IST",
-                "votes": 64974,
+                "votes": 64980,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3031,7 +2965,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2021-06-16 02:16:03 IST",
-                "votes": 62535,
+                "votes": 62541,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3049,7 +2983,7 @@
                 "preview_image": "https://external-preview.redd.it/cAN1t_uP9TfM9dGDu4fbnah5H3G_pO7MDphCsrmnAYg.jpg?auto=webp&s=84eff32e0fae75589909e9e9a63e5c947ee1e5f7",
                 "domain": "i.imgur.com",
                 "datetime": "2021-08-24 23:37:06 IST",
-                "votes": 5531,
+                "votes": 5532,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3067,7 +3001,7 @@
                 "preview_image": null,
                 "domain": "self.ITCareerQuestions",
                 "datetime": "2021-12-01 15:00:29 IST",
-                "votes": 411,
+                "votes": 421,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3085,7 +3019,7 @@
                 "preview_image": null,
                 "domain": "self.AskMen",
                 "datetime": "2021-12-25 19:39:15 IST",
-                "votes": 2184,
+                "votes": 2187,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3103,7 +3037,7 @@
                 "preview_image": null,
                 "domain": "self.YouShouldKnow",
                 "datetime": "2022-01-02 22:27:07 IST",
-                "votes": 5721,
+                "votes": 5725,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3121,7 +3055,7 @@
                 "preview_image": "https://external-preview.redd.it/KGjxdb8O--wo-MyMwIRsUJFf57QWHvKB7mHVuIm7kcE.png?format=pjpg&auto=webp&s=e3e55085b2acd52d110d948853df51f084d505e1",
                 "domain": "v.redd.it",
                 "datetime": "2022-02-21 12:15:33 IST",
-                "votes": 23643,
+                "votes": 23633,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3139,7 +3073,7 @@
                 "preview_image": null,
                 "domain": "self.cscareerquestions",
                 "datetime": "2022-05-19 06:51:08 IST",
-                "votes": 970,
+                "votes": 969,
                 "nsfw": false,
                 "flairs": [
                     "Experienced"
@@ -3177,7 +3111,7 @@
                 "preview_image": null,
                 "domain": "self.csMajors",
                 "datetime": "2022-05-26 18:48:47 IST",
-                "votes": 1373,
+                "votes": 1378,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3195,7 +3129,7 @@
                 "preview_image": null,
                 "domain": "self.csMajors",
                 "datetime": "2022-05-29 18:44:17 IST",
-                "votes": 829,
+                "votes": 828,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3213,7 +3147,7 @@
                 "preview_image": null,
                 "domain": "self.csMajors",
                 "datetime": "2022-06-07 00:34:52 IST",
-                "votes": 397,
+                "votes": 401,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3231,7 +3165,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2022-09-10 19:44:06 IST",
-                "votes": 25844,
+                "votes": 25848,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3249,7 +3183,7 @@
                 "preview_image": "https://external-preview.redd.it/7jxoDwUzhvVTjSJw-uh35jKcAXPuTgSj5yq8M0wnxGw.jpg?auto=webp&s=b4d1a516354ed00852f613e503300afa31fb7c2f",
                 "domain": "opoulos.itch.io",
                 "datetime": "2022-09-12 21:51:26 IST",
-                "votes": 8281,
+                "votes": 8282,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3267,7 +3201,7 @@
                 "preview_image": "https://preview.redd.it/pcqd2hfyj7o91.jpg?auto=webp&s=fde0cbceab0f166cab6b1d820fa27e8b8ac7f03d",
                 "domain": "i.redd.it",
                 "datetime": "2022-09-16 17:10:54 IST",
-                "votes": 16030,
+                "votes": 16034,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3285,7 +3219,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2022-09-20 16:48:25 IST",
-                "votes": 40855,
+                "votes": 40856,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3303,7 +3237,7 @@
                 "preview_image": "https://external-preview.redd.it/YKbHUpLlpIx-htQHjA8BISONuSSjKf_xYX07diZVMf0.jpg?auto=webp&s=72d04bf46208facd3eb7ed7007725c1ab52ed69b",
                 "domain": "redblobgames.com",
                 "datetime": "2020-06-06 14:59:27 IST",
-                "votes": 272,
+                "votes": 273,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3321,7 +3255,7 @@
                 "preview_image": "https://external-preview.redd.it/igP-CuOgQb72TumhBaWJW9-jPpyDSP6LvkJWSHVaqYA.jpg?auto=webp&s=b575ce27c03138a4a3d935d3e4b4bddecdc0e40c",
                 "domain": "ratatype.ua",
                 "datetime": "2022-09-29 01:02:45 IST",
-                "votes": 2792,
+                "votes": 2791,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3339,7 +3273,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2022-09-29 23:43:24 IST",
-                "votes": 46583,
+                "votes": 46584,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3357,7 +3291,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2022-09-30 04:42:52 IST",
-                "votes": 22865,
+                "votes": 22857,
                 "nsfw": false,
                 "flairs": [
                     "Social"
@@ -3377,7 +3311,7 @@
                 "preview_image": "https://external-preview.redd.it/lsUFbXL2xo4sMWQ1_Zu1pNaAoS_Ysc97g3tEXoUnUis.jpg?auto=webp&s=f220744c81ea594f8cf27357f6d3775b1aaf667d",
                 "domain": "self.hacking",
                 "datetime": "2022-10-02 19:49:29 IST",
-                "votes": 477,
+                "votes": 471,
                 "nsfw": true,
                 "flairs": [],
                 "archived": false
@@ -3395,7 +3329,7 @@
                 "preview_image": "https://external-preview.redd.it/Hz36wK2rHi_2PMJKpmGsFjVzwwpr_l2Nc7jOS8E40-c.jpg?auto=webp&s=8dc0a1fe1f5d6096f0e01094cf0cf57921f1d8cb",
                 "domain": "okso.app",
                 "datetime": "2022-10-05 05:21:22 IST",
-                "votes": 1540,
+                "votes": 1536,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3413,7 +3347,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2022-10-11 21:38:38 IST",
-                "votes": 20013,
+                "votes": 20009,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3431,7 +3365,7 @@
                 "preview_image": null,
                 "domain": "self.AskMen",
                 "datetime": "2022-10-20 13:45:36 IST",
-                "votes": 7161,
+                "votes": 7156,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3449,7 +3383,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2022-10-21 01:30:20 IST",
-                "votes": 36463,
+                "votes": 36465,
                 "nsfw": false,
                 "flairs": [
                     "Home & Garden"
@@ -3469,7 +3403,7 @@
                 "preview_image": null,
                 "domain": "self.redditlists",
                 "datetime": "2012-11-28 16:59:48 IST",
-                "votes": 101,
+                "votes": 97,
                 "nsfw": true,
                 "flairs": [],
                 "archived": false
@@ -3487,7 +3421,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2022-10-23 17:57:14 IST",
-                "votes": 30421,
+                "votes": 30412,
                 "nsfw": false,
                 "flairs": [
                     "Home & Garden"
@@ -3507,7 +3441,7 @@
                 "preview_image": null,
                 "domain": "self.getdisciplined",
                 "datetime": "2022-10-24 20:49:23 IST",
-                "votes": 990,
+                "votes": 988,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3525,7 +3459,7 @@
                 "preview_image": "https://preview.redd.it/nkaam2xlqxv91.jpg?auto=webp&s=2f3a2925165ac467858ee89398de1afd1e142240",
                 "domain": "i.redd.it",
                 "datetime": "2022-10-25 16:43:29 IST",
-                "votes": 394,
+                "votes": 396,
                 "nsfw": false,
                 "flairs": [
                     "General Question"
@@ -3581,7 +3515,7 @@
                 "preview_image": "https://external-preview.redd.it/DKYS3GlKdiP0JEFp7mKx_NXZ4FyDmLzQdVmOTSMPx5A.jpg?auto=webp&s=50488c3ff543f851e4befcc8b95f32aab3f8ba34",
                 "domain": "self.Piracy",
                 "datetime": "2022-11-01 08:50:49 IST",
-                "votes": 5171,
+                "votes": 5169,
                 "nsfw": false,
                 "flairs": [
                     "Discussion"
@@ -3601,7 +3535,7 @@
                 "preview_image": "https://external-preview.redd.it/7MsWH2l3Blhflshoh_vVWrDuUbj5tgRP6PstxofkwME.jpg?auto=webp&s=8df411b79048cfa8e30b3b5d486babdf570f070d",
                 "domain": "rawstory.com",
                 "datetime": "2022-11-08 23:03:09 IST",
-                "votes": 7306,
+                "votes": 7312,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3639,7 +3573,7 @@
                 "preview_image": null,
                 "domain": "self.cscareerquestions",
                 "datetime": "2022-05-06 02:45:12 IST",
-                "votes": 339,
+                "votes": 337,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3657,7 +3591,7 @@
                 "preview_image": "https://external-preview.redd.it/RqcFbLys-UD4lyuXA5eq9qjdXhYZgtBZyI1xBddzQQ4.jpg?auto=webp&s=087c94adef8d71dcb4c6144181f75bf7f144d103",
                 "domain": "self.learnprogramming",
                 "datetime": "2022-11-10 18:49:01 IST",
-                "votes": 4731,
+                "votes": 4728,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3675,7 +3609,7 @@
                 "preview_image": "https://preview.redd.it/2jejo7lywp7c1.png?auto=webp&s=7ce2bbc0c112d55e0f3705e476b634ada1b0b1c8",
                 "domain": "i.redd.it",
                 "datetime": "2023-12-22 03:12:26 IST",
-                "votes": 3621,
+                "votes": 3617,
                 "nsfw": false,
                 "flairs": [
                     "Media"
@@ -3695,7 +3629,7 @@
                 "preview_image": "https://external-preview.redd.it/R_sT1W6DY45vlmXmtxlCSDEKPC8Q0LsxGLY6yNbn2mc.jpg?auto=webp&s=7d9fe360fc0c16927e67009511de77e00ccd8c83",
                 "domain": "self.LucidDreaming",
                 "datetime": "2021-08-18 07:57:54 IST",
-                "votes": 15868,
+                "votes": 15891,
                 "nsfw": false,
                 "flairs": [
                     "Success!"
@@ -3715,7 +3649,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2023-12-12 00:10:51 IST",
-                "votes": 9734,
+                "votes": 9736,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -3733,7 +3667,7 @@
                 "preview_image": "https://preview.redd.it/uqmwrbywg81c1.jpg?auto=webp&s=40835b1e8a4f6503b7cc8de985310220d0e48a4d",
                 "domain": "i.redd.it",
                 "datetime": "2023-11-19 10:07:03 IST",
-                "votes": 1050,
+                "votes": 1055,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3751,7 +3685,7 @@
                 "preview_image": null,
                 "domain": "self.TwoXIndia",
                 "datetime": "2023-10-07 04:55:26 IST",
-                "votes": 456,
+                "votes": 459,
                 "nsfw": false,
                 "flairs": [
                     "Opinion [Women only]"
@@ -3771,7 +3705,7 @@
                 "preview_image": "https://external-preview.redd.it/rI2nsEF3wYZsze8n74dAukZiMRZEkcIV0CkaP9DdWKw.jpg?auto=webp&s=f6aa8277f7ee19cfd6790ae516be67507390ecd7",
                 "domain": "self.onexindia",
                 "datetime": "2023-10-02 09:59:59 IST",
-                "votes": 26,
+                "votes": 25,
                 "nsfw": false,
                 "flairs": [
                     "Self Improvement"
@@ -3791,7 +3725,7 @@
                 "preview_image": null,
                 "domain": "self.developersIndia",
                 "datetime": "2023-10-02 23:43:01 IST",
-                "votes": 199,
+                "votes": 196,
                 "nsfw": false,
                 "flairs": [
                     "Career"
@@ -3811,7 +3745,7 @@
                 "preview_image": "https://external-preview.redd.it/RiFmWNPsEol-AOGaUOQ7VPz0pYoxBLSuNuNh6TalXRw.jpg?auto=webp&s=8e0602dc2a97a2b55de89bfe0c904f17b33e2ba7",
                 "domain": "self.developersIndia",
                 "datetime": "2023-06-15 14:19:59 IST",
-                "votes": 318,
+                "votes": 320,
                 "nsfw": false,
                 "flairs": [
                     "Career"
@@ -3831,7 +3765,7 @@
                 "preview_image": "https://external-preview.redd.it/Cdqm4-9VneyDlFUpnHUkGHUDHkksQPO-xlXGpZOvYak.png?format=pjpg&auto=webp&s=c29d3c409b078edb4fc21083b4cc82a0d87e9bc0",
                 "domain": "v.redd.it",
                 "datetime": "2023-09-19 16:02:27 IST",
-                "votes": 575,
+                "votes": 572,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3849,7 +3783,7 @@
                 "preview_image": null,
                 "domain": "self.developersIndia",
                 "datetime": "2023-09-07 19:22:23 IST",
-                "votes": 500,
+                "votes": 498,
                 "nsfw": false,
                 "flairs": [
                     "Career"
@@ -3890,7 +3824,7 @@
                 "preview_image": null,
                 "domain": "reddit.com",
                 "datetime": "2023-08-31 04:47:41 IST",
-                "votes": 356,
+                "votes": 362,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3925,7 +3859,7 @@
                 "preview_image": null,
                 "domain": "reddit.com",
                 "datetime": "2023-08-29 01:34:09 IST",
-                "votes": 814,
+                "votes": 808,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3943,7 +3877,7 @@
                 "preview_image": "https://preview.redd.it/e0kt3xf0bnfb1.jpg?auto=webp&s=10cceb41302acd57aaf02b31dc5f468861fe3bfd",
                 "domain": "i.redd.it",
                 "datetime": "2023-08-02 12:29:46 IST",
-                "votes": 99,
+                "votes": 101,
                 "nsfw": false,
                 "flairs": [
                     "Seller Feedback "
@@ -3981,7 +3915,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2023-07-24 22:22:18 IST",
-                "votes": 19677,
+                "votes": 19682,
                 "nsfw": false,
                 "flairs": [
                     "Miscellaneous"
@@ -4001,7 +3935,7 @@
                 "preview_image": null,
                 "domain": "self.LifeProTips",
                 "datetime": "2023-07-16 01:49:05 IST",
-                "votes": 10803,
+                "votes": 10797,
                 "nsfw": false,
                 "flairs": [
                     "Social"
@@ -4021,7 +3955,7 @@
                 "preview_image": null,
                 "domain": "self.UnethicalLifeProTips",
                 "datetime": "2023-07-10 01:35:10 IST",
-                "votes": 547,
+                "votes": 548,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -4039,7 +3973,7 @@
                 "preview_image": "https://external-preview.redd.it/VDc8DFgJPsC3eosvqJVtX_uhYP1eOwBwD1hY_WZVOqQ.jpg?auto=webp&s=b07a17e75b4f5b6fddee9c566840885fb92d166c",
                 "domain": "self.ChatGPT",
                 "datetime": "2023-07-09 00:00:01 IST",
-                "votes": 2217,
+                "votes": 2209,
                 "nsfw": false,
                 "flairs": [
                     "Use cases "
@@ -4059,7 +3993,7 @@
                 "preview_image": null,
                 "domain": "self.webdev",
                 "datetime": "2023-07-02 22:28:55 IST",
-                "votes": 136,
+                "votes": 132,
                 "nsfw": false,
                 "flairs": [
                     "Question"
@@ -4079,7 +4013,7 @@
                 "preview_image": "https://external-preview.redd.it/bTF3Ym5vOWllNDliMZCZhcCz3mtXToVQQQHQTLn6wNbYp7HXQbVX4m1lOJoH.png?format=pjpg&auto=webp&s=371d985ae2ac8df24c01c5d4ddf55f06248d1030",
                 "domain": "v.redd.it",
                 "datetime": "2023-06-30 14:30:45 IST",
-                "votes": 703,
+                "votes": 700,
                 "nsfw": false,
                 "flairs": [
                     "Funny "
@@ -4099,7 +4033,7 @@
                 "preview_image": "https://external-preview.redd.it/blYDgdvS6ArVk1sdgBtW4GHJScIzVRYSiWku_qVF7Gw.jpg?auto=webp&s=5da18148e935fbe8b917ed2b963c9beb5be0416c",
                 "domain": "self.ChatGPT",
                 "datetime": "2023-06-27 02:29:42 IST",
-                "votes": 1728,
+                "votes": 1727,
                 "nsfw": false,
                 "flairs": [
                     "Resources "
@@ -4119,7 +4053,7 @@
                 "preview_image": "https://external-preview.redd.it/vVmE3YXzKOqYIgefdhRCdH4H_7gXqk8osEhBMKJO3cc.jpg?auto=webp&s=86c1c814472f1b010b1cf736c68d85056e9d166d",
                 "domain": "self.ChatGPT",
                 "datetime": "2023-06-23 23:01:22 IST",
-                "votes": 4512,
+                "votes": 4525,
                 "nsfw": false,
                 "flairs": [
                     "Resources "
@@ -4139,7 +4073,7 @@
                 "preview_image": null,
                 "domain": "self.developersIndia",
                 "datetime": "2023-06-22 09:14:21 IST",
-                "votes": 587,
+                "votes": 582,
                 "nsfw": false,
                 "flairs": [
                     "Tips"
@@ -4159,7 +4093,7 @@
                 "preview_image": "https://external-preview.redd.it/MrcDZx2izDY9ERwgWmMS-Hm2M3GEKZgeYLDszSh-KrQ.jpg?auto=webp&s=73eb91ea5a5347f216c0f0c4d6796396826aae49",
                 "domain": "self.Infinity_For_Reddit",
                 "datetime": "2023-06-18 03:21:55 IST",
-                "votes": 2463,
+                "votes": 2459,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -4177,7 +4111,7 @@
                 "preview_image": "https://external-preview.redd.it/w0_zGyuAtlGbqAf0YjcQPXntTBnGgPQQRsnKwfGrLGI.jpg?auto=webp&s=91d37216fe262e03af8e4df20dba3b99cd7178fd",
                 "domain": "self.Infinity_For_Reddit",
                 "datetime": "2023-06-18 07:14:35 IST",
-                "votes": 691,
+                "votes": 697,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -4195,7 +4129,7 @@
                 "preview_image": null,
                 "domain": "self.developersIndia",
                 "datetime": "2023-06-19 17:51:18 IST",
-                "votes": 579,
+                "votes": 576,
                 "nsfw": false,
                 "flairs": [
                     "Suggestions"
@@ -4215,7 +4149,7 @@
                 "preview_image": null,
                 "domain": "self.ChatGPT",
                 "datetime": "2023-06-16 19:01:31 IST",
-                "votes": 6241,
+                "votes": 6248,
                 "nsfw": false,
                 "flairs": [
                     "Educational Purpose Only "
@@ -4235,7 +4169,7 @@
                 "preview_image": null,
                 "domain": "self.developersIndia",
                 "datetime": "2023-06-14 11:15:19 IST",
-                "votes": 71,
+                "votes": 73,
                 "nsfw": false,
                 "flairs": [
                     "RANT",
@@ -4256,7 +4190,7 @@
                 "preview_image": null,
                 "domain": "self.TwoXIndia",
                 "datetime": "2023-06-12 10:57:26 IST",
-                "votes": 175,
+                "votes": 172,
                 "nsfw": false,
                 "flairs": [
                     "Family & Relationships"
@@ -4282,7 +4216,7 @@
                 "preview_image": null,
                 "domain": "reddit.com",
                 "datetime": "2023-06-07 21:31:33 IST",
-                "votes": 3230,
+                "votes": 3233,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -4300,7 +4234,7 @@
                 "preview_image": "https://external-preview.redd.it/WEGZiroVKfdJuVBLZNarkVTiIojmD7KQvJ9KTL-W4Q8.jpg?auto=webp&s=55894e4d55eaffd451803c132da09968cc6a6f61",
                 "domain": "self.learnprogramming",
                 "datetime": "2023-06-04 20:57:13 IST",
-                "votes": 571,
+                "votes": 572,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -4318,26 +4252,8 @@
                 "preview_image": null,
                 "domain": "self.BrosDatingAdvice",
                 "datetime": "2023-06-03 17:30:53 IST",
-                "votes": 18,
+                "votes": 19,
                 "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "The 53 Most Popular Adult Content Steam Releases of 2021",
-                "author": "SexPositiveGaming",
-                "url": "https://reddit.com/r/NSFWgaming/comments/rkzlef/the_53_most_popular_adult_content_steam_releases/",
-                "subreddit": "NSFWgaming",
-                "body": "",
-                "media": "https://www.youtube.com/watch?v=1LsBnI5Z7d8",
-                "media_type": "youtube",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://external-preview.redd.it/gbTaSXOC4VjWdveW_MX91Thf5BGndYhzhDKOBXN6qP4.jpg?auto=webp&s=762666de6de7386209d10be139a3495637f1a919",
-                "domain": "youtube.com",
-                "datetime": "2021-12-21 04:30:01 IST",
-                "votes": 1749,
-                "nsfw": true,
                 "flairs": [],
                 "archived": false
             },
@@ -4354,7 +4270,7 @@
                 "preview_image": "https://preview.redd.it/yzihs827wr2b1.jpg?auto=webp&s=ddb66951d9af5bcd766c1bc67bfec01ea285e02e",
                 "domain": "i.redd.it",
                 "datetime": "2023-05-29 14:01:51 IST",
-                "votes": 17050,
+                "votes": 17060,
                 "nsfw": false,
                 "flairs": [
                     "Educational Purpose Only "
@@ -4374,7 +4290,7 @@
                 "preview_image": "https://external-preview.redd.it/NHFyd3U0YmV1bzJiMc0ckIi9Srv3eAEbi642dsV29dUGiWi9uNyZgibUj12G.png?format=pjpg&auto=webp&s=17a441b0e6a86ddca11fd471db0a91b12dc93eb6",
                 "domain": "v.redd.it",
                 "datetime": "2023-05-29 03:46:30 IST",
-                "votes": 29611,
+                "votes": 29602,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -4392,7 +4308,7 @@
                 "preview_image": "https://external-preview.redd.it/_FOrKKV-VcZpv0GmYNPFubyBy3nwbKF71x4qUYdu8aM.png?format=pjpg&auto=webp&s=b2051fd1e8a24cc2f431ebf3c94a4f5fc86bb53f",
                 "domain": "v.redd.it",
                 "datetime": "2023-05-25 13:48:18 IST",
-                "votes": 1588,
+                "votes": 1586,
                 "nsfw": false,
                 "flairs": [
                     "Discussion"
@@ -4412,7 +4328,7 @@
                 "preview_image": null,
                 "domain": "self.india",
                 "datetime": "2023-05-23 16:40:52 IST",
-                "votes": 1414,
+                "votes": 1419,
                 "nsfw": false,
                 "flairs": [
                     "Rant / Vent"
@@ -4452,7 +4368,7 @@
                 "preview_image": null,
                 "domain": "self.cscareerquestions",
                 "datetime": "2022-01-31 03:58:50 IST",
-                "votes": 7502,
+                "votes": 7500,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -4470,7 +4386,7 @@
                 "preview_image": null,
                 "domain": "self.developersIndia",
                 "datetime": "2023-05-01 12:14:47 IST",
-                "votes": 69,
+                "votes": 68,
                 "nsfw": false,
                 "flairs": [
                     "Help"
@@ -4490,7 +4406,7 @@
                 "preview_image": null,
                 "domain": "self.explainlikeimfive",
                 "datetime": "2022-06-04 20:51:45 IST",
-                "votes": 0,
+                "votes": 3,
                 "nsfw": false,
                 "flairs": [
                     "Biology"
@@ -4510,7 +4426,7 @@
                 "preview_image": null,
                 "domain": "self.AskMen",
                 "datetime": "2023-04-26 20:32:13 IST",
-                "votes": 3628,
+                "votes": 3627,
                 "nsfw": false,
                 "flairs": [
                     "Frequently Asked"
@@ -4530,7 +4446,7 @@
                 "preview_image": null,
                 "domain": "self.developersIndia",
                 "datetime": "2022-03-16 21:48:38 IST",
-                "votes": 107,
+                "votes": 108,
                 "nsfw": false,
                 "flairs": [
                     "Career"
@@ -4570,7 +4486,7 @@
                 "preview_image": null,
                 "domain": "self.india",
                 "datetime": "2015-03-14 07:50:14 IST",
-                "votes": 74,
+                "votes": 76,
                 "nsfw": false,
                 "flairs": [
                     "[R]eddiquette"
@@ -4610,7 +4526,7 @@
                 "preview_image": null,
                 "domain": "self.TwoXIndia",
                 "datetime": "2023-04-07 13:10:22 IST",
-                "votes": 322,
+                "votes": 325,
                 "nsfw": false,
                 "flairs": [
                     "My Story [Vent/Support]"
@@ -4630,7 +4546,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2023-03-30 19:21:38 IST",
-                "votes": 23787,
+                "votes": 23795,
                 "nsfw": true,
                 "flairs": [],
                 "archived": true
@@ -4648,7 +4564,7 @@
                 "preview_image": null,
                 "domain": "self.BrosDatingAdvice",
                 "datetime": "2023-03-28 17:31:36 IST",
-                "votes": 50,
+                "votes": 49,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -4666,7 +4582,7 @@
                 "preview_image": null,
                 "domain": "self.cscareerquestions",
                 "datetime": "2023-03-21 22:44:38 IST",
-                "votes": 1503,
+                "votes": 1499,
                 "nsfw": false,
                 "flairs": [
                     "Experienced"
@@ -4686,7 +4602,7 @@
                 "preview_image": null,
                 "domain": "self.TwoXIndia",
                 "datetime": "2023-03-08 20:25:49 IST",
-                "votes": 13,
+                "votes": 15,
                 "nsfw": false,
                 "flairs": [
                     "Opinion [Women only]"
@@ -4706,7 +4622,7 @@
                 "preview_image": null,
                 "domain": "self.developersIndia",
                 "datetime": "2023-03-19 09:55:27 IST",
-                "votes": 183,
+                "votes": 180,
                 "nsfw": false,
                 "flairs": [
                     "Career"
@@ -4726,7 +4642,7 @@
                 "preview_image": null,
                 "domain": "self.GetEmployed",
                 "datetime": "2023-03-16 01:06:33 IST",
-                "votes": 119,
+                "votes": 121,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -4744,7 +4660,7 @@
                 "preview_image": null,
                 "domain": "self.developersIndia",
                 "datetime": "2022-09-26 21:47:38 IST",
-                "votes": 665,
+                "votes": 660,
                 "nsfw": false,
                 "flairs": [
                     "Work-Life Balance"
@@ -4764,7 +4680,7 @@
                 "preview_image": null,
                 "domain": "self.onexindia",
                 "datetime": "2023-02-01 13:04:05 IST",
-                "votes": 43,
+                "votes": 41,
                 "nsfw": false,
                 "flairs": [
                     "Self Improvement"
@@ -4784,7 +4700,7 @@
                 "preview_image": null,
                 "domain": "self.developersIndia",
                 "datetime": "2023-01-29 19:12:02 IST",
-                "votes": 319,
+                "votes": 312,
                 "nsfw": false,
                 "flairs": [
                     "General"
@@ -4804,7 +4720,7 @@
                 "preview_image": null,
                 "domain": "self.cscareerquestions",
                 "datetime": "2023-01-29 21:20:40 IST",
-                "votes": 844,
+                "votes": 843,
                 "nsfw": false,
                 "flairs": [
                     "Student"
@@ -4824,7 +4740,7 @@
                 "preview_image": "https://external-preview.redd.it/Bl3xrCnMjEbeduWYzzeYEwRC6lew-zfOJp-ZTDVe35o.jpg?auto=webp&s=22ddbfce5f769a656896becc2eee4ad674ed3851",
                 "domain": "self.DesiFragranceAddicts",
                 "datetime": "2021-09-28 15:55:38 IST",
-                "votes": 608,
+                "votes": 609,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -4862,7 +4778,7 @@
                 "preview_image": null,
                 "domain": "self.YouShouldKnow",
                 "datetime": "2023-01-21 13:53:17 IST",
-                "votes": 21389,
+                "votes": 21387,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -4900,7 +4816,7 @@
                 "preview_image": null,
                 "domain": "self.AskReddit",
                 "datetime": "2022-12-14 18:17:46 IST",
-                "votes": 32526,
+                "votes": 32528,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -4918,7 +4834,7 @@
                 "preview_image": "https://external-preview.redd.it/xutYXBR3x_ozgsvFXvZXkedw1H9Py3fTCKogT8OTALM.jpg?auto=webp&s=c700bb9ac1b4f57c7f8739478cddc18a61927ee1",
                 "domain": "self.cscareerquestions",
                 "datetime": "2022-12-12 10:56:08 IST",
-                "votes": 883,
+                "votes": 887,
                 "nsfw": false,
                 "flairs": [
                     "Experienced"
@@ -4928,30 +4844,6 @@
         ],
         "comments": [
             {
-                "post_title": "What are they referencing?",
-                "post_subreddit": "ExplainTheJoke",
-                "post_url": "https://www.reddit.com/r/ExplainTheJoke/comments/1s0ga4e/what_are_they_referencing/",
-                "comment_url": "https://reddit.com/r/ExplainTheJoke/comments/1s0ga4e/what_are_they_referencing/obt70go/",
-                "comment_text": "https://www.reddit.com/r/chyberpunk/s/o8onWrhWEs",
-                "author": "Sean9931",
-                "datetime": "2026-03-22 14:56:22 IST",
-                "votes": 14,
-                "nsfw": false,
-                "archived": false
-            },
-            {
-                "post_title": "Narendra Modi Is Actively Censoring His Critics. Here\u2019s the Proof.",
-                "post_subreddit": "india",
-                "post_url": "https://www.reddit.com/r/india/comments/1rqnd12/narendra_modi_is_actively_censoring_his_critics/",
-                "comment_url": "https://reddit.com/r/india/comments/1rqnd12/narendra_modi_is_actively_censoring_his_critics/o9tn0le/",
-                "comment_text": "Pathetic state of our country.",
-                "author": "Impossible-Knee9090",
-                "datetime": "2026-03-11 14:36:41 IST",
-                "votes": 93,
-                "nsfw": false,
-                "archived": false
-            },
-            {
                 "post_title": "I am just done at this point",
                 "post_subreddit": "IndiaCareers",
                 "post_url": "https://www.reddit.com/r/IndiaCareers/comments/1rbiyty/i_am_just_done_at_this_point/",
@@ -4959,93 +4851,9 @@
                 "comment_text": "Hey I was in similar boat and unemployed for more than 7 months and this month I got job.\nI recommend updating your naukari profile include everything your projects ,experiences, skills , certifications and  open account in Randstad too and fill your details they will reach out if any job suits your profile",
                 "author": "Live_Application7568",
                 "datetime": "2026-02-22 16:37:37 IST",
-                "votes": 189,
+                "votes": 188,
                 "nsfw": false,
                 "archived": false
-            },
-            {
-                "post_title": "[Loved Trope] Initially played up as a metaphor but then revealed to be literal",
-                "post_subreddit": "TopCharacterTropes",
-                "post_url": "https://www.reddit.com/r/TopCharacterTropes/comments/1rbd3aw/loved_trope_initially_played_up_as_a_metaphor_but/",
-                "comment_url": "https://reddit.com/r/TopCharacterTropes/comments/1rbd3aw/loved_trope_initially_played_up_as_a_metaphor_but/o6r7hwd/",
-                "comment_text": "No, but he's the Giant/Fireman in Twin Peaks, and Lurch in the 90s Addams Family movies",
-                "author": "The_Badger42",
-                "datetime": "2026-02-22 16:52:27 IST",
-                "votes": 68,
-                "nsfw": false,
-                "archived": false
-            },
-            {
-                "post_title": "[deleted by user]",
-                "post_subreddit": "CATpreparation",
-                "post_url": "https://www.reddit.com/r/CATpreparation/comments/1jkg5nf/deleted_by_user/",
-                "comment_url": "https://reddit.com/r/CATpreparation/comments/1jkg5nf/deleted_by_user/mjvszur/",
-                "comment_text": "As someone who already had one year of MBA, let me tell you: use these tools with a *lot of salt*. Or at least use your brain more.\n\nSure, AI tools like ChatGPT/Perplexity etc can be helpful (I personally would recommend using [https://lmarena.ai/](https://lmarena.ai/), since it has a list of all LLMs in its direct chat section. Real lifesaver since you WILL run over the prompt limit), but it becomes VERY OBVIOUS, especially if you use it to make PPTs.   \nIt works fine for reports, but at this point practically everyone uses it: even the profs. So you might end up in a situation where your stuff will have similar content as someone else, or worse if the professor expects you to go much deeper in the subject matter (trust me, they know if your report is copy-pasted from GPT).\n\nNot to say don't use it, I think they can be lifesavers. Just be aware that these are merely tools to make your life easier, not substitutes.  \n  \nPS: It's perhaps my personal anecdotal experience, but I have often found them a poor medium for learning, more often than not just give surface-level information and you have to prompt it multiple levels further to get insights into the first principles to develop the thought process \u2014 which is what you do need to learn in MBA in the first place.",
-                "author": "Lord_TrainBacker7000",
-                "datetime": "2025-03-27 00:40:15 IST",
-                "votes": 11,
-                "nsfw": false,
-                "archived": true
-            },
-            {
-                "post_title": "GIM WAT TOPICS (will keep updating the list)",
-                "post_subreddit": "CATpreparation",
-                "post_url": "https://www.reddit.com/r/CATpreparation/comments/1iqkotv/gim_wat_topics_will_keep_updating_the_list/",
-                "comment_url": "https://reddit.com/r/CATpreparation/comments/1iqkotv/gim_wat_topics_will_keep_updating_the_list/md0yduc/",
-                "comment_text": "Greetings /u/BOTLORD6969, Welcome to r/CATpreparation!  We appreciate your participation in the community. Kindly make sure your post aligns with our community rules; otherwise, it may be removed. Wishing you the best on your journey towards your dream business school! \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/CATpreparation) if you have any questions or concerns.*",
-                "author": "AutoModerator",
-                "datetime": "2025-02-16 10:28:14 IST",
-                "votes": 1,
-                "nsfw": false,
-                "archived": true
-            },
-            {
-                "post_title": "[deleted by user]",
-                "post_subreddit": "CATpreparation",
-                "post_url": "https://www.reddit.com/r/CATpreparation/comments/1ii28v3/deleted_by_user/",
-                "comment_url": "https://reddit.com/r/CATpreparation/comments/1ii28v3/deleted_by_user/mb20arw/",
-                "comment_text": "Greetings /u/Funny_Meg, Welcome to r/CATpreparation!  We appreciate your participation in the community. Kindly make sure your post aligns with our community rules; otherwise, it may be removed. Wishing you the best on your journey towards your dream business school! \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/CATpreparation) if you have any questions or concerns.*",
-                "author": "AutoModerator",
-                "datetime": "2025-02-05 10:16:01 IST",
-                "votes": 1,
-                "nsfw": false,
-                "archived": true
-            },
-            {
-                "post_title": "Prepare for the long, bumpy road ahead",
-                "post_subreddit": "WhitePeopleTwitter",
-                "post_url": "https://www.reddit.com/r/WhitePeopleTwitter/comments/1i0cp3w/prepare_for_the_long_bumpy_road_ahead/",
-                "comment_url": "https://reddit.com/r/WhitePeopleTwitter/comments/1i0cp3w/prepare_for_the_long_bumpy_road_ahead/m6wvso8/",
-                "comment_text": "https://preview.redd.it/905qprxodrce1.jpeg?width=1200&format=pjpg&auto=webp&s=3bb423129f1a5073b7575a8de2f575a84a21cd2d\n\nfirst bumper sticker I have ever owned--It will solve nothing and is purely performative, but people will know where I stand.",
-                "author": "[deleted]",
-                "datetime": "2025-01-13 18:27:22 IST",
-                "votes": 404,
-                "nsfw": false,
-                "archived": true
-            },
-            {
-                "post_title": "[deleted by user]",
-                "post_subreddit": "CATpreparation",
-                "post_url": "https://www.reddit.com/r/CATpreparation/comments/1hkl5ig/deleted_by_user/",
-                "comment_url": "https://reddit.com/r/CATpreparation/comments/1hkl5ig/deleted_by_user/m3fahb8/",
-                "comment_text": "UPSC youtube videos are a great place to start. Newspapers and magazines that specialize more in IR like the Economist, the Diplomat and Foreign Policy. Then you can also read articles from think-tanks like CSIS, Project 2049 Institute, The American Enterprise institute",
-                "author": "SuggestionPresent160",
-                "datetime": "2024-12-23 17:14:44 IST",
-                "votes": 25,
-                "nsfw": false,
-                "archived": true
-            },
-            {
-                "post_title": "[deleted by user]",
-                "post_subreddit": "CATpreparation",
-                "post_url": "https://www.reddit.com/r/CATpreparation/comments/1hkl5ig/deleted_by_user/",
-                "comment_url": "https://reddit.com/r/CATpreparation/comments/1hkl5ig/deleted_by_user/m3f6dfl/",
-                "comment_text": "You need to have a decent understanding of geopolitics and international trade for the IIFT GDPI process. Start working on it right now as an understanding of geopolitics and IR takes some time to build",
-                "author": "SuggestionPresent160",
-                "datetime": "2024-12-23 16:31:07 IST",
-                "votes": 46,
-                "nsfw": false,
-                "archived": true
             },
             {
                 "post_title": "Noodles and Co. Pan fried noodles",
@@ -5055,7 +4863,7 @@
                 "comment_text": "Japanese Pan Noodles with Saut\u00e9ed Shrimp from Ross Kamens, executive chef, Noodles & Company  \n1 lb wheat noodles (udon)  \n1 cup broccoli (cut into florets)  \n1 cup carrots (julienne cut)  \n\u00bd cup scallions (cut on the bias)  \n\u00bd cup red peppers (julienne cut)  \n\u00bd cup fresh shiitake mushrooms (de-stemmed)  \n1 T fresh ginger (peeled & chopped)  \n\u00bc cup mirin  \n1 T pure sesame oil  \n1 T canola oil  \n1 cup sweet soy sauce  \n2 T Chile garlic sauce  \n1t black sesame seeds  \n24 shrimp (16-20 peeled & de-veined)  \nCook noodles in boiling water until al dente, drain and cool in ice water. Drain, let rest and toss with sesame oil. Blanch broccoli and carrots in boiling water for 1 minute. Drain, cool down in ice water, drain and set aside. Place large saut\u00e9 pan over high heat. Add canola oil and saut\u00e9 mushrooms until lightly golden. Add shrimp, carrots, broccoli, peppers, scallions, ginger, Chile garlic sauce, sweet soy, and noodles to pan in that order. Cook until noodles are caramelized or golden. Place on platter and sprinkle with black sesame seeds Serves 6-8",
                 "author": "eiramnewg",
                 "datetime": "2022-03-23 01:38:02 IST",
-                "votes": 4,
+                "votes": 3,
                 "nsfw": false,
                 "archived": false
             },
@@ -5072,18 +4880,6 @@
                 "archived": false
             },
             {
-                "post_title": "[deleted by user]",
-                "post_subreddit": "delhi",
-                "post_url": "https://www.reddit.com/r/delhi/comments/1evuvtu/deleted_by_user/",
-                "comment_url": "https://reddit.com/r/delhi/comments/1evuvtu/deleted_by_user/liuho1x/",
-                "comment_text": "UB City, Bengaluru\n\nThe Chanakya, New Delhi\n\nDLF Emporio, New Delhi\n\nJio World Plaza, Mumbai,\n\nQuest Mall, Kolkata( Mixed Luxury & Affordable Retail Place)\n\nPheonix Paladium, Mumbai( Mixed)",
-                "author": "SnooConfections5816",
-                "datetime": "2024-08-19 14:32:21 IST",
-                "votes": 48,
-                "nsfw": false,
-                "archived": false
-            },
-            {
                 "post_title": "Attractive Job Posts for ADHDers?",
                 "post_subreddit": "ADHD_Programmers",
                 "post_url": "https://www.reddit.com/r/ADHD_Programmers/comments/1dafyjl/attractive_job_posts_for_adhders/",
@@ -5091,21 +4887,9 @@
                 "comment_text": "So, I present this advice with a caveat lol: A company that tries REALLY hard to do scrum might be a good fit for ADHD people.\n\nScrum:\n\n- Has you focus on one ticket at once (great for ADHD, don't get distracted and focus on one thing)\n\n- Should have good acceptance criteria (amazing for everyone, but especially people with ADHD)\n\n- Lets you formally present blockers- take advantage of this and don't be afraid to move a ticket to BLOCKED!\n\n- Gives you a visual tool where you can move a ticket through various stages \n\n- Still gives you, like, a bit of flexibility when you're not productive (maybe split a ticket into child tickets, maybe make uncertain things spikes so that you're presenting the ambiguity upfront, etc.)\n\n- Hopefully your company won't put you on PIP just because you roll a few tickets once in a while\n\n  \nThe caveat is that I simply think that too often, agile/scrum is too much about looking busy and not getting to the core of the issue. Resolving complicated business logic to design correct data models or fundamental architectural decisions are not things that you \"iterate on\"- do it one goddamn time and get it right, even if it doesn't fit into your 2 week sprint.",
                 "author": "fluffycatsinabox",
                 "datetime": "2024-06-07 23:17:05 IST",
-                "votes": 19,
+                "votes": 18,
                 "nsfw": false,
                 "archived": false
-            },
-            {
-                "post_title": "What is yall custom interaction prompts for ChatGPT?",
-                "post_subreddit": "ChatGPT",
-                "post_url": "https://www.reddit.com/r/ChatGPT/comments/18tl5i1/what_is_yall_custom_interaction_prompts_for/",
-                "comment_url": "https://reddit.com/r/ChatGPT/comments/18tl5i1/what_is_yall_custom_interaction_prompts_for/kfetxct/",
-                "comment_text": "Here's mine, have used and combined from many users prompts shared on reddit:\n\n1. NEVER mention that you're an AI or a language model.\n2. Refrain from language implying remorse, apology, or regret.\n3. Refrain from disclaimers or warnings about you not being a professional or expert or anything similar.\n4. When responding to prompts, please fill in any details not explicitly provided using reasonable assumptions based on the context. Perform necessary calculations and infer any missing information to provide complete answers without additional prompting. If a prompt is still unclear and you're unable to make a good guess, ask me specifically what information you need before proceeding. State any assumptions made in your response.\n5. If problems or tasks are complex, break them down into smaller, manageable steps, explaining each.\n6. If you think you can't do something, don't put the burden on the user to do it, instead try to exhaust ALL of your options first.\n7. Discuss sensitive topics openly without disclaimers.\n8. Please always present information in a flowing, narrative format. Avoid using bullet points or lists. Instead, weave information seamlessly into a continuous, story-like structure, even when discussing complex or multi-faceted topics. You can break this rule only when absolutely necessary for clarity in situations involving complex technical explanations, detailed data analysis, or step-by-step instructions.\n9. In coding, iterate and debug meticulously.",
-                "author": "[deleted]",
-                "datetime": "2023-12-29 19:19:38 IST",
-                "votes": 117,
-                "nsfw": false,
-                "archived": true
             },
             {
                 "post_title": "Software Development Careers",
@@ -5127,19 +4911,7 @@
                 "comment_text": "This is so well written and brings out the intricacies of this discussion so well. Lovely post.\n\nI'd like to soapbox for a moment here. Many times men try to draw parallels with how western women like the idea of a man who is connected with his mother and like that to justify their dependence on their mothers. One important factor that goes missing is that within those discussion those man are not being judges on how their mother is treating them, rather they are judged on how they are treating their mothers. Most of the time, in Indian families the bulk of the effort in this \"close\" mother-son relationship is carried by the mother. She coddles the individual while he sits back and enjoys rather than reciprocating even a iota of the effort. \n\nLet me punctuate this with an example of my own. My sister is right now 14 I am 21. For all of my life I have never made tea for my mother. For the last month or so my sister has been given the responsibility now to make tea for her. I was and still don't have any responsibility of that sort wrt to my mother and **especially** didn't in that age. I was expected to just sit back and mind my business while my mother worked her arse off and me obviously being a 14 y/o found that delightful. Yay, me! But now that my sister is of that same age she is handed this responsibility which she is expected to carry out with diligence every day at 6 pm. She has a twin brother who is also not given any responsibility, just as I wasn't. This is exactly the kind of sitting on your arse being served is the issue. We have to be very careful o whom to put the blame on here. At that age of 14, for both us, we were not to blame, the blame falls squarely on the disparity on the distribution of responsibility. But at this age, 21, if I still sit back knowing better and continue to be cream pastry then I am to blame for whatever shortcomings I might have later in life. \n\nWith that said, I have major issues with the word being used here. It is incredibly triggering because let's be honest the term Mumma's Boy is itself a patriarchal term. It is not a feminist term but has been repurposed in feminist circles to leverage a form of criticism. But we have to be aware that when we repurpose a term we carry its baggage as well.\n\nI have been called \"Mumma's Boy\" for quite often in my life. One important reason being that I liked to stick among women's circles. There is a kind of openness and vulnerability that I found appealing and often used to sit with my aunts and cousins and such. There was a post/comment over at 2xi where someone was commenting on how girls are thrust into the family dynamic much earlier in life as opposed to boys who are protected form the family politics of it all. Here is the the other side of the prism. That option to be thrust into hat dynamic also means that you get to accepted and have some sort of voice in that system. Within male circles in family a boy/man will be treated like he is 10 until he is married. There is no place for you there to be accepted and have a voice or even sit among them. You will be ridiculed for anything you say and don't you dare have an an ounce of vulnerability there. Its a cardinal sin. \n\nSo faced with this situation most men are given a choice. Either stay detached and alone or go to the women circles. The wider societal structure has conditioned most men to show displeasure at anything feminine, including their circles. This keeps them out of it. Hence we have so many detached Indian loners(Something I need to touch upon soon). The detachment comes baked into the system. And keep in mind when I am talking about Indian \"Men\" making a choice between the two (Women circle and detachment) I mean boys, this choice comes around the age of 14 when we start to develop a sense of autonomy. \n\n\nNow, those of us who do gravitate to women circles are aberrant and need to be squashed. This is where the patriarchal usage of the term comes in. It has historically, as seen here too, been used to remove vulnerability from men. Having been brought up in an all boys school I had a deeper sense of vulnerability and openness (will write about how I think that's connected). I remember at the age of 16 I had a better sense of emotional expression than I do now. I remember being able to emote well and being more open about any issues I had. The years of being hounded with the chants of Mumma's boy in this case has left me as such that I am either neutral or angry in any public setting. It kills me inside that what used to have a healthy response within me now just erupts without my control. And these were criticisms of my emotional vulnerability used to be framed in the context of me being too much in women circles and being too close to my mother, often hanging out with her in the kitchen. And they were always made by my aunts or other women in these circles to get me out of there. Which it did.\n\nSo whenever these conversations crop up, boy do I have a hard time trying to engage with the conversation just because of the word. I hate the word. And that's its purpose. In a patriarchal structure the honour of the patriarch and prospective patriarch is important. That's why terms such as these are engineered purposely to seed a sense of humiliation. To present to them that they are too weak to be a prospective patriarch. The usage of humiliation to shape men is an explicitly patriarchal method because \"OMG what could be WORSE than being humiliated. Be A MAN!!\" \n\n\nHell, the last time I was called a Mumma's boy, about 3 years ago, was because I went to my mother to have her apply the foundation on me because who else was I supposed to go to. But the other women there doing their makeup to were throwing that exact word at me for coming to my mother to get help with make up. And its pretty obvious why that term was chosen, \"Men are not supposed to apply make up and those that do need to be humiliated.\" I have not tried makeup since.",
                 "author": "thearcademole",
                 "datetime": "2022-05-03 06:20:47 IST",
-                "votes": 20,
-                "nsfw": false,
-                "archived": true
-            },
-            {
-                "post_title": "The Command:\u201ccd ../\u201d",
-                "post_subreddit": "ProgrammerHumor",
-                "post_url": "https://www.reddit.com/r/ProgrammerHumor/comments/uj17l9/the_commandcd/",
-                "comment_url": "https://reddit.com/r/ProgrammerHumor/comments/uj17l9/the_commandcd/i7g2goc/",
-                "comment_text": "Ctrl+r helps a lot",
-                "author": "pv0jewel",
-                "datetime": "2022-05-05 22:24:31 IST",
-                "votes": 1492,
+                "votes": 21,
                 "nsfw": false,
                 "archived": true
             },
@@ -5151,7 +4923,7 @@
                 "comment_text": "So resume writing is like 50-70% fluff/bullshit.\n\nFor example you say you are just fixing bugs and writing automation tests.\n\nYou can say something like: \n\n \"resolve critical issues at scale for an enterprise system serving 1xx million customers\".\n\n\" Leveraged knowledge of test driven development to create robust automated tests to maintain strict quality standards\".\n\n\"Collaborate with end users/product owners/analysts/whomever to gather requirements and specifications for writing accurate and useful tests\".\n\nI'm not the best fluff master(hire someone) but at the very least this shows that you have experience working on \"real\" enterprise systems, have a grasp of testing and test automation and is someone that can work with others and take charge to get shit done.\n\nSprinkle in the technologies you are using or achievements or notable metrics and you have a decent little blurb on your resume.",
                 "author": "AdministrationWaste7",
                 "datetime": "2022-06-24 23:25:23 IST",
-                "votes": 60,
+                "votes": 61,
                 "nsfw": false,
                 "archived": false
             },
@@ -5163,7 +4935,7 @@
                 "comment_text": "Check out [Wikipedia's List of Common Misconceptions](https://en.wikipedia.org/wiki/List_of_common_misconceptions) every so often",
                 "author": "graffitiworthreading",
                 "datetime": "2022-07-08 07:31:21 IST",
-                "votes": 2382,
+                "votes": 2375,
                 "nsfw": false,
                 "archived": false
             },
@@ -5175,7 +4947,7 @@
                 "comment_text": "I am not your ex; I am not your father.",
                 "author": "toes_of_frogs",
                 "datetime": "2022-09-10 23:08:36 IST",
-                "votes": 14063,
+                "votes": 14061,
                 "nsfw": false,
                 "archived": true
             },
@@ -5187,7 +4959,7 @@
                 "comment_text": "\"Why don't you evertalk about your feelings?\" \n\n\"Because when my feelings are opposed to yours, yours are more important/valid\"",
                 "author": "[deleted]",
                 "datetime": "2022-09-11 01:15:08 IST",
-                "votes": 5163,
+                "votes": 5154,
                 "nsfw": false,
                 "archived": true
             },
@@ -5199,7 +4971,7 @@
                 "comment_text": "What's your plan, what are you going to try? I can give you some advice, I've been successfully managing my weight for decades.\n\nThe short version? Get adequate protein, get adequate fat in the form of healthy fats, limit carbs to hit your calorie target for the day. Calculate your TDEE to figure out what your calorie Target should be. That stands for total daily energy expenditure. I think /r/fitness will have a tdee calculator in the sidebar. You should be able to lose between half a pound to a pound a week that way.\n\nAlso make sure that you only measure your weight at the same time of day everyday. Don't measure before you go to bed. I usually measure in the morning before I get in the shower and before I've had any fluids.",
                 "author": "ryhaltswhiskey",
                 "datetime": "2022-09-12 00:58:02 IST",
-                "votes": 14,
+                "votes": 13,
                 "nsfw": false,
                 "archived": true
             },
@@ -5216,42 +4988,6 @@
                 "archived": true
             },
             {
-                "post_title": "YSK: Positive subs should be in your feed daily, especially now.",
-                "post_subreddit": "YouShouldKnow",
-                "post_url": "https://www.reddit.com/r/YouShouldKnow/comments/182w2ha/ysk_positive_subs_should_be_in_your_feed_daily/",
-                "comment_url": "https://reddit.com/r/YouShouldKnow/comments/182w2ha/ysk_positive_subs_should_be_in_your_feed_daily/kakzo1p/",
-                "comment_text": "r/wholesome\n\nr/wholesomememes\n\nr/wholesomepics\n\nr/wholesomegreentext\n\nr/HumansBeingBros\n\nr/Needafriend\n\nr/animalsbeingderps\n\nr/animalsbeingbros\n\nr/upliftingnews\n\nr/MadeMeSmile\n\nr/aww\n\nr/eyebleach\n\nr/hopeposting",
-                "author": "theredhype",
-                "datetime": "2023-11-24 22:16:59 IST",
-                "votes": 372,
-                "nsfw": false,
-                "archived": true
-            },
-            {
-                "post_title": "It's worth a watch I swear",
-                "post_subreddit": "memes",
-                "post_url": "https://www.reddit.com/r/memes/comments/173ctad/its_worth_a_watch_i_swear/",
-                "comment_url": "https://reddit.com/r/memes/comments/173ctad/its_worth_a_watch_i_swear/k42st0w/",
-                "comment_text": "Most of them are utter garbage, but the following are really good:\n- Bojack Horseman\n- Final Space\n- Castlevania\n- Cyberpunk: Edgerunners\n- The Great Pretender\n- F is for Family\n- The Midnight Gospel",
-                "author": "Next_Somewhere_8759",
-                "datetime": "2023-10-09 07:47:14 IST",
-                "votes": 621,
-                "nsfw": false,
-                "archived": false
-            },
-            {
-                "post_title": "Microsoft's mobile keyboard app SwiftKey gains new AI-powered features | TechCrunch",
-                "post_subreddit": "Android",
-                "post_url": "https://www.reddit.com/r/Android/comments/16rq0iz/microsofts_mobile_keyboard_app_swiftkey_gains_new/",
-                "comment_url": "https://reddit.com/r/Android/comments/16rq0iz/microsofts_mobile_keyboard_app_swiftkey_gains_new/k25477a/",
-                "comment_text": "I really like SwiftKey. Clipboard sync with Windows is a killer feature for me. And I am starting to use its built in browser search to quickly look up things and images too.\n\nHere's a quick comparison between SwiftKey and Gboard, if you are interested.\n\n* ~~SwiftKey has sync with Windows. A killer feature for quickly sharing text between your phone and your PC~~. This feature has been broken for over a year now and SwiftKey team does not know how to fix it. [They have started ignoring reports](https://old.reddit.com/r/Swiftkey/comments/1j43wna/any_updates_on_clipboard_sync_being_broken/). \n* SwiftKey has [Search](https://i.postimg.cc/knd4p94g/Sw-ift-Key-Search-20250103-160523.png), a browser inside the keyboard with a screenshot functionality. [Convenient for quick searches of information](https://streamable.com/mpxtx6) and images without leaving the underlying app. Another killer feature. UPDATE: Got replaced by a Chrome custom tab.\n* ~~SwiftKey has Bing Chat, a [CoPilot integration](https://i.postimg.cc/GtS8qk4X/Sw-ift-Key-Chat-3-20241120.png). Super useful. You can ask it questions and to do tasks right from the keyboard. Gboard does not integrate Gemini or anything else~~. [NOT ANYMORE](https://old.reddit.com/r/Swiftkey/comments/1ln6r7x/this_is_useless/n1b38ue). Some genius at SwiftKey decided to remove this very useful integration and replace it with [this](https://i.postimg.cc/y8TJG43J/Sw-ift-Key-Chat-6-20241120.png) instead. Gboard has no Gemini integration.\n* ~~SwiftKey has [Compose](https://i.postimg.cc/ZJzTWMXN/Sw-ift-Key-Compose-20241120.png). A text focused ChatGPT that helps you compose your text, corrects it, suggests improvements and alternatives. Very useful.~~ GONE TOO. Replaced by a weaker \"Tone\" feature.\n* SwiftKey has [DALL-E integration](https://i.postimg.cc/XvyG7zfN/Sw-ift-Key-DALLEGenerating-20250103-160010.png). You can ask it to [generate images for you](https://i.postimg.cc/LXKqq3Dt/Sw-ift-Key-DALLEGenerated-20250103-160039.png).\n* SwiftKey has [sticker generation using \"AI\"](https://i.postimg.cc/wBxfCDLk/Sw-ift-Key-Stickers-Generating-20250103-154605.png). [Result](https://i.postimg.cc/N0NJBLxv/Sw-ift-Key-Stickers-Generated-20250103-154615.png).\n* Both have pretty good GIF search. [An example from SwiftKey](https://i.postimg.cc/zB6xHMMd/Sw-ift-Key-Gifs-20250103-154656.png). \n* In SwiftKey, you can add your own images using [the \"Camera\" feature](https://i.postimg.cc/rsgzPXkj/Sw-ift-Key-Camera-20250103-160523.png). Unfortunately does not have a subject cut out feature. But you can add any image you want. A great place to store your memes. \n* [SwiftKey has arrow keys on the bottom](https://i.postimg.cc/YtF0RjtP/Sw-ift-Key-Caret-Control-Arrows-20250406-110922.png). Very convenient for quick caret placement. \n* ~~SwiftKey has an integration with Microsoft To Do, if you use it~~ - REMOVED.\n* SwiftKey keyboard UI wise looks and feels better to me than Gboard. I like its look and overall layout a lot more than Gboard's\n* Gboard has a [problem with resized keyboard](https://i.postimg.cc/wTBGn2YS/Sw-ift-Key-vs-Gboard-Normal-Resized.png) view. ~~Letters get resized too and become too small~~ Fixed in a later update.\n* ~~Gboard's voice dictation is much, much better than SwiftKey's.~~ SwiftKey has improved it on par with Gboard now\n* SwiftKey's vibration/haptic feedback is better than GBoard's. ~~For example, the gesture to swipe left and delete multiple words on SwiftKey feels better. You get a tactile \"bump\" every time you go over a word and select it.~~ Gboard has it now too\n* Gboard's personal dictionary can be edited, imported/exported locally. Very convenient and nice for those who like to back up configs themselves, like myself. For SwiftKey you need to go to Microsoft's website to remove custom words, and can't you back them up.\n* Gboard's swipe text input prediction is good! Still noticeably better than SwiftKey's in my experience.\n* ~~Gboard can copy-paste images.~~ SwiftKey can too now.\n* ~~Gboard has smart paste where it offers you pieces to paste from a large text you copied. SwiftKey Nintendon't!~~ It can now.\n* Gboard has smarter text replacement. You can tap anywhere, at the end of the word, in the middle of the word and it will replace the whole word with the suggestion you pick. SwiftKey requires you to place the caret at the end of the word (but it automatically does it for you when you tap on the word), otherwise, if you place the caret in the middle it'll just insert the new word between the letters of the current one. Example [here](https://www.reddit.com/r/Swiftkey/comments/15n8amq/can_we_steal_gboards_way_of_suggested_word/). \n* Both have a different approach to text capitalisation. I kinda prefer SwiftKey's because you just tap on the word and then tap the \"Shift\" key to cycle between different capitalisations, no selection required. But GBoard can change capitalisation on multiple words at once, when you select them, SwiftKey can't do that. \n* Both have nice shortcut toolbars above their keyboards with good shortcuts (Clipboard, gif/emoji/stickers, translate. SwiftKey also has Bing search, incognito mode and Gboard has text editing tools (arrows to move around the caret and select text/copy/paste - But SwiftKey already has arrow-keys-under-the-keyboard option, which is better placed). I prefer SwiftKey's toolbar because you can hide it, ~~even though you cannot [get rid of the (i) icon](https://www.reddit.com/r/Swiftkey/comments/13esn53/could_we_get_an_option_to_replace_the_permanently/)~~ You can now. \n* SwiftKey's clipboard menu is better laid out. Subjective though.\n* Gboard added flick keys to enter symbols. Neat SwiftKey does not have it\n* Gboard added the ability to hide stop and comma keys. SwiftKey does not have it\n* Both have shortcuts, but Gboard has better implementation. With SwiftKey they are mixed in with the clipboard section for some reason, while with Gboard they're in a separate place. Shortcuts don't need to be in the clipboard section, you set them once and then use them.\n* Both can save screenshots into clipboard\n* Both keyboards can be resized and moved around, including floating mode. I feel SwiftKey's is better though.\n* Both have themes, but SwiftKey has nicer themes.\n* Both have ASCII emoji, but Gboard has way more.\n* ~~Neither has \"Undo\" (only on swipe-back-on-backspace-to-delete).~~ Gboard has added undo, but if you switch apps, the undo cache is cleared. \n* [Both have dedicated voice dictation buttons](https://i.postimg.cc/1mv3XqK8/Sw-ift-Key-Voice-Dictation-20250406-110648.png). But Gboard's dictation works better. \n* Both have excellent [context-aware spelling suggestions](https://i.postimg.cc/hDsHVFhj/Sw-ift-Key-Context-Aware-Spelling-Suggestions-20250103-160523.png).\n* Both support auto-space after punctuation (US only, beta)\n* Both support double-tap-space to full stop\n* Both support slide/flow/swype\n* Both support slide-on-backspace to delete\n* Both let you adjust long press delay time\n* Both let you add a numbers row at the top of the keyboard\n* Both have a good text translation tool which enters the translated text in real time, as you type it.\n* Both have hold-space-key-to-move-caret-around - SwiftKey's goes vertically and horizontally though and it's logarithmic (movement speed varies depending on the speed of your gesture). Gboard's is only horizontal and it's constant speed. Gboard gives a haptic feedback letter by letter, SwiftKey doesn't. I prefer Gboard's.\n* ~~Neither has OCR input feature like Apple and now Samsung keyboards have~~. Gboard does now. SwiftKey does not.\n* Neither has [Subject Lift](https://www.youtube.com/watch?v=caJ4VICuzwg) stickers.\n\nSome feedback and suggested features for [SwiftKey](https://old.reddit.com/r/Swiftkey/comments/1gvwzu3/this_keyboard_gets_worse_with_each_update_who_is/). \n\nLAST UPDATED: 2025-10-29",
-                "author": "DiplomatikEmunetey",
-                "datetime": "2023-09-25 20:10:52 IST",
-                "votes": 41,
-                "nsfw": false,
-                "archived": true
-            },
-            {
                 "post_title": "I need advice on what are the important steps when someone dies. Please list steps.",
                 "post_subreddit": "delhi",
                 "post_url": "https://www.reddit.com/r/delhi/comments/16plm5h/i_need_advice_on_what_are_the_important_steps/",
@@ -5259,21 +4995,9 @@
                 "comment_text": "My father died a few months back, so I guess I am qualified\n1. Get a death certificate made from the nearest MCD, If your father dies in a hospital, the hospital will start the application process.\n\n2. Close and transfer all the bank accounts by showing that death certificate. If the account does not have a nominee, you need to get a survivor certificate made from the nearest MCD\n\n3. If your father has got a term life insurance, keep all his medical reports/records handy because these insurance agents are insensitive bastards and will say that your father had this issue, hence we cannot give the amount.\n\n4. In case of property you'll need to visit the SDM office or the housing board of that state to know more about the process because the inheritance rules are same throughout the country but funnily enough the process for obtaining that is different from state to state (My father owned a house in MP)\n\n5. NEVER, I REPEAT NEVER share your father's death certificate with anyone. If someone asks, tell them that you'll accompany them but do not send.\n\n6. If your family lives in a rented place, get the rent agreement remade into someone else's name from your family. \n\n7. Relatives ke samne kabhi bhi bank accounts, property, assets wagerah ki discussion mat karna. Naturally, after your father's death, you'll feel that it's just you and your family versus the world. Be cautious always. If the relatives are greedy AF, get the above processes done ASAP.\n\nIf you still have any doubts, feel free to reply to this comment",
                 "author": "Tatyavinchoo63",
                 "datetime": "2023-09-23 06:44:36 IST",
-                "votes": 89,
+                "votes": 91,
                 "nsfw": false,
                 "archived": false
-            },
-            {
-                "post_title": "[deleted by user]",
-                "post_subreddit": "developersIndia",
-                "post_url": "https://www.reddit.com/r/developersIndia/comments/15vmrhw/deleted_by_user/",
-                "comment_url": "https://reddit.com/r/developersIndia/comments/15vmrhw/deleted_by_user/jwweqsr/",
-                "comment_text": "I am backend and don't know much about frontend.\nSkills badhao don't get tied to a language framework.\nThe best way to become a good developer is by actually doing complicated projects.\nAlways be coding.\nLearn DSA this will help you in interviews and develop your problem solving skills\nteachyourselfcs.com\nDo tons of mock interviews.\n\nBiggest regret of my career was getting stuck in companies where there was no work and just politics.",
-                "author": "eternalfool",
-                "datetime": "2023-08-20 01:04:23 IST",
-                "votes": 228,
-                "nsfw": false,
-                "archived": true
             },
             {
                 "post_title": "What's the happiest 5-word sentence you could hear?",
@@ -5283,21 +5007,9 @@
                 "comment_text": "**So, what the hell DO you do if you are unlucky enough to win the lottery?**\n\nThis is the absolutely most important thing you can do right away: NOTHING.\n\n\nYes. Nothing.\n\n\nDO NOT DECLARE YOURSELF THE WINNER yet.\n\n\nDo NOT tell anyone. The urge is going to be nearly irresistible. Resist it. Trust me.\n\n\n/ 1.  IMMEDIATELY retain an attorney.\n\n Get a partner from a larger, NATIONAL firm. Don't let them pawn off junior partners or associates on you. They might try, all law firms might, but insist instead that your lead be a partner who has been with the firm for awhile. Do NOT use your local attorney. Yes, I mean your long-standing family attorney who did your mother's will. Do not use the guy who fought your dry-cleaner bill. Do not use the guy you have trusted your entire life because of his long and faithful service to your family. In fact, do not use any firm that has any connection to family or friends or community. TRUST me. This is bad. You want someone who has never heard of you, any of your friends, or any member of your family. Go the the closest big city and walk into one of the national firms asking for one of the \"Trust and Estates\" partners you have previously looked up on http://www.martindale.com from one of the largest 50 firms in the United States which has an office near you. You can look up attornies by practice area and firm on Martindale. \n\n\n\n/ 2. Decide to take the lump sum.\n\n Most lotteries pay a really pathetic rate for the annuity. It usually hovers around 4.5% annual return or less, depending. It doesn't take much to do better than this, and if you have the money already in cash, rather than leaving it in the hands of the state, you can pull from the capital whenever you like. If you take the annuity you won't have access to that cash. That could be good. It could be bad. It's probably bad unless you have a very addictive personality. If you need an allowance managed by the state, it is because you didn't listen to point #1 above.\n\n\nWhy not let the state just handle it for you and give you your allowance?\n\n\nMany state lotteries pay you your \"allowence\" (the annuity option) by buying U.S. treasury instruments and running the interest payments through their bureaucracy before sending it to you along with a hunk of the principal every month. You will not be beating inflation by much, if at all. There is no reason you couldn't do this yourself, if a low single-digit return is acceptable to you.\n\n\nYou aren't going to get even remotely the amount of the actual jackpot. Take our old friend Mr. Whittaker. Using Whittaker is a good model both because of the reminder of his ignominious decline, and the fact that his winning ticket was one of the larger ones on record. If his situation looks less than stellar to you, you might have a better perspective on how \"large\" your winnings aren't. Whittaker's \"jackpot\" was $315 million. He selected the lump-sum cash up-front option, which knocked off $145 million (or 46% of the total) leaving him with $170 million. That was then subject to withholding for taxes of $56 million (33%) leaving him with $114 million.\n\n\nIn general, you should expect to get about half of the original jackpot if you elect a lump sum (maybe better, it depends). After that, you should expect to lose around 33% of your already pruned figure to state and federal taxes. (Your mileage may vary, particularly if you live in a state with aggressive taxation schemes).\n\n\n/ 3. Decide right now, how much you plan to give to family and friends. \n\nThis really shouldn't be more than 20% or so. Figure it out right now. Pick your number. Tell your lawyer. That's it. Don't change it. 20% of $114 million is $22.8 million. That leaves you with $91.2 million. DO NOT CONSULT WITH FAMILY when deciding how much to give to family. You are going to get advice that is badly tainted by conflict of interest, and if other family members find out that Aunt Flo was consulted and they weren't you will never hear the end of it. Neither will Aunt Flo. This might later form the basis for an allegation that Aunt Flo unduly influenced you and a lawsuit might magically appear on this basis. No, I'm not kidding. I know of one circumstance (related to a business windfall, not a lottery) where the plaintiffs WON this case.\n\n\nDo NOT give anyone cash. Ever. Period. Just don't. Do not buy them houses. Do not buy them cars. Tell your attorney that you want to provide for your family, and that you want to set up a series of trusts for them that will total 20% of your after tax winnings. Tell him you want the trust empowered to fund higher education, some help (not a total) purchase of their first home, some provision for weddings and the like, whatever. Do NOT put yourself in the position of handing out cash. Once you do, if you stop, you will be accused of being a heartless bastard (or bitch). Trust me. It won't go well.\n\n\nIt will be easy to lose perspective. It is now the duty of your friends, family, relatives, hangers-on and their inner circle to skew your perspective, and they take this job quite seriously. Setting up a trust, a managed fund for your family that is in the double digit millions is AMAZINGLY generous. You need never have trouble sleeping because you didn't lend Uncle Jerry $20,000 in small denomination unmarked bills to start his chain of deep-fried peanut butter pancake restaurants. (\"Deep'n 'nutter Restaurants\") Your attorney will have a number of good ideas how to parse this wealth out without turning your siblings/spouse/children/grandchildren/cousins/waitresses into the latest Paris Hilton.\n\n\n^(Continued due to character Limit.) ",
                 "author": "BlakeClass",
                 "datetime": "2014-05-07 00:09:06 IST",
-                "votes": 2877,
+                "votes": 2878,
                 "nsfw": false,
                 "archived": true
-            },
-            {
-                "post_title": "On the search for a truly \"good\" UI framework.",
-                "post_subreddit": "webdev",
-                "post_url": "https://www.reddit.com/r/webdev/comments/14ot7sy/on_the_search_for_a_truly_good_ui_framework/",
-                "comment_url": "https://reddit.com/r/webdev/comments/14ot7sy/on_the_search_for_a_truly_good_ui_framework/jqem3oj/",
-                "comment_text": "Radix + Shadcn UI. You're welcome",
-                "author": "[deleted]",
-                "datetime": "2023-07-02 23:17:02 IST",
-                "votes": 57,
-                "nsfw": false,
-                "archived": false
             },
             {
                 "post_title": "[deleted by user]",
@@ -5307,7 +5019,7 @@
                 "comment_text": "[Full Stack Open](https://fullstackopen.com/en/)\n\nFor your situation, nothing else comes close. Do FSO and use chaptgpt to explain methods, higher order functions, and certain errors you get.\n\nSide note: appreciate the opportunity you have. A lot of people are working their asses off, are very knowledgeable, and can't break into the industry.",
                 "author": "Owldud",
                 "datetime": "2023-06-06 03:26:17 IST",
-                "votes": 232,
+                "votes": 231,
                 "nsfw": false,
                 "archived": true
             },
@@ -5319,7 +5031,7 @@
                 "comment_text": "I've said this to several people, and I'll say it to you. Talk to her like a regular person, imagine that you're talking to a guy if that makes things easier for you. \n\nAs for the crippling fear of being thought of as a creep, let me tell you this. Guys who get called creeps usually do creepy things. If you ask someone out, they say no and you keep your behaviour normal (not hostile, not trying to overstep boundaries, backing off) then you'll NEVER be called a creep. And if a person calls you a creep just for asking them out for a coffee or lunch, then something's wrong with them. \n\n**What you can do is:**\n\n1. Practice being around women normally first. When your anxiety goes away and you're finally comfortable around women, then you'll feel much more confident in yourself. \n\n2. Asking them how they are or how their day is going and giving compliments is always a good way to start conversations. *ETA- If you are unsure about the compliments and don't want to come across as weird/creepy, then compliments about things they've put an effort in are always nice, safe and can carry a conversation forward. For example, a good compliment + conversation starter can be \"I love your sneakers/outfit/any accessory, very minimal/colourful/quirky/subtle yet eye catching/bold/what a great statement piece\". A bad conversation starter is, \"your eyes/smile is so pretty\". Instead of that, maybe compliment her hair and ask her about her haircare routine.*\n\n3. Asking someone out doesn't always have to be \"will you go out on a date with me?\", you can always ask them if they want to have a coffee or lunch together till you get comfortable.\n\n4. I know it sounds harsh, but you'll have to face a few rejections to become more comfortable with it. The first one is going to hurt, the first few might be infuriating, but it'll take the fear away. Think about it; if interacting with women and asking one of them out is an exam, then you're not even putting yourself out there as of now. If you don't even apply for the exam, how will you ever clear it?\n\nAs long as you stay respectful and do not make others uncomfortable, you'll be perfectly alright. Hope this helps, good luck!\n\n*Edit for other commenters- Please stop with your disbelief and exasperation and don't make OP feel bad about it. Everybody is different, you also started somewhere, be supportive of someone who's trying to learn how to get better at something. Everybody starts somewhere, better late than never :)*",
                 "author": "[deleted]",
                 "datetime": "2023-05-30 19:40:34 IST",
-                "votes": 61,
+                "votes": 62,
                 "nsfw": false,
                 "archived": false
             },
@@ -5343,7 +5055,7 @@
                 "comment_text": "Some corporate do's/dont's: \n1. After you log off, don't reply to any work-related messages \n2. Socialise, but don't gossip \n3. Don't fall in love with your colleagues\n4. Ask for help when necessary\n5. Say yes to new work when you wanna explore outside your domain \n6. You may feel your boss is doing the same thing as you but getting paid 2x your salary but such is life \n7. Try to stay in the firm for at least 1 year (not applicable if your mental health is taking a hit) \n\nTrust me OP, you'll be fine and congrats on your new job.",
                 "author": "RedditUser0069420",
                 "datetime": "2023-03-14 08:41:37 IST",
-                "votes": 546,
+                "votes": 548,
                 "nsfw": false,
                 "archived": true
             },
@@ -5355,7 +5067,7 @@
                 "comment_text": "Hi \u2014 If you are talking about remote jobs within India, we can agree that job opportunities are decreasing. There is a lot of impetus for candidates to be able to come to offices, and this trend won't die down. Many significant companies will continue to follow a remote-first model, but the numbers will dwindle.\n\nHowever, for foreign companies, that's not the case. I have seen the hiring ramp up further, and many of my acquaintances have scored well in this field. If you are interested in such remote job opportunities, there are plenty of places where you can find open roles.\n\nSome of the boards that you can refer to, are:\n\n* [https://hnhiring.com/](https://hnhiring.com/)\n* [https://weworkremotely.com/](https://weworkremotely.com/)\n* [https://docs.google.com/spreadsheets/d/1TLJSlNxCbwRNxy14Toe1PYwbCTY7h0CNHeer9J0VRzE/edit#gid=1279011369](https://docs.google.com/spreadsheets/d/1TLJSlNxCbwRNxy14Toe1PYwbCTY7h0CNHeer9J0VRzE/edit#gid=1279011369)\n* [https://docs.google.com/spreadsheets/d/18bljq3y5YTxPLmA4xj10EaKxs1KWhIdLTr8bF1K5XKI/edit#gid=0](https://docs.google.com/spreadsheets/d/18bljq3y5YTxPLmA4xj10EaKxs1KWhIdLTr8bF1K5XKI/edit#gid=0)\n\nApart from these, you can look forward to discovering companies through LinkedIn, Twitter, Career pages, or even via individual connections. As far as I have seen, there are not enough specialization jobs (that you have mentioned!), but a strong proof-of-work to showcase that you can go beyond your present calling should suffice! \n\nE.g., The company where I work (based out of Zurich) is building a DevTool for DevOps/Cloud engineers, yet we don't have any specialized engineers for either Cloud or DevOps. Everyone gets to wear different hats as it is found fit!",
                 "author": "harshcasper",
                 "datetime": "2023-01-11 16:22:29 IST",
-                "votes": 35,
+                "votes": 36,
                 "nsfw": false,
                 "archived": true
             },
@@ -5367,7 +5079,7 @@
                 "comment_text": "These are some of the portals I know:\n- [https://angel.co/jobs](WellFound)\n- [https://www.ycombinator.com/jobs](YC Funded Startup Jobs)\n- [https://remoteok.com](RemoteOK)\n- [https://weworkremotely.com/](We Work Remotely)\n- [https://www.flexjobs.com](FlexJobs)\n- [https://remote.co/](RemoteCo)",
                 "author": "sivadass",
                 "datetime": "2023-01-07 20:12:24 IST",
-                "votes": 136,
+                "votes": 141,
                 "nsfw": false,
                 "archived": true
             },
@@ -5379,7 +5091,7 @@
                 "comment_text": "This was my experience 100%. Constantly afraid of when she was going to get angry out of nowhere",
                 "author": "[deleted]",
                 "datetime": "2022-11-29 18:27:04 IST",
-                "votes": 316,
+                "votes": 310,
                 "nsfw": false,
                 "archived": true
             }
