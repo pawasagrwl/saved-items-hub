@@ -138,8 +138,7 @@ def prompt_user_to_fetch():
 
 def get_saved_items_file():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    target_path = os.path.abspath(os.path.join(base_dir, "..", "src", "data", "saved_items.json"))
-    api_path = os.path.abspath(os.path.join(base_dir, "saved_items.json"))
+    target_path = os.path.abspath(os.path.join(base_dir, "..", "public", "saved_items.json"))
     
     data = None
     if os.path.exists(target_path):
@@ -148,18 +147,6 @@ def get_saved_items_file():
                 data = json.load(f)
                 if 'content' not in data:
                     data = None # Invalid data
-        except Exception:
-            data = None
-            
-    # If target is invalid or missing, try the fallback one in api/
-    if data is None and os.path.exists(api_path):
-        try:
-            with open(api_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                if 'content' in data:
-                    print(f"Recovered valid data from {api_path}")
-                else:
-                    data = None
         except Exception:
             data = None
             
