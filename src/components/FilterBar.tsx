@@ -3,6 +3,7 @@ import { useBulkSelect } from '@/context/BulkSelectContext';
 import { SortOption, NsfwFilter, ViewTab } from '@/types/reddit';
 import { ArrowUpDown, Filter, Tag, X, Plus, Calendar } from 'lucide-react';
 import BulkActions from '@/components/BulkActions';
+import VotesFilter from '@/components/VotesFilter';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
