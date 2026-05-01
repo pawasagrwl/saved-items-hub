@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { SavedItem, isPost, isComment, RedditPost, RedditComment } from '@/types/reddit';
 import { useApp } from '@/context/AppContext';
 import { useBulkSelect } from '@/context/BulkSelectContext';
-import { ExternalLink, ChevronDown, ChevronUp, ArrowUp, Image as ImageIcon } from 'lucide-react';
+import { ExternalLink, ArrowUp, Image as ImageIcon } from 'lucide-react';
 import { Checkbox } from '@/components/ui/checkbox';
 import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card';
 import ContentPreview from '@/components/ContentPreview';
