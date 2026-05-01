@@ -1,10 +1,10 @@
 {
-    "last_fetched_on": "2026-05-01 16:02:04 IST",
-    "last_fetch_duration": 3.1898553371429443,
+    "last_fetched_on": "2026-05-01 16:02:39 IST",
+    "last_fetch_duration": 6.999436140060425,
     "counts": {
         "subreddits": {
             "foundsatan": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_r681a/styles/communityIcon_wiv4ffadspz11.jpg"
             },
@@ -160,7 +160,7 @@
             },
             "developersIndia": {
                 "posts": 16,
-                "comments": 4,
+                "comments": 3,
                 "icon": "https://b.thumbs.redditmedia.com/v6GGyP2tC0O10P3Pnv8-GPr6eL5Z_br3Y2qX5ARvi3I.png"
             },
             "blackmirror": {
@@ -381,10 +381,10 @@
             },
             "100-1000": {
                 "posts": 71,
-                "comments": 7
+                "comments": 6
             },
             "1000-10000": {
-                "posts": 51,
+                "posts": 50,
                 "comments": 3
             },
             "10000-100000": {
@@ -397,10 +397,6 @@
             }
         },
         "dates": {
-            "2026-04": {
-                "posts": 1,
-                "comments": 0
-            },
             "2026-02": {
                 "posts": 2,
                 "comments": 1
@@ -611,7 +607,7 @@
             },
             "2023-08": {
                 "posts": 3,
-                "comments": 1
+                "comments": 0
             },
             "2023-07": {
                 "posts": 6,
@@ -669,24 +665,6 @@
     },
     "content": {
         "posts": [
-            {
-                "title": "You're projecting",
-                "author": "flowerdonkey",
-                "url": "https://reddit.com/r/foundsatan/comments/1swt78k/youre_projecting/",
-                "subreddit": "foundsatan",
-                "body": "",
-                "media": "https://v.redd.it/nnabt7r8tnxg1",
-                "media_type": "video",
-                "gallery": [],
-                "thumbnail": "https://external-preview.redd.it/emRvdmFqcjh0bnhnMYU_lSdVPyHAeNw0HqcjNhZDurIzW9lwoW9vLubcP03_.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp&s=84c370a072f5d620abb318ef170c5f5fc4b2557a",
-                "preview_image": "https://external-preview.redd.it/emRvdmFqcjh0bnhnMYU_lSdVPyHAeNw0HqcjNhZDurIzW9lwoW9vLubcP03_.png?format=pjpg&auto=webp&s=3189be4223cd6b0e24d40a9aed4d085650391db9",
-                "domain": "v.redd.it",
-                "datetime": "2026-04-27 09:50:30 IST",
-                "votes": 8953,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
             {
                 "title": "Article in Mint today about Childfree Indians",
                 "author": "_Live__and__Learn_",
@@ -5020,18 +4998,6 @@
                 "votes": 91,
                 "nsfw": false,
                 "archived": false
-            },
-            {
-                "post_title": "[deleted by user]",
-                "post_subreddit": "developersIndia",
-                "post_url": "https://www.reddit.com/r/developersIndia/comments/15vmrhw/deleted_by_user/",
-                "comment_url": "https://reddit.com/r/developersIndia/comments/15vmrhw/deleted_by_user/jwweqsr/",
-                "comment_text": "I am backend and don't know much about frontend.\nSkills badhao don't get tied to a language framework.\nThe best way to become a good developer is by actually doing complicated projects.\nAlways be coding.\nLearn DSA this will help you in interviews and develop your problem solving skills\nteachyourselfcs.com\nDo tons of mock interviews.\n\nBiggest regret of my career was getting stuck in companies where there was no work and just politics.",
-                "author": "eternalfool",
-                "datetime": "2023-08-20 01:04:23 IST",
-                "votes": 228,
-                "nsfw": false,
-                "archived": true
             },
             {
                 "post_title": "What's the happiest 5-word sentence you could hear?",
