@@ -48,10 +48,40 @@ export default function Header({ selectedCollectionId, onSelectCollection }: Pro
         className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl"
         style={{ paddingTop: 'env(safe-area-inset-top)' }}
       >
-        <div className="flex items-center gap-2 px-3 sm:px-4 h-14">
-          <h1 className="text-sm font-semibold tracking-tight hidden sm:block shrink-0">
-            <span className="text-gradient">Saved</span>
-            <span className="text-muted-foreground ml-1">Viewer</span>
+        {/* Mobile: dedicated title bar */}
+        <div className="md:hidden flex items-center justify-between px-3 h-12 border-b border-border/50">
+          <h1 className="text-sm font-semibold tracking-tight truncate">
+            <span className="text-gradient">Reddit</span>
+            <span className="text-foreground"> Saved Items</span>
+            <span className="text-muted-foreground"> Viewer</span>
+          </h1>
+          <ThemeToggle />
+        </div>
+
+        {/* Mobile: search + filter row */}
+        <div className="md:hidden flex items-center gap-2 px-3 h-12">
+          <div className="relative flex-1">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+            <input
+              type="text"
+              placeholder="Search…"
+              value={filters.search}
+              onChange={e => updateFilter('search', e.target.value)}
+              className="w-full h-9 bg-secondary border border-border rounded-md pl-9 pr-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-colors"
+            />
+          </div>
+          <MobileFilterSheet
+            selectedCollectionId={selectedCollectionId}
+            onSelectCollection={onSelectCollection}
+          />
+        </div>
+
+        {/* Desktop row */}
+        <div className="hidden md:flex items-center gap-3 px-4 h-14">
+          <h1 className="text-sm font-semibold tracking-tight shrink-0">
+            <span className="text-gradient">Reddit</span>
+            <span className="text-foreground"> Saved Items</span>
+            <span className="text-muted-foreground"> Viewer</span>
           </h1>
 
           <div className="flex-1 max-w-xl mx-auto">
@@ -65,15 +95,6 @@ export default function Header({ selectedCollectionId, onSelectCollection }: Pro
                 className="w-full h-9 bg-secondary border border-border rounded-md pl-9 pr-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-colors"
               />
             </div>
-          </div>
-
-          {/* Mobile: collapse everything into the sheet */}
-          <div className="md:hidden flex items-center gap-1 shrink-0">
-            <MobileFilterSheet
-              selectedCollectionId={selectedCollectionId}
-              onSelectCollection={onSelectCollection}
-            />
-            <ThemeToggle />
           </div>
 
           {/* Desktop: full toolbar */}
