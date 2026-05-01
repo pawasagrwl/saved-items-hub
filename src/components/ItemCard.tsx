@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { SavedItem, isPost, isComment, RedditPost, RedditComment } from '@/types/reddit';
 import { useApp } from '@/context/AppContext';
 import { useBulkSelect } from '@/context/BulkSelectContext';
-import { ExternalLink, ChevronDown, ChevronUp, ArrowUp, Image as ImageIcon } from 'lucide-react';
+import { ExternalLink, ArrowUp, Image as ImageIcon } from 'lucide-react';
 import { Checkbox } from '@/components/ui/checkbox';
 import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card';
 import ContentPreview from '@/components/ContentPreview';
@@ -40,27 +40,43 @@ function ItemCheckbox({ itemId }: { itemId: string }) {
   );
 }
 
-/** Infinity-style header row: icon + r/sub · u/author · time */
+/** Infinity-style header row: icon + r/sub / u/author    time (right) */
 function CardHeader({ subreddit, author, timestamp }: { subreddit: string; author: string; timestamp: number }) {
   const { subredditIcons } = useApp();
   const icon = subredditIcons[subreddit];
   return (
     <div className="flex items-center gap-2 mb-2 min-w-0">
-      {icon ? (
-        <img src={icon} alt="" className="h-7 w-7 rounded-full object-cover shrink-0 bg-secondary" loading="lazy" />
-      ) : (
-        <span className="h-7 w-7 rounded-full bg-primary/15 inline-flex items-center justify-center text-[11px] font-bold uppercase shrink-0 text-primary">
-          {subreddit.charAt(0)}
-        </span>
-      )}
-      <div className="flex flex-col min-w-0 leading-tight">
-        <span className="text-[13px] font-semibold text-red-500 truncate">r/{subreddit}</span>
-        <span className="text-[11px] text-muted-foreground truncate">
-          <span className="text-blue-400">u/{author}</span>
-          <span className="mx-1">·</span>
-          <span>{shortTime(timestamp)}</span>
-        </span>
+      <a
+        href={`https://www.reddit.com/r/${subreddit}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="shrink-0"
+        onClick={e => e.stopPropagation()}
+        aria-label={`Open r/${subreddit}`}
+      >
+        {icon ? (
+          <img src={icon} alt="" className="h-7 w-7 rounded-full object-cover bg-secondary" loading="lazy" />
+        ) : (
+          <span className="h-7 w-7 rounded-full bg-primary/15 inline-flex items-center justify-center text-[11px] font-bold uppercase text-primary">
+            {subreddit.charAt(0)}
+          </span>
+        )}
+      </a>
+      <div className="flex flex-col min-w-0 leading-tight flex-1">
+        <a
+          href={`https://www.reddit.com/r/${subreddit}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={e => e.stopPropagation()}
+          className="text-[13px] font-semibold text-red-500 truncate hover:underline w-fit max-w-full"
+        >
+          r/{subreddit}
+        </a>
+        <span className="text-[11px] text-blue-400 truncate">u/{author}</span>
       </div>
+      <span className="text-[11px] text-muted-foreground font-mono shrink-0 ml-2">
+        {shortTime(timestamp)}
+      </span>
     </div>
   );
 }
@@ -147,28 +163,20 @@ function PostCard({ item }: { item: RedditPost }) {
             </div>
           )}
 
-          {/* Bottom row: Open (left) · votes · expand */}
-          <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
+          {/* Bottom row: votes (left) · open (right) */}
+          <div className="flex items-center text-[11px] text-muted-foreground">
+            <span className="flex items-center gap-0.5 font-mono">
+              <ArrowUp className="h-3.5 w-3.5" />
+              {item.votes.toLocaleString()}
+            </span>
             <a
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 hover:text-foreground transition-colors"
+              className="ml-auto flex items-center gap-1 hover:text-foreground transition-colors"
             >
               <ExternalLink className="h-3.5 w-3.5" /> Open
             </a>
-
-            <span className="flex items-center gap-0.5 font-mono ml-auto">
-              <ArrowUp className="h-3 w-3" />
-              {item.votes.toLocaleString()}
-            </span>
-
-            {canExpand && (
-              <button onClick={() => setExpanded(!expanded)} className="flex items-center gap-0.5 hover:text-foreground transition-colors">
-                {expanded ? <ChevronUp className="h-3 w-3" /> : <ChevronDown className="h-3 w-3" />}
-                {expanded ? 'Less' : 'More'}
-              </button>
-            )}
           </div>
         </div>
       </div>
@@ -212,19 +220,19 @@ function CommentCard({ item }: { item: RedditComment }) {
             )}
           </div>
 
-          <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
+          <div className="flex items-center text-[11px] text-muted-foreground">
+            <span className="flex items-center gap-0.5 font-mono">
+              <ArrowUp className="h-3.5 w-3.5" />
+              {item.votes.toLocaleString()}
+            </span>
             <a
               href={item.comment_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 hover:text-foreground transition-colors"
+              className="ml-auto flex items-center gap-1 hover:text-foreground transition-colors"
             >
               <ExternalLink className="h-3.5 w-3.5" /> Open
             </a>
-            <span className="flex items-center gap-0.5 font-mono ml-auto">
-              <ArrowUp className="h-3 w-3" />
-              {item.votes.toLocaleString()}
-            </span>
           </div>
         </div>
       </div>
