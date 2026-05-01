@@ -13,6 +13,7 @@ import { useRef } from 'react';
 import StatsPanel from './StatsPanel';
 import CollectionsPanel from './CollectionsPanel';
 import BulkActions from './BulkActions';
+import VotesFilter from './VotesFilter';
 
 const sortLabels: Record<SortOption, string> = {
   newest: 'Newest First',
