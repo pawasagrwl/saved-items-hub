@@ -48,17 +48,16 @@ export default function Header({ selectedCollectionId, onSelectCollection }: Pro
         className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl"
         style={{ paddingTop: 'env(safe-area-inset-top)' }}
       >
-        {/* Mobile: dedicated title bar */}
-        <div className="md:hidden flex items-center justify-between px-3 h-12 border-b border-border/50">
-          <h1 className="text-sm font-semibold tracking-tight truncate">
+        {/* Mobile: centered title bar */}
+        <div className="md:hidden flex items-center justify-center px-3 h-12 border-b border-border/50">
+          <h1 className="text-sm font-semibold tracking-tight truncate text-center">
             <span className="text-gradient">Reddit</span>
             <span className="text-foreground"> Saved Items</span>
             <span className="text-muted-foreground"> Viewer</span>
           </h1>
-          <ThemeToggle />
         </div>
 
-        {/* Mobile: search + filter row */}
+        {/* Mobile: search + filter + theme row */}
         <div className="md:hidden flex items-center gap-2 px-3 h-12">
           <div className="relative flex-1">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
@@ -74,6 +73,7 @@ export default function Header({ selectedCollectionId, onSelectCollection }: Pro
             selectedCollectionId={selectedCollectionId}
             onSelectCollection={onSelectCollection}
           />
+          <ThemeToggle />
         </div>
 
         {/* Desktop row */}
