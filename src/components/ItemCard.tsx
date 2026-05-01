@@ -40,27 +40,43 @@ function ItemCheckbox({ itemId }: { itemId: string }) {
   );
 }
 
-/** Infinity-style header row: icon + r/sub · u/author · time */
+/** Infinity-style header row: icon + r/sub / u/author    time (right) */
 function CardHeader({ subreddit, author, timestamp }: { subreddit: string; author: string; timestamp: number }) {
   const { subredditIcons } = useApp();
   const icon = subredditIcons[subreddit];
   return (
     <div className="flex items-center gap-2 mb-2 min-w-0">
-      {icon ? (
-        <img src={icon} alt="" className="h-7 w-7 rounded-full object-cover shrink-0 bg-secondary" loading="lazy" />
-      ) : (
-        <span className="h-7 w-7 rounded-full bg-primary/15 inline-flex items-center justify-center text-[11px] font-bold uppercase shrink-0 text-primary">
-          {subreddit.charAt(0)}
-        </span>
-      )}
-      <div className="flex flex-col min-w-0 leading-tight">
-        <span className="text-[13px] font-semibold text-red-500 truncate">r/{subreddit}</span>
-        <span className="text-[11px] text-muted-foreground truncate">
-          <span className="text-blue-400">u/{author}</span>
-          <span className="mx-1">·</span>
-          <span>{shortTime(timestamp)}</span>
-        </span>
+      <a
+        href={`https://www.reddit.com/r/${subreddit}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="shrink-0"
+        onClick={e => e.stopPropagation()}
+        aria-label={`Open r/${subreddit}`}
+      >
+        {icon ? (
+          <img src={icon} alt="" className="h-7 w-7 rounded-full object-cover bg-secondary" loading="lazy" />
+        ) : (
+          <span className="h-7 w-7 rounded-full bg-primary/15 inline-flex items-center justify-center text-[11px] font-bold uppercase text-primary">
+            {subreddit.charAt(0)}
+          </span>
+        )}
+      </a>
+      <div className="flex flex-col min-w-0 leading-tight flex-1">
+        <a
+          href={`https://www.reddit.com/r/${subreddit}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={e => e.stopPropagation()}
+          className="text-[13px] font-semibold text-red-500 truncate hover:underline w-fit max-w-full"
+        >
+          r/{subreddit}
+        </a>
+        <span className="text-[11px] text-blue-400 truncate">u/{author}</span>
       </div>
+      <span className="text-[11px] text-muted-foreground font-mono shrink-0 ml-2">
+        {shortTime(timestamp)}
+      </span>
     </div>
   );
 }
