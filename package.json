@@ -12,7 +12,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "sync-data": "cd api && python fetchItems.py && cd .. && copy api\\src\\data\\saved_items.json public\\saved_items.json && git add . && git commit -m \"Update saved items data\" && git push",
+    "api": "cd api && python fetchItems.py && cd .. && copy api\\src\\data\\saved_items.json public\\saved_items.json && git add . && git commit -m \"Update saved items data\" && git push",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

@@ -1,73 +1,115 @@
-# Welcome to your Lovable project
+# Saved Items Hub
 
-## Project info
+Saved Items Hub is a modern, responsive web application and data pipeline designed to help you organize, filter, and view your saved Reddit posts and comments. 
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The project is split into two main parts:
+1. **Data Fetcher (`api/`)**: A Python script that connects to your Reddit account using PRAW, fetches all your saved items, categorizes them, and outputs them into a structured JSON file.
+2. **Web Dashboard (`src/`)**: A sleek React application built with Vite, TypeScript, Tailwind CSS, and shadcn/ui that visualizes your saved items with advanced filtering, collections, and insights.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Automated Fetching**: Python script to seamlessly fetch and update your saved Reddit items.
+- **Rich Dashboard**: Modern UI with dark/light mode support, optimized for both desktop and mobile.
+- **Advanced Filtering**: Filter your saved items by type (Posts vs. Comments), subreddits, date ranges, and upvotes.
+- **Collections & Bulk Actions**: Organize your items into custom collections and perform bulk operations.
+- **Insights**: View statistics about your saved items (e.g., top subreddits, vote distributions).
+- **One-Click Deploy**: Easy deployment to GitHub Pages.
 
-**Use Lovable**
+## Project Structure
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+```text
+saved-items-hub/
+├── api/                  # Python backend for data fetching
+│   ├── fetchItems.py     # Main Reddit API scraper
+│   ├── requirements.txt  # Python dependencies
+│   ├── .env_example      # Example environment variables
+│   └── README.md         # Detailed instructions for the fetcher
+├── src/                  # React frontend source code
+│   ├── components/       # Reusable UI components
+│   ├── context/          # React Context (App, BulkSelect)
+│   ├── pages/            # Application pages (Index, NotFound)
+│   └── ...
+├── public/               # Public assets and the generated saved_items.json
+├── package.json          # Node dependencies and scripts
+└── vite.config.ts        # Vite configuration
+```
 
-Changes made via Lovable will be committed automatically to this repo.
+## Prerequisites
 
-**Use your preferred IDE**
+Before running the application, ensure you have the following installed:
+- **Node.js** (v18 or higher) and **npm**
+- **Python** (3.6 or higher)
+- A **Reddit account** and API credentials.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Setup Instructions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 1. Install Frontend Dependencies
 
-Follow these steps:
+```bash
+# Install Node.js packages
+npm install
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 2. Configure Reddit API Credentials
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Go to [Reddit's App Preferences](https://www.reddit.com/prefs/apps) and create a new "Script" application.
+2. Set the redirect URI to `http://localhost:8080`.
+3. Note your `client_id` and `client_secret`.
+4. Create a `.env` file in the `api/` directory:
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+cd api
+cp .env_example .env
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+5. Edit `api/.env` with your Reddit credentials:
+```env
+REDDIT_CLIENT_ID=your_client_id
+REDDIT_CLIENT_SECRET=your_client_secret
+REDDIT_USERNAME=your_username
+REDDIT_PASSWORD=your_password
+```
+
+### 3. Install Backend Dependencies
+
+```bash
+# While in the api/ directory
+pip install -r requirements.txt
+```
+
+## Usage
+
+### Fetching Data
+
+To fetch the latest saved items from Reddit, run the automated `api` script from the root directory. This script runs the Python fetcher, copies the generated JSON file to the `public/` directory, and automatically commits and pushes the new data to your Git repository:
+
+```bash
+npm run api
+```
+
+*(Note: The first run might take some time as it performs a full sync of your saved items.)*
+
+### Running the App Locally
+
+Start the Vite development server to view the dashboard:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open your browser and navigate to `http://localhost:5173`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Deploying to GitHub Pages
 
-**Use GitHub Codespaces**
+The project is configured for easy deployment to GitHub Pages. To build and deploy the app:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run deploy
+```
 
-## What technologies are used for this project?
+## Technologies Used
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Frontend**: React, TypeScript, Vite
+- **UI & Styling**: Tailwind CSS, shadcn/ui, Radix UI, Lucide React, next-themes
+- **Backend / Data Pipeline**: Python, PRAW (Python Reddit API Wrapper)
+- **Deployment**: GitHub Pages (`gh-pages`)
