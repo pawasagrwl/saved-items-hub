@@ -2,30 +2,22 @@ import { useState } from 'react';
 import { SavedItem, isPost, isComment, RedditPost, RedditComment } from '@/types/reddit';
 import { useApp } from '@/context/AppContext';
 import { useBulkSelect } from '@/context/BulkSelectContext';
-import { ExternalLink, ArrowUp, Image as ImageIcon } from 'lucide-react';
+import { ExternalLink, ArrowUp, Image as ImageIcon, Archive } from 'lucide-react';
 import { Checkbox } from '@/components/ui/checkbox';
 import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card';
 import ContentPreview from '@/components/ContentPreview';
 import MediaRenderer from '@/components/MediaRenderer';
 import { resolveMediaType } from '@/lib/mediaDetect';
 
-/** Short relative time like Infinity: "5m", "2h", "3d", "4w", "6mo", "2y". */
+/** Formats time as absolute date/time in user's local timezone */
 function shortTime(timestamp: number): string {
-  const diff = Math.max(0, Date.now() - timestamp);
-  const s = Math.floor(diff / 1000);
-  if (s < 60) return `${s}s`;
-  const m = Math.floor(s / 60);
-  if (m < 60) return `${m}m`;
-  const h = Math.floor(m / 60);
-  if (h < 24) return `${h}h`;
-  const d = Math.floor(h / 24);
-  if (d < 7) return `${d}d`;
-  const w = Math.floor(d / 7);
-  if (w < 5) return `${w}w`;
-  const mo = Math.floor(d / 30);
-  if (mo < 12) return `${mo}mo`;
-  const y = Math.floor(d / 365);
-  return `${y}y`;
+  return new Date(timestamp).toLocaleString(undefined, {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  });
 }
 
 function ItemCheckbox({ itemId }: { itemId: string }) {
@@ -81,18 +73,37 @@ function CardHeader({ subreddit, author, timestamp }: { subreddit: string; autho
   );
 }
 
+const FLAIR_COLORS = [
+  'bg-blue-500/15 text-blue-400 border-blue-500/20',
+  'bg-emerald-500/15 text-emerald-400 border-emerald-500/20',
+  'bg-violet-500/15 text-violet-400 border-violet-500/20',
+  'bg-amber-500/15 text-amber-400 border-amber-500/20',
+  'bg-rose-500/15 text-rose-400 border-rose-500/20',
+  'bg-cyan-500/15 text-cyan-400 border-cyan-500/20',
+  'bg-fuchsia-500/15 text-fuchsia-400 border-fuchsia-500/20',
+  'bg-lime-500/15 text-lime-400 border-lime-500/20',
+];
+
+function getFlairColor(flair: string) {
+  let hash = 0;
+  for (let i = 0; i < flair.length; i++) {
+    hash = flair.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  return FLAIR_COLORS[Math.abs(hash) % FLAIR_COLORS.length];
+}
+
 function PostFlairs({ item }: { item: RedditPost }) {
   const mediaType = resolveMediaType(item);
   const isGallery = mediaType === 'gallery';
   return (
-    <div className="flex flex-wrap gap-1 mb-2">
+    <div className="flex flex-wrap gap-1 mb-2 items-center">
       {isGallery && (
         <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary text-secondary-foreground text-[10px] font-medium">
           <ImageIcon className="h-2.5 w-2.5" /> Gallery
         </span>
       )}
-      {item.flairs.map(flair => (
-        <span key={flair} className="px-1.5 py-0.5 rounded bg-secondary text-secondary-foreground text-[10px] font-medium">
+      {item.flairs.filter(f => f && f.trim() !== '').map(flair => (
+        <span key={flair} className={`px-1.5 py-0.5 rounded border text-[10px] font-medium ${getFlairColor(flair)}`}>
           {flair}
         </span>
       ))}
@@ -102,8 +113,8 @@ function PostFlairs({ item }: { item: RedditPost }) {
         </span>
       )}
       {item.archived && (
-        <span className="px-1.5 py-0.5 rounded bg-muted text-muted-foreground text-[10px]">
-          Archived
+        <span className="inline-flex items-center justify-center text-amber-500/60 ml-1" title="Archived">
+          <Archive className="h-3.5 w-3.5" />
         </span>
       )}
     </div>
