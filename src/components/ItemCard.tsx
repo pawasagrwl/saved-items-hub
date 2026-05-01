@@ -220,19 +220,19 @@ function CommentCard({ item }: { item: RedditComment }) {
             )}
           </div>
 
-          <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
+          <div className="flex items-center text-[11px] text-muted-foreground">
+            <span className="flex items-center gap-0.5 font-mono">
+              <ArrowUp className="h-3.5 w-3.5" />
+              {item.votes.toLocaleString()}
+            </span>
             <a
               href={item.comment_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 hover:text-foreground transition-colors"
+              className="ml-auto flex items-center gap-1 hover:text-foreground transition-colors"
             >
               <ExternalLink className="h-3.5 w-3.5" /> Open
             </a>
-            <span className="flex items-center gap-0.5 font-mono ml-auto">
-              <ArrowUp className="h-3 w-3" />
-              {item.votes.toLocaleString()}
-            </span>
           </div>
         </div>
       </div>
