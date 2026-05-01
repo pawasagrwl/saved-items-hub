@@ -12,7 +12,9 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "deploy": "cd api && python fetchItems.py && cd .. && copy api\\src\\data\\saved_items.json public\\saved_items.json && git add . && git commit -m \"Update saved items data\" && git push"
+    "sync-data": "cd api && python fetchItems.py && cd .. && copy api\\src\\data\\saved_items.json public\\saved_items.json && git add . && git commit -m \"Update saved items data\" && git push",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -78,6 +80,7 @@
     "eslint": "^9.32.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "jsdom": "^27.0.1",
     "lovable-tagger": "^1.1.13",
