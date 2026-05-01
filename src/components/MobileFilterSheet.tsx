@@ -13,6 +13,7 @@ import { useRef } from 'react';
 import StatsPanel from './StatsPanel';
 import CollectionsPanel from './CollectionsPanel';
 import BulkActions from './BulkActions';
+import VotesFilter from './VotesFilter';
 
 const sortLabels: Record<SortOption, string> = {
   newest: 'Newest First',
@@ -203,13 +204,7 @@ export default function MobileFilterSheet({ selectedCollectionId, onSelectCollec
 
             {/* Min votes */}
             <Section label="Minimum votes">
-              <input
-                type="number"
-                min={0}
-                value={filters.minVotes}
-                onChange={e => updateFilter('minVotes', parseInt(e.target.value) || 0)}
-                className="w-full h-10 bg-secondary border border-border rounded text-sm px-3 text-foreground font-mono focus:outline-none focus:ring-1 focus:ring-primary"
-              />
+              <VotesFilter variant="full" />
             </Section>
 
             {/* Tags */}

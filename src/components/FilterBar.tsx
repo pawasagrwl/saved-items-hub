@@ -3,6 +3,7 @@ import { useBulkSelect } from '@/context/BulkSelectContext';
 import { SortOption, NsfwFilter, ViewTab } from '@/types/reddit';
 import { ArrowUpDown, Filter, Tag, X, Plus, Calendar } from 'lucide-react';
 import BulkActions from '@/components/BulkActions';
+import VotesFilter from '@/components/VotesFilter';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
@@ -178,16 +179,7 @@ export default function FilterBar() {
           </div>
         )}
 
-        <div className="flex items-center gap-1 shrink-0">
-          <span className="text-[10px] text-muted-foreground uppercase tracking-wider">Min votes:</span>
-          <input
-            type="number"
-            min={0}
-            value={filters.minVotes}
-            onChange={e => updateFilter('minVotes', parseInt(e.target.value) || 0)}
-            className="w-16 h-8 bg-secondary border border-border rounded text-xs px-2 text-foreground font-mono focus:outline-none focus:ring-1 focus:ring-primary"
-          />
-        </div>
+        <VotesFilter variant="compact" />
 
         {/* Tag filter */}
         {userTags.tags.length > 0 && (
