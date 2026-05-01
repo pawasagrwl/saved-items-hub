@@ -57,39 +57,16 @@ export default function MediaRenderer({ post, expanded }: MediaRendererProps) {
   // ─── GALLERY ─────────────────────────────────────────────
   if (type === 'gallery' && post.gallery.length > 0) {
     return (
-      <>
-        <div className="relative mb-2 rounded overflow-hidden bg-secondary">
-          <NsfwOverlay />
-          <div
-            className={`flex overflow-x-auto snap-x snap-mandatory scrollbar-thin gap-1 ${blurClass}`}
-            style={{ scrollSnapType: 'x mandatory' }}
-          >
-            {post.gallery.map((src, i) => (
-              <button
-                key={src + i}
-                onClick={() => revealed && setLightboxIndex(i)}
-                className="shrink-0 snap-start w-full sm:w-2/3 cursor-zoom-in"
-                style={{ minWidth: '85%' }}
-              >
-                <img
-                  src={src}
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  className="max-h-[28rem] w-full object-contain bg-black/20"
-                />
-              </button>
-            ))}
-          </div>
-          <div className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-black/60 text-white text-[10px] font-mono flex items-center gap-1">
-            <ImageIcon className="h-2.5 w-2.5" />
-            {post.gallery.length}
-          </div>
-        </div>
-        {lightboxIndex !== null && (
-          <Lightbox images={post.gallery} startIndex={lightboxIndex} onClose={() => setLightboxIndex(null)} />
-        )}
-      </>
+      <GalleryViewer
+        images={post.gallery}
+        nsfw={post.nsfw}
+        revealed={revealed}
+        blurClass={blurClass}
+        NsfwOverlay={NsfwOverlay}
+        onOpenLightbox={(i) => setLightboxIndex(i)}
+        lightboxIndex={lightboxIndex}
+        onCloseLightbox={() => setLightboxIndex(null)}
+      />
     );
   }
 
