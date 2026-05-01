@@ -186,3 +186,65 @@ function LinkCard({ post }: { post: RedditPost }) {
     </a>
   );
 }
+
+interface GalleryViewerProps {
+  images: string[];
+  nsfw: boolean;
+  revealed: boolean;
+  blurClass: string;
+  NsfwOverlay: () => JSX.Element | null;
+  onOpenLightbox: (i: number) => void;
+  lightboxIndex: number | null;
+  onCloseLightbox: () => void;
+}
+
+function GalleryViewer({
+  images, nsfw, revealed, blurClass, NsfwOverlay, onOpenLightbox, lightboxIndex, onCloseLightbox,
+}: GalleryViewerProps) {
+  const scrollerRef = useState<HTMLDivElement | null>(null);
+  const [current, setCurrent] = useState(0);
+  const ref = useMemo(() => ({ current: null as HTMLDivElement | null }), []);
+
+  const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    const el = e.currentTarget;
+    const idx = Math.round(el.scrollLeft / el.clientWidth);
+    if (idx !== current && idx >= 0 && idx < images.length) setCurrent(idx);
+  };
+
+  return (
+    <>
+      <div className="relative mb-2 rounded overflow-hidden bg-secondary">
+        <NsfwOverlay />
+        <div
+          ref={(el) => { ref.current = el; }}
+          onScroll={handleScroll}
+          className={`flex overflow-x-auto snap-x snap-mandatory scrollbar-thin ${blurClass}`}
+          style={{ scrollSnapType: 'x mandatory' }}
+        >
+          {images.map((src, i) => (
+            <button
+              key={src + i}
+              onClick={() => revealed && onOpenLightbox(i)}
+              className="shrink-0 snap-start w-full cursor-zoom-in"
+            >
+              <img
+                src={src}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                className="max-h-[28rem] w-full object-contain bg-black/20"
+              />
+            </button>
+          ))}
+        </div>
+        {/* (m/n) counter — top-left like Infinity */}
+        <div className="absolute top-2 left-2 px-2 py-1 rounded-md bg-black/70 text-white text-xs font-semibold backdrop-blur-sm">
+          {current + 1}/{images.length}
+        </div>
+      </div>
+      {lightboxIndex !== null && (
+        <Lightbox images={images} startIndex={lightboxIndex} onClose={onCloseLightbox} />
+      )}
+    </>
+  );
+}
