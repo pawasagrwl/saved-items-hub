@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useCallback, useEffect, use
 import { SavedItem, FilterState, UserTags, FetchMetadata, SavedDataFile, normalizeData, getSubreddit } from '@/types/reddit';
 import { generateMockData } from '@/data/mockData';
 import { loadTags, saveTags, addTag, removeTag, assignTag, unassignTag } from '@/lib/tagStorage';
-import { filterAndSort } from '@/lib/filterEngine';
+import { filterAndSort, getSubredditBreakdown, SubredditCounts } from '@/lib/filterEngine';
 
 interface AppContextType {
   // Metadata
@@ -34,6 +34,7 @@ interface AppContextType {
   unsaveItem: (itemId: string) => void;
   loadFromJSON: (data: SavedDataFile) => void;
   availableSubreddits: string[];
+  subredditBreakdown: SubredditCounts[];
   subredditIcons: Record<string, string>;
 }
 
@@ -128,6 +129,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     return Array.from(subs).sort();
   }, [allItems]);
 
+  const subredditBreakdown = useMemo(() => getSubredditBreakdown(allItems), [allItems]);
+
   const filteredItems = useMemo(() =>
     filterAndSort(allItems, filters, userTags.assignments),
     [allItems, filters, userTags.assignments]
@@ -158,7 +161,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       fetchMetadata, allItems, filteredItems, isLoading, postCount, commentCount, isMockMode,
       filters, setFilters, updateFilter, resetFilters, yearBounds,
       userTags, createTag, deleteTag, tagItem, untagItem,
-      unsaveItem, loadFromJSON, availableSubreddits, subredditIcons,
+      unsaveItem, loadFromJSON, availableSubreddits, subredditBreakdown, subredditIcons,
     }}>
       {children}
     </AppContext.Provider>
