@@ -1,6 +1,6 @@
 {
-    "last_fetched_on": "2026-05-01 16:04:34 IST",
-    "last_fetch_duration": 7.228314399719238,
+    "last_fetched_on": "2026-05-02 12:57:29 IST",
+    "last_fetch_duration": 5.344154119491577,
     "counts": {
         "subreddits": {
             "foundsatan": {
@@ -29,7 +29,7 @@
                 "icon": ""
             },
             "CATpreparation": {
-                "posts": 29,
+                "posts": 25,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_2g7xmc/styles/communityIcon_3v01zjq4lftf1.png"
             },
@@ -376,11 +376,11 @@
         },
         "votes": {
             "0-100": {
-                "posts": 33,
+                "posts": 31,
                 "comments": 11
             },
             "100-1000": {
-                "posts": 71,
+                "posts": 69,
                 "comments": 6
             },
             "1000-10000": {
@@ -442,7 +442,7 @@
                 "comments": 0
             },
             "2024-12": {
-                "posts": 13,
+                "posts": 11,
                 "comments": 0
             },
             "2024-11": {
@@ -466,11 +466,11 @@
                 "comments": 0
             },
             "2024-04": {
-                "posts": 9,
+                "posts": 8,
                 "comments": 0
             },
             "2024-03": {
-                "posts": 6,
+                "posts": 5,
                 "comments": 0
             },
             "2020-02": {
@@ -1357,27 +1357,6 @@
                 "archived": true
             },
             {
-                "title": "GDPI Prep Guidance AMA",
-                "author": "S4G3R_BUG",
-                "url": "https://reddit.com/r/CATpreparation/comments/1h7a12c/gdpi_prep_guidance_ama/",
-                "subreddit": "CATpreparation",
-                "body": "Hello people. Congratulations to those who are scoring well, best of luck to those who want to do better.\n\nI'm an IIM Mumbai alum (2024 graduate), and I'm here to answer general questions about the GDPI preparation process. I'll list out some facts about me. It's not a show-off, even if it reads like it, it's to just establish credibility.\n\n**PI calls received:** IIM Indore, MDI, IIM Mumbai (erstwhile NITIE), IIM Shillong, SJMSOM, CAP (could not appear for XAT and IIFT for medical reasons) \n\n**Converted**: All except SJMSOM (technical issue during the PI)\n\n**In college:**\n\nCase-comp interview for SIP: cleared in one go.\n\nBest intern interview during SIP: cleared in one go\n\nCase-comp interview for final placements: cleared in one go.\n\nBasically, what I'm trying to show here is that my track record with PIs is very good. Every time I have appeared for a PI in the last 3 years, I've cleared it. I got placed for summers as well as finals through two different case-competitions, never had to sit for placements.\n\nI also took some mentees last year for GDPI prep (you can find that post on my profile) and had a good experience. Might do that this year also, not sure yet. I also serve as a mentor in a fairly well performing GDPI prep group. \n\nI feel like I have been in this process long enough to have gained some insights about the GDPI prep process, and I love helping aspirants out. I was helped when I needed it, so I'm just passing it forward. And now is the time when people start preparing for GDPI (as they should), so feels like a good time to clear up some basic doubts. \n\nPlease don't ask me which calls you can expect given your profile and expected CAT score. I'm here to specifically answer questions regarding the prep for GDPI. \n\nLooking forward to your questions, AMA!\n\nEdit: I forgot to add, I never took any paid GDPI course, my entire GPPI prep was done with the help of mentors I knew personally and through THEOMI. You can refer to my previous posts to know more about THEOMI, if you're interested. I won't be able to help with choosing a GDPI course, sorry.",
-                "media": "https://www.reddit.com/r/CATpreparation/comments/1h7a12c/gdpi_prep_guidance_ama/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.CATpreparation",
-                "datetime": "2024-12-05 19:41:01 IST",
-                "votes": 44,
-                "nsfw": false,
-                "flairs": [
-                    "Ask Me Anything (AMA) ",
-                    ""
-                ],
-                "archived": true
-            },
-            {
                 "title": "PI tips - Do not rush!",
                 "author": "Beginning-Count-3065",
                 "url": "https://reddit.com/r/CATpreparation/comments/1h73xmq/pi_tips_do_not_rush/",
@@ -1396,27 +1375,6 @@
                     "B-school Calls ",
                     "",
                     " "
-                ],
-                "archived": true
-            },
-            {
-                "title": "Developed a free online MBA Call predictor using RTI Data",
-                "author": "iiitstudent",
-                "url": "https://reddit.com/r/CATpreparation/comments/1h69ba6/developed_a_free_online_mba_call_predictor_using/",
-                "subreddit": "CATpreparation",
-                "body": "Hi everyone so I am a first-year student in IIM Calcutta and a Computer Science engineer so I built a really accurate call predictor using RTI data and adjusted them for marks vs percentile for this year accordingly. This is definitely probably the most accurate and comprehensive predictor you can find out there.\n\nFeatures\n\n1. Helps you with composite score calculation , composite score cutoffs and your status of that call based on your overall profile which you enter.\n2. Fast, easy to use and doesn't requires any login, email, response sheet link, application no or phone no. Doesn't stores any data of yours as it doesn't has any database attached.\n3. Following colleges are covered - IIM BLACKI MBA, IIM L ABM, IIM L SM, IIM K Fin, IIM K LSM, FMS, IIFT IB, IIFT BA, IIT B, IIT D(MBA and MBA telecom), IIM Mumbai(All 3 programs), IISc, CAP\n\nPlease share this predictor with your friends and do upvote this post. Open to any suggestions for further improvement.\n\nLink - [https://mba-call-predictor.vercel.app/](https://mba-call-predictor.vercel.app/)\n\nEdit - RTI data of 2024-26 for each college has been appropriately adjusted for CAT 2024 marks vs percentile according to the difference for each percentile and keeping in mind the weightage for CAT in shortlisting for that college like 50%/60%/70% and so on.\n\nEdit 2 -\n\nUpdates\n\n1. Fixed the issues with dark mode and visibility on some devices.\n2. Added a button to download the prediction table as a PNG image.\n3. Fixed some minor errors related to IIM Ahmedabad and IIFT.\n4. Increased colour formatting to make it more self-explanatory and fixed some typos.\n5. Fixed a bug due to which CFA and CA marks were not getting added for IIM K Finance.\n6. Fixed eligibility criteria for IIM K all 3 programs for people with professional qualification, fixed improper addition of class 12th marks in IIM K PGP Finance.\n7. Readjusted CS cut-offs for IIM Kozhikode(Reduced them) after in depth analysis of criteria and data.\n8. Readjusted Indore normalization for boards as the earlier version was showing higher scores then what they should have been and I am sorry for that as I made few errors in the normalisation formula.\n\n[mba-call-predictor](https://preview.redd.it/8aa1ntw2vr4e1.png?width=848&format=png&auto=webp&s=829f7756fd63bbc30769f54a8115bc0d35552a89)",
-                "media": "https://www.reddit.com/r/CATpreparation/comments/1h69ba6/developed_a_free_online_mba_call_predictor_using/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/E9Op9eWZXZORJf4rLXeWNd_rGW5-7qcDAojZVxRyIOU.jpg",
-                "preview_image": null,
-                "domain": "self.CATpreparation",
-                "datetime": "2024-12-04 11:30:55 IST",
-                "votes": 672,
-                "nsfw": false,
-                "flairs": [
-                    "Profile Review ",
-                    ""
                 ],
                 "archived": true
             },
@@ -1728,27 +1686,6 @@
                 "archived": true
             },
             {
-                "title": "XLRI JSR AMA",
-                "author": "creepyemperor",
-                "url": "https://reddit.com/r/CATpreparation/comments/1cdihg5/xlri_jsr_ama/",
-                "subreddit": "CATpreparation",
-                "body": "Senior at JSR-BM. SIP mai bore ho Raha hu. \nSome people have DMed with questions. To I thought let's answer any common questions. I will try to answer anything I can. \nShoot away!\nAnd congratulations to those who converted!",
-                "media": "https://i.redd.it/8rk6fwfj2twc1.jpeg",
-                "media_type": "image",
-                "gallery": [],
-                "thumbnail": "https://a.thumbs.redditmedia.com/84yx0CEugp0e60FITqtwESH2-zUU1g8P9T_W8lvuH-8.jpg",
-                "preview_image": "https://preview.redd.it/8rk6fwfj2twc1.jpeg?auto=webp&s=df82e59fea3d5086dd86a3a634e976dc279ef2b1",
-                "domain": "i.redd.it",
-                "datetime": "2024-04-26 16:32:14 IST",
-                "votes": 129,
-                "nsfw": false,
-                "flairs": [
-                    "AMA ",
-                    ""
-                ],
-                "archived": true
-            },
-            {
                 "title": "LPT: Create an \"In the event of my death\" document for your family.",
                 "author": "Remo_253",
                 "url": "https://reddit.com/r/LifeProTips/comments/1c7jt9z/lpt_create_an_in_the_event_of_my_death_document/",
@@ -1928,27 +1865,6 @@
                 "nsfw": false,
                 "flairs": [
                     "Words of Wisdom ",
-                    ""
-                ],
-                "archived": true
-            },
-            {
-                "title": "Reality check about placements this year!!!",
-                "author": "callmynmae143",
-                "url": "https://reddit.com/r/CATpreparation/comments/1b60hu4/reality_check_about_placements_this_year/",
-                "subreddit": "CATpreparation",
-                "body": "# All i am seeing on this sub is how over 50% of every B-school is unplaced this year and all that , should we even do an mba if we convert. I mean , it's so demotivating espeically after interviews that colleges that boase 17-18lpa avg are not able to give 10lpa to students. As a fresher , it frightens me even more , are these type of post all true or a way to create panic? ",
-                "media": "https://www.reddit.com/r/CATpreparation/comments/1b60hu4/reality_check_about_placements_this_year/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.CATpreparation",
-                "datetime": "2024-03-04 08:46:50 IST",
-                "votes": 36,
-                "nsfw": false,
-                "flairs": [
-                    "Discussion ",
                     ""
                 ],
                 "archived": true
