@@ -17,8 +17,7 @@ export default function MobileTabBar() {
 
   return (
     <nav
-      className="md:hidden sticky top-14 z-40 bg-background/95 backdrop-blur-xl border-b border-border"
-      style={{ paddingTop: 'env(safe-area-inset-top)' }}
+      className="md:hidden sticky top-24 z-40 bg-background/95 backdrop-blur-xl border-b border-border"
     >
       <div className="flex p-1 gap-1">
         {tabs.map(({ value, label, count, Icon }) => {

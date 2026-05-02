@@ -1,5 +1,28 @@
 import { SavedItem, FilterState, isPost, isComment, getSubreddit } from '@/types/reddit';
 
+export interface SubredditCounts {
+  name: string;
+  posts: number;
+  comments: number;
+  total: number;
+}
+
+export function getSubredditBreakdown(items: SavedItem[]): SubredditCounts[] {
+  const map = new Map<string, SubredditCounts>();
+  for (const item of items) {
+    const sub = getSubreddit(item);
+    let entry = map.get(sub);
+    if (!entry) {
+      entry = { name: sub, posts: 0, comments: 0, total: 0 };
+      map.set(sub, entry);
+    }
+    if (isPost(item)) entry.posts++;
+    else if (isComment(item)) entry.comments++;
+    entry.total++;
+  }
+  return Array.from(map.values());
+}
+
 export function filterAndSort(items: SavedItem[], filters: FilterState, tagAssignments: Record<string, string[]>): SavedItem[] {
   let result = [...items];
 

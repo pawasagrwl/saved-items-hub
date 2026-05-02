@@ -1,46 +1,14 @@
 import { useApp } from '@/context/AppContext';
-import { SavedDataFile } from '@/types/reddit';
-import { Search, Download, BarChart3, Upload } from 'lucide-react';
-import { exportToJSON, exportToCSV } from '@/lib/exportData';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
+import { Search, BarChart3 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ThemeToggle from '@/components/ThemeToggle';
 import MobileFilterSheet from '@/components/MobileFilterSheet';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import StatsPanel from '@/components/StatsPanel';
 
-interface Props {
-  selectedCollectionId: string | null;
-  onSelectCollection: (id: string | null) => void;
-}
-
-export default function Header({ selectedCollectionId, onSelectCollection }: Props) {
-  const { filters, updateFilter, allItems, userTags, isMockMode, loadFromJSON } = useApp();
+export default function Header() {
+  const { filters, updateFilter, isMockMode } = useApp();
   const [showStats, setShowStats] = useState(false);
-  const fileInputRef = useRef<HTMLInputElement>(null);
-
-  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (ev) => {
-      try {
-        const data = JSON.parse(ev.target?.result as string) as SavedDataFile;
-        if (data.content?.posts && data.content?.comments) {
-          loadFromJSON(data);
-        }
-      } catch (err) {
-        console.error('Invalid JSON file', err);
-      }
-    };
-    reader.readAsText(file);
-    e.target.value = '';
-  };
 
   return (
     <>
@@ -57,9 +25,19 @@ export default function Header({ selectedCollectionId, onSelectCollection }: Pro
           </h1>
         </div>
 
-        {/* Mobile: search + filter + theme row */}
+        {/* Mobile: stats + search + filter + theme row */}
         <div className="md:hidden flex items-center gap-2 px-3 h-12">
-          <div className="relative flex-1">
+          <Button
+            variant="ghost"
+            size="sm"
+            className="h-9 w-9 p-0 shrink-0 text-muted-foreground hover:text-foreground"
+            onClick={() => setShowStats(true)}
+            title="Statistics"
+            aria-label="Statistics"
+          >
+            <BarChart3 className="h-4 w-4" />
+          </Button>
+          <div className="relative flex-1 min-w-0">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <input
               type="text"
@@ -69,10 +47,7 @@ export default function Header({ selectedCollectionId, onSelectCollection }: Pro
               className="w-full h-9 bg-secondary border border-border rounded-md pl-9 pr-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition-colors"
             />
           </div>
-          <MobileFilterSheet
-            selectedCollectionId={selectedCollectionId}
-            onSelectCollection={onSelectCollection}
-          />
+          <MobileFilterSheet />
           <ThemeToggle />
         </div>
 
@@ -97,25 +72,7 @@ export default function Header({ selectedCollectionId, onSelectCollection }: Pro
             </div>
           </div>
 
-          {/* Desktop: full toolbar */}
-          <div className="hidden md:flex items-center gap-1 shrink-0">
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept=".json"
-              onChange={handleFileUpload}
-              className="hidden"
-            />
-            <Button
-              variant="ghost"
-              size="sm"
-              className="h-8 w-8 p-0 text-muted-foreground hover:text-foreground"
-              onClick={() => fileInputRef.current?.click()}
-              title="Load saved_items.json"
-            >
-              <Upload className="h-4 w-4" />
-            </Button>
-
+          <div className="flex items-center gap-1 shrink-0">
             <Button
               variant="ghost"
               size="sm"
@@ -125,22 +82,6 @@ export default function Header({ selectedCollectionId, onSelectCollection }: Pro
             >
               <BarChart3 className="h-4 w-4" />
             </Button>
-
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="sm" className="h-8 w-8 p-0 text-muted-foreground hover:text-foreground">
-                  <Download className="h-4 w-4" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="end">
-                <DropdownMenuItem onClick={() => exportToJSON(allItems, userTags.assignments)}>
-                  Export as JSON
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => exportToCSV(allItems, userTags.assignments)}>
-                  Export as CSV
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
 
             <ThemeToggle />
 

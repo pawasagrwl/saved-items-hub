@@ -1,9 +1,9 @@
 import { useApp } from '@/context/AppContext';
-import { useBulkSelect } from '@/context/BulkSelectContext';
 import { SortOption, NsfwFilter, ViewTab } from '@/types/reddit';
 import { ArrowUpDown, Filter, Tag, X, Plus, Calendar } from 'lucide-react';
 import BulkActions from '@/components/BulkActions';
 import VotesFilter from '@/components/VotesFilter';
+import SubredditPicker from '@/components/SubredditPicker';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
@@ -36,8 +36,7 @@ const nsfwLabels: Record<NsfwFilter, string> = {
 };
 
 export default function FilterBar() {
-  const { filters, updateFilter, resetFilters, availableSubreddits, postCount, commentCount, filteredItems, userTags, createTag, yearBounds } = useApp();
-  const [subSearch, setSubSearch] = useState('');
+  const { filters, updateFilter, resetFilters, postCount, commentCount, filteredItems, userTags, createTag, yearBounds } = useApp();
   const [newTag, setNewTag] = useState('');
   const [subModalOpen, setSubModalOpen] = useState(false);
 
@@ -47,7 +46,6 @@ export default function FilterBar() {
     { value: 'comments', label: 'Comments', count: commentCount },
   ];
 
-  const filteredSubs = availableSubreddits.filter(s => s.toLowerCase().includes(subSearch.toLowerCase()));
   const hasActiveFilters = filters.subreddits.length > 0 || filters.minVotes > 0 || filters.nsfwFilter !== 'hide' || filters.tags.length > 0 ||
     (filters.yearRange[0] !== yearBounds[0] || filters.yearRange[1] !== yearBounds[1]);
 
@@ -113,52 +111,7 @@ export default function FilterBar() {
             <DialogHeader>
               <DialogTitle className="text-sm">Filter by Subreddit</DialogTitle>
             </DialogHeader>
-            <div className="space-y-3">
-              <input
-                type="text"
-                placeholder="Search subreddits…"
-                value={subSearch}
-                onChange={e => setSubSearch(e.target.value)}
-                className="w-full h-9 bg-secondary border border-border rounded-md text-sm px-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary"
-                autoFocus
-              />
-              {filters.subreddits.length > 0 && (
-                <div className="flex flex-wrap gap-1">
-                  {filters.subreddits.map(sub => (
-                    <span key={sub} className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-primary/15 text-primary text-xs">
-                      r/{sub}
-                      <button onClick={() => updateFilter('subreddits', filters.subreddits.filter(s => s !== sub))}>
-                        <X className="h-3 w-3" />
-                      </button>
-                    </span>
-                  ))}
-                  <Button variant="ghost" size="sm" className="h-7 text-xs" onClick={() => updateFilter('subreddits', [])}>
-                    Clear all
-                  </Button>
-                </div>
-              )}
-              <div className="max-h-64 overflow-y-auto scrollbar-thin space-y-0.5">
-                {filteredSubs.map(sub => (
-                  <label key={sub} className="flex items-center gap-2.5 px-2 py-1.5 rounded-md text-sm hover:bg-secondary cursor-pointer">
-                    <input
-                      type="checkbox"
-                      checked={filters.subreddits.includes(sub)}
-                      onChange={() => {
-                        const next = filters.subreddits.includes(sub)
-                          ? filters.subreddits.filter(s => s !== sub)
-                          : [...filters.subreddits, sub];
-                        updateFilter('subreddits', next);
-                      }}
-                      className="rounded border-border"
-                    />
-                    <span className="text-foreground">r/{sub}</span>
-                  </label>
-                ))}
-                {filteredSubs.length === 0 && (
-                  <p className="text-sm text-muted-foreground text-center py-4">No subreddits match</p>
-                )}
-              </div>
-            </div>
+            <SubredditPicker variant="compact" />
           </DialogContent>
         </Dialog>
 

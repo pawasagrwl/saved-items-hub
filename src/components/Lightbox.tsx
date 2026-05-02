@@ -45,52 +45,73 @@ export default function Lightbox({ images, startIndex = 0, onClose }: LightboxPr
 
   return (
     <div
-      className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center animate-fade-in"
+      className="fixed inset-0 z-[100] bg-black/95 flex flex-col animate-fade-in"
       onClick={onClose}
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
     >
-      <button
-        onClick={(e) => { e.stopPropagation(); onClose(); }}
-        className="absolute top-4 right-4 z-10 h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center backdrop-blur"
-        aria-label="Close"
+      {/* Top bar — keeps close button out of image area */}
+      <div
+        className="shrink-0 h-12 flex items-center justify-end px-3 bg-black/40"
+        style={{ paddingTop: 'env(safe-area-inset-top)' }}
       >
-        <X className="h-5 w-5" />
-      </button>
-
-      {multi && (
         <button
-          onClick={(e) => { e.stopPropagation(); prev(); }}
-          className="absolute left-2 sm:left-4 z-10 h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center backdrop-blur"
-          aria-label="Previous"
+          onClick={(e) => { e.stopPropagation(); onClose(); }}
+          className="h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center backdrop-blur"
+          aria-label="Close"
         >
-          <ChevronLeft className="h-5 w-5" />
+          <X className="h-5 w-5" />
         </button>
-      )}
+      </div>
 
-      <img
-        src={images[index]}
-        alt=""
-        className="max-w-[95vw] max-h-[90vh] object-contain select-none"
-        onClick={(e) => e.stopPropagation()}
-        draggable={false}
-      />
+      {/* Image area with side controls reserved as columns so buttons never overlap */}
+      <div className="flex-1 flex items-stretch min-h-0">
+        {multi ? (
+          <div className="shrink-0 w-12 sm:w-16 flex items-center justify-center">
+            <button
+              onClick={(e) => { e.stopPropagation(); prev(); }}
+              className="h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center backdrop-blur"
+              aria-label="Previous"
+            >
+              <ChevronLeft className="h-5 w-5" />
+            </button>
+          </div>
+        ) : <div className="shrink-0 w-3 sm:w-6" />}
 
-      {multi && (
-        <button
-          onClick={(e) => { e.stopPropagation(); next(); }}
-          className="absolute right-2 sm:right-4 z-10 h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center backdrop-blur"
-          aria-label="Next"
-        >
-          <ChevronRight className="h-5 w-5" />
-        </button>
-      )}
-
-      {multi && (
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full bg-white/10 backdrop-blur text-white text-xs font-mono">
-          {index + 1} / {images.length}
+        <div className="flex-1 flex items-center justify-center min-w-0 px-1">
+          <img
+            src={images[index]}
+            alt=""
+            className="max-w-full max-h-full object-contain select-none"
+            onClick={(e) => e.stopPropagation()}
+            draggable={false}
+          />
         </div>
-      )}
+
+        {multi ? (
+          <div className="shrink-0 w-12 sm:w-16 flex items-center justify-center">
+            <button
+              onClick={(e) => { e.stopPropagation(); next(); }}
+              className="h-10 w-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center backdrop-blur"
+              aria-label="Next"
+            >
+              <ChevronRight className="h-5 w-5" />
+            </button>
+          </div>
+        ) : <div className="shrink-0 w-3 sm:w-6" />}
+      </div>
+
+      {/* Bottom counter bar — keeps it off the image */}
+      <div
+        className="shrink-0 h-10 flex items-center justify-center bg-black/40"
+        style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
+      >
+        {multi && (
+          <div className="px-3 py-1 rounded-full bg-white/10 backdrop-blur text-white text-xs font-mono">
+            {index + 1} / {images.length}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
