@@ -1,23 +1,20 @@
 import { AppProvider, useApp } from '@/context/AppContext';
 import { BulkSelectProvider, useBulkSelect } from '@/context/BulkSelectContext';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import FilterBar from '@/components/FilterBar';
 import ItemCard from '@/components/ItemCard';
 import InsightsPanel from '@/components/InsightsPanel';
 import BulkActions from '@/components/BulkActions';
-import CollectionsPanel from '@/components/CollectionsPanel';
-import { useCollections } from '@/components/CollectionsPanel';
 import MobileTabBar from '@/components/MobileTabBar';
 import { Loader2, ArrowUp } from 'lucide-react';
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ThemeProvider } from 'next-themes';
 import { Button } from '@/components/ui/button';
 
 function Dashboard() {
   const { filteredItems, isLoading, allItems } = useApp();
   const { isActive: bulkActive } = useBulkSelect();
-  const [selectedCollectionId, setSelectedCollectionId] = useState<string | null>(null);
-  const { collections } = useCollections();
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
@@ -26,13 +23,7 @@ function Dashboard() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const displayItems = useMemo(() => {
-    if (!selectedCollectionId) return filteredItems;
-    const col = collections.find(c => c.id === selectedCollectionId);
-    if (!col) return filteredItems;
-    const idSet = new Set(col.itemIds);
-    return filteredItems.filter(item => idSet.has(item.id));
-  }, [filteredItems, selectedCollectionId, collections]);
+  const displayItems = filteredItems;
 
   if (isLoading) {
     return (
@@ -47,10 +38,7 @@ function Dashboard() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <Header
-        selectedCollectionId={selectedCollectionId}
-        onSelectCollection={setSelectedCollectionId}
-      />
+      <Header />
 
       {/* Mobile segmented tabs — clear division between All / Posts / Comments */}
       <MobileTabBar />
@@ -67,17 +55,6 @@ function Dashboard() {
       )}
 
       <div className="flex-1 flex gap-4 p-2 sm:p-4 max-w-[1600px] mx-auto w-full">
-        {allItems.length > 0 && (
-          <div className="hidden lg:block w-56 shrink-0">
-            <div className="sticky top-16 space-y-3">
-              <CollectionsPanel
-                selectedCollectionId={selectedCollectionId}
-                onSelectCollection={setSelectedCollectionId}
-              />
-            </div>
-          </div>
-        )}
-
         <div className="flex-1 min-w-0">
           {displayItems.length === 0 ? (
             <div className="flex items-center justify-center h-64 text-muted-foreground text-sm px-4 text-center">
@@ -105,13 +82,15 @@ function Dashboard() {
         <Button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           size="sm"
-          className="md:hidden fixed bottom-4 right-4 h-10 w-10 p-0 rounded-full shadow-lg z-40"
+          className="md:hidden fixed bottom-14 right-4 h-10 w-10 p-0 rounded-full shadow-lg z-40"
           style={{ marginBottom: 'env(safe-area-inset-bottom)' }}
           aria-label="Scroll to top"
         >
           <ArrowUp className="h-4 w-4" />
         </Button>
       )}
+
+      <Footer />
     </div>
   );
 }
