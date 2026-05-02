@@ -1,7 +1,7 @@
 import { Github } from 'lucide-react';
 import { useApp } from '@/context/AppContext';
 
-const GITHUB_URL = 'https://github.com/pawasaggarwal';
+const GITHUB_URL = 'https://github.com/pawasagrwl/saved-items-hub';
 
 function formatLastUpdated(iso?: string | null): string {
   if (!iso) return 'Never';
