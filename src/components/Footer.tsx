@@ -10,34 +10,36 @@ function formatLastUpdated(iso?: string | null): string {
   return d.toLocaleString(undefined, {
     year: 'numeric', month: 'short', day: 'numeric',
     hour: '2-digit', minute: '2-digit',
+    hour12: false,
   });
 }
 
 export default function Footer() {
   const { fetchMetadata } = useApp();
+  const year = new Date().getFullYear();
   return (
     <footer
       className="sticky bottom-0 z-30 border-t border-border bg-background/90 backdrop-blur-xl"
       style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
     >
-      <div className="grid grid-cols-3 items-center gap-2 px-3 sm:px-4 h-9 text-[11px] text-muted-foreground">
+      <div className="grid grid-cols-[auto_1fr_auto] items-center gap-2 px-2 sm:px-4 h-9 text-[11px] text-muted-foreground">
         <a
           href={GITHUB_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 hover:text-foreground transition-colors justify-self-start truncate"
+          className="flex items-center gap-1.5 hover:text-foreground transition-colors"
           aria-label="GitHub"
         >
           <Github className="h-3.5 w-3.5" />
           <span className="hidden sm:inline">GitHub</span>
         </a>
-        <div className="text-center truncate font-mono text-[10px] sm:text-[11px]">
+        <div className="text-center truncate font-mono text-[10px] sm:text-[11px] min-w-0">
           <span className="hidden sm:inline">Last updated: </span>
-          <span className="sm:hidden">Updated </span>
+          <span className="sm:hidden">Upd </span>
           {formatLastUpdated(fetchMetadata?.lastFetchedOn)}
         </div>
-        <div className="justify-self-end truncate text-[10px] sm:text-[11px]">
-          © Pawas Aggarwal
+        <div className="truncate text-[10px] sm:text-[11px]">
+          © Pawas Aggarwal {year}
         </div>
       </div>
     </footer>

@@ -52,7 +52,7 @@ export default function MobileFilterSheet() {
 
       <SheetContent
         side="bottom"
-        className="h-[88vh] max-h-[88vh] overflow-hidden p-0 rounded-t-2xl flex flex-col gap-0"
+        className="h-[88dvh] max-h-[88dvh] overflow-hidden p-0 rounded-t-2xl flex flex-col gap-0 z-[70]"
       >
         <SheetHeader className="shrink-0 bg-background border-b border-border px-4 py-3">
           <SheetTitle className="text-sm flex items-center justify-between pr-8">
