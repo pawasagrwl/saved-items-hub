@@ -1,6 +1,6 @@
 {
-    "last_fetched_on": "2026-05-02 12:57:29 IST",
-    "last_fetch_duration": 5.344154119491577,
+    "last_fetched_on": "2026-05-04 11:28:29 IST",
+    "last_fetch_duration": 6.159043788909912,
     "counts": {
         "subreddits": {
             "foundsatan": {
@@ -70,7 +70,7 @@
             },
             "cscareerquestions": {
                 "posts": 15,
-                "comments": 1,
+                "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/Lpbu8WMV1n1QtY74rDWICSzeURLPrelOyKjHuGDM0Gs.png"
             },
             "pianolearning": {
@@ -79,7 +79,7 @@
                 "icon": "https://styles.redditmedia.com/t5_39v5s/styles/communityIcon_f8k2rmx42os41.png"
             },
             "AskReddit": {
-                "posts": 25,
+                "posts": 24,
                 "comments": 3,
                 "icon": "https://b.thumbs.redditmedia.com/LSHrisQApf1H5F8nWShTx3_KjTOMc3R_ss3kx3XAyXQ.png"
             },
@@ -164,7 +164,7 @@
                 "icon": "https://b.thumbs.redditmedia.com/v6GGyP2tC0O10P3Pnv8-GPr6eL5Z_br3Y2qX5ARvi3I.png"
             },
             "blackmirror": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://a.thumbs.redditmedia.com/0v5KPH7IBPqNXkCfJW_DrkbXacH1vbHU_2nmkG80qa0.png"
             },
@@ -219,7 +219,7 @@
                 "icon": ""
             },
             "InclinedBedTherapy": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": ""
             },
@@ -305,7 +305,7 @@
             },
             "learnprogramming": {
                 "posts": 2,
-                "comments": 1,
+                "comments": 0,
                 "icon": ""
             },
             "cartoons": {
@@ -376,12 +376,12 @@
         },
         "votes": {
             "0-100": {
-                "posts": 31,
-                "comments": 11
+                "posts": 29,
+                "comments": 10
             },
             "100-1000": {
-                "posts": 69,
-                "comments": 6
+                "posts": 68,
+                "comments": 5
             },
             "1000-10000": {
                 "posts": 50,
@@ -482,12 +482,12 @@
                 "comments": 0
             },
             "2020-05": {
-                "posts": 4,
+                "posts": 3,
                 "comments": 0
             },
             "2020-04": {
                 "posts": 1,
-                "comments": 1
+                "comments": 0
             },
             "2020-06": {
                 "posts": 2,
@@ -495,10 +495,6 @@
             },
             "2020-08": {
                 "posts": 9,
-                "comments": 0
-            },
-            "2011-04": {
-                "posts": 1,
                 "comments": 0
             },
             "2020-09": {
@@ -523,10 +519,6 @@
             },
             "2021-01": {
                 "posts": 2,
-                "comments": 0
-            },
-            "2019-09": {
-                "posts": 1,
                 "comments": 0
             },
             "2021-02": {
@@ -599,7 +591,7 @@
             },
             "2023-06": {
                 "posts": 14,
-                "comments": 1
+                "comments": 0
             },
             "2023-09": {
                 "posts": 2,
@@ -1981,26 +1973,6 @@
                 "archived": true
             },
             {
-                "title": "Are there any other series similar to Black Mirror?",
-                "author": "FPSJeff",
-                "url": "https://reddit.com/r/blackmirror/comments/ghv16t/are_there_any_other_series_similar_to_black_mirror/",
-                "subreddit": "blackmirror",
-                "body": "I just finished Inside Number 9, a series on BBC and Netflix which shares some similarities to BM and was wondering if there were any other similar series",
-                "media": "https://www.reddit.com/r/blackmirror/comments/ghv16t/are_there_any_other_series_similar_to_black_mirror/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.blackmirror",
-                "datetime": "2020-05-12 01:19:56 IST",
-                "votes": 736,
-                "nsfw": false,
-                "flairs": [
-                    "DISCUSSION"
-                ],
-                "archived": false
-            },
-            {
                 "title": "MEGA-PIRACY-WIKI",
                 "author": "nbatman",
                 "url": "https://reddit.com/r/FREEMEDIAHECKYEAH/comments/g37lwb/megapiracywiki/",
@@ -2292,24 +2264,6 @@
                 "domain": "self.AskReddit",
                 "datetime": "2020-08-21 03:12:48 IST",
                 "votes": 79270,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "If the moderators of AskReddit were to put a list of the most commonly-asked questions on the sidebar, what would it include?",
-                "author": "[deleted]",
-                "url": "https://reddit.com/r/AskReddit/comments/giolh/if_the_moderators_of_askreddit_were_to_put_a_list/",
-                "subreddit": "AskReddit",
-                "body": "",
-                "media": "https://www.reddit.com/r/AskReddit/comments/giolh/if_the_moderators_of_askreddit_were_to_put_a_list/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.AskReddit",
-                "datetime": "2011-04-05 04:26:05 IST",
-                "votes": 40,
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
@@ -2697,24 +2651,6 @@
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
-            },
-            {
-                "title": "Intro to IBT Inclined Bed Therapy",
-                "author": "greyuniwave",
-                "url": "https://reddit.com/r/InclinedBedTherapy/comments/d85zjk/intro_to_ibt_inclined_bed_therapy/",
-                "subreddit": "InclinedBedTherapy",
-                "body": "#What is it?\n\nInclined bed therapy is where one's bed is raised 4 to 8 inches at the head by using bricks, wedges, or blocks to raise it. This can be useful in disorders such as spinal cord injury, back pain, acid reflux or GERD, sinus and respiratory disorders, sleep apnea, poor circulation.\n\n---\n\n#Why should i do it?\n\n## The detrimental effects of of flat bed rest has been known for a long time\n\n- https://www.bmj.com/content/2/4536/967 - http://sci-hub.tw/https://www.bmj.com/content/2/4536/967\n\n - The Dangers of going to bed\n\n## Small scale clinical studies show good results \n\n- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5700252/\n\n - The influence of head-of-bed elevation in patients with obstructive sleep apnea\n\n- http://www.newmediaexplorer.org/sepp/Diabetes_IBT.pdf\n\n - The Effect of Inclined Bed Therapy on Diabetes\nindividuals\n\n- https://www.ncbi.nlm.nih.gov/pubmed/27250962\n\n - The reviewed studies support that elevating the head of the bed is an easy and effective way to alleviate the symptoms of acid regurgitation.\n\n- https://pubmed.ncbi.nlm.nih.gov/25905714/\n - Elevated upper body position improves pregnancy-related OSA without impairing sleep quality or sleep architecture early after delivery\n\n## Research on astronauts in space use bedrest as an earth analogue for the detrimental effects of microgravity\n\n\n\n- https://inclinedbedtherapy.com/research/gravity-vs-microgravity-in-space-health\n\n- https://www.karger.com/Article/PDF/252852\n - Space, Gravity and the Physiology of Aging: Parallel or Convergent Disciplines? A Mini-Review \n\n##Most anecdotes are positive \n\n- https://inclinedbedtherapy.com/most-recent-testimonials\n\n- https://raypeatforum.com/community/threads/inclined-bed-therapy-sleeping-with-the-head-end-of-the-bed-elevated.23450/\n\n\n## Citizen science show good results\n\n- https://www.yourmedicalresearch.com/copy-of-participate-in-ibt-survey\n\n- https://inclinedbedtherapy.com/research\n\n- https://www.patientslikeme.com/treatment/inclined-bed-therapy\n\n\n\n\n## Historical precedent\n\n- The Egyptians pharaohs had inclined beds\n - https://www.yourmedicalresearch.com/inclined-bed-therapy\n\n\n\n## Animals prefer to sleep at an incline\n\n- https://www.sophiahi.com/inclined-bed-therapy/\n\n## Free/cheap and low risk to try\n\nIf possible track your health/sleep before and after changing your bed and share your results with the sub. \n\n- https://www.snorelab.com/\n - Phone based snore tracking\n- https://ouraring.com/\n - finger/ring sleep/HRV tracker\n- https://dreem.com/en\n - headset, EEG tracker\n- https://elitehrv.com/\n - phonebased HRV tracker\n\n---\n\n# How to do it\n\n- The Recommend incline is 3.5-5.5 degrees (5.5 is likely ideal) which is approximately 4-8 inches/10-20 cm\n\n- Put some books under the bed or:\n\n - https://inclinedbedtherapy.com/faq/methods-of-raising-a-bed-for-inclined-bed-therapy\n\n\n\n- Measure your bed and use this tool to figure out how high you need to raise it:\n\n - https://everydaycalculation.com/right-triangle-calculator.php\n\n\n\n\n---\n\n\n\n# What to expect\n\n- https://inclinedbedtherapy.com/research/92-symptoms-changes-to-monitor-while-using-inclined-bed-therapy-ibt\n\n- there may be some an initial period with some discomfort as you body adapts to this new way of sleeping. \n\n---\n\nunder construction more to come.",
-                "media": "https://www.reddit.com/r/InclinedBedTherapy/comments/d85zjk/intro_to_ibt_inclined_bed_therapy/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://external-preview.redd.it/_1ldHwkPczbbQQXHjTn3wdlnY-EgZMmmOg7Zvog_Lgo.jpg?auto=webp&s=5a1b1653559c58f62cbf2a2fce201ce820d8ada1",
-                "domain": "self.InclinedBedTherapy",
-                "datetime": "2019-09-23 18:10:56 IST",
-                "votes": 32,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
             },
             {
                 "title": "The process that landed me first round interviews",
@@ -4808,18 +4744,6 @@
                 "archived": false
             },
             {
-                "post_title": "Software Development Careers",
-                "post_subreddit": "cscareerquestions",
-                "post_url": "https://www.reddit.com/r/cscareerquestions/comments/g2mb09/software_development_careers/",
-                "comment_url": "https://reddit.com/r/cscareerquestions/comments/g2mb09/software_development_careers/fnnrnwc/",
-                "comment_text": "# Applications\n\nThere are **applications engineers** that build *software products* or *internal enterprise apps*.\n\nAs you know most application architecture schema splits up apps into a bunch of different \"layers\" and different types of application engineers work with different layers.\n\nTo trivially split the layers up, you have:\n\n**Front-End Engineers** working on the part that people actually interact with:\n\n* Web \n  * Technologies like HTML, CSS, JS, React, Angular, etc\n* Native:\n   * *Mobile, Desktop*, *Tablet*, *SmartTV*, *Car Infotainment*, *Wearables*, etc\n\n**Backend Engineers** working on:\n\n* The *glue* or *middleware* (i.e. they design and build APIs)\n* The *services* (i.e. business logic, data processing, etc)\n* The *platform* (i.e. handles communications with the server, containers or with external cloud solutions)\n* The *data storage* (i.e. designing and implementing data storage solutions for the app data)\n* All of the above - aka a *Back-End Generalist*\n\n**Full-Stack Engineers** are complete applications generalists\n\nNote: If the product you're working on has no UI, then there's also no need for front-end engineers at all.\n\n---\n\n# Infrastructure and Operations\n\nOutside of the applications engineer, you have **infrastructure and/or ops engineers** that:\n\n* are generalists across all of deployment, security, infra, monitoring etc - i.e.  *DevOps* or *Site Reliability Engineers* or *DevSecOps* Engineers\n* handle the build and release components of deploying to production - i.e. *Build* and/or *Release Engineers*\n* handle security monitoring, testing, and on-going improvement - i.e. *Application Security Engineers* or *Security Engineers*\n* handle automating network operations work - i.e. *Network Automation Engineers* or *Network Reliability Engineers*\n* handle and automate the operational aspects of machine learning - i.e. *MLOps Engineers*\n\n---\n\n# Systems\n\nThen you have **engineers that work closer to the hardware** than application engineers building things like:\n\n* *High Performance Computing Systems*\n* *Embedded Systems*\n* *Operating Systems*\n* *Digital Signal Processing Systems*\n* *Programming Languages and Toolchains*\n\n---\n\n# Other\n\nOther SWE areas include:\n\n**Data**: *Data Engineer*; *Quantitative Developer*; *Scientific Programmer*; *Data Visualization Engineer*; *Machine Learning Engineer*\n\n**Productivity**: creating devtools, utilities and infra for other engineers (*Engineering Productivity* or *SETI*); automating processes with RPA (*Robotic Process Automation Engineer*);\n\n**Graphics**: *rendering*; *3D modelling* etc;\n\n**VFX/CGI/Animation**: *Pipeline TD*; etc;\n\n**Game Development**: *UI*; *gameplay*; *AI*; *game engine*; *audio* etc;\n\n**Test**: doing test automation (i.e. *SDET*, *QA Engineer*)\n\n**Emerging Tech**: \n* *Computer Vision*\n* *Speech Processing*\n* *Natural Language Processsing*\n* *Deep Learning*\n* *AR/VR*\n* *Autonomous Vehicles*\n* *Robotics*\n* *Blockchain*\n* *Quantum Computing* \n* etc",
-                "author": "[deleted]",
-                "datetime": "2020-04-17 10:32:21 IST",
-                "votes": 29,
-                "nsfw": false,
-                "archived": false
-            },
-            {
                 "post_title": "Thoughts on Marriage, Mumma's Boys and Daddy's Princesses",
                 "post_subreddit": "menslibIndia",
                 "post_url": "https://www.reddit.com/r/menslibIndia/comments/ugv9zw/thoughts_on_marriage_mummas_boys_and_daddys/",
@@ -4924,18 +4848,6 @@
                 "author": "BlakeClass",
                 "datetime": "2014-05-07 00:09:06 IST",
                 "votes": 2878,
-                "nsfw": false,
-                "archived": true
-            },
-            {
-                "post_title": "[deleted by user]",
-                "post_subreddit": "learnprogramming",
-                "post_url": "https://www.reddit.com/r/learnprogramming/comments/141rqa5/deleted_by_user/",
-                "comment_url": "https://reddit.com/r/learnprogramming/comments/141rqa5/deleted_by_user/jn1kbno/",
-                "comment_text": "[Full Stack Open](https://fullstackopen.com/en/)\n\nFor your situation, nothing else comes close. Do FSO and use chaptgpt to explain methods, higher order functions, and certain errors you get.\n\nSide note: appreciate the opportunity you have. A lot of people are working their asses off, are very knowledgeable, and can't break into the industry.",
-                "author": "Owldud",
-                "datetime": "2023-06-06 03:26:17 IST",
-                "votes": 231,
                 "nsfw": false,
                 "archived": true
             },
