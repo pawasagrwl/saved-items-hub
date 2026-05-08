@@ -1,6 +1,6 @@
 {
-    "last_fetched_on": "2026-05-04 11:28:29 IST",
-    "last_fetch_duration": 6.159043788909912,
+    "last_fetched_on": "2026-05-08 12:10:17 IST",
+    "last_fetch_duration": 9.839350938796997,
     "counts": {
         "subreddits": {
             "foundsatan": {
@@ -69,7 +69,7 @@
                 "icon": ""
             },
             "cscareerquestions": {
-                "posts": 15,
+                "posts": 14,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/Lpbu8WMV1n1QtY74rDWICSzeURLPrelOyKjHuGDM0Gs.png"
             },
@@ -104,7 +104,7 @@
                 "icon": "https://styles.redditmedia.com/t5_3e7xo/styles/communityIcon_8dmtop6sxhs31.png"
             },
             "LifeProTips": {
-                "posts": 17,
+                "posts": 15,
                 "comments": 0,
                 "icon": "https://a.thumbs.redditmedia.com/I5yuS5JqzJfER3oWBzCkmadz1S6wXWeJJZExKSGNgJ8.png"
             },
@@ -124,7 +124,7 @@
                 "icon": "https://styles.redditmedia.com/t5_7hqomg/styles/communityIcon_bzj6d1z1oizc1.png"
             },
             "AskMen": {
-                "posts": 7,
+                "posts": 6,
                 "comments": 1,
                 "icon": "https://a.thumbs.redditmedia.com/LH9Y1HS41ygKhs8OoNOXyoS3ovy7x4LBkxci05XMAZ0.png"
             },
@@ -134,7 +134,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2qh2z/styles/communityIcon_ilvc8npi9nuf1.png"
             },
             "YouShouldKnow": {
-                "posts": 11,
+                "posts": 9,
                 "comments": 1,
                 "icon": "https://a.thumbs.redditmedia.com/7uVDMO7_sDgkyDpvDmAT5D777ZOWAeU82PIG-L4kHL8.png"
             },
@@ -159,7 +159,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2yap2d/styles/communityIcon_eej4b31q08ng1.png"
             },
             "developersIndia": {
-                "posts": 16,
+                "posts": 15,
                 "comments": 3,
                 "icon": "https://b.thumbs.redditmedia.com/v6GGyP2tC0O10P3Pnv8-GPr6eL5Z_br3Y2qX5ARvi3I.png"
             },
@@ -169,7 +169,7 @@
                 "icon": "https://a.thumbs.redditmedia.com/0v5KPH7IBPqNXkCfJW_DrkbXacH1vbHU_2nmkG80qa0.png"
             },
             "FREEMEDIAHECKYEAH": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_s67a0/styles/communityIcon_mcqqczedlvlg1.png"
             },
@@ -214,7 +214,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2qjmy/styles/communityIcon_o4rlhqwwox631.png"
             },
             "csMajors": {
-                "posts": 4,
+                "posts": 3,
                 "comments": 1,
                 "icon": ""
             },
@@ -229,7 +229,7 @@
                 "icon": "https://styles.redditmedia.com/t5_qir9n/styles/communityIcon_y90z0pkcv4vc1.png"
             },
             "perfectloops": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://a.thumbs.redditmedia.com/qPrjOk187xv0DlxbPVGRlfRgIMNQA_kzmCPILgo4l38.png"
             },
@@ -254,7 +254,7 @@
                 "icon": "https://styles.redditmedia.com/t5_3iwm6/styles/communityIcon_suhgt5mju0431.png"
             },
             "InternetIsBeautiful": {
-                "posts": 3,
+                "posts": 2,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/k7fHE51fuhbYJRT2e9s1rXIp2ZtA7ks-cNFvQuNbfcE.png"
             },
@@ -324,12 +324,12 @@
                 "icon": "https://styles.redditmedia.com/t5_3eg84/styles/communityIcon_2cw1s6ux00ac1.jpg"
             },
             "webdev": {
-                "posts": 5,
+                "posts": 4,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/vk8EAqzcLRGYh_Yisi68CglMMuheNEFKNaDLZy7h2ZE.png"
             },
             "DesiFragranceAddicts": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_52t40p/styles/communityIcon_du68ircbohtd1.png"
             },
@@ -372,24 +372,29 @@
                 "posts": 1,
                 "comments": 0,
                 "icon": ""
+            },
+            "pcmasterrace": {
+                "posts": 0,
+                "comments": 1,
+                "icon": "https://b.thumbs.redditmedia.com/PN7Sv1axRx971W5-d_e-IC_RMiP2Sso8IqdRGq3UY9Y.png"
             }
         },
         "votes": {
             "0-100": {
-                "posts": 29,
+                "posts": 28,
                 "comments": 10
             },
             "100-1000": {
-                "posts": 68,
+                "posts": 65,
                 "comments": 5
             },
             "1000-10000": {
-                "posts": 50,
+                "posts": 45,
                 "comments": 3
             },
             "10000-100000": {
-                "posts": 60,
-                "comments": 1
+                "posts": 56,
+                "comments": 2
             },
             "100000-1000000": {
                 "posts": 1,
@@ -470,23 +475,11 @@
                 "comments": 0
             },
             "2024-03": {
-                "posts": 5,
-                "comments": 0
-            },
-            "2020-02": {
-                "posts": 1,
-                "comments": 0
-            },
-            "2020-03": {
-                "posts": 1,
+                "posts": 4,
                 "comments": 0
             },
             "2020-05": {
                 "posts": 3,
-                "comments": 0
-            },
-            "2020-04": {
-                "posts": 1,
                 "comments": 0
             },
             "2020-06": {
@@ -541,16 +534,12 @@
                 "posts": 1,
                 "comments": 0
             },
-            "2021-08": {
-                "posts": 2,
-                "comments": 0
-            },
             "2021-12": {
                 "posts": 2,
                 "comments": 0
             },
             "2022-01": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0
             },
             "2022-02": {
@@ -558,7 +547,7 @@
                 "comments": 0
             },
             "2022-05": {
-                "posts": 5,
+                "posts": 4,
                 "comments": 1
             },
             "2022-06": {
@@ -570,7 +559,7 @@
                 "comments": 3
             },
             "2022-10": {
-                "posts": 10,
+                "posts": 6,
                 "comments": 1
             },
             "2012-11": {
@@ -579,6 +568,10 @@
             },
             "2023-12": {
                 "posts": 2,
+                "comments": 0
+            },
+            "2021-08": {
+                "posts": 1,
                 "comments": 0
             },
             "2023-11": {
@@ -594,7 +587,7 @@
                 "comments": 0
             },
             "2023-09": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 1
             },
             "2023-08": {
@@ -633,13 +626,13 @@
                 "posts": 3,
                 "comments": 2
             },
-            "2021-09": {
-                "posts": 1,
-                "comments": 0
-            },
             "2022-12": {
                 "posts": 2,
                 "comments": 0
+            },
+            "2026-05": {
+                "posts": 0,
+                "comments": 1
             },
             "2024-06": {
                 "posts": 0,
@@ -1862,63 +1855,6 @@
                 "archived": true
             },
             {
-                "title": "Made a free platform to create personal/portfolio websites in 5 minutes!",
-                "author": "bustingbuster1",
-                "url": "https://reddit.com/r/developersIndia/comments/1b5vdjf/made_a_free_platform_to_create_personalportfolio/",
-                "subreddit": "developersIndia",
-                "body": "",
-                "media": "https://v.redd.it/411hpwkrc7mc1",
-                "media_type": "video",
-                "gallery": [],
-                "thumbnail": "https://external-preview.redd.it/N3ozZDkwZHZjN21jMY_c-I1f-bnXGPr6E_0-BMfJUzTfyo0ck-xcEWA4IFlj.png?width=140&height=78&crop=140:78,smart&format=jpg&v=enabled&lthumb=true&s=a9bad343d86ca060d3bd97e31c1da86f6c656ac3",
-                "preview_image": "https://external-preview.redd.it/N3ozZDkwZHZjN21jMY_c-I1f-bnXGPr6E_0-BMfJUzTfyo0ck-xcEWA4IFlj.png?format=pjpg&auto=webp&s=225ef3297ae548383655b08112de609aae8e4f83",
-                "domain": "v.redd.it",
-                "datetime": "2024-03-04 04:49:25 IST",
-                "votes": 42,
-                "nsfw": false,
-                "flairs": [
-                    "I Made This ",
-                    ""
-                ],
-                "archived": true
-            },
-            {
-                "title": "YSK that email etiquette goes a long way and your question is likely to be answered much faster if you're nice.",
-                "author": "yorkshirenation",
-                "url": "https://reddit.com/r/YouShouldKnow/comments/fab3n1/ysk_that_email_etiquette_goes_a_long_way_and_your/",
-                "subreddit": "YouShouldKnow",
-                "body": "**Why you should know**: because being polite to people who get the same enquiry 20 times every day will get your problem sorted much faster.\n\nI work in a college, and my job is to make sure applicants get housing. Every year, there is a waiting period before we allocate housing which applicants are informed of *many* times, and we get emails ranging from:\n\n*'Dear XXX, I know you get this question a lot but when might we hear about housing allocations?'*\n\nto:\n\n*'Why have my friends heard about housing and not me? I'm pissed with waiting.'*\n\n(Both are verbatim)\n\nThe former **will definitely get answered first**, even if it comes in later. When you send an email to a company, you're sending a written correspondence to a human who is often paid the least in their office for very repetitive work. It is commonplace among my colleagues and colleagues in other colleges to basically not give a rat's ass about your enquiry at all.\n\nIn the case of the former, employees may even use loopholes in the bureaucracy to help you out and give as much information as possible.\n\nIn the case of the latter, employees will likely make use of the absolute official channels to ensure you get drowned in a sea of bureaucracy; you'll be restricted by the letter of service level agreements, and your email will absolutely not be a priority.",
-                "media": "https://www.reddit.com/r/YouShouldKnow/comments/fab3n1/ysk_that_email_etiquette_goes_a_long_way_and_your/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.YouShouldKnow",
-                "datetime": "2020-02-27 17:34:22 IST",
-                "votes": 13386,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "YSK having a garbage bin in your guest bathroom can save your female visitors from a lot of discomfort.",
-                "author": "unwritten_otter",
-                "url": "https://reddit.com/r/YouShouldKnow/comments/fenmr2/ysk_having_a_garbage_bin_in_your_guest_bathroom/",
-                "subreddit": "YouShouldKnow",
-                "body": "I have noticed that many of my male friends who are either gay or single don't have garbage bins in their half bathrooms. This can make it very awkward for a female on their period. Either they have to try and wrap up feminine hygiene products in toilet paper and carry it around your house searching for another garbage or awkwardly stash it in their purse. It's 20 times more awkward if this happens during a party when you have a lot of people around. I've also had this problem before when visiting older women who don't need a garbage can for their own personal use anymore so men aren't the only culprits. So please consider that your guests might actually need and appreciate a small garbage can in the toilet area.",
-                "media": "https://www.reddit.com/r/YouShouldKnow/comments/fenmr2/ysk_having_a_garbage_bin_in_your_guest_bathroom/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.YouShouldKnow",
-                "datetime": "2020-03-07 06:36:12 IST",
-                "votes": 43237,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
                 "title": "What movie had the best unexpected ending ?",
                 "author": "[deleted]",
                 "url": "https://reddit.com/r/AskReddit/comments/gc8xe2/what_movie_had_the_best_unexpected_ending/",
@@ -1971,24 +1907,6 @@
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
-            },
-            {
-                "title": "MEGA-PIRACY-WIKI",
-                "author": "nbatman",
-                "url": "https://reddit.com/r/FREEMEDIAHECKYEAH/comments/g37lwb/megapiracywiki/",
-                "subreddit": "FREEMEDIAHECKYEAH",
-                "body": "",
-                "media": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/index",
-                "media_type": "link",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "reddit.com",
-                "datetime": "2020-04-17 23:58:43 IST",
-                "votes": 9343,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
             },
             {
                 "title": "ULPT: How to dispute medical debt the right, effective way. LPT deleted me because it's a \"legal\" thing but this is actually a life pro top with a shade of shady in here so I guess it fits better here anyway.",
@@ -2823,24 +2741,6 @@
                 "archived": true
             },
             {
-                "title": "Infinoodle [A]",
-                "author": "kinetic-graphics",
-                "url": "https://reddit.com/r/perfectloops/comments/pasqpz/infinoodle_a/",
-                "subreddit": "perfectloops",
-                "body": "",
-                "media": "https://i.imgur.com/7ZuDcwq.gifv",
-                "media_type": "gif",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/lBDPq23Ep3ygtqovkIJNl4LK92hTQZZN-0hR9Csz6mc.jpg",
-                "preview_image": "https://external-preview.redd.it/cAN1t_uP9TfM9dGDu4fbnah5H3G_pO7MDphCsrmnAYg.jpg?auto=webp&s=84eff32e0fae75589909e9e9a63e5c947ee1e5f7",
-                "domain": "i.imgur.com",
-                "datetime": "2021-08-24 23:37:06 IST",
-                "votes": 5532,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
                 "title": "What are the top in-demand IT skills for your employees? Here's our top 10 for 2021!",
                 "author": "DevOps_Artisan",
                 "url": "https://reddit.com/r/ITCareerQuestions/comments/r6ay6z/what_are_the_top_indemand_it_skills_for_your/",
@@ -2964,24 +2864,6 @@
                 "domain": "self.csMajors",
                 "datetime": "2022-05-26 18:48:47 IST",
                 "votes": 1378,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "Tips for a successful internship from a FAANG intern manager",
-                "author": "yangshunz",
-                "url": "https://reddit.com/r/csMajors/comments/v0ay2x/tips_for_a_successful_internship_from_a_faang/",
-                "subreddit": "csMajors",
-                "body": "Having mentored 3 interns who successfully got their return offers, and seen many examples of successful interns at FAANG, here are some tips for your internships which should be useful regardless of company.\n\n1) Do what is expected of you. Firstly in order to do what is expected of you, you gotta know what is expected of you. If you're a SWE intern, most of the time you just need to finish your project by writing high quality code while not being a jerk. To write high quality code, look at how code is written in the code base and follow the conventions, directory structure, naming, use existing abstractions. Break your code into small PRs so that it's easy to review. Nobody likes reviewing PRs which are thousands of lines long. Write tests! At the end of the internship a good litmus test on whether your internship was successful is whether the team would hire you or take their chances with a new intern/fresh grad?\n\n2) Demonstrate independence. Your intern manager/mentor/host is also a busy employee and they have their own work to do. If you run into issues, try to unblock yourself first before asking someone. Look up internal documentation, look at existing parts of the code and see if you can follow similar approaches. If you're still stuck, then ask. Post in support groups/chats and share your high level goal, the approaches you've tried and why they didn't work. This helps people to help you. It's ok to ask more questions at the start but the frequency should go down over time.\n\n3) Take initiative and ownership of your project. Rather than waiting for tasks to be handed to you, look at the roadmap (or create one if it doesn't exist) and keep working on the next item. Break down the project and create tasks for yourself, closing them when completed. Be your own project manager and product manager. Keep a log of the work you've done. This will be super useful if you have to write a self evaluation at the end of your internship.\n\n4) Communicate well. You should be the best advocate of your work. In large companies, peer feedback is taken into account for the internship evaluation. Tell your team what you are doing, make occasional updates about your work, give others visibility into your work and demo your work during sprint meetings.\n\n5) Take feedback seriously. Your mentor should already be providing you feedback constantly, otherwise, you can always ask. Ask how you can improve and what you can do better. Since you'll be spending lots of time writing code, make sure you pay attention to the code review comments you receive and reviewers don't make the same comment twice.\n\n6) Overdeliver on your project. If you're delivering your milestones ahead of time, instead of chilling and sticking to the schedule, finish your project ahead of time. This gives you the opportunity to pursue other things. You can work on stretch goals of your project, think of new ways to improve your project and execute on them. Market your project and get people to use it. Iterate on user feedback.\n\n7) Do what is not expected of you. Of course this doesn't doing mean negative things. Do things which people don't expect interns to be doing. The rockstar interns I've seen, they completed their projects in half the allocated time, had time to help their fellow interns in their work (sometimes even helping full-timers in their work), were added to the team's oncall, helped to review the team's code, and helped to answer questions from external partners about the team's work. Not all of these will be applicable to your situation, but you get the idea. They were functioning and having impact as if they were a full-time team member.\n\n8) Assess the company. As much as an internship is a prolonged interview of your fit for the company, it is also a chance for you to interview the company. Do you enjoy the team's and company's working style? Do they overwork their employees and treat employees with respect? Sometimes interns can be too busy with their projects to pay attention to these things but ultimately these are important factors to take into consideration when deciding whether to sign the return offer. You might not be joining back the same team but the company culture affects the team's culture to some extent.",
-                "media": "https://www.reddit.com/r/csMajors/comments/v0ay2x/tips_for_a_successful_internship_from_a_faang/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.csMajors",
-                "datetime": "2022-05-29 18:44:17 IST",
-                "votes": 828,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3169,24 +3051,6 @@
                 "archived": false
             },
             {
-                "title": "Interactive sketches to illustrate SOLID programming principles",
-                "author": "trekhleb",
-                "url": "https://reddit.com/r/InternetIsBeautiful/comments/xvum4n/interactive_sketches_to_illustrate_solid/",
-                "subreddit": "InternetIsBeautiful",
-                "body": "",
-                "media": "https://okso.app/showcase/solid",
-                "media_type": "link",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/kgTULXAX5wX2v2I8_FTFK_anWnrvMjiVzND3K7kFOdI.jpg",
-                "preview_image": "https://external-preview.redd.it/Hz36wK2rHi_2PMJKpmGsFjVzwwpr_l2Nc7jOS8E40-c.jpg?auto=webp&s=8dc0a1fe1f5d6096f0e01094cf0cf57921f1d8cb",
-                "domain": "okso.app",
-                "datetime": "2022-10-05 05:21:22 IST",
-                "votes": 1536,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
                 "title": "What's a movie that bombed at the box office but was actually good?",
                 "author": "OkWar3191",
                 "url": "https://reddit.com/r/AskReddit/comments/y1cyrs/whats_a_movie_that_bombed_at_the_box_office_but/",
@@ -3205,44 +3069,6 @@
                 "archived": true
             },
             {
-                "title": "What do guys dont know until they have a girlfriend",
-                "author": "UCHIHA444",
-                "url": "https://reddit.com/r/AskMen/comments/y8sais/what_do_guys_dont_know_until_they_have_a/",
-                "subreddit": "AskMen",
-                "body": "",
-                "media": "https://www.reddit.com/r/AskMen/comments/y8sais/what_do_guys_dont_know_until_they_have_a/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.AskMen",
-                "datetime": "2022-10-20 13:45:36 IST",
-                "votes": 7156,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "LPT: Afraid to open and clean out your Tupperware because the thing growing inside is nearly sentient? Freeze it, briefly thaw it, and neatly toss it!",
-                "author": "grump_gramp",
-                "url": "https://reddit.com/r/LifeProTips/comments/y98a94/lpt_afraid_to_open_and_clean_out_your_tupperware/",
-                "subreddit": "LifeProTips",
-                "body": "We're all guilty of growing science experiments in our fridges, and if you're like me, you can't handle the guilt of throwing away your good glass Tupperware but your stomach churns at the thought of smelling that mess while trying to spoon it all out.\n\nInstead, just pop it in the freezer overnight, letting it freeze into a solid block. Then just take it out, flip it upside down, and run it under hot water until the solid block unsticks from the Tupperware. Now you're safe to open it and chuck out your non-smelly block of lord knows what.\n\nEDIT: Some good comment tips: use cold water instead of hot for glass to prevent shocking and shattering it. Might want to label it so you don't think it's food. But don't name it. Never name it.",
-                "media": "https://www.reddit.com/r/LifeProTips/comments/y98a94/lpt_afraid_to_open_and_clean_out_your_tupperware/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.LifeProTips",
-                "datetime": "2022-10-21 01:30:20 IST",
-                "votes": 36465,
-                "nsfw": false,
-                "flairs": [
-                    "Home & Garden"
-                ],
-                "archived": false
-            },
-            {
                 "title": "List of video heavy subreddits;  (Couple Categories NSFW)",
                 "author": "SomeRandomRedditor",
                 "url": "https://reddit.com/r/redditlists/comments/13xgp8/list_of_video_heavy_subreddits_couple_categories/",
@@ -3258,26 +3084,6 @@
                 "votes": 97,
                 "nsfw": true,
                 "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "LPT: If you're wanting to try for a baby, budgeting for the baby before you start trying really puts things in perspective.",
-                "author": "0taterfry0",
-                "url": "https://reddit.com/r/LifeProTips/comments/ybgfhz/lpt_if_youre_wanting_to_try_for_a_baby_budgeting/",
-                "subreddit": "LifeProTips",
-                "body": "Quick edit: this is not me trying to convince or unconvince anyone to have a baby. That is a 100% personal choice.\n\nWhat I mean by budget is just to say kids are expensive. Include daycare, essential items, insurance, and basically anything else you might be able to think of. Have money in your savings for unexpected expenses. And not just for the child either. Save for unexpected expenses for you and/or your spouce/partner \n\nAlso budget more than just money. You're going to have to budget time and space. Practical practices can put you in a more practical perspective. Your patience is more likely than not to stretch thinner than your wallet. If you want kids these are things that will have to be sacrificed but as is the nature of sacrifices, things sacrificed will become things gained.\n\nBabies also grow up into kids, and kids to teens. You'll spend money on different things but you'll still be spending it on them. Spending on things you think will be cute or fun that a baby/toddler wont remember and really detail finances when you need that money later in the child's life. Your baby is only a baby for so long such as a puppy will eventually grow into a dog.\n\nBe prepared to blow your budget. You are a human after all and cant think of everything. However, if this is something you really want to do just know that if you wait until you have enough money to have a child, you'll never have a child. Don't wait forever, you'll get through it.\n\nAnd one last thing, depending on the country, there's almost always assistance avaible. However, use things as a crutch when you need them, not a prosthetic leg. Food banks are wonderful and many places let babies/ kids in for free under a certain age. My parents actually survived financial drowning because a buffet near by let kids 2 and under eat free, of which my parents had 3 of.\n\nThink but dont over think, much love to those with kids and those trying. Love to everyone else too but y'know I'm not talking to you lol.\n\nEdit 2: \"if you wait until you have enough money, you'll never do it\" doesnt mean dont need enough to support everybody who you need to. It means that you dont need to have enough money for the child's entire life. People are saying that if they had all the money in an account rather than spending it on children that they'd then have enough money to buy a house. If you have that sort of money, good on ya.",
-                "media": "https://www.reddit.com/r/LifeProTips/comments/ybgfhz/lpt_if_youre_wanting_to_try_for_a_baby_budgeting/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.LifeProTips",
-                "datetime": "2022-10-23 17:57:14 IST",
-                "votes": 30412,
-                "nsfw": false,
-                "flairs": [
-                    "Home & Garden"
-                ],
                 "archived": false
             },
             {
@@ -3603,24 +3409,6 @@
                     "Career"
                 ],
                 "archived": true
-            },
-            {
-                "title": "Over 3000 UI elements free for commercial use",
-                "author": "W0RKABLE",
-                "url": "https://reddit.com/r/webdev/comments/16mne5x/over_3000_ui_elements_free_for_commercial_use/",
-                "subreddit": "webdev",
-                "body": "",
-                "media": "https://v.redd.it/evb3oymiw6pb1",
-                "media_type": "video",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/dXoQZxIWVugu7B1NAZzY0asBSYenowxZfVHibRnqW5M.jpg",
-                "preview_image": "https://external-preview.redd.it/Cdqm4-9VneyDlFUpnHUkGHUDHkksQPO-xlXGpZOvYak.png?format=pjpg&auto=webp&s=c29d3c409b078edb4fc21083b4cc82a0d87e9bc0",
-                "domain": "v.redd.it",
-                "datetime": "2023-09-19 16:02:27 IST",
-                "votes": 572,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
             },
             {
                 "title": "The non-leetcode answer to \"How do I crack the interview\"",
@@ -4208,24 +3996,6 @@
                 "archived": true
             },
             {
-                "title": "The DEFINITIVE way on how to LeetCode properly. (Hint: You are most likely doing it wrong!)",
-                "author": "newgradsmackindab",
-                "url": "https://reddit.com/r/cscareerquestions/comments/sgktuv/the_definitive_way_on_how_to_leetcode_properly/",
-                "subreddit": "cscareerquestions",
-                "body": "Will keep it short and simple.\n\nI'm a new grad, and I received several offers from top companies and well known unicorns / startups.\n\nHow did I do it? Leetcode.\n\nThat's the name of the game currently. If you can do Leetcode, you WILL get a top offer from a top company. Thats all there is to it.\n\n**Here is how to properly leetcode:**\n\nDO NOT attempt to solve any questions on your own (YET!). Yes, you heard me right. I know I sound crazy. But solving ANYTHING on your own is a complete and utter waste of time. Don't even spend 5 minutes on a problem. You do not have the base knowledge yet. You will simply be getting frustrated, and spinning your wheels.\n\nSo, what do you do? simple.\n\n1. Go to grokking the coding interview (no DONT buy it. Waste of money) and look at their list of patterns.\n2. Pick one pattern, and go to leetcode. Search for problems with that pattern.\n3. Go through each problem for the pattern, and go STRAIGHT to the solution. Do not even spend 1 second trying to solve the problem. WASTE OF TIME.\n4. Understand the solution DEEPLY. Make notes. Google things you don't understand. Watch videos on youtube about the solution. Go to the discussion section on leetcode and see what others came up with. Play around with the solution, modify variables, etc. Basically... UNDERSTAND THE SOLUTION AS DEEPLY AS YOU CAN\n5. Move on to the next problem, and repeat.\n6. After you have done this for enough problems, you will feel a lightbulb going off in your head. Congrats, now you know how to solve this pattern!\n7. Go back and pick a new pattern, and do the same thing.\n\nBecause you aren't wasting time spending hours on a problem, in just 1-3 weeks, you will have a deep understanding of all the major patterns and common solutions to these patterns. You will be able to recognize how to break down a problem into specific patterns, etc.\n\nOnce you have done 300-400 problems like this (it sounds like a lot, but remember.. you are NOT wasting hours per problem trying to solve it.. so you will go through A LOT of problems in a short amount of time.. the key is NOT to memorize, but to UNDERSTAND THE PATTERNS), you can start going through company specific questions on leetcode by buying premium. You will notice you can solve them now on your own!\n\nCongrats, you just saved yourself months and months of headache and frustration.",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/sgktuv/the_definitive_way_on_how_to_leetcode_properly/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.cscareerquestions",
-                "datetime": "2022-01-31 03:58:50 IST",
-                "votes": 7500,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
                 "title": "Which is the best coding language to learn from zero to get a job in minimum amount of time ?",
                 "author": "[deleted]",
                 "url": "https://reddit.com/r/developersIndia/comments/134ewzq/which_is_the_best_coding_language_to_learn_from/",
@@ -4580,24 +4350,6 @@
                 "archived": false
             },
             {
-                "title": "Meta Buying Post To Save \u20b9\u20b9\u20b9\u20b9 on retail and avoid fakes ( Always updating )",
-                "author": "PunjabDa",
-                "url": "https://reddit.com/r/DesiFragranceAddicts/comments/px3evl/meta_buying_post_to_save_on_retail_and_avoid/",
-                "subreddit": "DesiFragranceAddicts",
-                "body": "**Update**: So I have started decanting fragrances myself: You can [WhatsApp me](https://wa.me/918197439230) after looking at my Decant list: [https://docs.google.com/spreadsheets/u/0/d/1fDnAY\\_\\_U8J49HFTBJqpRaX64aiVxcAEVnptD-zX7iGU/htmlview](https://docs.google.com/spreadsheets/u/0/d/1fDnAY__U8J49HFTBJqpRaX64aiVxcAEVnptD-zX7iGU/htmlview)\n\n&#x200B;\n\nOkay, so I decided to make a meta buying guide for the newbies or people who in general buy from retail at full price and avoid fake sellers online.This list will have all the **verified discount sellers PLEASE DO NOT BUY FROM PEOPLE WHO ARE UNVERIFIED SPECIALLY ON INSTAGRAM**\n\n&#x200B;\n\n1. Pranay Agrawa l[FB group](https://www.facebook.com/groups/349869992584739) (+91 9922665322)\n2. Rini Bansal [(Group)](https://www.facebook.com/groups/2524937234261239) 9891115111\n3. Splash Fragrances [(Gaurav Verma)](https://www.facebook.com/gauravverma2308)\n4. Yusuf Khatri (+918898012370) [(Facebook)](https://www.facebook.com/yssmd)\n5. Ravi LuckyNose India ([Facebook](https://www.facebook.com/luckynoseindia)) (+91 9818577714)\n6. Belvish Perfumes ([Fb Group](https://www.facebook.com/groups/3366350886750264)) (085889 96969)\n7. Gur Updesh (+91 93158 96961)\n8. Pravin Bhobhate 9699620748\n9. Navanshu (fb)\n10. Perfumeking.India (IG)\n11. Ashutosh Barpanda (perfume hut) +91 7809013331\n12. Yogesh Kumari (Fragdiction) +91 89286 64619\n13. Imran Farooqui 8625020080\n14. Talib Musa Usman: 95825 64019\n15. Muzzammil Nayani: 7900064671\n\n**Edit: Perfumery.co.in is blacklisted due to repeated violations of customer trust**\n\n&#x200B;",
-                "media": "https://www.reddit.com/r/DesiFragranceAddicts/comments/px3evl/meta_buying_post_to_save_on_retail_and_avoid/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/ST7wrvZw2C1Tu0BqiWJ-lqfQJuXUw7ULTxafHNBzokE.jpg",
-                "preview_image": "https://external-preview.redd.it/Bl3xrCnMjEbeduWYzzeYEwRC6lew-zfOJp-ZTDVe35o.jpg?auto=webp&s=22ddbfce5f769a656896becc2eee4ad674ed3851",
-                "domain": "self.DesiFragranceAddicts",
-                "datetime": "2021-09-28 15:55:38 IST",
-                "votes": 609,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
                 "title": "How I landed a remote job",
                 "author": "[deleted]",
                 "url": "https://reddit.com/r/developersIndia/comments/n783fb/how_i_landed_a_remote_job/",
@@ -4695,6 +4447,18 @@
             }
         ],
         "comments": [
+            {
+                "post_title": "So microsoft decided you can't setup windows 11 offline. Welp, time to go linux",
+                "post_subreddit": "pcmasterrace",
+                "post_url": "https://www.reddit.com/r/pcmasterrace/comments/1t5ega8/so_microsoft_decided_you_cant_setup_windows_11/",
+                "comment_url": "https://reddit.com/r/pcmasterrace/comments/1t5ega8/so_microsoft_decided_you_cant_setup_windows_11/ok9bwz1/",
+                "comment_text": "You can press Shift + F10 on your keyboard, then type *start ms-cxh:localonly* and it will bring up a prompt to create a local account that skips all this and goes straight to the desktop.\n\nI do this almost every day at work with the newest Windows 11 Media Creation Tool. Super quick. Even faster than the oobe\\\\bypassnro command that is well known.\n\n  \nEDIT: WOW, thank you all for the awards! I want to add Rufus in this comment as well as it was mentioned quite a lot in the comments. Rufus can be used to create a bootable USB with a Windows 11 ISO, and there is a checkbox during creation that allows you to skip what OP is experiencing as well. It's basically the same thing I wrote, but it does it for you!",
+                "author": "gotmynamefromcaptcha",
+                "datetime": "2026-05-06 20:04:19 IST",
+                "votes": 14225,
+                "nsfw": false,
+                "archived": false
+            },
             {
                 "post_title": "I am just done at this point",
                 "post_subreddit": "IndiaCareers",
