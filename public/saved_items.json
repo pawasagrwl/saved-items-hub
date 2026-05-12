@@ -1,6 +1,6 @@
 {
-    "last_fetched_on": "2026-05-08 12:10:17 IST",
-    "last_fetch_duration": 9.839350938796997,
+    "last_fetched_on": "2026-05-12 11:44:21 IST",
+    "last_fetch_duration": 11.817638874053955,
     "counts": {
         "subreddits": {
             "foundsatan": {
@@ -104,7 +104,7 @@
                 "icon": "https://styles.redditmedia.com/t5_3e7xo/styles/communityIcon_8dmtop6sxhs31.png"
             },
             "LifeProTips": {
-                "posts": 15,
+                "posts": 14,
                 "comments": 0,
                 "icon": "https://a.thumbs.redditmedia.com/I5yuS5JqzJfER3oWBzCkmadz1S6wXWeJJZExKSGNgJ8.png"
             },
@@ -377,11 +377,21 @@
                 "posts": 0,
                 "comments": 1,
                 "icon": "https://b.thumbs.redditmedia.com/PN7Sv1axRx971W5-d_e-IC_RMiP2Sso8IqdRGq3UY9Y.png"
+            },
+            "SipsTea": {
+                "posts": 1,
+                "comments": 0,
+                "icon": "https://styles.redditmedia.com/t5_5tdqj0/styles/communityIcon_yab7s4oubzbg1.png"
+            },
+            "MBAIndia": {
+                "posts": 1,
+                "comments": 0,
+                "icon": "https://styles.redditmedia.com/t5_3eoh9/styles/communityIcon_dxmawmci17le1.jpg"
             }
         },
         "votes": {
             "0-100": {
-                "posts": 28,
+                "posts": 29,
                 "comments": 10
             },
             "100-1000": {
@@ -402,6 +412,10 @@
             }
         },
         "dates": {
+            "2026-05": {
+                "posts": 2,
+                "comments": 1
+            },
             "2026-02": {
                 "posts": 2,
                 "comments": 1
@@ -487,7 +501,7 @@
                 "comments": 0
             },
             "2020-08": {
-                "posts": 9,
+                "posts": 8,
                 "comments": 0
             },
             "2020-09": {
@@ -630,10 +644,6 @@
                 "posts": 2,
                 "comments": 0
             },
-            "2026-05": {
-                "posts": 0,
-                "comments": 1
-            },
             "2024-06": {
                 "posts": 0,
                 "comments": 1
@@ -650,6 +660,66 @@
     },
     "content": {
         "posts": [
+            {
+                "title": "The dancing queen",
+                "author": "ImmaFuckboi",
+                "url": "https://reddit.com/r/SipsTea/comments/1t9ttge/the_dancing_queen/",
+                "subreddit": "SipsTea",
+                "body": "",
+                "media": "https://v.redd.it/jlqpv34z0g0h1",
+                "media_type": "video",
+                "gallery": [],
+                "thumbnail": "https://external-preview.redd.it/dGk3aDB4eDcwZzBoMT6coCZx5acGVfhI6e0OANPQKZVd7cHHo63f2pxprpCO.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp&s=462ed79b894e65474bb48954600f0e70db29e570",
+                "preview_image": "https://external-preview.redd.it/dGk3aDB4eDcwZzBoMT6coCZx5acGVfhI6e0OANPQKZVd7cHHo63f2pxprpCO.png?format=pjpg&auto=webp&s=b5d71182062730a13e3fbac15a702d685f0f4e6b",
+                "domain": "v.redd.it",
+                "datetime": "2026-05-11 10:54:16 IST",
+                "votes": 32748,
+                "nsfw": false,
+                "flairs": [
+                    "Feels good man ",
+                    ""
+                ],
+                "archived": false
+            },
+            {
+                "title": "MBA Leaks: Indian Banks CTC post MBA",
+                "author": "Ididnotkillhim",
+                "url": "https://reddit.com/r/MBAIndia/comments/1t9bvo8/mba_leaks_indian_banks_ctc_post_mba/",
+                "subreddit": "MBAIndia",
+                "body": "Covering Kotak Mahindra Bank, Axis Bank, IDFC First Bank, HDFC and IBDIC.",
+                "media": "https://www.reddit.com/gallery/1t9bvo8",
+                "media_type": "gallery",
+                "gallery": [
+                    "https://i.redd.it/i6l7y8729c0h1.png",
+                    "https://i.redd.it/uo5vb8729c0h1.png",
+                    "https://i.redd.it/8y44m8729c0h1.png",
+                    "https://i.redd.it/a89979729c0h1.png",
+                    "https://i.redd.it/w8ftj6729c0h1.png",
+                    "https://i.redd.it/auk1b8729c0h1.png",
+                    "https://i.redd.it/gbp0c7729c0h1.png",
+                    "https://i.redd.it/4m45i8729c0h1.png",
+                    "https://i.redd.it/niabo9729c0h1.png",
+                    "https://i.redd.it/w81x08729c0h1.png",
+                    "https://i.redd.it/0omf58729c0h1.png",
+                    "https://i.redd.it/rnokh9729c0h1.png",
+                    "https://i.redd.it/qbyuq7729c0h1.png",
+                    "https://i.redd.it/zculm8729c0h1.png",
+                    "https://i.redd.it/4kgzoa729c0h1.png",
+                    "https://i.redd.it/5e54p7729c0h1.png",
+                    "https://i.redd.it/5mmcj9729c0h1.png",
+                    "https://i.redd.it/syugl7729c0h1.png",
+                    "https://i.redd.it/fzu9d8729c0h1.png",
+                    "https://i.redd.it/3h7yv9729c0h1.png"
+                ],
+                "thumbnail": "https://preview.redd.it/i6l7y8729c0h1.png?width=140&height=78&auto=webp&s=40219edd976763cc75073734228091e3e2cb6c55",
+                "preview_image": null,
+                "domain": "reddit.com",
+                "datetime": "2026-05-10 22:10:33 IST",
+                "votes": 94,
+                "nsfw": false,
+                "flairs": [],
+                "archived": false
+            },
             {
                 "title": "Article in Mint today about Childfree Indians",
                 "author": "_Live__and__Learn_",
@@ -2037,26 +2107,6 @@
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
-            },
-            {
-                "title": "LPT: If your friend or coworker tells you they got a new job, ask them the start date and put it in your calendar so you can text them a good luck / happy first day message",
-                "author": "bubble_chart",
-                "url": "https://reddit.com/r/LifeProTips/comments/i3qtxx/lpt_if_your_friend_or_coworker_tells_you_they_got/",
-                "subreddit": "LifeProTips",
-                "body": "I know I\u2019d feel nice receiving this, so I\u2019ve been doing it for the past few years. I have a terrible memory so I put an event on my calendar so I can remember to text them that morning.",
-                "media": "https://www.reddit.com/r/LifeProTips/comments/i3qtxx/lpt_if_your_friend_or_coworker_tells_you_they_got/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.LifeProTips",
-                "datetime": "2020-08-05 01:43:50 IST",
-                "votes": 73222,
-                "nsfw": false,
-                "flairs": [
-                    "Social"
-                ],
-                "archived": false
             },
             {
                 "title": "I've lived in dorms since 2017 and had 9 different sets of flatmates. Heres some tips for ya",
