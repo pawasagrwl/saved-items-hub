@@ -1,3 +1,4 @@
 .env
 saved_items.json
 src
+reddit_comments_*.txt
