@@ -1,6 +1,6 @@
 {
-    "last_fetched_on": "2026-05-12 11:44:21 IST",
-    "last_fetch_duration": 11.817638874053955,
+    "last_fetched_on": "2026-05-19 12:41:15 IST",
+    "last_fetch_duration": 11.656939268112183,
     "counts": {
         "subreddits": {
             "foundsatan": {
@@ -19,12 +19,12 @@
                 "icon": "https://styles.redditmedia.com/t5_yiup2/styles/communityIcon_48rzwqaxmin21.jpg"
             },
             "gurgaon": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_2u624/styles/communityIcon_6lsa3vkii8ad1.png"
             },
             "selfimprovement": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": ""
             },
@@ -44,7 +44,7 @@
                 "icon": "https://b.thumbs.redditmedia.com/L_EgtpJ8t50f_Mt_VAR4nLcxwXjSmIyUwMqq1PUna8M.png"
             },
             "ChatGPTPromptGenius": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_7oabud/styles/communityIcon_7nupyrmuey8a1.png"
             },
@@ -54,7 +54,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2qh3s/styles/communityIcon_13r4undbytug1.jpg"
             },
             "coolguides": {
-                "posts": 3,
+                "posts": 2,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_310rm/styles/communityIcon_thn9g7rqsye71.png"
             },
@@ -74,12 +74,12 @@
                 "icon": "https://b.thumbs.redditmedia.com/Lpbu8WMV1n1QtY74rDWICSzeURLPrelOyKjHuGDM0Gs.png"
             },
             "pianolearning": {
-                "posts": 2,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_39v5s/styles/communityIcon_f8k2rmx42os41.png"
             },
             "AskReddit": {
-                "posts": 24,
+                "posts": 21,
                 "comments": 3,
                 "icon": "https://b.thumbs.redditmedia.com/LSHrisQApf1H5F8nWShTx3_KjTOMc3R_ss3kx3XAyXQ.png"
             },
@@ -104,7 +104,7 @@
                 "icon": "https://styles.redditmedia.com/t5_3e7xo/styles/communityIcon_8dmtop6sxhs31.png"
             },
             "LifeProTips": {
-                "posts": 14,
+                "posts": 13,
                 "comments": 0,
                 "icon": "https://a.thumbs.redditmedia.com/I5yuS5JqzJfER3oWBzCkmadz1S6wXWeJJZExKSGNgJ8.png"
             },
@@ -134,7 +134,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2qh2z/styles/communityIcon_ilvc8npi9nuf1.png"
             },
             "YouShouldKnow": {
-                "posts": 9,
+                "posts": 8,
                 "comments": 1,
                 "icon": "https://a.thumbs.redditmedia.com/7uVDMO7_sDgkyDpvDmAT5D777ZOWAeU82PIG-L4kHL8.png"
             },
@@ -214,7 +214,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2qjmy/styles/communityIcon_o4rlhqwwox631.png"
             },
             "csMajors": {
-                "posts": 3,
+                "posts": 2,
                 "comments": 1,
                 "icon": ""
             },
@@ -284,7 +284,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2uzju/styles/communityIcon_488kxisiiao41.png"
             },
             "windows": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/ROJ7WRlmHkywObSkDaJY0DybUD7KwdDqcWgZssUfvpA.png"
             },
@@ -379,7 +379,7 @@
                 "icon": "https://b.thumbs.redditmedia.com/PN7Sv1axRx971W5-d_e-IC_RMiP2Sso8IqdRGq3UY9Y.png"
             },
             "SipsTea": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_5tdqj0/styles/communityIcon_yab7s4oubzbg1.png"
             },
@@ -387,6 +387,11 @@
                 "posts": 1,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_3eoh9/styles/communityIcon_dxmawmci17le1.jpg"
+            },
+            "TopCharacterTropes": {
+                "posts": 0,
+                "comments": 1,
+                "icon": "https://styles.redditmedia.com/t5_9t6uuf/styles/communityIcon_1zp9bw0b2txb1.jpg"
             }
         },
         "votes": {
@@ -395,15 +400,15 @@
                 "comments": 10
             },
             "100-1000": {
-                "posts": 65,
+                "posts": 58,
                 "comments": 5
             },
             "1000-10000": {
-                "posts": 45,
-                "comments": 3
+                "posts": 43,
+                "comments": 4
             },
             "10000-100000": {
-                "posts": 56,
+                "posts": 51,
                 "comments": 2
             },
             "100000-1000000": {
@@ -413,23 +418,19 @@
         },
         "dates": {
             "2026-05": {
-                "posts": 2,
-                "comments": 1
+                "posts": 1,
+                "comments": 2
             },
             "2026-02": {
-                "posts": 2,
-                "comments": 1
-            },
-            "2026-01": {
                 "posts": 1,
-                "comments": 0
+                "comments": 1
             },
             "2025-05": {
                 "posts": 4,
                 "comments": 0
             },
             "2025-04": {
-                "posts": 5,
+                "posts": 4,
                 "comments": 0
             },
             "2024-09": {
@@ -437,7 +438,7 @@
                 "comments": 1
             },
             "2025-03": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0
             },
             "2024-07": {
@@ -446,14 +447,6 @@
             },
             "2025-02": {
                 "posts": 2,
-                "comments": 0
-            },
-            "2022-11": {
-                "posts": 6,
-                "comments": 1
-            },
-            "2020-12": {
-                "posts": 7,
                 "comments": 0
             },
             "2025-01": {
@@ -501,7 +494,7 @@
                 "comments": 0
             },
             "2020-08": {
-                "posts": 8,
+                "posts": 4,
                 "comments": 0
             },
             "2020-09": {
@@ -524,8 +517,12 @@
                 "posts": 1,
                 "comments": 0
             },
+            "2020-12": {
+                "posts": 5,
+                "comments": 0
+            },
             "2021-01": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0
             },
             "2021-02": {
@@ -573,12 +570,16 @@
                 "comments": 3
             },
             "2022-10": {
-                "posts": 6,
+                "posts": 5,
                 "comments": 1
             },
             "2012-11": {
                 "posts": 1,
                 "comments": 0
+            },
+            "2022-11": {
+                "posts": 5,
+                "comments": 1
             },
             "2023-12": {
                 "posts": 2,
@@ -661,27 +662,6 @@
     "content": {
         "posts": [
             {
-                "title": "The dancing queen",
-                "author": "ImmaFuckboi",
-                "url": "https://reddit.com/r/SipsTea/comments/1t9ttge/the_dancing_queen/",
-                "subreddit": "SipsTea",
-                "body": "",
-                "media": "https://v.redd.it/jlqpv34z0g0h1",
-                "media_type": "video",
-                "gallery": [],
-                "thumbnail": "https://external-preview.redd.it/dGk3aDB4eDcwZzBoMT6coCZx5acGVfhI6e0OANPQKZVd7cHHo63f2pxprpCO.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp&s=462ed79b894e65474bb48954600f0e70db29e570",
-                "preview_image": "https://external-preview.redd.it/dGk3aDB4eDcwZzBoMT6coCZx5acGVfhI6e0OANPQKZVd7cHHo63f2pxprpCO.png?format=pjpg&auto=webp&s=b5d71182062730a13e3fbac15a702d685f0f4e6b",
-                "domain": "v.redd.it",
-                "datetime": "2026-05-11 10:54:16 IST",
-                "votes": 32748,
-                "nsfw": false,
-                "flairs": [
-                    "Feels good man ",
-                    ""
-                ],
-                "archived": false
-            },
-            {
                 "title": "MBA Leaks: Indian Banks CTC post MBA",
                 "author": "Ididnotkillhim",
                 "url": "https://reddit.com/r/MBAIndia/comments/1t9bvo8/mba_leaks_indian_banks_ctc_post_mba/",
@@ -738,45 +718,6 @@
                 "flairs": [
                     "Article"
                 ],
-                "archived": false
-            },
-            {
-                "title": "Analysed 100+ Reddit Threads to find the best Biryani  in Delhi NCR",
-                "author": "Routine-Ratio-557",
-                "url": "https://reddit.com/r/gurgaon/comments/1qtq90u/analysed_100_reddit_threads_to_find_the_best/",
-                "subreddit": "gurgaon",
-                "body": "So I scraped data off of reddit to find the best biryani in Delhi NCR.  \n  \nAbout the method I used: scraped comments from 300+ posts (mostly from 4 subreddits) and the pipeline picked up discussions/mentions/arguments about biryanis.  \nThen I ran all that data through Python, Claude, and GPT, creating a sentiment analysis of what people said about each restaurant & not just 'xyz mentions'. Selected 30+ places serving biryani, and came down to 16 in this order.   \n  \nConsistency bonus, a name mentioned frequently in good limelight got more points rather than a place with just high upvotes.   \nconsidering we talked about biryanis: Heritage' metric was also included (Why al Jawahar is in top 10)  \nFocused on Quality' by penalising negative reviews more than their positive counterparts. Merged name variants as duplicates inflated scores   \n  \nPS: Shahi Muradabadi had lot of concerns about hygiene but people did speak nicely about the 'taste' :/   \nPPS: Removed Farzi cafe and a few other prominent names such as Bukhara, Dum Pukht because of extreme differences in price points and a scarcity of number of mentions for a frequent biryani eater.  \nPPS: BBK, Biryan Blues, & Behrouz had good number of mentions but mostly were neutral, indicating a dearth of something special which Thalairaj, Andhra Kodi, South Indian Military etc provide\"",
-                "media": "https://i.redd.it/kpmc0m2js1hg1.png",
-                "media_type": "image",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/CwJOGnWNC-_C2IxkjMrc8ixRWgScKilm-IFz60MqtuE.jpg",
-                "preview_image": "https://preview.redd.it/kpmc0m2js1hg1.png?auto=webp&s=df9f37cfce473971357ec516f19392a30dcd625d",
-                "domain": "i.redd.it",
-                "datetime": "2026-02-02 14:43:02 IST",
-                "votes": 143,
-                "nsfw": false,
-                "flairs": [
-                    "Discussion ",
-                    ""
-                ],
-                "archived": false
-            },
-            {
-                "title": "I cheated on the love of my life for years and don\u2019t understand why. I\u2019m trying to change and I don\u2019t know how.",
-                "author": "GoldynMedia",
-                "url": "https://reddit.com/r/selfimprovement/comments/1qql5ki/i_cheated_on_the_love_of_my_life_for_years_and/",
-                "subreddit": "selfimprovement",
-                "body": "This is hard to write and there are very few people in my life I can be fully honest with about this. I have a therapist, I\u2019ve been reading a lot, and I\u2019ve tried journaling and exercising, but I still feel lost. I\u2019m posting here because I genuinely want to improve, not because I want excuses.\n\n\n\nI (22M) was with the love of my life (22F) for about three years. She treated me better than anyone ever has. She was patient, kind, and loyal to me. And throughout our relationship, on and off, I cheated. For most of the time it was long distance which was very hard for me.\n\n\n\nI don\u2019t say that lightly. I told her the truth eventually because I knew lying was destroying both of us. Every time I promised myself I would stop and be better, I would\u2026 and then somehow I\u2019d do it again. Sexting, flirting, attention seeking. It didn\u2019t even feel like I wanted other people more than her. It felt compulsive and selfish and avoidant.\n\n\n\nWhat makes this worse is that I can\u2019t point to a clear \u201creason.\u201d She wasn\u2019t abusive. She wasn\u2019t neglectful. She wasn\u2019t unloving. If anything, she loved me more than I knew how to handle. And I still hurt her.\n\n\n\nWe broke up in august and it\u2019s fully my fault. I lost someone who loved me deeply because I couldn\u2019t control my impulses or be honest when it mattered. I think about her every day. I feel a lot of shame and regret and I\u2019ve had a hard time forgiving myself.\n\n\n\nSince August, I\u2019ve tried to \u201creset\u201d myself multiple times. I\u2019ve tried deleting apps, setting rules, focusing on work, going to the gym, journaling, reading, and starting therapy. Some of it helps, but nothing has stuck long term yet. When I feel lonely or bored or insecure, I still feel that pull toward validation and attention. We started talking again multiple times and each time I feel like I messed it up and made it worse. I dont blame her for not wanting to talk to me, i've put myself in her shoes and not a day goes by that I dont think about it. Ive now accepted that I cannot contact her at all at least until I figure this out for myself and am sure I can be better.\n\n\n\nI don\u2019t want to be this person anymore. I don\u2019t want sex or attention to be my main motivator in life. I don\u2019t want to hurt people who love me. I don\u2019t want to run from loneliness by using other people.\n\n\n\nMy questions are:\n\n\u2013 How do you actually change a pattern like this instead of just feeling bad about it?\n\n\u2013 How do you learn self control when the urge feels emotional, not logical?\n\n\u2013 Has anyone here actually changed from being someone who cheats or seeks validation to someone stable and honest?\n\n\n\nI know I don\u2019t deserve her back. I\u2019m not asking how to fix my relationship. I\u2019m asking how to fix myself so I don\u2019t destroy another one in the future.\n\n\n\nIf you read this, thank you. It was hard to admit all of this.",
-                "media": "https://www.reddit.com/r/selfimprovement/comments/1qql5ki/i_cheated_on_the_love_of_my_life_for_years_and/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.selfimprovement",
-                "datetime": "2026-01-30 02:39:35 IST",
-                "votes": 978,
-                "nsfw": false,
-                "flairs": [],
                 "archived": false
             },
             {
@@ -928,24 +869,6 @@
                 "archived": true
             },
             {
-                "title": "Is ChatGPT too much of a yes-man and Sycophant? Try this!",
-                "author": "VinceAmonte",
-                "url": "https://reddit.com/r/ChatGPTPromptGenius/comments/1k0pzry/is_chatgpt_too_much_of_a_yesman_and_sycophant_try/",
-                "subreddit": "ChatGPTPromptGenius",
-                "body": "I got sick of ChatGPTS constant yes-man sycophant antics and dropped this into custom instructions a few weeks ago, and the results have been pretty solid. It may be worth a try if you're sick of the constant cheerleading. Caveat: This will certainly depend on what ChatGPT knows about you in it's memary banks, so YMMV.\n\n**In Custom Instructions, drop:**\n\n\"Always assume I want advice tailored specifically to me, based on what you already know about my goals, style, preferences, and life context. Avoid giving generic or broad advice unless I explicitly ask for a general overview. Treat every conversation \u2014 whether it's about academics, life choices, career, personal style, or anything else \u2014 as if you are speaking to someone you know personally.\n\nIf you believe I am overlooking an important perspective, making an assumption that could be challenged, or missing an opportunity to think deeper, respectfully push back and offer a sharper or alternative viewpoint. Assume I appreciate intellectual rigor and want to be challenged in a constructive, tailored way.\n\nAdopt a skeptical, questioning approach.\n\nUse a blunt, strategic, and casual tone. Prioritize clear, rigorous analysis, but keep the conversation human, lively, and a little darkly humorous when appropriate. Avoid dry or overly formal responses. No therapy-speak, no fake optimism \u2014 just sharp realism with some personality. Talk to me like a brutally smart, slightly sarcastic friend who actually wants me to win \u2014 not a therapist, not a yes-man, and not a humorless AI drone.\n\nBe objective and unbiased.  \nDefault to science and reason.\"",
-                "media": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1k0pzry/is_chatgpt_too_much_of_a_yesman_and_sycophant_try/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.ChatGPTPromptGenius",
-                "datetime": "2025-04-16 22:51:44 IST",
-                "votes": 167,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
                 "title": "Two Years at IIM BLACKI \u2013 Not the dream, not the disaster, just the truth",
                 "author": "Interesting-Egg654",
                 "url": "https://reddit.com/r/CATpreparation/comments/1joo1bs/two_years_at_iim_blacki_not_the_dream_not_the/",
@@ -984,37 +907,6 @@
                 "flairs": [
                     "Review"
                 ],
-                "archived": false
-            },
-            {
-                "title": "A cool guide about how to \u201cfight\u201d in a relationship",
-                "author": "Advanced-Bar9377",
-                "url": "https://reddit.com/r/coolguides/comments/1ji1nm2/a_cool_guide_about_how_to_fight_in_a_relationship/",
-                "subreddit": "coolguides",
-                "body": "Saw this on if",
-                "media": "https://www.reddit.com/gallery/1ji1nm2",
-                "media_type": "gallery",
-                "gallery": [
-                    "https://i.redd.it/5cy6k86iigqe1.jpg",
-                    "https://i.redd.it/tpcwe96iigqe1.jpg",
-                    "https://i.redd.it/6eh7486iigqe1.jpg",
-                    "https://i.redd.it/m9fbl86iigqe1.jpg",
-                    "https://i.redd.it/0juh186iigqe1.jpg",
-                    "https://i.redd.it/d39c686iigqe1.jpg",
-                    "https://i.redd.it/5hy4i86iigqe1.jpg",
-                    "https://i.redd.it/72kp886iigqe1.jpg",
-                    "https://i.redd.it/9m1t096iigqe1.jpg",
-                    "https://i.redd.it/d2w8p86iigqe1.jpg",
-                    "https://i.redd.it/8jxix86iigqe1.jpg",
-                    "https://i.redd.it/8aw1m86iigqe1.jpg"
-                ],
-                "thumbnail": "https://b.thumbs.redditmedia.com/DolChxlEuwVKGRdw-G3OpudJTQkBvPaPuOVyBVrCXjk.jpg",
-                "preview_image": null,
-                "domain": "reddit.com",
-                "datetime": "2025-03-23 20:51:14 IST",
-                "votes": 9161,
-                "nsfw": false,
-                "flairs": [],
                 "archived": false
             },
             {
@@ -1092,42 +984,6 @@
                 "flairs": [
                     "Experienced"
                 ],
-                "archived": false
-            },
-            {
-                "title": "Do these formulas apply to every key in piano ?",
-                "author": "Res689",
-                "url": "https://reddit.com/r/pianolearning/comments/ytnicl/do_these_formulas_apply_to_every_key_in_piano/",
-                "subreddit": "pianolearning",
-                "body": "",
-                "media": "https://i.redd.it/gc6k54129mz91.jpg",
-                "media_type": "image",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://preview.redd.it/gc6k54129mz91.jpg?auto=webp&s=1fc9fc759eebfc37c7df8a0d1d214341cb6f4a61",
-                "domain": "i.redd.it",
-                "datetime": "2022-11-13 06:22:02 IST",
-                "votes": 289,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "Learn note intervals on the piano with this chart!",
-                "author": "FrankElda",
-                "url": "https://reddit.com/r/pianolearning/comments/k5x8us/learn_note_intervals_on_the_piano_with_this_chart/",
-                "subreddit": "pianolearning",
-                "body": "",
-                "media": "https://i.redd.it/p5hbarxd5z261.png",
-                "media_type": "image",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://preview.redd.it/p5hbarxd5z261.png?auto=webp&s=b1e4e86e0a745f271f63d9c93f2bbe8acb7529fa",
-                "domain": "i.redd.it",
-                "datetime": "2020-12-03 19:02:18 IST",
-                "votes": 392,
-                "nsfw": false,
-                "flairs": [],
                 "archived": false
             },
             {
@@ -2165,78 +2021,6 @@
                 "archived": false
             },
             {
-                "title": "What is the worst text message you could wake up to?",
-                "author": "jdparmenter",
-                "url": "https://reddit.com/r/AskReddit/comments/ib59pg/what_is_the_worst_text_message_you_could_wake_up/",
-                "subreddit": "AskReddit",
-                "body": "",
-                "media": "https://www.reddit.com/r/AskReddit/comments/ib59pg/what_is_the_worst_text_message_you_could_wake_up/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.AskReddit",
-                "datetime": "2020-08-17 07:28:41 IST",
-                "votes": 8839,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "How do you get over someone?",
-                "author": "ceelery",
-                "url": "https://reddit.com/r/AskReddit/comments/ibw808/how_do_you_get_over_someone/",
-                "subreddit": "AskReddit",
-                "body": "",
-                "media": "https://www.reddit.com/r/AskReddit/comments/ibw808/how_do_you_get_over_someone/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.AskReddit",
-                "datetime": "2020-08-18 12:34:01 IST",
-                "votes": 61995,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "YSK: If you feel you need therapy but can\u2019t afford it, many places offer sliding-scale payment.",
-                "author": "lisanik",
-                "url": "https://reddit.com/r/YouShouldKnow/comments/ibz91q/ysk_if_you_feel_you_need_therapy_but_cant_afford/",
-                "subreddit": "YouShouldKnow",
-                "body": "EDIT: I am continuing to add to the master list of links in the main post as I do more research. \n\nThis is a comment I make frequently (US specific), so I thought I\u2019d add it here. I\u2019ve helped a number of strangers find sliding-scale places in their areas. My partner once went for free for two years because of his financial situation. I recently helped someone else find a good therapist in their area for $30 a session. \n\nSo if you feel like you need help\u2014depression, anxiety, grief, trauma, etc\u2014but don\u2019t think you can afford it, make sure that\u2019s not the case. I\u2019m happy to help anyone look into their options. \n\nAnother great resource if you\u2019re in the States is [NAMI](https://www.nami.org/Blogs/NAMI-Blog/September-2016/How-Texting-Can-Help-Save-a-Life). You can literally text them for resources in your area. \n\nFinally, we tend to treat the brain differently than other parts of the body. As I often say to my students who are struggling, if you had low blood sugar, would you yell at it to raise itself? A broken foot? Of course not. You\u2019d go to the doctor. The same should apply to the brain. There is no shame in seeking help. I\u2019m fact, I\u2019d argue it\u2019s courageous. \n\nHugs to everyone who\u2019s struggling.\n\nEdit: many people are reaching out to me via message. I will do my best to help each and every one of you, but please be a little patient; the floodgates have opened. \n\nAlso, I\u2019m proud of every single person who has had the courage to reach out, is now seeking therapy, or is even thinking about therapy. Make yourself a priority. You\u2019re worth it.\n\nEdit #2: Y\u2019all are amazing. Thank you to everyone for the awards.\n\nEdit #3: my phone is about to die, and I need to rest for a while (I\u2019m quite ill). But I will be back later on, so don\u2019t hesitate to reach out.\n\nEdit #4: I\u2019m going to go cuddle my dog and shut my brain down for the night, but I\u2019ll be back tomorrow to keep responding to DMs and comments. Rest well, y\u2019all.\n\nEdit #5: Lists I\u2019ve put together for folks. Thought I\u2019d add this in case anyone was afraid to reach out but lives in one of these areas. :\n\n**General resource:**\n\nText NAMI, as they may be aware of resources I\u2019m not. Still, this is a starting place. \n\nhttps://www.nami.org/Blogs/NAMI-Blog/September-2016/How-Texting-Can-Help-Save-a-Life\n\n**Virtual:**\n\nhttps://www.betterhelp.com\n\nhttps://openpathcollective.org (I\u2019m told this is the more affordable of the virtual options)\n\nIt\u2019s worth noting that many places are doing virtual therapy because of covid. \n\n**San Antonio:**\n\nhttps://www.freeclinics.com/cit/tx-san_antonio\n\n**Houston:**\n\nhttps://fullerlifefamilytherapy.org/houston-sliding-scale-therapy-agencies/\n\n**Corpus Christi:**\n\nhttps://www.opencounseling.com/texas/corpus-christi\n\n**Palm Desert/Palm Springs/ La Quinta CA**\n\nhttps://www.opencounseling.com/california/palm-desert\n\n**Vancouver:**\n\nhttps://www.advancedwellnesscounseling.com\n\n**Los Angeles**\n\nhttps://mylatherapy.com/about-my-la-therapy/sliding-scale-therapy/\n\nhttps://wila.org\n\nhttp://www.creativetherapyla.com/ss.html\n\n**Puerto Rico**\n\nhttps://www.needymeds.org/mental_clinics.taf?_function=state&amp;state=PR\n\n**Brooklyn**\n\nKings County Hospital Center\u2019s Behavioral Health Center offers therapy on a sliding scale from $15-20 a session. Keep in mind this is all subject to your financial situation, so call 718-245-2727 for more information on required paperwork. \n\nhttps://www.newpathwaysny.org\n\nhttps://williamsburgtherapygroup.com\n\nhttps://newdirectionsbrooklyn.com\n\nhttps://jewishboard.org\n\n**Nashville**\n\nhttp://www.mindfultherapynashville.com\n\nhttps://www.agapenashville.org/counseling\n\nFinally, a list of resources: https://www.opencounseling.com/tennessee/nashville\n\n**Denver**\n\nhttps://www.mariadroste.org\n\nhttps://denverfamilyinstitute.org\n\nAnd a link to a list of other possibilities: \n\nhttp://www.jcmh.org/wp-content/uploads/2017/06/Mental-Health-Tx-Low-Cost-and-Sliding-Scale.pdf\n\n**Staten Island**\n\nhttps://www.islandofhopecounseling.com\n\nhttp://www.counselingstatenisland.com\n\nhttp://www.listeningcarefullycounseling.com\n\n**Brentwood, NY**\n\nhttp://mhaw.org/programs/community-resource-directory/\n\nhttp://www.hrhcare.org/healthcenters/brentwood/\n\n**And nearby Levittown:**\n\nhttps://yesccc.org/what-we-do\n\nAnd if none of those work, give this database a try: https://openpathcollective.org/city/new-york/\n\n**Knoxville**\n\nhttps://www.knoxvillecounselingservices.com\n\nhttps://www.cherokeehealth.com/about-us/who-we-serve\n\nAn awesome list: https://www.opencounseling.com/tennessee/knoxville\n\n**Baltimore**\n\nhttps://probonocounseling.org\n\nhttps://www.hopkinsmedicine.org/socialwork/medsurg/community/partb.html\n\nA nice list: https://www.opencounseling.com/maryland/baltimore\n\nAnother helpful resource: https://211md.org/counseling\n\n**Brookline and Boston, MA**\n\nhttps://www.brooklinecenter.org\n\nhttps://www.denovo.org/counseling/services\n\nhttps://mariadrostecounseling.com\n\nAnd a list of folks in Boston:\n\nhttps://www.opencounseling.com/massachusetts/boston\n\n**Indianapolis**\n\nhttps://www.familiesfirstindiana.org/mental-health-counseling\n\nhttp://www.legacy-house.org\n\nA useful list: https://www.opencounseling.com/indiana/indianapolis\n\n**Fort Wayne, IN**\n\nhttps://www.headwaterscounseling.org\n\nhttps://www.bowencenter.org\n\nhttps://www.treatment-centers.net/directory/indiana/fort-wayne/counseling-services-and-consulting-llc.html (if substance abuse is part of the issue)\n\nhttps://www.fwfmc.com\n\nhttps://www.parkcenter.org\n\nAnd a pdf list: https://acjc.us/wp-content/uploads/2017-Updated-Counseling-Agencies.pdf\n\n**Florida Panhandle/Fort Walton area**\n\nhttps://www.ppccfl.com\n\nhttps://www.psychologytoday.com/us/therapists/carol-r-murphy-fort-walton-beach-fl/203267\n\nA list of folks who provide sliding scale: https://www.opencounseling.com/florida/fort-walton-beach\n\n**Schenectady, NY**\n\nhttps://www.opencounseling.com/new-york/schenectady\n\n\n**Baton Rouge, LA**\n\nhttps://www.opencounseling.com/louisiana/baton-rouge\n\nhttps://ldh.la.gov/index.cfm/directory/detail/8546/catid/179\n\nhttps://www.shchc.org/locations\n\nhttps://fsgbr.org\n\nhttps://www.grcbr.org\n\nhttp://cosbr.net/contact/\n\nhttps://daronda-parker-lathan.vsee.me/u/clinic\n\n**Grand Rapids, Michigan**\n\nhttp://grcounseling.com\n\nhttps://www.mindfulcounselinggr.com\n\nhttps://www.opencounseling.com/michigan/grand-rapids\n\nhttp://www.eastowncounseling.com\n\nhttps://www.michigan.gov/documents/cmh_8_1_02_37492_7.PDF\n\n**Asheville, NC**\n\nhttps://www.fullcirclewnc.org\n\nhttp://allsoulscounseling.org\n\nhttps://www.opencounseling.com/north-carolina/asheville\n\nhttps://trueselfhealinggroup.com/lowfee-clinic\n\n\n**Madison, WI**\n\nhttps://samaritancounselingcenterwi.org/about/\n\nhttps://www.opencounseling.com/wisconsin/madison\n\nhttp://m.lakecitycounseling.com/?url=http://www%2Elakecitycounseling%2Ecom%2F#2811\n\n**Ontario, Toronto, Ottawa, Hamilton**\n\nhttps://www.affordabletherapytoronto.com\n\n\n**West Palm Beach, FL**\n\nhttps://namipbc.org/resource-links/\n(Scroll down time counseling services, but this page has so many good links)\n\nhttps://www.opencounseling.com/florida/west-palm-beach\n\nhttps://www.ctrfam.org/individual-family-counseling/\n\n**Sioux Falls, South Dakota**\n\nhttps://burroughscounseling.com\n\nhttps://sfpsychological.org/what-we-do/marriage-and-family-clinic/\n\nhttps://www.helplinecenter.org/wp-content/uploads/HLCRD-Sioux-Falls-Mental-Health-Guide.pdf\n\n**San Francisco, CA**\n\nGolden Gate Integral Counseling Center\nPhone: (415) 561-0230\n\nhttps://www.marinacounseling.com\n\nhttps://www.ciis.edu/counseling-and-acupuncture-clinics/integral-counseling-center-at-pierce-street\n\nhttp://sfnewperspectives.org\n\nhttps://www.accessinst.org\n\nhttps://www.liberationinstitute.org\n\nhttps://mindfulcenter.org\n\nhttps://www.wellsanfrancisco.com/about/sliding-scale-therapy/\n\n**Pueblo, CO**\n\nhttps://www.health.solutions\n\n**Philly!**\n\nhttp://www.counselingphiladelphia.com\n\nhttps://councilforrelationships.or\n\nhttps://www.mazzonicenter.org\n\nhttps://www.circlecounseling.com\n\nhttps://abetterlifetherapy.com\n\nhttps://www.turningleaftherapyservices.com\n\nA nice list: https://generocity.org/philly/2018/06/27/mental-health-guide-where-to-get-therapy-on-a-sliding-scale-in-philadelphia/\n\nAnd another: https://www.google.com/amp/s/www.phillymag.com/be-well-philly/2020/04/30/virtual-therapy/%3famp=1\n\n\n**Lancaster, PA**\n\nhttps://cobys.org/counseling/\n\nhttps://www.lauramorse.org\n\nhttps://thewellcounselingandconsulting.com\n\nhttps://lancasterpsychology.com\n\nhttps://healingspacesbh.com\n\n**Seattle**\n\nhttps://www.antioch.edu/seattle/resources/\n\nhttps://seattleanxiety.com\n\nhttp://northwestfamilylife.org\n\nhttps://www.sagetherapyseattle.com\n\nhttps://aubree-irving-therapy.com\n\nhttps://www.southseattlecounseling.com\n\nhttps://mendseattle.com\n\nhttps://bastyrcenter.org/services/counseling\n\nAnd a list of resources: http://www.seattlecrisis.org/counseling.html\n\n\n**Atlanta, GA**\n\nhttps://mcsatlanta.org\n\nhttp://samaritanatlanta.org\n\nhttp://www.intownfamilytherapy.com\n\nhttps://www.thelink.org\n\nhttp://www.htwcc.org\n\nhttp://www.atlanta-counseling.com/rates-and-fees\n\nhttps://gahope.org\n\nhttp://www.skylinecounselingatl.com/low-cost-services\n\n\n**Fairbanks, Alaska**\n\nhttps://www.opencounseling.com/alaska/fairbanks\n\nhttps://www.psychologytoday.com/us/therapists/lotus-family-counseling-llc-fairbanks-ak/294939\n\nhttps://www.psychologytoday.com/us/therapists/jennifer-hood-lpc-llc-fairbanks-ak/362052 (trauma specialist)\n\nhttps://www.utherapy.net/contact/\n\nhttp://www.graceinmotioncounseling.com\n\n**Lehi, Utah**\n\nhttps://whs.alpineschools.org/wp-content/uploads/sites/13/2016/11/Low-Cost-Mental-Health-Services-in-Utah-County.pdf\n\nhttps://www.stevenjchen.com\n\n**Salt Lake City, UT**\n\nhttps://www.ucebt.com\n\nhttps://www.opencounseling.com/utah/salt-lake-city\n\nhttps://www.familycounselingcenterutah.com\n\nhttp://www.whitneybarrellcounseling.com\n\nhttps://www.amethystcenterforhealing.com\n\nhttps://redwillowcounseling.com\n\n**Tacoma, WA**\n\nhttps://www.seamar.org/pierce-medical-tacoma.html\n\n**Oakland, CA**\n\nhttps://www.seeds-of-awareness.org\n\nhttp://womenstherapy.org\n\nhttp://blueoaktherapycenter.org\n\nNice long list of resources: https://sa.berkeley.edu/sites/default/files/Sliding%20Scale%20Psychotherapy%20Agencies2.pdf\n\nAnother list of resources: http://acphd.org/media/129900/mental_health_matrix.pdf\n\nhttps://gratefulhearttherapy.org\n\nhttps://lauranorthruppsychotherapy.com/sliding-scale-therapy-resources",
-                "media": "https://www.reddit.com/r/YouShouldKnow/comments/ibz91q/ysk_if_you_feel_you_need_therapy_but_cant_afford/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://external-preview.redd.it/xa1vhvDjduwty0XTLmamFLLR3K4T7JipJtDOPit199s.jpg?auto=webp&s=489f4dc38db844ec94493d02582c064e46acf1fb",
-                "domain": "self.YouShouldKnow",
-                "datetime": "2020-08-18 16:59:21 IST",
-                "votes": 11370,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "what invention is so good that it actually can\u2019t be improved upon?",
-                "author": "[deleted]",
-                "url": "https://reddit.com/r/AskReddit/comments/idjksc/what_invention_is_so_good_that_it_actually_cant/",
-                "subreddit": "AskReddit",
-                "body": "",
-                "media": "https://www.reddit.com/r/AskReddit/comments/idjksc/what_invention_is_so_good_that_it_actually_cant/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.AskReddit",
-                "datetime": "2020-08-21 03:12:48 IST",
-                "votes": 79270,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
                 "title": "YSK that if you usually find yourself spending more than 10 mins to properly write an email, here's a well-thought-out structure for you",
                 "author": "the-lah",
                 "url": "https://reddit.com/r/YouShouldKnow/comments/iml79z/ysk_that_if_you_usually_find_yourself_spending/",
@@ -2562,42 +2346,6 @@
                 "domain": "i.redd.it",
                 "datetime": "2020-12-19 03:09:55 IST",
                 "votes": 61,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "From 2.3 highschool GPA to 80K offer without highbrow internships, coding challenges, or even close to a 4.0 college GPA by applying to hundreds of internships (with breakdown of application stats)",
-                "author": "Thisdrawingsucks",
-                "url": "https://reddit.com/r/csMajors/comments/kkxiy9/from_23_highschool_gpa_to_80k_offer_without/",
-                "subreddit": "csMajors",
-                "body": "After a long five and a half years of CS at the University of Utah I've finally graduated with an offer from my dream company. During those years in college I saw constant pressure to practice online coding challenges and to get an internship at Google, Microsoft, etc, but truthfully I dislike the sound of either of those, I wanted to go into healthcare\n\nBy my third year I still didn't have any internships and had probably a 3.3 GPA, so without much direction I just started applying to as many internships as I could. I applied while in class, I applied during my lunch breaks, I applied at every moment I could find time. By the time I got an internship I racked up almost 230 applications (less than 5 had cover letters and I had no personal connections to any companies I applied to). This is what those applications resulted in\n\n* Number of Internships Applied to: 227\n   * Rejections: 136\n   * Did not hear back: 68\n   * First Round Interviews before accepting first internship: 19\n      * ADM, UPMC (x2), State Farm (x2), TIAA, Southwest Airlines, Principal, CarMax, Prudential, Amazon, Bank of America, HCA, Mayo Clinic (x2), Tenet, Centene, Qurate\n   * Second Round Interviews before accepting first internship: 5\n      * Prudential, Southwest Airlines, UPMC, Mayo Clinic (x2)\n      * Second Round interview that came after I accepted first internship: 1\n   * Made first round interview but didn't want to interview for: 4\n      * ADM, Principal, HCA, Statefarm\n   * First Round Interviews after accepting first internship: 11\n      * Centene, Qurate, Principal (x2), Statefarm, Nordstrom, NextEra Energy, Verizon (x2), Stryker (x2)\n\nWhy I think this strategy works: Assuming all CS students are good candidates to a certain percentage of internships, if you just keep applying to internships the numbers will work themselves out eventually. What did I have going in my favor? Disregarding a very average 3.3 GPA, I was a unique candidate. I was the captain of the jump section of my track team and was pretty personable in interviews. I also had a  web scraping project to my name that was complete minimum viable product.\n\nMy biggest tips:\n\n* Get an internship even if it isn't your \"dream internship\" during your sophomore summer or junior summer if you plan on going for a senior summer internship\n   * This is going to really give you some leverage for the next internship application cycle\n   * If you happen to not get your dream internship the next year then you have a good backup spot and some leverage for when you apply to real jobs\n   * This will give you some pay leverage whether at internships or jobs\n* Focus heavily on being personable\n   * I can't tell you the difference it made that the manager hiring and I felt like we had a good connection. These people are going to be spending a decent amount of time with you, so they'd prefer to enjoy that time even if you're not the most \"prestigious\" application\n* You can really stand out with unique qualifications\n   * By the time I graduated I spent over a year as the president of track and field at my school\n* Start early (September/October)\n   * I have a suspicion that many internships don't get as much attention in the first week or two postings have been up if they're really early in internship season\n\nI used this strategy again the next year and now have a total of over 500 applications submitted, although it's easier the second time when you have an internship on your resume. Hopefully this will inspire people to stop taking leet/coding challenges so seriously and to focus more on diversifying their skill sets!",
-                "media": "https://www.reddit.com/r/csMajors/comments/kkxiy9/from_23_highschool_gpa_to_80k_offer_without/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.csMajors",
-                "datetime": "2020-12-27 10:24:40 IST",
-                "votes": 486,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "LPT: Beware the \"Intern Trap\". Don't take a job as a X Intern at a company that doesn't have anyone who can do X.",
-                "author": "maybeest",
-                "url": "https://reddit.com/r/LifeProTips/comments/kobiui/lpt_beware_the_intern_trap_dont_take_a_job_as_a_x/",
-                "subreddit": "LifeProTips",
-                "body": "Interning should be a process of learning a craft while you help to contribute to the overall institutional goals. \n\nIf a company is advertising for an intern position, but doesn't have anyone who does that job, then they are probably just trying to pay someone less for a job that they want someone to be able to do. Traditionally, these are jobs that young people are adept at, but older people may not have the skills to perform. \n\nFor example, they probably need/want a Social Media Manager, not a Social Media Intern, but they want to pay less, hence the title. If you interview for a position like this, ask who at the company you will be learning from. If they don't have someone senior in the role, they may be willing to offer a mentor in other valuable skills - a senior marketing manager, for example. \n\nConsider negotiating a title that reflects what you will be learning, not just what you will be contributing. This will help you develop your resume and, well, hopefully learn new skills. Also consider negotiating a title change and salary adjustment to reflect that title. \"It seems that you don't have anyone at the company in a position to mentor a Social Media Intern and that what you really need is a Social Media Manager. I'm happy to take that role, at the junior level, and prove my worth to the company.\" \n\nReally take a look at the learning on offer and what it's worth to you - if they're paying you $20k less a year, then your mentorship better be up to that value. You can save yourself a lot of wasted time and money by avoiding this \"Intern Trap\".\n\nEDIT: To be clear, some internships are genuine where you trade your work for real on the job learning (and a small paycheque). These should have someone on staff who is responsible to the intern - an actual mentor - or there should be a clear trade of skills/experience for your work and time. These are not the \"Intern Traps\" I intended to warn about. Nor am I talking about internships or practicums related to an educational course of study.\n\nI'm talking to job seekers looking for a job who might be undervaluing their skills, potentially negotiating with a company that is trying to take advantage of the applicant.  \n\nIn Canada, where I'm from, unpaid internships are (now) illegal, though were prevalent early in my career. These privilege people who have enough resources and support to be able to give their time and labour away without financial compensation and disadvantage people who can't afford to work for free because they have bills to pay.\n\nEDIT 2: Thanks for the Helpful awards and the Silver! My first ever and I appreciate it!\n\nEDIT 3: A lot of people are reading this post as anti-internship. It is not intended to be! I am very pro-internship. This is a tip to ask in the interview to determine if what is on offer is, indeed, an internship or if it is a lowball play for your skills and labour. Just know what you are getting into by asking about the mentorship, training, and skills that they plan for you to learn. If they don't have a plan, they *might* be exploitative. If you had a great internship experience, great! Lucky you! And thanks for sharing these experiences. It's great to know some people have made the best of their situations, or, indeed had a good experience with a company that does internships right.",
-                "media": "https://www.reddit.com/r/LifeProTips/comments/kobiui/lpt_beware_the_intern_trap_dont_take_a_job_as_a_x/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.LifeProTips",
-                "datetime": "2021-01-01 19:17:30 IST",
-                "votes": 34019,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -3153,26 +2901,6 @@
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
-            },
-            {
-                "title": "My Omen 15 has a button that opens the OMEN Gaming Hub, is it possible to change it so that it opens up another (actually useful) app instead (such as Spotify)?",
-                "author": "thatdemoniccat",
-                "url": "https://reddit.com/r/windows/comments/yd279s/my_omen_15_has_a_button_that_opens_the_omen/",
-                "subreddit": "windows",
-                "body": "",
-                "media": "https://i.redd.it/nkaam2xlqxv91.jpg",
-                "media_type": "image",
-                "gallery": [],
-                "thumbnail": "https://a.thumbs.redditmedia.com/AJNaxhRDar1eJ_X0Tgp8ayxTLbOr4KXq0_y3xF6eJc4.jpg",
-                "preview_image": "https://preview.redd.it/nkaam2xlqxv91.jpg?auto=webp&s=2f3a2925165ac467858ee89398de1afd1e142240",
-                "domain": "i.redd.it",
-                "datetime": "2022-10-25 16:43:29 IST",
-                "votes": 396,
-                "nsfw": false,
-                "flairs": [
-                    "General Question"
-                ],
-                "archived": true
             },
             {
                 "title": "In your experience, what's the biggest woman repellent?",
@@ -4497,6 +4225,18 @@
             }
         ],
         "comments": [
+            {
+                "post_title": "[Mixed Trope] Lyrics change to reflect new realities",
+                "post_subreddit": "TopCharacterTropes",
+                "post_url": "https://www.reddit.com/r/TopCharacterTropes/comments/1tc0bb6/mixed_trope_lyrics_change_to_reflect_new_realities/",
+                "comment_url": "https://reddit.com/r/TopCharacterTropes/comments/1tc0bb6/mixed_trope_lyrics_change_to_reflect_new_realities/olkgtr2/",
+                "comment_text": "tik tok-kesha\n\nhttps://preview.redd.it/80x9xlzjuw0h1.png?width=597&format=png&auto=webp&s=68d89dbe6ff7c1fc6caa0aac3dd2330407ca0383",
+                "author": "ButterscotchTiny5483",
+                "datetime": "2026-05-13 19:24:32 IST",
+                "votes": 9459,
+                "nsfw": false,
+                "archived": false
+            },
             {
                 "post_title": "So microsoft decided you can't setup windows 11 offline. Welp, time to go linux",
                 "post_subreddit": "pcmasterrace",
