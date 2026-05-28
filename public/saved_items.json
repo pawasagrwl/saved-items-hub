@@ -1,6 +1,6 @@
 {
-    "last_fetched_on": "2026-05-19 15:35:47 IST",
-    "last_fetch_duration": 4.924478769302368,
+    "last_fetched_on": "2026-05-28 15:33:54 IST",
+    "last_fetch_duration": 15.765104293823242,
     "counts": {
         "subreddits": {
             "foundsatan": {
@@ -9,7 +9,7 @@
                 "icon": "https://styles.redditmedia.com/t5_r681a/styles/communityIcon_wiv4ffadspz11.jpg"
             },
             "IndiaCareers": {
-                "posts": 0,
+                "posts": 1,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_3ai50/styles/communityIcon_nr30gxb3a99d1.jpg"
             },
@@ -69,7 +69,7 @@
                 "icon": ""
             },
             "cscareerquestions": {
-                "posts": 14,
+                "posts": 13,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/Lpbu8WMV1n1QtY74rDWICSzeURLPrelOyKjHuGDM0Gs.png"
             },
@@ -79,7 +79,7 @@
                 "icon": "https://styles.redditmedia.com/t5_39v5s/styles/communityIcon_f8k2rmx42os41.png"
             },
             "AskReddit": {
-                "posts": 21,
+                "posts": 19,
                 "comments": 3,
                 "icon": "https://b.thumbs.redditmedia.com/LSHrisQApf1H5F8nWShTx3_KjTOMc3R_ss3kx3XAyXQ.png"
             },
@@ -104,7 +104,7 @@
                 "icon": "https://styles.redditmedia.com/t5_3e7xo/styles/communityIcon_8dmtop6sxhs31.png"
             },
             "LifeProTips": {
-                "posts": 13,
+                "posts": 12,
                 "comments": 0,
                 "icon": "https://a.thumbs.redditmedia.com/I5yuS5JqzJfER3oWBzCkmadz1S6wXWeJJZExKSGNgJ8.png"
             },
@@ -124,7 +124,7 @@
                 "icon": "https://styles.redditmedia.com/t5_7hqomg/styles/communityIcon_bzj6d1z1oizc1.png"
             },
             "AskMen": {
-                "posts": 6,
+                "posts": 5,
                 "comments": 1,
                 "icon": "https://a.thumbs.redditmedia.com/LH9Y1HS41ygKhs8OoNOXyoS3ovy7x4LBkxci05XMAZ0.png"
             },
@@ -159,7 +159,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2yap2d/styles/communityIcon_eej4b31q08ng1.png"
             },
             "developersIndia": {
-                "posts": 13,
+                "posts": 12,
                 "comments": 3,
                 "icon": "https://b.thumbs.redditmedia.com/v6GGyP2tC0O10P3Pnv8-GPr6eL5Z_br3Y2qX5ARvi3I.png"
             },
@@ -199,7 +199,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2tk0s/styles/communityIcon_v5b469kmb68b1.png"
             },
             "oddlysatisfying": {
-                "posts": 1,
+                "posts": 2,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/65GJujMgAXbydbxxFPYm6eck1YffqR-anhX4-hxnVhQ.png"
             },
@@ -214,7 +214,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2qjmy/styles/communityIcon_o4rlhqwwox631.png"
             },
             "csMajors": {
-                "posts": 2,
+                "posts": 0,
                 "comments": 1,
                 "icon": ""
             },
@@ -324,7 +324,7 @@
                 "icon": "https://styles.redditmedia.com/t5_3eg84/styles/communityIcon_2cw1s6ux00ac1.jpg"
             },
             "webdev": {
-                "posts": 4,
+                "posts": 3,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/vk8EAqzcLRGYh_Yisi68CglMMuheNEFKNaDLZy7h2ZE.png"
             },
@@ -384,7 +384,7 @@
                 "icon": "https://styles.redditmedia.com/t5_5tdqj0/styles/communityIcon_yab7s4oubzbg1.png"
             },
             "MBAIndia": {
-                "posts": 1,
+                "posts": 4,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_3eoh9/styles/communityIcon_dxmawmci17le1.jpg"
             },
@@ -392,23 +392,28 @@
                 "posts": 0,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_9t6uuf/styles/communityIcon_1zp9bw0b2txb1.jpg"
+            },
+            "indiadiscussion": {
+                "posts": 1,
+                "comments": 0,
+                "icon": "https://b.thumbs.redditmedia.com/FEzf8XF9v-ziV_HGSzEsnlhW4vBUKGfFxJPdLt0xzGI.png"
             }
         },
         "votes": {
             "0-100": {
-                "posts": 25,
+                "posts": 28,
                 "comments": 9
             },
             "100-1000": {
-                "posts": 50,
+                "posts": 46,
                 "comments": 4
             },
             "1000-10000": {
-                "posts": 40,
+                "posts": 39,
                 "comments": 3
             },
             "10000-100000": {
-                "posts": 51,
+                "posts": 50,
                 "comments": 2
             },
             "100000-1000000": {
@@ -417,13 +422,17 @@
             }
         },
         "dates": {
-            "2026-05": {
-                "posts": 1,
-                "comments": 1
-            },
             "2026-02": {
+                "posts": 2,
+                "comments": 0
+            },
+            "2026-03": {
                 "posts": 1,
                 "comments": 0
+            },
+            "2026-05": {
+                "posts": 5,
+                "comments": 1
             },
             "2025-05": {
                 "posts": 2,
@@ -434,7 +443,7 @@
                 "comments": 0
             },
             "2024-09": {
-                "posts": 5,
+                "posts": 4,
                 "comments": 1
             },
             "2025-03": {
@@ -526,7 +535,7 @@
                 "comments": 0
             },
             "2021-02": {
-                "posts": 3,
+                "posts": 2,
                 "comments": 0
             },
             "2021-03": {
@@ -558,10 +567,6 @@
                 "comments": 0
             },
             "2022-05": {
-                "posts": 4,
-                "comments": 1
-            },
-            "2022-06": {
                 "posts": 2,
                 "comments": 1
             },
@@ -582,7 +587,7 @@
                 "comments": 1
             },
             "2023-12": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0
             },
             "2021-08": {
@@ -598,7 +603,7 @@
                 "comments": 0
             },
             "2023-06": {
-                "posts": 9,
+                "posts": 8,
                 "comments": 0
             },
             "2023-09": {
@@ -610,7 +615,7 @@
                 "comments": 0
             },
             "2023-07": {
-                "posts": 6,
+                "posts": 5,
                 "comments": 0
             },
             "2023-05": {
@@ -621,9 +626,9 @@
                 "posts": 7,
                 "comments": 2
             },
-            "2023-04": {
-                "posts": 3,
-                "comments": 0
+            "2022-06": {
+                "posts": 1,
+                "comments": 1
             },
             "2022-03": {
                 "posts": 1,
@@ -631,6 +636,10 @@
             },
             "2015-03": {
                 "posts": 1,
+                "comments": 0
+            },
+            "2023-04": {
+                "posts": 2,
                 "comments": 0
             },
             "2023-02": {
@@ -661,6 +670,114 @@
     },
     "content": {
         "posts": [
+            {
+                "title": "Trying to understand realistic MBA salaries in India long term",
+                "author": "Safe-Cause3755",
+                "url": "https://reddit.com/r/MBAIndia/comments/1rbgn2k/trying_to_understand_realistic_mba_salaries_in/",
+                "subreddit": "MBAIndia",
+                "body": "I\u2019m a 2020 Tier-1 MBA grad. Recently I\u2019ve been seeing quite a few discussions about mid-career salary stagnation in this forum. Many people seem to suggest that careers often level off in the 60\u201380L range after 12\u201315 years. I\u2019ve also come across claims that only \\~15\u201320% of MBAs end up crossing \u20b91Cr in India-based corporate roles (excluding IB/PE/global outliers).\n\nI also understand that truly high-paying leadership roles are limited in number, and the supply of MBA graduates has increased significantly over the years , which could naturally make the pyramid tighter at the top.\n\nWould love inputs from folks who have visibility into mid-career outcomes (non tech/ IB/ PEVC):\n\n1. What is the realistic median salary at \\~10\u201315 years of experience?\n2. Where do most people actually stabilize at 15+ years? Roughly what % of MBAs do you think cross \u20b91Cr in India corporate careers?\n3. Does the \u20b960\u201380L band sound like a common long-term plateau for many MBAs? Does growth happens at normal 5-8% hikes post that?\n\nThanks for your time. About me: I am at a CTC of 42L",
+                "media": "https://www.reddit.com/r/MBAIndia/comments/1rbgn2k/trying_to_understand_realistic_mba_salaries_in/",
+                "media_type": "text",
+                "gallery": [],
+                "thumbnail": null,
+                "preview_image": null,
+                "domain": "self.MBAIndia",
+                "datetime": "2026-02-22 14:04:03 IST",
+                "votes": 58,
+                "nsfw": false,
+                "flairs": [],
+                "archived": false
+            },
+            {
+                "title": "Was your MBA worth it financially? Let's make a salary benchmark",
+                "author": "friendslover69",
+                "url": "https://reddit.com/r/MBAIndia/comments/1s3zn62/was_your_mba_worth_it_financially_lets_make_a/",
+                "subreddit": "MBAIndia",
+                "body": "New grads are joining in 1 or 2 months so let's make this helpful. \n\nI rarely see honest, structured salary data for MBA grads in India mostly random brag posts or vague ranges. Let\u2019s fix that.\n\nDrop your details in this format\n\nGrad year:\n\nCurrent fixed:\n\nCurrent CTC:\n\nDomain:",
+                "media": "https://www.reddit.com/r/MBAIndia/comments/1s3zn62/was_your_mba_worth_it_financially_lets_make_a/",
+                "media_type": "text",
+                "gallery": [],
+                "thumbnail": null,
+                "preview_image": null,
+                "domain": "self.MBAIndia",
+                "datetime": "2026-03-26 11:46:42 IST",
+                "votes": 40,
+                "nsfw": false,
+                "flairs": [],
+                "archived": false
+            },
+            {
+                "title": "Another post-MBA salary megathread",
+                "author": "elessar9411",
+                "url": "https://reddit.com/r/MBAIndia/comments/1tn7ilt/another_postmba_salary_megathread/",
+                "subreddit": "MBAIndia",
+                "body": "Trying to figure if I've made the right call with my career path (industry/function) post MBA, and to understand long term career trajectories.  \n\nFolks who've completed their MBA, please share your income below - \n\nSuggested format - \n\nIndustry/company type \n\nFunction/designation \n\nMBA college/tier \n\nGraduating batch \n\nTotal YoE \n\nStarting salary (post MBA)  - base+variable/bonus\n\nCurrent salary - base+variable/bonus\n\n\nI'll kick things off - \n\nBig Tech/FAANG-level \n\nSaaS sales \n\nTier 1 - ABC/ISB/XL\n\nYear of graduation - 2022 \n\nTotal YoE - 8 \n\nStarting salary post MBA - 31+4 \n\nCurrent salary - 31+31 commission (made 55 last year) ",
+                "media": "https://www.reddit.com/r/MBAIndia/comments/1tn7ilt/another_postmba_salary_megathread/",
+                "media_type": "text",
+                "gallery": [],
+                "thumbnail": null,
+                "preview_image": null,
+                "domain": "self.MBAIndia",
+                "datetime": "2026-05-25 17:50:35 IST",
+                "votes": 92,
+                "nsfw": false,
+                "flairs": [],
+                "archived": false
+            },
+            {
+                "title": "Things unemployment has taught me..",
+                "author": "Most-Injury-9879",
+                "url": "https://reddit.com/r/IndiaCareers/comments/1tjn96i/things_unemployment_has_taught_me/",
+                "subreddit": "IndiaCareers",
+                "body": "**1**. Always save your money. Things can change really  fast. \n\n**2**. Always have a back up plan no matter how good you are doing or how important you think you are for your company.\n\n**3**. If you are laid off, there's this temptation of going back to your hometown, you will save money by doing so but you will also lose momentum, drive and confidence. Things are slow in hometowns, before you know it, you will start living a sedentary lifestyle and start living in denial. Do not move back to your hometown.\n\n**4.** Do not rely on your friends to help you in your tough times, you will be surprised to realize that how little people care about you when you do not bring a value to their life. You will realize that the people whom you considered close friends are not actually that close at all. People move on quickly than you think.\n\n**5.** When you are working, network like hell. Reference is really important. Being shy and an introvert is a considerable disadvantage in IT. Learn to network. \n\n**6.** When you are unemployed you will hear things from people closest to you that you wish you did not hear. Your confidence will be shattered, you will start losing your self respect. It's better to live alone in this situation or with people who are in a similar situation that working hard or with people who are doing good but do not live with your family for a lengthy time.\n\n**7.** At the end of the day, the only person that can and will help you is YOU. It's funny that as you grow older, life becomes more and more of, Every man for himself. \n\n**8.** Do not overthink. Be open-minded. Have a flexible mindset. Do not worry about losing money, worry about wasting time.",
+                "media": "https://www.reddit.com/r/IndiaCareers/comments/1tjn96i/things_unemployment_has_taught_me/",
+                "media_type": "text",
+                "gallery": [],
+                "thumbnail": null,
+                "preview_image": null,
+                "domain": "self.IndiaCareers",
+                "datetime": "2026-05-21 20:33:43 IST",
+                "votes": 1761,
+                "nsfw": false,
+                "flairs": [],
+                "archived": false
+            },
+            {
+                "title": "A person got harassed by public for no reason",
+                "author": "AmplifierXD_",
+                "url": "https://reddit.com/r/indiadiscussion/comments/1tk5j53/a_person_got_harassed_by_public_for_no_reason/",
+                "subreddit": "indiadiscussion",
+                "body": "",
+                "media": "https://v.redd.it/8oom9kdxml2h1",
+                "media_type": "video",
+                "gallery": [],
+                "thumbnail": "https://external-preview.redd.it/ajM5djV3NnhtbDJoMT_7Ve9jOy_Ye67aKOF6SlFAqk7_M9CM12vPaeK0bI0z.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp&s=6699ef1921c1460b391f5c0e68e9c096e7151e42",
+                "preview_image": "https://external-preview.redd.it/ajM5djV3NnhtbDJoMT_7Ve9jOy_Ye67aKOF6SlFAqk7_M9CM12vPaeK0bI0z.png?format=pjpg&auto=webp&s=8c175eb6828491f2134adec8150fdbeb95aa1d88",
+                "domain": "v.redd.it",
+                "datetime": "2026-05-22 07:52:17 IST",
+                "votes": 2039,
+                "nsfw": false,
+                "flairs": [],
+                "archived": false
+            },
+            {
+                "title": "Sound of hail falling on rocks",
+                "author": "MikeHeu",
+                "url": "https://reddit.com/r/oddlysatisfying/comments/1tisldo/sound_of_hail_falling_on_rocks/",
+                "subreddit": "oddlysatisfying",
+                "body": "Credit: twolostsoulss / Javier Thellaeche",
+                "media": "https://v.redd.it/1zym1uylub2h1",
+                "media_type": "video",
+                "gallery": [],
+                "thumbnail": "https://external-preview.redd.it/c2xicGVpdWx1YjJoMYBK9pQixP7JFkU2rB5KcUaO3euGZZRbotaf8W6xLmrP.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp&s=b4d4b591ccb4194c555b8229531cf4eeda9934e8",
+                "preview_image": "https://external-preview.redd.it/c2xicGVpdWx1YjJoMYBK9pQixP7JFkU2rB5KcUaO3euGZZRbotaf8W6xLmrP.png?format=pjpg&auto=webp&s=e1d22c857849b2cbd992dcec1a1efe79fc816eb2",
+                "domain": "v.redd.it",
+                "datetime": "2026-05-20 22:57:27 IST",
+                "votes": 54453,
+                "nsfw": false,
+                "flairs": [],
+                "archived": false
+            },
             {
                 "title": "MBA Leaks: Indian Banks CTC post MBA",
                 "author": "Ididnotkillhim",
@@ -1177,24 +1294,6 @@
                 "flairs": [
                     "Discussion"
                 ],
-                "archived": true
-            },
-            {
-                "title": "What free things online should everyone take  advantage of?",
-                "author": "Creepy_Intention837",
-                "url": "https://reddit.com/r/AskReddit/comments/1fddksb/what_free_things_online_should_everyone_take/",
-                "subreddit": "AskReddit",
-                "body": "",
-                "media": "https://www.reddit.com/r/AskReddit/comments/1fddksb/what_free_things_online_should_everyone_take/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.AskReddit",
-                "datetime": "2024-09-10 14:46:17 IST",
-                "votes": 30778,
-                "nsfw": false,
-                "flairs": [],
                 "archived": true
             },
             {
@@ -2180,26 +2279,6 @@
                 "archived": false
             },
             {
-                "title": "LPT Are you a content creator or streamer and need some quality background music for your videos? The entire Runescape soundtrack is copyright-free and with more than a thousand to choose from award-winning composers.",
-                "author": "Lexidoge",
-                "url": "https://reddit.com/r/LifeProTips/comments/lnfqys/lpt_are_you_a_content_creator_or_streamer_and/",
-                "subreddit": "LifeProTips",
-                "body": "Harmony and Flute Salad just hit different.\n\nhttps://twitter.com/RuneScape/status/1270839410469339137",
-                "media": "https://www.reddit.com/r/LifeProTips/comments/lnfqys/lpt_are_you_a_content_creator_or_streamer_and/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://external-preview.redd.it/Lob9SsJpAKh1hGyQGOwpEhVmvxCVc1h67jmAf1mYzEw.jpg?auto=webp&s=8f1c46fe3b7609cd38f40cb8cbc1681ac7f01963",
-                "domain": "self.LifeProTips",
-                "datetime": "2021-02-19 18:53:21 IST",
-                "votes": 32526,
-                "nsfw": false,
-                "flairs": [
-                    "Arts & Culture"
-                ],
-                "archived": false
-            },
-            {
                 "title": "LPT : Dont't throw away annoying Silica gel little pockets, that come along with new electronic devices, shoes, or purses. Silica gel can prolong the life of anything that would be affected by excess moisture or condensation. Here's what you can use them for:",
                 "author": "Beast667Neighbour",
                 "url": "https://reddit.com/r/LifeProTips/comments/lrbrf9/lpt_dontt_throw_away_annoying_silica_gel_little/",
@@ -2421,60 +2500,6 @@
                 "flairs": [
                     "Experienced"
                 ],
-                "archived": false
-            },
-            {
-                "title": "what do you say in scrum when you haven\u2019t done anything the previous day?",
-                "author": "ifeelanime",
-                "url": "https://reddit.com/r/cscareerquestions/comments/ut37il/what_do_you_say_in_scrum_when_you_havent_done/",
-                "subreddit": "cscareerquestions",
-                "body": "just the question above :)\n\nEDIT: Don\u2019t have anything to do at the moment, everything is done but it feels weird to say that i did nothing yesterday\n\nEDIT: some guys are overreacting, it was just one day in 5 months when the situation was like this lmao.",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/ut37il/what_do_you_say_in_scrum_when_you_havent_done/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.cscareerquestions",
-                "datetime": "2022-05-19 18:45:50 IST",
-                "votes": 729,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "LeetCode Tips from author of Blind 75",
-                "author": "yangshunz",
-                "url": "https://reddit.com/r/csMajors/comments/uy7gg3/leetcode_tips_from_author_of_blind_75/",
-                "subreddit": "csMajors",
-                "body": "Did 500+ LeetCode questions, created Blind 75, and interviewed hundreds of candidates. Frankly speaking, I dislike LeetCode, but the rules aren't set by us and the best we can do is to be better at this stupid game together.\n\nHence here are some tips for you.\n\n1. Revise your CS fundamentals before your start LeetCoding. You don't have to spend that much time studying, but you need to know the advantages of each data structure and when to use which for the question.\n\n2. The average question difficulty you'll get is Medium. Start with Easy questions, do more of them, move on to Medium questions. You probably won't be asked Hard questions in real interviews but you should do some famous Hard questions like Word ladder, serialize/deserialize Binary tree and trapping rain water. You should not be practicing only Easy questions.\n\n3. LeetCode is not fully representative of real interviews. In real interviews, you don't get long descriptions nor do you get so many test cases. Questions in interviews are intentionally vague and underspecified, you have to clarify the requirements. You will also not be given input ranges during interviews.\n\n4. To better simulate interview conditions, come up with a solution in your mind and be sure of the time and space complexity before you start to code. Trial and error-ing during the interview is not seen as a positive signal. As a good habit I write the time and space complexity of my solution as a comment above my solution.\n\n5. If you find yourself stuck after half an hour on a question. Determine if you are close enough to cracking it. If you're close, try for a while longer. Otherwise read the solutions and move on. Learn the technique that was crucial to solving the question and internalize it. Revisit in a few day's time and try to solve it without referring to the answer this time. LeetCode also shows you similar questions for a problem. To test if you have understood the concepts, try the similar questions and see if you can solve them.\n\n6. You might not get to run your code during interviews. Interviewers aren't just evaluating how correct your code is, the signals you exhibit during the process matters as well. You can end up failing even though you wrote correct code but it's messy and not readable. You can also end up passing even if your code had a minor mistake but your code is super clean and well-structured. Getting an Accepted doesn't mean you did well if you only got it on your tenth attempt. Before hitting the submit button, scrutinize your solution hard. Come up with test cases, standard ones, edge cases, think whether your code will pass those cases. You can run your code against your own test cases, it's still better than hitting the submit button. Just note that you might not get to do that during interviews.\n\n7. Some topics are more important than the others. DFS, BFS, binary search, trees, graphs are the most important and common ones. If you're going for Google, practice DP. If you suck at DP like me, at least be good at backtracking with memoization.\n\n8. The chosen language doesn't matter as much as your mastery of the language. You don't have to pick up Python just because it's the best language for interviews. But if you have enough time (more than two months), it might be worth doing so.\n\n\n9. You don't need to practice too many questions. 100-200 is sufficient for most. After a while, the questions are variations of previous questions and are based off the same patterns. The returns on practicing above 300 questions is marginal at best. The full list of 169 questions in Grind 75 (https://grind75.com) is 90% of what you need.\n\n10. LeetCoding is a marathon, not a sprint. If you start too early, you run out of steam. Start too late and there's not enough time for spaced repetition to take effect. Recommend starting a few months in advance and spending 1hr a day doing a few questions per day. You should be in top shape when it's time for interviews. If you've completed all recommended practice questions, do the weekly contests. If you can solve at least 3 of them, you should be ready for interviews.\n\n11. You might never feel ready for interviews and that's perfectly normal. Interviewing is a numbers game. Interview performance is a function of luck and preparation. The more you prepare, the \"luckier\" you get. You will fail some and you will pass some. You just need to pass one.\n\nAll the best and lemme know in the comments if you have any questions!",
-                "media": "https://www.reddit.com/r/csMajors/comments/uy7gg3/leetcode_tips_from_author_of_blind_75/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.csMajors",
-                "datetime": "2022-05-26 18:48:47 IST",
-                "votes": 1378,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "What I wish I knew when I started my career as a software engineer",
-                "author": "ItsTheWeeBabySeamus",
-                "url": "https://reddit.com/r/csMajors/comments/v6aymn/what_i_wish_i_knew_when_i_started_my_career_as_a/",
-                "subreddit": "csMajors",
-                "body": "When I got my first job as a software engineer, which I am still grateful to this day that they decided to take a chance on me, I made many mistakes. Most of which were avoidable. After my first job, I was at facebook for 4 years and now I help people study for programming interviews.  I have compiled everything that I have experienced and learned into a post for anyone who is starting out their career or may have experienced the same fuck ups.\n\n**Read the stack traces**\n\nI cannot tell you the number of times I would ask stupid questions because I couldn\u2019t figure out what was wrong with my code. I would get stuck and I\u2019d ask the senior engineer on my team for help. He would usually roll over to my desk, look at the stack trace, and read me the answer right off of it\u2026it was just embarrassing.\n\nIt was so hard for me to read that block of red text. It felt so intimidating and I just never wanted to do it. BUT as it turns out, reading the stack trace almost always gave me info on what is wrong with my code. If would have just taken the time to read it, I would have saved myself and my team soo much frustration.\n\n**Identify where you are uncomfortable and lean into it**\n\nIt took me two months to open a JSON file. I didn\u2019t know anything about them and every time they came up at work I would avoid being involved in the conversation. There was some mental block that came up every time I heard someone say \u201ccheck the JSON\u201d file. It wasn\u2019t until I ran into it one day and actually opened it that I realized how fucking simple they were. I still can\u2019t believe it took me that long to even learn what they were.\n\nThe real lesson here is that avoiding a topic because it makes me uncomfortable hindered my growth as a software engineer. As they say at Replit: \u201cseek pain\u201d.\n\n**Think about the system**\n\nAs a junior engineer, I only really thought about the specific files that I was working on. The system was all broken up into pieces in my mind and I never took the time to understand how everything came together. This mindset was fine, but what really allowed me to level up was thinking about the entire system as a whole.  I would write better code and avoiding bugs. Not to mention I became a better communicator with my team.\n\n**Avoid Unnecessary refactors**\n\nIt was easy to write off my mistakes and inefficiencies by saying things like \u201cthis codebase is a mess\u201d. There was a natural urge to refactor code that I didn\u2019t write. One time, my team spent months working on a complete API rewrite to \u201cclean the codebase\u201d. When we finished, although the code was \u201ccleaner\u201d, nothing measurable had really changed. Management was confused as to why the entire team just spent months rewriting everything to have 0 measurable impacts on the business. I try now to always have a measurable metric that I plan to improve with every major refactor.\n\n**Do not Undervalue communication**\n\nWhen I was studying for programming interviews, I learned how important it was to be able to talk about my code. I contribute me getting offers at Facebook & Google to my ability to talk through the work that I just did. It was helpful also as I grew to be able to communicate my ideas. As a junior engineer I was just writing code I was assigned. But, as I worked my way up to a senior engineer, I was designing systems and delegating tasks which is where it was important for me to have strong communication skills.\n\nOverall, just think a little bit deeper about what you are doing when you start your career. Everything you are doing is apart of a bigger picture. Don\u2019t be afraid to ask questions (as long as you are positive the answer isn\u2019t in the stack traces). And be confident.",
-                "media": "https://www.reddit.com/r/csMajors/comments/v6aymn/what_i_wish_i_knew_when_i_started_my_career_as_a/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.csMajors",
-                "datetime": "2022-06-07 00:34:52 IST",
-                "votes": 401,
-                "nsfw": false,
-                "flairs": [],
                 "archived": false
             },
             {
@@ -2866,24 +2891,6 @@
                 "archived": false
             },
             {
-                "title": "What's the biggest \"Green Flag\" that could be misinterpreted as a \"Red Flag\"?",
-                "author": "ShareFlat4478",
-                "url": "https://reddit.com/r/AskReddit/comments/18g0mqh/whats_the_biggest_green_flag_that_could_be/",
-                "subreddit": "AskReddit",
-                "body": "",
-                "media": "https://www.reddit.com/r/AskReddit/comments/18g0mqh/whats_the_biggest_green_flag_that_could_be/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.AskReddit",
-                "datetime": "2023-12-12 00:10:51 IST",
-                "votes": 9736,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
                 "title": "A cool guide to traditional North Indian Familial Titles",
                 "author": "Starbucks__Lovers",
                 "url": "https://reddit.com/r/coolguides/comments/17yp3he/a_cool_guide_to_traditional_north_indian_familial/",
@@ -3192,26 +3199,6 @@
                 "archived": true
             },
             {
-                "title": "On the search for a truly \"good\" UI framework.",
-                "author": "matthiastorm",
-                "url": "https://reddit.com/r/webdev/comments/14ot7sy/on_the_search_for_a_truly_good_ui_framework/",
-                "subreddit": "webdev",
-                "body": "There's a lot to unwrap here, but please listen.\n\nI love to use React or Next.JS, as I have for something like 3 years now.\n\nFor my previous sideprojects, I have been using the [Carbon Design system from IBM](https://carbondesignsystem.com/).  \nThat worked exceptionally well, as it is very opinionated and easy to set up. The documentation is excellent, yet it's not the best and not the worst looking.\n\nRecently I have started a more serious project that I hope to turn into a startup in a little. For this, I didn't want to keep using Carbon as my UI framework/library, because it has limited functionality in the sense of how many components there are, support for dark mode, and really good looking components. Also, customizability is not thaaat great, though it can be done.\n\nSo I started looking around.\n\nI've come across [NextUI](https://nextui.org/) first, and it looked freaking awesome. I was impressed by looks, truly native support for dark mode, typescript and so on and so forth. What then devastated me is its lack of proper compatibility with NextJS 13, and also that it's not really finished yet (as is declared on their website clearly.) and therefore not really ready for production. \n\nThe docs are somewhat limited, and there isn't a real fix for the currently still flashing dark mode (which is a big contra for me personally).\n\n&#x200B;\n\nThe next thing I found was [ChakraUI](https://chakra-ui.com/), and I even started building with it. The lack of a Layout component, and some other issues with the docs and it being a comparatively small project with slow support and the discord not being too active was not what really turned me off.   \nChakraUI looks decent, but it's too unopinionated for my liking. I want to ship, not have to configure Buttons with 16 lines of props first.\n\n&#x200B;\n\nI then wanted to settle with [Ant Design](https://ant.design), but after reading through the docs, the, admittedly shitty first setup documentation and a lot of random Chinese elements spread throughout, I decided to post my journey on here and ask you guys for recommendations on truly good looking, documented and opinionated UI frameworks.\n\nSidenote: I also heard of MaterialUI, and I haven't really read into it, but I dislike Material Design itself very much. I just hate the looks, but if there is some kind of \"theme\" or whatever that I could put on top of it, I would consider using it.\n\n&#x200B;\n\nTL;DR: I'm on the search for a well documented, opinionated UI framework for React, please leave me some recommendations, that would be greatly appreciated \\^\\^\n\nEdit: thanks for all the replies while I was sleeping :D, I think Imma spend the day deciding what I\u2019m gonna use then",
-                "media": "https://www.reddit.com/r/webdev/comments/14ot7sy/on_the_search_for_a_truly_good_ui_framework/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.webdev",
-                "datetime": "2023-07-02 22:28:55 IST",
-                "votes": 132,
-                "nsfw": false,
-                "flairs": [
-                    "Question"
-                ],
-                "archived": false
-            },
-            {
                 "title": "Thought you guys might appreciate this xD",
                 "author": "kiara2_2",
                 "url": "https://reddit.com/r/TwoXIndia/comments/14mv4cd/thought_you_guys_might_appreciate_this_xd/",
@@ -3268,26 +3255,6 @@
                 "nsfw": false,
                 "flairs": [
                     "Resources "
-                ],
-                "archived": true
-            },
-            {
-                "title": "For freshers busy being code monkeys on leetcode and other platforms",
-                "author": "icepicee",
-                "url": "https://reddit.com/r/developersIndia/comments/14fsfab/for_freshers_busy_being_code_monkeys_on_leetcode/",
-                "subreddit": "developersIndia",
-                "body": "I recently saw a post here where OP asked if he could post his leetcode stats (and stats from other platforms) on his resum\u00e9. The stats showed that OP has been regular on competitive coding platforms for ~400 odd days.\n\nI'd mentioned something similar in a comment on that post as well, but in order to send this message to a broader audience a post would be better.\n\n1. Competitive coding is a sport. It is about solving a small problem with a team of 1. In professional life, that is NEVER going to be the case. Please stop mentioning it in your resum\u00e9, keeping it to your LinkedIn is fine. \n\n2. Instead of wasting your entire time on coding platforms, participate in hackathons. They somewhat simulate real life scenarios where you have to solve a problem with your team and then explain your approach to a jury, which includes focussing on designing scalable code, which unfortunately hardly any fresher cares about. \n\n3. Read about best practices of your language, SOLID principles, latest updates in your language - added features (their pros and cons), and so on. Learn about design patterns (atleast the common ones), implement them. I can guarantee the freshers boasting about their leetcode prowess will crumble in writing the most basic of design pattern. \n\n4. Read about abstraction, scalability and code readability. You are going to work in a team, the code you write will be used and updated later. STOP WRITING SPAGHETTI CODE JUST TO PASS ALL TESTCASES. \n\n5. Open the classes of libraries used in your code. If you're a Java dev, i highly recommend reading them. They are written so beautifully with people who are crazy-level experts. Trying to copy how they write code (designing, implementing and commenting) is going to make you a far better developer. Writing such code is an art, not just engineering.\n\n6. Learn to comment your code properly.\n\n7. Learn about testing frameworks and code coverage. \n\nMy background: I'm a 3YOE Java backend dev with good salary, graduated from a Tier-1 college. \n\nThis is what I've learned so far. You're going to work in a team, it's time you learn a few skills that will help you with it. Hope this helps, good luck!\n\nEDIT: Thank you all for your comments. This is in no way a shitpost on competitive coding, it is the cornerstone of logic building. But in no way is it everything, there's a lot more to software engineering than leetcode. Do leetcode, just don't let it be everything you do.",
-                "media": "https://www.reddit.com/r/developersIndia/comments/14fsfab/for_freshers_busy_being_code_monkeys_on_leetcode/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.developersIndia",
-                "datetime": "2023-06-22 09:14:21 IST",
-                "votes": 582,
-                "nsfw": false,
-                "flairs": [
-                    "Tips"
                 ],
                 "archived": true
             },
@@ -3500,26 +3467,6 @@
                 "nsfw": false,
                 "flairs": [
                     "Biology"
-                ],
-                "archived": true
-            },
-            {
-                "title": "What\u2019s the one thing you\u2019d wish women would actually \u201cget\u201d about men, in a \u201cOh shit, you\u2019re really serious about this\u201d kind of way?",
-                "author": "mrsdelicioso",
-                "url": "https://reddit.com/r/AskMen/comments/12zk5nn/whats_the_one_thing_youd_wish_women_would/",
-                "subreddit": "AskMen",
-                "body": "Update 2: I went to bed yesterday with a lot of your stories in my head and woke up with them too. I cannot express how much you\u2019ve impacted my beliefs in one single day. Thank you, and I mean this from the bottom of my heart, for sharing your thoughts and feelings with me and -hopefully- a lot of other women. It\u2019s a true gift you\u2019ve given us in this thread and a cherished one for me \u2764\ufe0f\n\nOne a sidenote, I know there are still questions and comments that I would like to respond to and I\u2019m afraid I\u2019m a bit lost on how to find them again. My notifications have exploded (and my DM\u2019s have been surprisingly quiet) and I\u2019m still reading new ones coming in. Please know that I\u2019ve seen you and heard you and feel honored to be a guest in your world. \n\n\nUpdate: Wow, I\u2019m overwhelmed with your wholeheartedly responses. Thank you for answering my question with honesty and integrity. Please know that I read each and every of your comments and I\u2019m trying to respond to all of them. I don\u2019t know if I can keep up though, and this is me letting you know that I really appreciate you.",
-                "media": "https://www.reddit.com/r/AskMen/comments/12zk5nn/whats_the_one_thing_youd_wish_women_would/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.AskMen",
-                "datetime": "2023-04-26 20:32:13 IST",
-                "votes": 3627,
-                "nsfw": false,
-                "flairs": [
-                    "Frequently Asked"
                 ],
                 "archived": true
             },
