@@ -1,6 +1,6 @@
 {
-    "last_fetched_on": "2026-05-28 15:34:46 IST",
-    "last_fetch_duration": 3.9492623805999756,
+    "last_fetched_on": "2026-06-05 14:24:48 IST",
+    "last_fetch_duration": 3.8419225215911865,
     "counts": {
         "subreddits": {
             "foundsatan": {
@@ -119,7 +119,7 @@
                 "icon": "https://a.thumbs.redditmedia.com/Sw5oOFzSXXImHqiiXkb4dJydbO6wViJCPcbYgYI8TF8.png"
             },
             "ChatGPT": {
-                "posts": 5,
+                "posts": 4,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_7hqomg/styles/communityIcon_bzj6d1z1oizc1.png"
             },
@@ -359,7 +359,7 @@
                 "icon": "https://styles.redditmedia.com/t5_mvcq5/styles/communityIcon_twjztnhoy2691.jpg"
             },
             "india": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/WoSMQXqqmdy4J7UKa67YWX1ylVWs7So801pH5dQND2A.png"
             },
@@ -394,22 +394,22 @@
                 "icon": "https://styles.redditmedia.com/t5_9t6uuf/styles/communityIcon_1zp9bw0b2txb1.jpg"
             },
             "indiadiscussion": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/FEzf8XF9v-ziV_HGSzEsnlhW4vBUKGfFxJPdLt0xzGI.png"
             }
         },
         "votes": {
             "0-100": {
-                "posts": 28,
+                "posts": 27,
                 "comments": 9
             },
             "100-1000": {
-                "posts": 46,
+                "posts": 45,
                 "comments": 4
             },
             "1000-10000": {
-                "posts": 39,
+                "posts": 38,
                 "comments": 3
             },
             "10000-100000": {
@@ -431,7 +431,7 @@
                 "comments": 0
             },
             "2026-05": {
-                "posts": 5,
+                "posts": 4,
                 "comments": 1
             },
             "2025-05": {
@@ -443,7 +443,7 @@
                 "comments": 0
             },
             "2024-09": {
-                "posts": 4,
+                "posts": 3,
                 "comments": 1
             },
             "2025-03": {
@@ -634,10 +634,6 @@
                 "posts": 1,
                 "comments": 1
             },
-            "2015-03": {
-                "posts": 1,
-                "comments": 0
-            },
             "2023-04": {
                 "posts": 2,
                 "comments": 0
@@ -738,24 +734,6 @@
                 "domain": "self.IndiaCareers",
                 "datetime": "2026-05-21 20:33:43 IST",
                 "votes": 1761,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "A person got harassed by public for no reason",
-                "author": "AmplifierXD_",
-                "url": "https://reddit.com/r/indiadiscussion/comments/1tk5j53/a_person_got_harassed_by_public_for_no_reason/",
-                "subreddit": "indiadiscussion",
-                "body": "",
-                "media": "https://v.redd.it/8oom9kdxml2h1",
-                "media_type": "video",
-                "gallery": [],
-                "thumbnail": "https://external-preview.redd.it/ajM5djV3NnhtbDJoMT_7Ve9jOy_Ye67aKOF6SlFAqk7_M9CM12vPaeK0bI0z.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp&s=6699ef1921c1460b391f5c0e68e9c096e7151e42",
-                "preview_image": "https://external-preview.redd.it/ajM5djV3NnhtbDJoMT_7Ve9jOy_Ye67aKOF6SlFAqk7_M9CM12vPaeK0bI0z.png?format=pjpg&auto=webp&s=8c175eb6828491f2134adec8150fdbeb95aa1d88",
-                "domain": "v.redd.it",
-                "datetime": "2026-05-22 07:52:17 IST",
-                "votes": 2039,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -1333,26 +1311,6 @@
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
-            },
-            {
-                "title": "Majority of people still aren't using ChatGPT to its full potential?",
-                "author": "SmythOSInfo",
-                "url": "https://reddit.com/r/ChatGPT/comments/1f94zll/majority_of_people_still_arent_using_chatgpt_to/",
-                "subreddit": "ChatGPT",
-                "body": "",
-                "media": "https://i.redd.it/j9pvjpsizumd1.jpeg",
-                "media_type": "image",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/cJ26gFqSPt6G0qvjFsizdlqixq7dj2FPs5kiIU3YNfI.jpg",
-                "preview_image": "https://preview.redd.it/j9pvjpsizumd1.jpeg?auto=webp&s=1377ebc5c7a33eef442c6ac3640a991b04833cd4",
-                "domain": "i.redd.it",
-                "datetime": "2024-09-05 02:51:35 IST",
-                "votes": 730,
-                "nsfw": false,
-                "flairs": [
-                    "Resources "
-                ],
-                "archived": true
             },
             {
                 "title": "Men who are in healthy relationships after a toxic/abusive one, what is the biggest difference?",
@@ -3509,26 +3467,6 @@
                     "Suggestions"
                 ],
                 "archived": true
-            },
-            {
-                "title": "Developers of India, What are some developer friendly companies to work for?",
-                "author": "NegativeX",
-                "url": "https://reddit.com/r/india/comments/2yzab8/developers_of_india_what_are_some_developer/",
-                "subreddit": "india",
-                "body": "The [Zomato AMA](http://www.reddit.com/r/india/comments/2yo614/hi_im_deepinder_goyal_founder_and_ceo_of_zomato/) has shown how sorry the state of tech is India. For the kind of headstart we had in the industry and the skilled workforce we have, we're doing pretty poor compared to the rest of the world. We hardly have any products to speak of that've come out of India. Our open source contribution is scarce and scattered. We have no presence in discussions of technology at the global level. We don't get to [drive tech](https://lists.fedoraproject.org/pipermail/india/2011-November/004998.html). \n\nWe're hurting the future of the industry in our country, and at the same time, making our lives less interesting and less fulfilling. It was refreshing to see people call out Zomato's shitty practices in that thread. It shows people care and what they really want. The problem is short-sighted, selfish businesses.\n\nThe most important thing we need right now is a healthy working environment. The best environment will attract the best people, who will in turn write the best software which will result in the best business. But we have decades of toxic practices bogging us down. We need to do all we can to encourage and foster new, modern ways of working. With that spirit, can we make a list of developer friendly companies to work for in India? But first, what makes a company developer friendly?\n\n**Developers are first class citizens**\n\nDevelopers are not relegated to the cogs of the machine. You don't just execute instructions trickled down to you by a chain of command, but are involved in all stages of decision making. You get to influence team organisation, timelines, business direction and company policy.\n \n**Freedom in work**\n\nA developer knows best the manner in which something needs to be implemented. This means using the libraries, tools and development practices of your choice. You own the code and how you manage the code is your business. If something needs to be refactored, it's your call. If there's a piece of generic code you want to publish open source, it's your call.\n\n**Meaningful working hours**\n\nBasing your business on hiring desperate grads and overworking them is not only a bad, bad business model but also exploitation. Besides, it's ~~illegal~~(Apparently, it's not illegal). Such practices are extremely short sighted and toxic to the health of the industry. They affect the lives of individuals directly and are [bad for the business](http://www.salon.com/2012/03/14/bring_back_the_40_hour_work_week/).\n\n**Casual office environment**\n\nNothing screams authority and submission like telling someone what they can wear. Dress codes are from a bygone era and make no sense especially for software development. It [affects](http://www.fastcompany.com/3018572/how-to-be-a-success-at-everything/do-dress-codes-at-the-office-work) comfort, productivity, creativity and morale. A comfortable office environment must also take care of other needs, like food and beverages and recreation. These things must be accessible and not merely present as tokens.\n\nLet's make such companies visible and bring awareness to what they stand for so as to set a precedent of minimum expectations in our industry.\n",
-                "media": "https://www.reddit.com/r/india/comments/2yzab8/developers_of_india_what_are_some_developer/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.india",
-                "datetime": "2015-03-14 07:50:14 IST",
-                "votes": 76,
-                "nsfw": false,
-                "flairs": [
-                    "[R]eddiquette"
-                ],
-                "archived": false
             },
             {
                 "title": "LPT: if you are in need of ideas, try going for a daily walk and staying present while you observe your surroundings",
