@@ -1,6 +1,6 @@
 {
-    "last_fetched_on": "2026-06-05 14:24:48 IST",
-    "last_fetch_duration": 3.8419225215911865,
+    "last_fetched_on": "2026-06-07 19:59:23 IST",
+    "last_fetch_duration": 3.9075701236724854,
     "counts": {
         "subreddits": {
             "foundsatan": {
@@ -89,7 +89,7 @@
                 "icon": "https://a.thumbs.redditmedia.com/gxGzI4c7NKYL3LwsZjDDfASwtuVmzBeJgizEAz-Cxa4.png"
             },
             "dataisbeautiful": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0,
                 "icon": "https://a.thumbs.redditmedia.com/PWqqPdsoof5lD4noSANijKfTVDalyChZWQrG9ljigy8.png"
             },
@@ -104,7 +104,7 @@
                 "icon": "https://styles.redditmedia.com/t5_3e7xo/styles/communityIcon_8dmtop6sxhs31.png"
             },
             "LifeProTips": {
-                "posts": 12,
+                "posts": 11,
                 "comments": 0,
                 "icon": "https://a.thumbs.redditmedia.com/I5yuS5JqzJfER3oWBzCkmadz1S6wXWeJJZExKSGNgJ8.png"
             },
@@ -119,12 +119,12 @@
                 "icon": "https://a.thumbs.redditmedia.com/Sw5oOFzSXXImHqiiXkb4dJydbO6wViJCPcbYgYI8TF8.png"
             },
             "ChatGPT": {
-                "posts": 4,
+                "posts": 2,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_7hqomg/styles/communityIcon_bzj6d1z1oizc1.png"
             },
             "AskMen": {
-                "posts": 5,
+                "posts": 4,
                 "comments": 1,
                 "icon": "https://a.thumbs.redditmedia.com/LH9Y1HS41ygKhs8OoNOXyoS3ovy7x4LBkxci05XMAZ0.png"
             },
@@ -159,7 +159,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2yap2d/styles/communityIcon_eej4b31q08ng1.png"
             },
             "developersIndia": {
-                "posts": 12,
+                "posts": 10,
                 "comments": 3,
                 "icon": "https://b.thumbs.redditmedia.com/v6GGyP2tC0O10P3Pnv8-GPr6eL5Z_br3Y2qX5ARvi3I.png"
             },
@@ -199,12 +199,12 @@
                 "icon": "https://styles.redditmedia.com/t5_2tk0s/styles/communityIcon_v5b469kmb68b1.png"
             },
             "oddlysatisfying": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/65GJujMgAXbydbxxFPYm6eck1YffqR-anhX4-hxnVhQ.png"
             },
             "ITCareerQuestions": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0,
                 "icon": ""
             },
@@ -274,7 +274,7 @@
                 "icon": "https://styles.redditmedia.com/t5_2qhva/styles/communityIcon_ilf7iae3i9941.png"
             },
             "redditlists": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": ""
             },
@@ -299,12 +299,12 @@
                 "icon": "https://b.thumbs.redditmedia.com/-oqwrnMig2jRcPuRzOIEjB5_URZaKAgCFS3H9VC4PFw.png"
             },
             "Ohio": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_2qn7b/styles/communityIcon_d6znkoe0h7k21.png"
             },
             "learnprogramming": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0,
                 "icon": ""
             },
@@ -324,7 +324,7 @@
                 "icon": "https://styles.redditmedia.com/t5_3eg84/styles/communityIcon_2cw1s6ux00ac1.jpg"
             },
             "webdev": {
-                "posts": 3,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/vk8EAqzcLRGYh_Yisi68CglMMuheNEFKNaDLZy7h2ZE.png"
             },
@@ -334,7 +334,7 @@
                 "icon": "https://styles.redditmedia.com/t5_52t40p/styles/communityIcon_du68ircbohtd1.png"
             },
             "AndroidQuestions": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/3MJgMu-lo96FwsvHNu88TvbMyu8dqF91fN0LKuRX-Mo.png"
             },
@@ -384,7 +384,7 @@
                 "icon": "https://styles.redditmedia.com/t5_5tdqj0/styles/communityIcon_yab7s4oubzbg1.png"
             },
             "MBAIndia": {
-                "posts": 4,
+                "posts": 1,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_3eoh9/styles/communityIcon_dxmawmci17le1.jpg"
             },
@@ -401,38 +401,38 @@
         },
         "votes": {
             "0-100": {
-                "posts": 27,
+                "posts": 20,
                 "comments": 9
             },
             "100-1000": {
-                "posts": 45,
+                "posts": 41,
                 "comments": 4
             },
             "1000-10000": {
-                "posts": 38,
+                "posts": 34,
                 "comments": 3
             },
             "10000-100000": {
-                "posts": 50,
+                "posts": 47,
                 "comments": 2
             },
             "100000-1000000": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0
             }
         },
         "dates": {
-            "2026-02": {
-                "posts": 2,
-                "comments": 0
-            },
-            "2026-03": {
-                "posts": 1,
+            "2020-07": {
+                "posts": 4,
                 "comments": 0
             },
             "2026-05": {
-                "posts": 4,
+                "posts": 2,
                 "comments": 1
+            },
+            "2026-02": {
+                "posts": 1,
+                "comments": 0
             },
             "2025-05": {
                 "posts": 2,
@@ -476,10 +476,6 @@
             },
             "2024-08": {
                 "posts": 3,
-                "comments": 0
-            },
-            "2020-07": {
-                "posts": 6,
                 "comments": 0
             },
             "2024-05": {
@@ -554,10 +550,6 @@
                 "posts": 1,
                 "comments": 0
             },
-            "2021-12": {
-                "posts": 2,
-                "comments": 0
-            },
             "2022-01": {
                 "posts": 1,
                 "comments": 0
@@ -578,12 +570,8 @@
                 "posts": 5,
                 "comments": 1
             },
-            "2012-11": {
-                "posts": 1,
-                "comments": 0
-            },
             "2022-11": {
-                "posts": 5,
+                "posts": 4,
                 "comments": 1
             },
             "2023-12": {
@@ -603,7 +591,7 @@
                 "comments": 0
             },
             "2023-06": {
-                "posts": 8,
+                "posts": 7,
                 "comments": 0
             },
             "2023-09": {
@@ -611,20 +599,16 @@
                 "comments": 1
             },
             "2023-08": {
-                "posts": 3,
+                "posts": 1,
                 "comments": 0
             },
             "2023-07": {
-                "posts": 5,
+                "posts": 3,
                 "comments": 0
             },
             "2023-05": {
-                "posts": 5,
+                "posts": 2,
                 "comments": 1
-            },
-            "2023-03": {
-                "posts": 7,
-                "comments": 2
             },
             "2022-06": {
                 "posts": 1,
@@ -637,6 +621,10 @@
             "2023-04": {
                 "posts": 2,
                 "comments": 0
+            },
+            "2023-03": {
+                "posts": 6,
+                "comments": 2
             },
             "2023-02": {
                 "posts": 1,
@@ -667,58 +655,22 @@
     "content": {
         "posts": [
             {
-                "title": "Trying to understand realistic MBA salaries in India long term",
-                "author": "Safe-Cause3755",
-                "url": "https://reddit.com/r/MBAIndia/comments/1rbgn2k/trying_to_understand_realistic_mba_salaries_in/",
-                "subreddit": "MBAIndia",
-                "body": "I\u2019m a 2020 Tier-1 MBA grad. Recently I\u2019ve been seeing quite a few discussions about mid-career salary stagnation in this forum. Many people seem to suggest that careers often level off in the 60\u201380L range after 12\u201315 years. I\u2019ve also come across claims that only \\~15\u201320% of MBAs end up crossing \u20b91Cr in India-based corporate roles (excluding IB/PE/global outliers).\n\nI also understand that truly high-paying leadership roles are limited in number, and the supply of MBA graduates has increased significantly over the years , which could naturally make the pyramid tighter at the top.\n\nWould love inputs from folks who have visibility into mid-career outcomes (non tech/ IB/ PEVC):\n\n1. What is the realistic median salary at \\~10\u201315 years of experience?\n2. Where do most people actually stabilize at 15+ years? Roughly what % of MBAs do you think cross \u20b91Cr in India corporate careers?\n3. Does the \u20b960\u201380L band sound like a common long-term plateau for many MBAs? Does growth happens at normal 5-8% hikes post that?\n\nThanks for your time. About me: I am at a CTC of 42L",
-                "media": "https://www.reddit.com/r/MBAIndia/comments/1rbgn2k/trying_to_understand_realistic_mba_salaries_in/",
+                "title": "ULPT: How to dispute medical debt the right, effective way. LPT deleted me because it's a \"legal\" thing but this is actually a life pro top with a shade of shady in here so I guess it fits better here anyway.",
+                "author": "gtfohbitchass",
+                "url": "https://reddit.com/r/UnethicalLifeProTips/comments/hr6ccy/ulpt_how_to_dispute_medical_debt_the_right/",
+                "subreddit": "UnethicalLifeProTips",
+                "body": "edit: stop giving me awards, donate your money to debunking flat-earthers or supporting lobbyists who are trying to fix this bullshit healthcare system.\n\nedit: I'm giving silver to every comment that rocks and would be helpful so look for silver comments. i'm not an expert but there are lawyers and credit counselors chiming in so check their content!\n\nedit 2: I kept getting asked questions about ambulance and I knew there was something I wanted to remember. I finally dug through the old training manual I had created and now I remember - Ambulance billing SHOULD work the same as those below as far as disputes etc.. The exception that I remembered was: the reason people were going into collections CONSTANTLY for ambulance visits, was because ambulance billing is different. They send the check for the ambulance amount to the patient directly, so the patient will pay the ambulance bill - and then the patients would cash that check, and never pay the ambulance bill, and then get put into collections. As far as insurance was concerned, they DID pay the ambulance bill and it's not their problem. But the ambulance company never saw the $ because the patient would spend it. So - before you cash a check, make sure it's really supposed to be kept by you.  \n\n I got looped into a thread about medical collections that started with a very inaccurate \"tip,\" and saw that there was a FREAKING TON of misinformation floating around about what to do when you have medical debt.\n\nSo I thought I'd share the knowledge that I have on the topic from a few years as a trainer in a medical billing & collections agency.\n\n**Disclaimer**: I worked for one agency that had multiple sites nationwide in the US. I am not a lawyer, I am NOT giving legal advice. I am just sharing what I know from a few years in the industry including a competitor study that we did to find out how our competitors handle the same situations. I will not share the name of the company I worked for; they were most definitely shady in some areas and I am not looking to dox myself either. If anyone has more knowledge than me on the topic, please chime in. I am also not looking for a \"Healthcare in the US is broken\" because yeah no shit Sherlock; this isn't the thread where we can fix that. Oh also I will swear sometimes in this post.\n\nIf you have medical debt, these tips may help you to negotiate down or get the debt written off, or to ignore bad advice from people telling you to do something that could have negative repercussions. I'll say \"hospitals\" below but this encompasses all medical providers as far as my experience goes.\n\n***OVERVIEW OF HOW THE INDUSTRY WORKS:***\n\n**Your debt goes in stages:**\n\n* Early Out - debt is still owned and usually managed by hospital; may be outsourced to an agency. This is the stage where they can fix any insurance issues as well so **call as soon as you get the bill before it goes into collections**! They're nice when it's still in Early Out; they have to be aggressive when it goes into collections. Some hospitals send their bills from EO to Bad Debt in 30 days; some wait years. So call right away when you get a bill because there's no way to know their timeline. Oftentimes if the amount is low, they will just write it off or take a small payment in the EBO stage. They will work with you. Once it hits Bad Debt aka Collections, the options can be limited. Additionally, the GENERAL rule in health insurance is that you have to resolve the claim within 1 year. Medicaid/Medicare/Tricare had different rules, but in general - getting your insurance to pay after 1 year is not going to happen. CALL WHEN YOU GET THE BILL!\n* Bad Debt **Contractors** \\- still owned by hospital but using collection agency for the work\n* Bad Debt **Purchasers** \\- sold off to very aggressive collection agency who has little hope to recover the debt.\n\nThere are 2 types of med collection agencies - I don't know if there's an official term for each type, but I'll make up my own.\n\n* **Contract** \\- the kind that I worked for, that has an active contract with the hospital and gets a small % of the collected amount.\n* And **Purchasers** \\- the kind that purchases the debts in bulk at a discount and tries to recoup that money and more from you. Facilities usually go through **Contract** agencies before **Purchaser** agencies.\n\n***COMMON MISCONCEPTIONS:***\n\n* **MISCONCEPTION #1: Your medical debt cannot go to collections because it's medical debt.**\n\n\\--> Yeah, right. I wish this was true. However, without the collections world, hospitals would close - so it's a reality with our current healthcare system. Know that if you were insured and didn't pay your portion, or if you didn't have insurance AND didn't attempt to get state coverage that would cover those bills, OR were turned down for state insurance....the debt usually lies on your shoulders. They can reduce it, do payment plans, etc. but they can absolutely put you in collections for your car accident, and they will often be forced to do so.\n\n* **MISCONCEPTION #2: Medical debt cannot have any long-lasting affects on my credit or property.**\n\n\\--> Falsity false, boys. It sure can. The only reason a hospital may not choose to report to the credit bureaus, seize property, or go after your income is usually because it makes them look bad to the community and it's expensive to do the above. But they can and do report to credit if they choose to. Oftentimes it's the last resort after a certain time frame, but \"Sir, this can affect your credit score if not paid\" can be the last option they can use in order to get payment from repeat offenders or low-income areas where the hospital faces a risk of closing if old debts aren't resolved - hospitals have bills to pay too, y'all. At my facility less than 10% of our providers reported to credit, but many still did and it's common.\n\n* **MISCONCEPTION #3: Just telling the agency that you want an itemized bill will close out the debt.**\n\n\\--> Oh god, false but **COMMONLY** spread misconception. Per FDCPA (Fair Debt Collection Practices Act), it has to pause the collection process (stopping it from reporting to credit & stopping phone calls while they order it from the hospital), but that may be all it does. Once the IB is sent, collection can continue.\n\nOn rare occasion, the hospital pulls up the IB and sees it was mis-billed or the insurance coding was wrong - but they don't go actively looking for problems at this stage, so don't expect that to happen just from your collection agent asking Sally Receptionist at XYZ Hospital to kick out an IB. You should have called sooner to get this resolved.\n\nIf it's a low amount, (for us $50 to $100 or less), it wasn't worth the admin cost of requesting an IB. If it was over that amount, we'd always send it if we couldn't convince the client to pay in installments. It's worth the postage and admin costs to get hundreds of dollars in payments.\n\nYou should know, though, that collection agencies ARE required to send you proof of the debt if you ask, and this is law per FDCPA. However, the statement that the collection agency sends technically counts as your 'proof of debt' because it will contain the date of service, provider name, facility name, and amount. It won't list out each service that was done. But the letter is technically enough to count as proof of debt.\n\nThat's not as good as the IB so you should push for the IB. They don't want to spend the $ on postage so they will try to avoid sending ANYTHING, but push for it!\n\n* **MISCONCEPTION #4: Admitting the debt is yours means they've got you! Hanging up on them stops the process!**\n\n\\--> Bitch, please. They know it's yours; they have your address and social security number and they got in touch with you today, didn't they? The only thing you're doing by acknowledging the debt, is confirming that they got the right John Smith on the line. But they pay for skip tracing systems and can and will find you, at every address you register to, and they can call your family as well at least once to get a better address or phone number for you. We paid a team of people minimum wage to sit and skip trace people all day, 40 hours a week. They can find you. They will find you.\n\n* **MISCONCEPTION #5: Sending an IB is a violation of my HIPAA rights**  \nor  \n**Collection agencies collecting on medical debt are violating my HIPAA rights! Tell them that you didn't authorize them to collect the debt, and they're violating your HIPAA rights, and you get off free!**\n\n\\--> Shut your stupid mouth. Every provider in the USA is required to have you sign something called a Notice of Privacy Practices. You prob signed your NPP in the giant packet before your first appointment. That NPP has very intentional language that lets them use any biller that they choose, and they are permitted per federal law (both FDCPA and HIPAA) to see the bare minimum of your medical info from the appointment in order to collect. They're not violating that law because they can be fined tens of thousands of dollars per violation. Trust me, the paperwork is ironclad. And if my company was any indication of the industry, most of our hospitals did NOT share the reason for the visit, diagnosis, etc. because that was not needed info for collections. We could infer the reason if say it was a labor and delivery provider, but we didn't know why you went.\n\n* **MISCONCEPTION #6: My medical debt has no real consequences on me if I ignore it long enough.**\n\n\\--> Eh, maybe. If that hospital does not report to credit, and the second agency does not report to credit, and the agencies that buy the debt off don't report to credit, then yes - you may not have your credit score affected. There's no way of knowing what agencies they use and what future policies they may follow when it comes to reporting to credit, though. My agency could legally tell you no, we don't report to credit on THIS account, if we didn't. But then we'd give the account back at 90 days, or 1 year, or whatever, and then the hospital would switch the debt over to our competitor for 1 year, and those bastards did report. So don't assume it will never report. Additionally you can be prevented from using that office in the future if you have outstanding bills. Some of our providers even allowed us to garnish wages.\n\n* **MISCONCEPTION #7: Telling them to stop calling me stops all collections for this bill!**\n\n\\--> Telling them to stop contacting you stops them from contacting you. If you say stop calling you, they cannot call you ever again. If you say stop calling this #, they can never call that # again. If you say stop contacting me, they cannot call, write, show up, send smoke signals, use a voodoo doll, etc. This is per FDCPA and you can sue them for literally thousands of dollars if they violate this so go for it! But - just because they can't call/write/etc you, that doesn't stop credit reporting, wage garnishments, etc. if those are in the pipeline of the debt.\n\nIt also legally prevents them from reaching out to you to let you know if they are offering a deal (we offered huge discounts during tax season, for example), it stops them from letting you know if you have future additional bills. Basically you're cutting off your nose to spite your face.\n\nNow, if you know 100% beyond a shadow of a doubt that this bill and all future bills for this hospital will not ever hit your credit report, or if you have a 300 credit score and plan to live in your mom's car forever, then go for it. But again, you may also be prevented from seeing doctors as part of this facility's network forever as a result. (The ER is required to take you regardless of your payment history; nobody else is).\n\n* **MISCONCEPTION #8: They are asking for my information when they call me; that must be fraud!**\n\n\\--> In medical collections, they are bound by HIPAA in addition to FDCPA. They are allowed to ask for your name and give you the address they have on file to see if it's you. They are NOT allowed to mention that they're calling about a medical bill, details on the appointment reasons, or amount until they have confirmed your identity. They cannot tell your family member anything unless it's your legal spouse who verifies your info. ID verification varies but typically it's name/address/year of birth. The agency's lawyer may not be okay with them reading off your YOB so they may ask you to confirm what's on their screen. It seems shady, for sure. But it's for your protection.\n\nYou can never be too careful. Ask for them to send a letter. Get company name. Ask them what their letter envelope looks like - the FDCPA makes it illegal for the letter to state \"collections\" on the outside of the envelope (for your protection) so it may look like junkmail that you threw out; they have to keep the envelope relatively generic. Ask for the rep's name. Ask to call back in and talk to someone else. Tell them you don't know if they're legit. If they are legit, they'll direct you to a website, a phone # for call-in, they'll resend a letter if you tell them you'll pay, etc.\n\nLook up reviews for the agency. But, be aware that the ignorance around collections is widespread and 99% of the bad reviews are going to be people who think it's a scam. That's the nature of collections. But they should be legitimate. They should have a web presence. They should have ads on indeed and other websites to hire people (Collection agents turn over more often than a sex worker in a threesome with one really tall man and one short fat man).\n\n* **MISCONCEPTION #9: If you tell them you have a lawyer, the call is over and collection efforts stop!**\n\n\\--> *Maaaaybe*. We asked for the lawyer's contact info, advised the consumer to have their lawyer contact us, and immediately stopped all communication to the client and reached out to the lawyer. That stopped all calls and letters and stopped any credit reporting. That being said, if no lawyer contacted us after a certain amount of time, it could begin reporting again in the future. So it's not foolproof.\n\nIf the lawyer you gave us confirmed that they do NOT represent you, we could legally reopen.\n\nIf you hung up after saying you have a lawyer, we were stuck waiting to hear from them and if you were lying, well... we're not going to call back...but that doesn't always stop the process.\n\nI don't know the time frame on that because I wasn't in the Legal dept, but there was definitely a limit to how long we waited before reporting to credit.\n\n**LIES COLLECTION AGENTS TELL YOU:**\n\n* ***You have to go through us to pay this debt.*** This may not be true, if the debt exists back in the Contracted stage. The hospital MAY still talk to you about this debt if you call them directly. It's always worth a try. They tell you to go through them because they want their commission if you pay.\n* ***I cannot take less than $x per month for this bill.*** Nah fam, that agent is simply not going to hit their monthly bonus if they let everyone pay $25 per month on a massive bill. Their boss is going to mad if they take a low payment amount on a big debt. But they absolutely can take your payment of whatever amount you'd like. That being said, it doesn't automatically stop it from reporting to credit just because you're making payments. When you set up a payment plan, ask if it stops the credit reporting process just in case.\n* ***\"This is a binding contract; if you miss any payments on this payment arrangement, the balance in full is due.\"*** Bro, the balance in full is already OVERdue....you're in collections. Like, duh.  \nThey are just trying to lock you in to the payment arrangement. Now if you do miss a payment, it can instantly report to credit - so don't miss a payment. But don't think that your $5000 debt that you agreed to pay out at $200/month is suddenly going to go back up to $5000 due tomorrow if you miss a payment. You already owe $5000. They can and will set up your payment arrangement again. Just call them and ask them to move the date if you need to; they're more than happy to do it. Especially since the new collector could get the credit for the new payment arrangement which goes toward their bonus - hooray for them.\n\n**MAGIC WORD:**  \n**I DISPUTE the validity of this debt**. Oh hell yes, use this phrase. It stops all collection efforts, stops credit reporting, and basically creates a full system shutdown on this debt. The agency should ask the reason for the dispute, but you do not have to provide it. They will then kick out an itemized bill to prove the validity of the debt. However - oftentimes if there was a dispute, we just closed out the debt altogether and were done, with zero negative consequences. I used to teach my agents how to tell the difference between a real dispute vs. a fake dispute, but in reality **if the D-word is said, it's a dispute.**\n\nGood, valid, morally and ethically positive reasons to dispute a debt: I didn't receive that service, the appointment was canceled, I never got a bill in the first place, someone else was supposed to pay (divorce or car accident), identify fraud, I was injured during this procedure.\n\nBullshit reasons to dispute: The doctor was mean, I'm racist and the doctor was X ethnicity, I don't want to pay, my insurance should have paid this.\n\nBut again if you say **DISPUTE** \\- they can ask more questions to see if it's a real dispute, but ultimately you CAN sue them if you tell them you're disputing it and they don't immediately pause reporting to credit while they investigate.\n\n**THINGS YOU CAN THEORETICALLY SUE THE AGENCY OVER:**  \n\\-If you say dispute and they don't stop credit reporting to investigate - HUGE no-no; report per FDCPA.  \n\\-If they give out your health information to someone who was not confirmed to be you, per their verification process. HUGE no-no; report per HIPAA.  \n\\-If they say it's a **debt** before confirming it's you that they have on the line - FDCPA violation, do not pass go.\n\n**What to do on every medical collections call:**  \n\\-Get the name of the agency and the representative you're speaking with; write down date and time. This may be needed in the future if they break FDCPA or HIPAA; it can also help with disputes or conversations with management later on.  \n\\-Ask as many questions as you need to in order to help you learn if it's a valid debt. When was this, who was the provider, how much was my original bill, what insurance did you bill to, do I have additional bills in your system?  \n\\-Ask what happened with your insurance. How much did my insurance pay, did they say why this amount was left over?  \n\\-Call your insurance to see what happened if the agency isn't clear. There is a possibility that it can be re-billed even after it's in Bad Debt.  \n\\-Be friendly and polite. Agents have a good bit of freedom to grant discounts and set up comfortable payment plans, and they'll only use those kindnesses if you're not a douche.  \nAlso, they're humans too, probably making $2 above minimum wage, and the job is really tough because people are mean and have heartbreaking stories. Be human. It helps.",
+                "media": "https://www.reddit.com/r/UnethicalLifeProTips/comments/hr6ccy/ulpt_how_to_dispute_medical_debt_the_right/",
                 "media_type": "text",
                 "gallery": [],
                 "thumbnail": null,
                 "preview_image": null,
-                "domain": "self.MBAIndia",
-                "datetime": "2026-02-22 14:04:03 IST",
-                "votes": 58,
+                "domain": "self.UnethicalLifeProTips",
+                "datetime": "2020-07-14 23:26:17 IST",
+                "votes": 28773,
                 "nsfw": false,
                 "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "Was your MBA worth it financially? Let's make a salary benchmark",
-                "author": "friendslover69",
-                "url": "https://reddit.com/r/MBAIndia/comments/1s3zn62/was_your_mba_worth_it_financially_lets_make_a/",
-                "subreddit": "MBAIndia",
-                "body": "New grads are joining in 1 or 2 months so let's make this helpful. \n\nI rarely see honest, structured salary data for MBA grads in India mostly random brag posts or vague ranges. Let\u2019s fix that.\n\nDrop your details in this format\n\nGrad year:\n\nCurrent fixed:\n\nCurrent CTC:\n\nDomain:",
-                "media": "https://www.reddit.com/r/MBAIndia/comments/1s3zn62/was_your_mba_worth_it_financially_lets_make_a/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.MBAIndia",
-                "datetime": "2026-03-26 11:46:42 IST",
-                "votes": 40,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "Another post-MBA salary megathread",
-                "author": "elessar9411",
-                "url": "https://reddit.com/r/MBAIndia/comments/1tn7ilt/another_postmba_salary_megathread/",
-                "subreddit": "MBAIndia",
-                "body": "Trying to figure if I've made the right call with my career path (industry/function) post MBA, and to understand long term career trajectories.  \n\nFolks who've completed their MBA, please share your income below - \n\nSuggested format - \n\nIndustry/company type \n\nFunction/designation \n\nMBA college/tier \n\nGraduating batch \n\nTotal YoE \n\nStarting salary (post MBA)  - base+variable/bonus\n\nCurrent salary - base+variable/bonus\n\n\nI'll kick things off - \n\nBig Tech/FAANG-level \n\nSaaS sales \n\nTier 1 - ABC/ISB/XL\n\nYear of graduation - 2022 \n\nTotal YoE - 8 \n\nStarting salary post MBA - 31+4 \n\nCurrent salary - 31+31 commission (made 55 last year) ",
-                "media": "https://www.reddit.com/r/MBAIndia/comments/1tn7ilt/another_postmba_salary_megathread/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.MBAIndia",
-                "datetime": "2026-05-25 17:50:35 IST",
-                "votes": 92,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
+                "archived": true
             },
             {
                 "title": "Things unemployment has taught me..",
@@ -734,24 +686,6 @@
                 "domain": "self.IndiaCareers",
                 "datetime": "2026-05-21 20:33:43 IST",
                 "votes": 1761,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "Sound of hail falling on rocks",
-                "author": "MikeHeu",
-                "url": "https://reddit.com/r/oddlysatisfying/comments/1tisldo/sound_of_hail_falling_on_rocks/",
-                "subreddit": "oddlysatisfying",
-                "body": "Credit: twolostsoulss / Javier Thellaeche",
-                "media": "https://v.redd.it/1zym1uylub2h1",
-                "media_type": "video",
-                "gallery": [],
-                "thumbnail": "https://external-preview.redd.it/c2xicGVpdWx1YjJoMYBK9pQixP7JFkU2rB5KcUaO3euGZZRbotaf8W6xLmrP.png?width=140&height=140&crop=1:1,smart&format=jpg&auto=webp&s=b4d4b591ccb4194c555b8229531cf4eeda9934e8",
-                "preview_image": "https://external-preview.redd.it/c2xicGVpdWx1YjJoMYBK9pQixP7JFkU2rB5KcUaO3euGZZRbotaf8W6xLmrP.png?format=pjpg&auto=webp&s=e1d22c857849b2cbd992dcec1a1efe79fc816eb2",
-                "domain": "v.redd.it",
-                "datetime": "2026-05-20 22:57:27 IST",
-                "votes": 54453,
                 "nsfw": false,
                 "flairs": [],
                 "archived": false
@@ -1703,62 +1637,6 @@
                 "archived": true
             },
             {
-                "title": "ULPT: How to dispute medical debt the right, effective way. LPT deleted me because it's a \"legal\" thing but this is actually a life pro top with a shade of shady in here so I guess it fits better here anyway.",
-                "author": "gtfohbitchass",
-                "url": "https://reddit.com/r/UnethicalLifeProTips/comments/hr6ccy/ulpt_how_to_dispute_medical_debt_the_right/",
-                "subreddit": "UnethicalLifeProTips",
-                "body": "edit: stop giving me awards, donate your money to debunking flat-earthers or supporting lobbyists who are trying to fix this bullshit healthcare system.\n\nedit: I'm giving silver to every comment that rocks and would be helpful so look for silver comments. i'm not an expert but there are lawyers and credit counselors chiming in so check their content!\n\nedit 2: I kept getting asked questions about ambulance and I knew there was something I wanted to remember. I finally dug through the old training manual I had created and now I remember - Ambulance billing SHOULD work the same as those below as far as disputes etc.. The exception that I remembered was: the reason people were going into collections CONSTANTLY for ambulance visits, was because ambulance billing is different. They send the check for the ambulance amount to the patient directly, so the patient will pay the ambulance bill - and then the patients would cash that check, and never pay the ambulance bill, and then get put into collections. As far as insurance was concerned, they DID pay the ambulance bill and it's not their problem. But the ambulance company never saw the $ because the patient would spend it. So - before you cash a check, make sure it's really supposed to be kept by you.  \n\n I got looped into a thread about medical collections that started with a very inaccurate \"tip,\" and saw that there was a FREAKING TON of misinformation floating around about what to do when you have medical debt.\n\nSo I thought I'd share the knowledge that I have on the topic from a few years as a trainer in a medical billing & collections agency.\n\n**Disclaimer**: I worked for one agency that had multiple sites nationwide in the US. I am not a lawyer, I am NOT giving legal advice. I am just sharing what I know from a few years in the industry including a competitor study that we did to find out how our competitors handle the same situations. I will not share the name of the company I worked for; they were most definitely shady in some areas and I am not looking to dox myself either. If anyone has more knowledge than me on the topic, please chime in. I am also not looking for a \"Healthcare in the US is broken\" because yeah no shit Sherlock; this isn't the thread where we can fix that. Oh also I will swear sometimes in this post.\n\nIf you have medical debt, these tips may help you to negotiate down or get the debt written off, or to ignore bad advice from people telling you to do something that could have negative repercussions. I'll say \"hospitals\" below but this encompasses all medical providers as far as my experience goes.\n\n***OVERVIEW OF HOW THE INDUSTRY WORKS:***\n\n**Your debt goes in stages:**\n\n* Early Out - debt is still owned and usually managed by hospital; may be outsourced to an agency. This is the stage where they can fix any insurance issues as well so **call as soon as you get the bill before it goes into collections**! They're nice when it's still in Early Out; they have to be aggressive when it goes into collections. Some hospitals send their bills from EO to Bad Debt in 30 days; some wait years. So call right away when you get a bill because there's no way to know their timeline. Oftentimes if the amount is low, they will just write it off or take a small payment in the EBO stage. They will work with you. Once it hits Bad Debt aka Collections, the options can be limited. Additionally, the GENERAL rule in health insurance is that you have to resolve the claim within 1 year. Medicaid/Medicare/Tricare had different rules, but in general - getting your insurance to pay after 1 year is not going to happen. CALL WHEN YOU GET THE BILL!\n* Bad Debt **Contractors** \\- still owned by hospital but using collection agency for the work\n* Bad Debt **Purchasers** \\- sold off to very aggressive collection agency who has little hope to recover the debt.\n\nThere are 2 types of med collection agencies - I don't know if there's an official term for each type, but I'll make up my own.\n\n* **Contract** \\- the kind that I worked for, that has an active contract with the hospital and gets a small % of the collected amount.\n* And **Purchasers** \\- the kind that purchases the debts in bulk at a discount and tries to recoup that money and more from you. Facilities usually go through **Contract** agencies before **Purchaser** agencies.\n\n***COMMON MISCONCEPTIONS:***\n\n* **MISCONCEPTION #1: Your medical debt cannot go to collections because it's medical debt.**\n\n\\--> Yeah, right. I wish this was true. However, without the collections world, hospitals would close - so it's a reality with our current healthcare system. Know that if you were insured and didn't pay your portion, or if you didn't have insurance AND didn't attempt to get state coverage that would cover those bills, OR were turned down for state insurance....the debt usually lies on your shoulders. They can reduce it, do payment plans, etc. but they can absolutely put you in collections for your car accident, and they will often be forced to do so.\n\n* **MISCONCEPTION #2: Medical debt cannot have any long-lasting affects on my credit or property.**\n\n\\--> Falsity false, boys. It sure can. The only reason a hospital may not choose to report to the credit bureaus, seize property, or go after your income is usually because it makes them look bad to the community and it's expensive to do the above. But they can and do report to credit if they choose to. Oftentimes it's the last resort after a certain time frame, but \"Sir, this can affect your credit score if not paid\" can be the last option they can use in order to get payment from repeat offenders or low-income areas where the hospital faces a risk of closing if old debts aren't resolved - hospitals have bills to pay too, y'all. At my facility less than 10% of our providers reported to credit, but many still did and it's common.\n\n* **MISCONCEPTION #3: Just telling the agency that you want an itemized bill will close out the debt.**\n\n\\--> Oh god, false but **COMMONLY** spread misconception. Per FDCPA (Fair Debt Collection Practices Act), it has to pause the collection process (stopping it from reporting to credit & stopping phone calls while they order it from the hospital), but that may be all it does. Once the IB is sent, collection can continue.\n\nOn rare occasion, the hospital pulls up the IB and sees it was mis-billed or the insurance coding was wrong - but they don't go actively looking for problems at this stage, so don't expect that to happen just from your collection agent asking Sally Receptionist at XYZ Hospital to kick out an IB. You should have called sooner to get this resolved.\n\nIf it's a low amount, (for us $50 to $100 or less), it wasn't worth the admin cost of requesting an IB. If it was over that amount, we'd always send it if we couldn't convince the client to pay in installments. It's worth the postage and admin costs to get hundreds of dollars in payments.\n\nYou should know, though, that collection agencies ARE required to send you proof of the debt if you ask, and this is law per FDCPA. However, the statement that the collection agency sends technically counts as your 'proof of debt' because it will contain the date of service, provider name, facility name, and amount. It won't list out each service that was done. But the letter is technically enough to count as proof of debt.\n\nThat's not as good as the IB so you should push for the IB. They don't want to spend the $ on postage so they will try to avoid sending ANYTHING, but push for it!\n\n* **MISCONCEPTION #4: Admitting the debt is yours means they've got you! Hanging up on them stops the process!**\n\n\\--> Bitch, please. They know it's yours; they have your address and social security number and they got in touch with you today, didn't they? The only thing you're doing by acknowledging the debt, is confirming that they got the right John Smith on the line. But they pay for skip tracing systems and can and will find you, at every address you register to, and they can call your family as well at least once to get a better address or phone number for you. We paid a team of people minimum wage to sit and skip trace people all day, 40 hours a week. They can find you. They will find you.\n\n* **MISCONCEPTION #5: Sending an IB is a violation of my HIPAA rights**  \nor  \n**Collection agencies collecting on medical debt are violating my HIPAA rights! Tell them that you didn't authorize them to collect the debt, and they're violating your HIPAA rights, and you get off free!**\n\n\\--> Shut your stupid mouth. Every provider in the USA is required to have you sign something called a Notice of Privacy Practices. You prob signed your NPP in the giant packet before your first appointment. That NPP has very intentional language that lets them use any biller that they choose, and they are permitted per federal law (both FDCPA and HIPAA) to see the bare minimum of your medical info from the appointment in order to collect. They're not violating that law because they can be fined tens of thousands of dollars per violation. Trust me, the paperwork is ironclad. And if my company was any indication of the industry, most of our hospitals did NOT share the reason for the visit, diagnosis, etc. because that was not needed info for collections. We could infer the reason if say it was a labor and delivery provider, but we didn't know why you went.\n\n* **MISCONCEPTION #6: My medical debt has no real consequences on me if I ignore it long enough.**\n\n\\--> Eh, maybe. If that hospital does not report to credit, and the second agency does not report to credit, and the agencies that buy the debt off don't report to credit, then yes - you may not have your credit score affected. There's no way of knowing what agencies they use and what future policies they may follow when it comes to reporting to credit, though. My agency could legally tell you no, we don't report to credit on THIS account, if we didn't. But then we'd give the account back at 90 days, or 1 year, or whatever, and then the hospital would switch the debt over to our competitor for 1 year, and those bastards did report. So don't assume it will never report. Additionally you can be prevented from using that office in the future if you have outstanding bills. Some of our providers even allowed us to garnish wages.\n\n* **MISCONCEPTION #7: Telling them to stop calling me stops all collections for this bill!**\n\n\\--> Telling them to stop contacting you stops them from contacting you. If you say stop calling you, they cannot call you ever again. If you say stop calling this #, they can never call that # again. If you say stop contacting me, they cannot call, write, show up, send smoke signals, use a voodoo doll, etc. This is per FDCPA and you can sue them for literally thousands of dollars if they violate this so go for it! But - just because they can't call/write/etc you, that doesn't stop credit reporting, wage garnishments, etc. if those are in the pipeline of the debt.\n\nIt also legally prevents them from reaching out to you to let you know if they are offering a deal (we offered huge discounts during tax season, for example), it stops them from letting you know if you have future additional bills. Basically you're cutting off your nose to spite your face.\n\nNow, if you know 100% beyond a shadow of a doubt that this bill and all future bills for this hospital will not ever hit your credit report, or if you have a 300 credit score and plan to live in your mom's car forever, then go for it. But again, you may also be prevented from seeing doctors as part of this facility's network forever as a result. (The ER is required to take you regardless of your payment history; nobody else is).\n\n* **MISCONCEPTION #8: They are asking for my information when they call me; that must be fraud!**\n\n\\--> In medical collections, they are bound by HIPAA in addition to FDCPA. They are allowed to ask for your name and give you the address they have on file to see if it's you. They are NOT allowed to mention that they're calling about a medical bill, details on the appointment reasons, or amount until they have confirmed your identity. They cannot tell your family member anything unless it's your legal spouse who verifies your info. ID verification varies but typically it's name/address/year of birth. The agency's lawyer may not be okay with them reading off your YOB so they may ask you to confirm what's on their screen. It seems shady, for sure. But it's for your protection.\n\nYou can never be too careful. Ask for them to send a letter. Get company name. Ask them what their letter envelope looks like - the FDCPA makes it illegal for the letter to state \"collections\" on the outside of the envelope (for your protection) so it may look like junkmail that you threw out; they have to keep the envelope relatively generic. Ask for the rep's name. Ask to call back in and talk to someone else. Tell them you don't know if they're legit. If they are legit, they'll direct you to a website, a phone # for call-in, they'll resend a letter if you tell them you'll pay, etc.\n\nLook up reviews for the agency. But, be aware that the ignorance around collections is widespread and 99% of the bad reviews are going to be people who think it's a scam. That's the nature of collections. But they should be legitimate. They should have a web presence. They should have ads on indeed and other websites to hire people (Collection agents turn over more often than a sex worker in a threesome with one really tall man and one short fat man).\n\n* **MISCONCEPTION #9: If you tell them you have a lawyer, the call is over and collection efforts stop!**\n\n\\--> *Maaaaybe*. We asked for the lawyer's contact info, advised the consumer to have their lawyer contact us, and immediately stopped all communication to the client and reached out to the lawyer. That stopped all calls and letters and stopped any credit reporting. That being said, if no lawyer contacted us after a certain amount of time, it could begin reporting again in the future. So it's not foolproof.\n\nIf the lawyer you gave us confirmed that they do NOT represent you, we could legally reopen.\n\nIf you hung up after saying you have a lawyer, we were stuck waiting to hear from them and if you were lying, well... we're not going to call back...but that doesn't always stop the process.\n\nI don't know the time frame on that because I wasn't in the Legal dept, but there was definitely a limit to how long we waited before reporting to credit.\n\n**LIES COLLECTION AGENTS TELL YOU:**\n\n* ***You have to go through us to pay this debt.*** This may not be true, if the debt exists back in the Contracted stage. The hospital MAY still talk to you about this debt if you call them directly. It's always worth a try. They tell you to go through them because they want their commission if you pay.\n* ***I cannot take less than $x per month for this bill.*** Nah fam, that agent is simply not going to hit their monthly bonus if they let everyone pay $25 per month on a massive bill. Their boss is going to mad if they take a low payment amount on a big debt. But they absolutely can take your payment of whatever amount you'd like. That being said, it doesn't automatically stop it from reporting to credit just because you're making payments. When you set up a payment plan, ask if it stops the credit reporting process just in case.\n* ***\"This is a binding contract; if you miss any payments on this payment arrangement, the balance in full is due.\"*** Bro, the balance in full is already OVERdue....you're in collections. Like, duh.  \nThey are just trying to lock you in to the payment arrangement. Now if you do miss a payment, it can instantly report to credit - so don't miss a payment. But don't think that your $5000 debt that you agreed to pay out at $200/month is suddenly going to go back up to $5000 due tomorrow if you miss a payment. You already owe $5000. They can and will set up your payment arrangement again. Just call them and ask them to move the date if you need to; they're more than happy to do it. Especially since the new collector could get the credit for the new payment arrangement which goes toward their bonus - hooray for them.\n\n**MAGIC WORD:**  \n**I DISPUTE the validity of this debt**. Oh hell yes, use this phrase. It stops all collection efforts, stops credit reporting, and basically creates a full system shutdown on this debt. The agency should ask the reason for the dispute, but you do not have to provide it. They will then kick out an itemized bill to prove the validity of the debt. However - oftentimes if there was a dispute, we just closed out the debt altogether and were done, with zero negative consequences. I used to teach my agents how to tell the difference between a real dispute vs. a fake dispute, but in reality **if the D-word is said, it's a dispute.**\n\nGood, valid, morally and ethically positive reasons to dispute a debt: I didn't receive that service, the appointment was canceled, I never got a bill in the first place, someone else was supposed to pay (divorce or car accident), identify fraud, I was injured during this procedure.\n\nBullshit reasons to dispute: The doctor was mean, I'm racist and the doctor was X ethnicity, I don't want to pay, my insurance should have paid this.\n\nBut again if you say **DISPUTE** \\- they can ask more questions to see if it's a real dispute, but ultimately you CAN sue them if you tell them you're disputing it and they don't immediately pause reporting to credit while they investigate.\n\n**THINGS YOU CAN THEORETICALLY SUE THE AGENCY OVER:**  \n\\-If you say dispute and they don't stop credit reporting to investigate - HUGE no-no; report per FDCPA.  \n\\-If they give out your health information to someone who was not confirmed to be you, per their verification process. HUGE no-no; report per HIPAA.  \n\\-If they say it's a **debt** before confirming it's you that they have on the line - FDCPA violation, do not pass go.\n\n**What to do on every medical collections call:**  \n\\-Get the name of the agency and the representative you're speaking with; write down date and time. This may be needed in the future if they break FDCPA or HIPAA; it can also help with disputes or conversations with management later on.  \n\\-Ask as many questions as you need to in order to help you learn if it's a valid debt. When was this, who was the provider, how much was my original bill, what insurance did you bill to, do I have additional bills in your system?  \n\\-Ask what happened with your insurance. How much did my insurance pay, did they say why this amount was left over?  \n\\-Call your insurance to see what happened if the agency isn't clear. There is a possibility that it can be re-billed even after it's in Bad Debt.  \n\\-Be friendly and polite. Agents have a good bit of freedom to grant discounts and set up comfortable payment plans, and they'll only use those kindnesses if you're not a douche.  \nAlso, they're humans too, probably making $2 above minimum wage, and the job is really tough because people are mean and have heartbreaking stories. Be human. It helps.",
-                "media": "https://www.reddit.com/r/UnethicalLifeProTips/comments/hr6ccy/ulpt_how_to_dispute_medical_debt_the_right/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.UnethicalLifeProTips",
-                "datetime": "2020-07-14 23:26:17 IST",
-                "votes": 28773,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "[OC] Trending Google Searches by State Between 2018 and 2020",
-                "author": "V1Analytics",
-                "url": "https://reddit.com/r/dataisbeautiful/comments/hs9mnz/oc_trending_google_searches_by_state_between_2018/",
-                "subreddit": "dataisbeautiful",
-                "body": "",
-                "media": "https://v.redd.it/l0rvdugoy7b51",
-                "media_type": "video",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/AHVQl4lbvpsg5DQRhWqxYSEJzE6FNmjCCb7BCWXP44Y.jpg",
-                "preview_image": "https://external-preview.redd.it/ueSSaJPBQiiqi4kuFf43afX52sZV2T45tgp6VeIUTQ0.png?format=pjpg&auto=webp&s=0489d1947a60e09118b81cce89f4b6543bed66ce",
-                "domain": "v.redd.it",
-                "datetime": "2020-07-16 18:57:25 IST",
-                "votes": 162715,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "LPT: You can easily download all of your Facebook content and finally leave the service.",
-                "author": "TheyCallMeDrAsshole",
-                "url": "https://reddit.com/r/LifeProTips/comments/hv6fjc/lpt_you_can_easily_download_all_of_your_facebook/",
-                "subreddit": "LifeProTips",
-                "body": "If you are concerned about losing all of your content, you can go to:\n\nSettings -> Your Facebook Information -> Download Your Information\n\nEdit: Yes, this includes all of your photos",
-                "media": "https://www.reddit.com/r/LifeProTips/comments/hv6fjc/lpt_you_can_easily_download_all_of_your_facebook/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.LifeProTips",
-                "datetime": "2020-07-21 17:54:44 IST",
-                "votes": 32583,
-                "nsfw": false,
-                "flairs": [
-                    "Social"
-                ],
-                "archived": false
-            },
-            {
                 "title": "LPT: If you have a lot of free time at the moment, you can generate a little income on the side by doing online work like teaching english, transcription, microtasks or surveys. It's not a fortune but if you have time to spare anyway it's a good way to pay a few bills. (list of sites attached)",
                 "author": "IvyRoney",
                 "url": "https://reddit.com/r/LifeProTips/comments/har8qo/lpt_if_you_have_a_lot_of_free_time_at_the_moment/",
@@ -2369,42 +2247,6 @@
                 "archived": true
             },
             {
-                "title": "What are the top in-demand IT skills for your employees? Here's our top 10 for 2021!",
-                "author": "DevOps_Artisan",
-                "url": "https://reddit.com/r/ITCareerQuestions/comments/r6ay6z/what_are_the_top_indemand_it_skills_for_your/",
-                "subreddit": "ITCareerQuestions",
-                "body": "**Technical Skills:**\n\n1. DevOps (Docker, Kubernetes, Ansible, Chef, Puppet, Jenkins, NodeJS, DevSecOps etc.),  \n2. Cloud Computing (Microsoft Azure, AWS, or Google),  \n3. Cybersecurity (Addressing Evolving Security Threats),  \n4. Software development (python, angular, java, javascript, HTML, CSS, c#, etc),  \n5. Database (SQL, PL/SQL, MongoDB, MariaDB, MySQL etc),  \n6. Servers (Configuration management tools, Automation of tasks related to building, testing and delivering or deploying software, etc),  \n7. Operating systems (Windows, Linux, iOS).  \n\n\n**Soft Skills:**\n\n8. Social skills  \n9. Ability to work in a changing environment  \n10. International and multicultural Skills",
-                "media": "https://www.reddit.com/r/ITCareerQuestions/comments/r6ay6z/what_are_the_top_indemand_it_skills_for_your/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.ITCareerQuestions",
-                "datetime": "2021-12-01 15:00:29 IST",
-                "votes": 421,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "What small luxury purchase (less than $100) really pays off?",
-                "author": "ValarHTX",
-                "url": "https://reddit.com/r/AskMen/comments/roafu3/what_small_luxury_purchase_less_than_100_really/",
-                "subreddit": "AskMen",
-                "body": "My vote goes to my instant water heater. Not having to wait for hot water before shaving is amazing. Makes me happy every morning.",
-                "media": "https://www.reddit.com/r/AskMen/comments/roafu3/what_small_luxury_purchase_less_than_100_really/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.AskMen",
-                "datetime": "2021-12-25 19:39:15 IST",
-                "votes": 2187,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
                 "title": "YSK to never search for a domain name you want to purchase using a Domain Registrar",
                 "author": "kingjvv",
                 "url": "https://reddit.com/r/YouShouldKnow/comments/rudsdb/ysk_to_never_search_for_a_domain_name_you_want_to/",
@@ -2643,24 +2485,6 @@
                 "archived": true
             },
             {
-                "title": "List of video heavy subreddits;  (Couple Categories NSFW)",
-                "author": "SomeRandomRedditor",
-                "url": "https://reddit.com/r/redditlists/comments/13xgp8/list_of_video_heavy_subreddits_couple_categories/",
-                "subreddit": "redditlists",
-                "body": "To qualify as video heavy for this list, a subreddit will have to contain more posts that are videos than posts that are not videos.   \n\n\nI am not counting gifs with only one exception (as of now), gifs with sound. \n\nSubreddits ~~striked through~~ are private or banned.\n\n\n****\n\n\n###General Reddits:\n\n- /r/videos\n- /r/video\n- /r/vids\n- /r/GifSound \n- /r/longvideos\n- /r/youtube\n- /r/rusvideo\n\n\n****\n\n###3d/High Def:\n\n- /r/hdvideos\n- /r/3dvideo\n\n****\n\n###Music Video Reddits:\n\n- /r/music \n- /r/watchmusicvideos\n- /r/musicvideos\n- /r/musicvids\n- /r/musicvideos2c\n- /r/thevideosmusic\n- /r/music_videos\n- /r/animemusicvideos\n- /r/musicmovies\n- /r/videogamemusic\n- /r/musicvideo\n- /r/artrockmusicvideos\n- /r/moviemusic\n- /r/looptube\n- /r/goodtube\n- /r/musicalcomedy\n\n\nAnd a ton more are on - [/r/music's list of music subreddits](http://www.reddit.com/r/Music/faq); to include all of them would be a list of it's own. \n\n\n\n****\n\n###Porn (NSFW):\n\n- /r/adulttube\n- /r/nsfw_vids\n- /r/nsfwvids\n- /r/nsfwvideos\n- /r/porn_tubes\n- /r/pornvids\n- /r/freepornvids\n- /r/cuckoldvids\n- /r/adultmovies\n- /r/pornvideos43\n- /r/xxxvideos\n- /r/nsfw_video\n- /r/fetishvideos\n- /r/gaysexxxvideos\n- /r/sologirlvideos\n- /r/cumshotvideos\n- /r/sexyvideos\n- /r/hardcoreadultvideos\n- /r/redtube\n- /r/boobtube\n- /r/gonewildtube\n- /r/zombiesgonewild\n- ~~/r/exgirlfriendvideos~~\n- /r/amateurvideos\n- /r/NSFW_GifSound\n- /r/hotpoontube\n- /r/gonzomovies\n- /r/freesexyclips\n- /r/passionx\n- /r/chickflixxx\n- /r/SoftcoreNights \n- /r/peegonewild  \n\n\n\n****\n\n###Gore/Accidents (NSFW):\n\n- /r/carcrash \n- /r/Motorcyclecrash\n- /r/racecrashes\n- /r/Derailed  \n- /r/zombiesgonewild\n- /r/watchpeopledie \n- /r/MorbidReality \n- /r/killingwomen\n- /r/PoliceChases\n- /r/CombatFootage\n\n****\n\n###For Film Makers\n\n- /r/videography \n\n- /r/Filmmakers\n\n(See [This list for ones that aren't video heavy as well](http://redd.it/13xgcw))\n\n**** \n\n###For Movie clips, full features, trailers, etc..\n\n\n####Movie\n\n- /r/movietrailers\n- /r/moviethemes\n- /r/netflixbestof (requires netflix subscribtion to fully enjoy)\n- /r/moviehandbook\n- /r/movieclips\n- /r/Trailers \n- /r/foreignmovies\n- /r/badmovies\n- /r/cultcinema\n- /r/filmnoir\n- /r/BritishFilms\n- /r/SilentCinema\n- /r/classicfilms\n- /r/bmovies\n- /r/westerns\n- /r/treemovies\n- /r/dreammovies\n- /r/kungfucinema\n- /r/Documentaries\n- /r/truehorror\n- /r/SF_Videos\n- /r/exploitation\n- /r/culttrailers\n- /r/Shit_To_Watch_Online\n- /r/BestOfStreamingVideo\n- /r/giallo\n- /r/movieclips\n- /r/ActingPorn\n-  /r/fullmoviesonyoutube \n\n####Other\n\n\n- /r/bloopers\n- /r/AnimeGifSound\n- /r/ObscureMedia \n\nSee the [list of movie related reddits](http://redd.it/13xgcw) for subreddits that didn't make the cut.\n\n####TV Reddit Lists: \n\n*  [TV Summer 2011 reddits](http://redd.it/jikd2)\n\n*  [TV Spring 2012 reddits](http://redd.it/s6r3y)\n\n*  [Fall 2012 reddits](http://redd.it/zdccb) - [By size](http://redd.it/11wc00)\n\n*  [Top subscribed TV reddits](http://redd.it/y7qnv)\n\n*  [Show specific subreddits](http://redd.it/cyx9s)\n\n*  [Latest TV subreddit list may be found linked on /r/television's sidebar](/r/television)\n\n\n\n****\n\n###Other\n\n- /r/Shittyyoutube\n- /r/youtubehaiku\n- /r/funnyvideos\n- /r/intelligentvideos\n- /r/researchvideos\n- /r/lectures\n- /r/interview\n- /r/synchtube\n- /r/olderthanthetubez (Nostolgic animation/videos/memes)\n- /r/tubezakoza (NSFW) (German?)\n- /r/cringe \n- /r/MylittleGifSounds\n- /r/artisanvideos\n- /r/kidsafevideos\n- /r/hikingvideos (No content)\n- ~~/r/revolutionvideos~~ (No content)\n- /r/artvideos\n- /r/videojuegos (In Spanish)\n- /r/myvideofight\n- /r/treesvideos\n- /r/politicalvideos\n- /r/earthpornvideos\n- /r/therealbookvideos\n- /r/horror\n- /r/psychotronic\n- /r/StandUpComedy\n- /r/podcasts\n- /r/lolcast\n- /r/justiceporn\n- /r/funnysports\n\n****\n\n###Browse by domain name.\n\n\n\n- [Youtube.com](http://www.reddit.com/domain/youtube.com/)\n- [youtu.be](http://www.reddit.com/domain/youtu.be/)\n\n\n\n\n\n",
-                "media": "https://www.reddit.com/r/redditlists/comments/13xgp8/list_of_video_heavy_subreddits_couple_categories/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.redditlists",
-                "datetime": "2012-11-28 16:59:48 IST",
-                "votes": 97,
-                "nsfw": true,
-                "flairs": [],
-                "archived": false
-            },
-            {
                 "title": "8 ways to develop your career. What I've learned in 20 years and after reading over 300 books... [Advice]",
                 "author": "Mr_OTG",
                 "url": "https://reddit.com/r/getdisciplined/comments/ycdz5o/8_ways_to_develop_your_career_what_ive_learned_in/",
@@ -2732,24 +2556,6 @@
                 "flairs": [
                     "Discussion"
                 ],
-                "archived": true
-            },
-            {
-                "title": "Ohio man fatally shoots neighbor \u2018because he thought he was a Democrat\u2019",
-                "author": "genericauthor",
-                "url": "https://reddit.com/r/Ohio/comments/ypsxrz/ohio_man_fatally_shoots_neighbor_because_he/",
-                "subreddit": "Ohio",
-                "body": "",
-                "media": "https://www.rawstory.com/ohio-shooting-neighbor-democrat/",
-                "media_type": "link",
-                "gallery": [],
-                "thumbnail": "https://a.thumbs.redditmedia.com/EAc5lun_tTcLmdgkqIkRiBvLIXjCJ5ZuoC5OQBpVDr4.jpg",
-                "preview_image": "https://external-preview.redd.it/7MsWH2l3Blhflshoh_vVWrDuUbj5tgRP6PstxofkwME.jpg?auto=webp&s=8df411b79048cfa8e30b3b5d486babdf570f070d",
-                "domain": "rawstory.com",
-                "datetime": "2022-11-08 23:03:09 IST",
-                "votes": 7312,
-                "nsfw": false,
-                "flairs": [],
                 "archived": true
             },
             {
@@ -2967,80 +2773,6 @@
                 "archived": true
             },
             {
-                "title": "CSS Cheat Sheets - 19 Visual Aids (requested)",
-                "author": "myvortexlife",
-                "url": "https://reddit.com/r/webdev/comments/165u1ts/css_cheat_sheets_19_visual_aids_requested/",
-                "subreddit": "webdev",
-                "body": "",
-                "media": "https://www.reddit.com/gallery/165u1ts",
-                "media_type": "gallery",
-                "gallery": [
-                    "https://i.redd.it/ylha6sfsyblb1.png",
-                    "https://i.redd.it/252j6ufsyblb1.png",
-                    "https://i.redd.it/z419bsfsyblb1.png",
-                    "https://i.redd.it/eb7ckrfsyblb1.png",
-                    "https://i.redd.it/722p44ltyblb1.jpg",
-                    "https://i.redd.it/ah81a4ltyblb1.jpg",
-                    "https://i.redd.it/vbmz27ltyblb1.png",
-                    "https://i.redd.it/rs0tqmltyblb1.png",
-                    "https://i.redd.it/1c2h48ltyblb1.png",
-                    "https://i.redd.it/xfjh2altyblb1.png",
-                    "https://i.redd.it/x8p7n4ltyblb1.png",
-                    "https://i.redd.it/nn1ku53vyblb1.png",
-                    "https://i.redd.it/ng3ws63vyblb1.png",
-                    "https://i.redd.it/c85fn73vyblb1.png",
-                    "https://i.redd.it/jcztbq3vyblb1.png",
-                    "https://i.redd.it/i5pbla3vyblb1.jpg",
-                    "https://i.redd.it/w83ugs3vyblb1.jpg",
-                    "https://i.redd.it/7s6q9j2wyblb1.jpg",
-                    "https://i.redd.it/3y2xck2wyblb1.jpg",
-                    "https://i.redd.it/xxoiok2wyblb1.jpg"
-                ],
-                "thumbnail": "https://b.thumbs.redditmedia.com/wwf9LZASpEmkocWYp61ZG1neNqbstNiAxRyUxRUb6IA.jpg",
-                "preview_image": null,
-                "domain": "reddit.com",
-                "datetime": "2023-08-31 04:47:41 IST",
-                "votes": 362,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "Flexbox & Grid - 15 Visual Aids (requested)",
-                "author": "myvortexlife",
-                "url": "https://reddit.com/r/webdev/comments/163wer1/flexbox_grid_15_visual_aids_requested/",
-                "subreddit": "webdev",
-                "body": "Flexbox first - 6 Visual Aids\nGrid next - 5 Visual Aids + 4 Sketches",
-                "media": "https://www.reddit.com/gallery/163wer1",
-                "media_type": "gallery",
-                "gallery": [
-                    "https://i.redd.it/w5f42bmmqwkb1.jpg",
-                    "https://i.redd.it/u8lymammqwkb1.jpg",
-                    "https://i.redd.it/3yz3mammqwkb1.jpg",
-                    "https://i.redd.it/m42gtammqwkb1.jpg",
-                    "https://i.redd.it/bshxuammqwkb1.jpg",
-                    "https://i.redd.it/e9g87qmmqwkb1.jpg",
-                    "https://i.redd.it/nxnduammqwkb1.jpg",
-                    "https://i.redd.it/klylbqmmqwkb1.jpg",
-                    "https://i.redd.it/bjq0oammqwkb1.jpg",
-                    "https://i.redd.it/pn8uiammqwkb1.jpg",
-                    "https://i.redd.it/xo4ttammqwkb1.jpg",
-                    "https://i.redd.it/73a16rmmqwkb1.jpg",
-                    "https://i.redd.it/53mw9ammqwkb1.jpg",
-                    "https://i.redd.it/0a14sammqwkb1.jpg",
-                    "https://i.redd.it/fjbs0ammqwkb1.jpg",
-                    "https://i.redd.it/z5fsnrmmqwkb1.jpg"
-                ],
-                "thumbnail": "https://b.thumbs.redditmedia.com/DnxGasvmkLrz91mxxQGIolP3zoGpcz_7LN5qsvDZPiE.jpg",
-                "preview_image": null,
-                "domain": "reddit.com",
-                "datetime": "2023-08-29 01:34:09 IST",
-                "votes": 808,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
                 "title": "Birthday gift for husband - Bleu de Chanel",
                 "author": "LilMissSunshine673",
                 "url": "https://reddit.com/r/DesiFragranceAddicts/comments/15g1j1e/birthday_gift_for_husband_bleu_de_chanel/",
@@ -3058,24 +2790,6 @@
                 "flairs": [
                     "Seller Feedback "
                 ],
-                "archived": false
-            },
-            {
-                "title": "Is there a way to stop Google Play Store from listing one of my apps for updates?",
-                "author": "Juxtasexualposition",
-                "url": "https://reddit.com/r/AndroidQuestions/comments/15bim49/is_there_a_way_to_stop_google_play_store_from/",
-                "subreddit": "AndroidQuestions",
-                "body": "Here's my situation... I have an app on my phone that is already the most recent version. But Google Play Store lists the same version of the app as an update for my phone. I've tried everything I can think of to resolve the problem. \n\nI have uninstalled and reinstalled Google Play Store, I've tried clearing the cache, uninstalling and reinstalling the specific app in question (Even from a different android app store), and nothing works. The very next day, it's right back in the list for app updates. \n\nFor as long as Google Play Store has been around, I can't believe it doesn't offer an exclusion list for updates.\n\n I basically want it so that the Google Play Store app doesn't even detect that this specific app is installed on my phone, and therefore won't suggest to update it when it doesn't need updating. Any suggestions are much appreciated.",
-                "media": "https://www.reddit.com/r/AndroidQuestions/comments/15bim49/is_there_a_way_to_stop_google_play_store_from/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.AndroidQuestions",
-                "datetime": "2023-07-28 06:09:30 IST",
-                "votes": 5,
-                "nsfw": false,
-                "flairs": [],
                 "archived": false
             },
             {
@@ -3134,26 +2848,6 @@
                 "votes": 548,
                 "nsfw": false,
                 "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "Code Interpreter is the MOST powerful version of ChatGPT Here's 10 incredible use cases",
-                "author": "Ok-Feeling-1743",
-                "url": "https://reddit.com/r/ChatGPT/comments/14ublwc/code_interpreter_is_the_most_powerful_version_of/",
-                "subreddit": "ChatGPT",
-                "body": "**Today, Code Interpreter is rolling out to all ChatGPT Plus subscribers. This tool can almost turn everyone into junior designers with no code experience it's incredible.** \n\nTo stay on top of AI developments [look here first](https://www.theedge.so/subscribe). But the tutorial is here on Reddit for your convenience!\n\n**Don't Skip This Part!**\n\n**Code Interpreter does not immediately show up you have to turn it on. Go to your settings and click on beta features and then toggle on Code Interpreter.**  \n\n\nThese use cases are in no particular order but they will give you good insight into what is possible with this tool.\n\n1. **Edit Videos:** You can edit videos with simple prompts like adding slow zoom or panning to a still image. ***Example:*** Covert this GIF file into a 5 second MP4 file with slow zoom ([Link to example](https://twitter.com/goodside/status/1652540643212767234?s=46&t=eJBK0MAQ5gIiH9vHmzmFEg))  \n\n2. **Perform Data Analysis:** Code Interpreter can read, visualize, and graph data in seconds. Upload any data set by using the + button on the left of the text box. ***Example:*** Analyze my favorites playlist in Spotify Analyze my favorites playlist in Spotify ([Link to example](https://twitter.com/shl0ms/status/1652842277788692480?s=46&t=eJBK0MAQ5gIiH9vHmzmFEg))  \n\n3. **Convert files:** You can convert files straight inside of ChatGPT. ***Example:*** Using the lighthouse data from the CSV file in into a Gif ([Link to example](https://twitter.com/emollick/status/1653451648826757121?s=46&t=eJBK0MAQ5gIiH9vHmzmFEg))  \n\n4. **Turn images into videos:** Use Code Interpreter to turn still images into videos. ***Example Prompt:*** Turn this still image into a video with an aspect ratio of 3:2 will panning from left to right. ([Link to example](https://twitter.com/chaseleantj/status/1677651054551523329?s=46&t=eJBK0MAQ5gIiH9vHmzmFEg))  \n\n5. **Extract text from an image:** Turn your images into a text will in seconds (this is one of my favorites) ***Example:*** OCR \"Optical Character Recognition\" this image and generate a text file. ([Link to example](https://twitter.com/saboo_shubham_/status/1654323164187377665?s=46&t=eJBK0MAQ5gIiH9vHmzmFEg))  \n\n6. **Generate QR Codes:** You can generate a completely functioning QR in seconds. ***Example:*** Create a QR code for [Reddit.com](https://Reddit.com) and show it to me. ([Link to example](https://twitter.com/openai/status/1677015057316872192?s=46&t=eJBK0MAQ5gIiH9vHmzmFEg))  \n\n7. **Analyze stock options:** Analyze specific stock holdings and get feedback on the best plan of action via data. ***Example:*** Analyze AAPL's options expiring July 21st and highlight reward with low risk. ([Link to example](https://twitter.com/adamtaha_/status/1677664661129265154?s=46&t=eJBK0MAQ5gIiH9vHmzmFEg))  \n\n8. **Summarize PDF docs:** Code Interpreter can analyze and output an in-depth summary of an entire PDF document. Be sure not to go over the token limit (8k) Example: Conduct casual analysis on this PDF and organize information in clear manner. ([Link to example](https://twitter.com/emollick/status/1676441469979185157?s=46&t=eJBK0MAQ5gIiH9vHmzmFEg))  \n\n9. **Graph Public data:** Code Interpreter can extract data from public databases and convert them into a visual chart. (Another one of my favorite use cases) ***Example:*** Graph top 10 countries by nominal GDP. ([Link to example](https://twitter.com/aakashg0/status/1677129124459208705?s=46&t=eJBK0MAQ5gIiH9vHmzmFEg))  \n\n10. **Graph Mathematical Functions:** It can even solve a variety of different math problems. ***Example:*** Plot function 1/sin(x) ([Link to example](https://twitter.com/aaditsh/status/1677304456231391233?s=46&t=eJBK0MAQ5gIiH9vHmzmFEg))\n\n&#x200B;\n\nLearning to leverage this tool can put you so ahead in your professional world. If this was helpful consider joining one of the [fastest growing AI newsletters](https://www.theedge.so/subscribe) to stay ahead of your peers on AI. ",
-                "media": "https://www.reddit.com/r/ChatGPT/comments/14ublwc/code_interpreter_is_the_most_powerful_version_of/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://external-preview.redd.it/VDc8DFgJPsC3eosvqJVtX_uhYP1eOwBwD1hY_WZVOqQ.jpg?auto=webp&s=b07a17e75b4f5b6fddee9c566840885fb92d166c",
-                "domain": "self.ChatGPT",
-                "datetime": "2023-07-09 00:00:01 IST",
-                "votes": 2209,
-                "nsfw": false,
-                "flairs": [
-                    "Use cases "
-                ],
                 "archived": true
             },
             {
@@ -3255,24 +2949,6 @@
                 "archived": true
             },
             {
-                "title": "A step-by-step for doing your first open source contribution (and finding where to do it)",
-                "author": "takeTheLeapDev",
-                "url": "https://reddit.com/r/learnprogramming/comments/140gdp8/a_stepbystep_for_doing_your_first_open_source/",
-                "subreddit": "learnprogramming",
-                "body": "*n.b. I have no affiliation with any of the resources linked below.*\n\nVery often I see developers ask:\n\n* *How do I get into open source?*\n* *How do I make my first open source contribution?*\n* *When am I ready to contribute to open source?*\n\nNow, I'm very far from being a veteran open source contributor, but I have contributed before, and I still do when I make the time. Most importantly, I've also asked myself those questions.\n\nSo, I decided to share this basic step-by-step for developers (of any level) who want to take their first steps into open source contribution:\n\n1. Learn the basics of git and GitHub (you can start with [this video](https://www.youtube.com/watch?v=8Dd7KRpKeaE), if you don't know where to start).\n2. Check out the [\\#good-first-issue topic](https://github.com/topics/good-first-issue) on GitHub.\n3. Pick a repository that calls your attention (there are +1100 options).\n4. Read the repository's contribution guidelines (and follow them).\n5. Get involved with the repository's community (i.e. Discord, IRC, Gitter).\n\nMy first contribution ever was to [PublicLab's plots2](https://github.com/publiclab/plots2) back in 2018. I had no idea what I was doing or what plots2 was. What attracted me was how welcoming they were (and still are) to first time contributors. With them: I opened my first PR, discussed in PR's conversation, and pushed the changes requested. Back then, that was a lot!\n\nSo that's it. Hope it's helpful to someone.",
-                "media": "https://www.reddit.com/r/learnprogramming/comments/140gdp8/a_stepbystep_for_doing_your_first_open_source/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://external-preview.redd.it/WEGZiroVKfdJuVBLZNarkVTiIojmD7KQvJ9KTL-W4Q8.jpg?auto=webp&s=55894e4d55eaffd451803c132da09968cc6a6f61",
-                "domain": "self.learnprogramming",
-                "datetime": "2023-06-04 20:57:13 IST",
-                "votes": 572,
-                "nsfw": false,
-                "flairs": [],
-                "archived": true
-            },
-            {
                 "title": "Stop being a secondary character in your own life, and become the hero of your life's story!",
                 "author": "Sir_David_Davidson",
                 "url": "https://reddit.com/r/BrosDatingAdvice/comments/13zap26/stop_being_a_secondary_character_in_your_own_life/",
@@ -3291,26 +2967,6 @@
                 "archived": false
             },
             {
-                "title": "AI tools apps in one place sorted by category",
-                "author": "adesigne",
-                "url": "https://reddit.com/r/ChatGPT/comments/13up0c6/ai_tools_apps_in_one_place_sorted_by_category/",
-                "subreddit": "ChatGPT",
-                "body": "AI tools content, digital marketing, writing, coding, design\u2026 aggregator",
-                "media": "https://i.redd.it/yzihs827wr2b1.jpg",
-                "media_type": "image",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/sgR5361J3u4OeqmDBsQgG-4H1WBsgseznTNHPFqRCWE.jpg",
-                "preview_image": "https://preview.redd.it/yzihs827wr2b1.jpg?auto=webp&s=ddb66951d9af5bcd766c1bc67bfec01ea285e02e",
-                "domain": "i.redd.it",
-                "datetime": "2023-05-29 14:01:51 IST",
-                "votes": 17060,
-                "nsfw": false,
-                "flairs": [
-                    "Educational Purpose Only "
-                ],
-                "archived": true
-            },
-            {
                 "title": "Stating the obvious.",
                 "author": "ghiraph",
                 "url": "https://reddit.com/r/TikTokCringe/comments/13ucsyq/stating_the_obvious/",
@@ -3326,26 +2982,6 @@
                 "votes": 29602,
                 "nsfw": false,
                 "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "How we call this kind of animation ? How we can recreate it ?",
-                "author": "mrck_",
-                "url": "https://reddit.com/r/webdev/comments/13rbr14/how_we_call_this_kind_of_animation_how_we_can/",
-                "subreddit": "webdev",
-                "body": "",
-                "media": "https://v.redd.it/q6jfs78esx1b1",
-                "media_type": "video",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/Rn4WrIknXNjEhTspi39UlTlHuNHRf7Cui3yT7iyTUks.jpg",
-                "preview_image": "https://external-preview.redd.it/_FOrKKV-VcZpv0GmYNPFubyBy3nwbKF71x4qUYdu8aM.png?format=pjpg&auto=webp&s=b2051fd1e8a24cc2f431ebf3c94a4f5fc86bb53f",
-                "domain": "v.redd.it",
-                "datetime": "2023-05-25 13:48:18 IST",
-                "votes": 1586,
-                "nsfw": false,
-                "flairs": [
-                    "Discussion"
-                ],
                 "archived": false
             },
             {
@@ -3367,46 +3003,6 @@
                     "Rant / Vent"
                 ],
                 "archived": false
-            },
-            {
-                "title": "Suggest some good projects in MERN. I don't want to make old projects like e commerce and all.",
-                "author": "[deleted]",
-                "url": "https://reddit.com/r/developersIndia/comments/11l0n0u/suggest_some_good_projects_in_mern_i_dont_want_to/",
-                "subreddit": "developersIndia",
-                "body": "I want to make them and add to the resume",
-                "media": "https://www.reddit.com/r/developersIndia/comments/11l0n0u/suggest_some_good_projects_in_mern_i_dont_want_to/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.developersIndia",
-                "datetime": "2023-03-07 19:52:00 IST",
-                "votes": 22,
-                "nsfw": false,
-                "flairs": [
-                    "Help"
-                ],
-                "archived": true
-            },
-            {
-                "title": "Which is the best coding language to learn from zero to get a job in minimum amount of time ?",
-                "author": "[deleted]",
-                "url": "https://reddit.com/r/developersIndia/comments/134ewzq/which_is_the_best_coding_language_to_learn_from/",
-                "subreddit": "developersIndia",
-                "body": "I am a BTech in non cs , graduated in 2019...",
-                "media": "https://www.reddit.com/r/developersIndia/comments/134ewzq/which_is_the_best_coding_language_to_learn_from/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.developersIndia",
-                "datetime": "2023-05-01 12:14:47 IST",
-                "votes": 68,
-                "nsfw": false,
-                "flairs": [
-                    "Help"
-                ],
-                "archived": true
             },
             {
                 "title": "ELI5 - how does mentalism work? Can they actually read your mind or is it scripted?",
