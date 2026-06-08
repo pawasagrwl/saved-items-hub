@@ -1,6 +1,6 @@
 {
-    "last_fetched_on": "2026-06-07 19:59:23 IST",
-    "last_fetch_duration": 3.9075701236724854,
+    "last_fetched_on": "2026-06-08 12:10:06 IST",
+    "last_fetch_duration": 3.5680699348449707,
     "counts": {
         "subreddits": {
             "foundsatan": {
@@ -69,7 +69,7 @@
                 "icon": ""
             },
             "cscareerquestions": {
-                "posts": 13,
+                "posts": 2,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/Lpbu8WMV1n1QtY74rDWICSzeURLPrelOyKjHuGDM0Gs.png"
             },
@@ -309,7 +309,7 @@
                 "icon": ""
             },
             "cartoons": {
-                "posts": 1,
+                "posts": 0,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_2r4sk/styles/communityIcon_psjflt61q5bg1.png"
             },
@@ -405,11 +405,11 @@
                 "comments": 9
             },
             "100-1000": {
-                "posts": 41,
+                "posts": 35,
                 "comments": 4
             },
             "1000-10000": {
-                "posts": 34,
+                "posts": 28,
                 "comments": 3
             },
             "10000-100000": {
@@ -423,7 +423,7 @@
         },
         "dates": {
             "2020-07": {
-                "posts": 4,
+                "posts": 3,
                 "comments": 0
             },
             "2026-05": {
@@ -455,7 +455,7 @@
                 "comments": 0
             },
             "2025-02": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0
             },
             "2025-01": {
@@ -487,7 +487,7 @@
                 "comments": 0
             },
             "2024-03": {
-                "posts": 4,
+                "posts": 3,
                 "comments": 0
             },
             "2020-05": {
@@ -531,7 +531,7 @@
                 "comments": 0
             },
             "2021-02": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0
             },
             "2021-03": {
@@ -539,7 +539,7 @@
                 "comments": 0
             },
             "2021-04": {
-                "posts": 3,
+                "posts": 2,
                 "comments": 0
             },
             "2021-05": {
@@ -558,10 +558,6 @@
                 "posts": 1,
                 "comments": 0
             },
-            "2022-05": {
-                "posts": 2,
-                "comments": 1
-            },
             "2022-09": {
                 "posts": 9,
                 "comments": 2
@@ -571,12 +567,8 @@
                 "comments": 1
             },
             "2022-11": {
-                "posts": 4,
+                "posts": 3,
                 "comments": 1
-            },
-            "2023-12": {
-                "posts": 1,
-                "comments": 0
             },
             "2021-08": {
                 "posts": 1,
@@ -623,7 +615,7 @@
                 "comments": 0
             },
             "2023-03": {
-                "posts": 6,
+                "posts": 5,
                 "comments": 2
             },
             "2023-02": {
@@ -631,14 +623,18 @@
                 "comments": 0
             },
             "2023-01": {
-                "posts": 3,
+                "posts": 2,
                 "comments": 2
             },
             "2022-12": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0
             },
             "2024-06": {
+                "posts": 0,
+                "comments": 1
+            },
+            "2022-05": {
                 "posts": 0,
                 "comments": 1
             },
@@ -888,26 +884,6 @@
                 "votes": 14,
                 "nsfw": false,
                 "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "Hacking the Linked In Algo (Tricks To Get Recruiters To Message YOU)",
-                "author": "TrenLyft",
-                "url": "https://reddit.com/r/cscareerquestions/comments/1iu3204/hacking_the_linked_in_algo_tricks_to_get/",
-                "subreddit": "cscareerquestions",
-                "body": "Helping people get jobs and building cool stuff is what im passionate about so im back with another guide. This time talking about how to optimize your linkedIn to get inbound.\n\nAs always before you read, here are some screenshots of the results you\u2019ll get by following this guide.\n\n[https://imgur.com/a/j1SQ7Cl](https://imgur.com/a/j1SQ7Cl)\n\n\\*this account has been inactive for a while and still gets lots of inbound\n\n  \nIf you have a decent amount of experience ( greater than 3 years) linked in can be a really powerful tool for getting eyes on your resume and many recruiters use it as their preferred method of contact (because linkedIn vets harder for fake candidates than other job sites)\n\nThe way this method works is by taking advantage of recruiter search. In other guides i've talked about LinkedIn Sales Navigator. This is the search dashboard that recruiters use to find candidates for roles.\n\nIf we can make good guesses about what the recruiter is searching for to fill roles we can make our linkedIN profile show up as the first result in every search query they make.\n\nNo one else is using linkedIn this way, so optimizing your profile to rank highly in sales navigator can really take your job search to the next level.\n\nIn this guide im going to show you what recruiters are searching for, how to optimize your profile and some tricks to make things work better along the way (edited)\n\nBefore we start with the linked in profile, it's important to know what recruiters are searching by. Here are the filter options they have on their end:\n\n[https://imgur.com/a/XWT2PIQ](https://imgur.com/a/XWT2PIQ)\n\n**your goal with linkedin should be to always remain in these filters for their searches**\n\nafter finding your profile they can pull your resume if you have it set to public and your phone # / email or they can send you a linkedin inbound message about the job they have.\n\n**The most important filter they use is your Job title & Headline**\u00a0\n\nUse the most common / transferable job title to describe your position, even when your official title is different. Avoid over-complicated or long titles.\n\nIf your title is too generic, you can add a specialization or vertical.\n\nExample: \u201cAccount Manager, Luxury\u201d or \u201cSoftware Engineer, Machine Learning\u201d.your goal with your title like everything else is to catch as many searches as possible\n\n**The next most important section is skills**\n\nSkills are typically used to narrow searches to specialties. They include core functional skills\n\n(\u201cBusiness Development\u201d, \u201cProject Management\u201d), languages, softwares & programming\n\nlanguages (\u201cPython\u201d, \u201cIllustrator\u201d), or soft skills (\u201cCommunication\u201d, \u201cProblem Solving\u201d). My advice is to add all skills that match your background.\u00a0**Do not forget to add your languages, even if you only speak English**\u00a0(you could be excluded from searches that use a must speak english Filter if not)\n\n**Next section: Years of graduation**\n\nsorting by this is a trick recruiters use to figure out your approximate age & seniority. Even if you haven\u2019t completed a degree, listing-up an educational background keeps you in play when years of graduation is a filter in their search. If you don't have years of graduation filled in here, you will be excluded from every search that includes it\n\n**Industry**\n\nyour industry is not displayed on your public profile, it is still a very commonly used criteria. You can either choose an Industry (\u201cConsumer Goods\u201d) or a function (\u201cAccounting\u201d), based on what makes most sense for a recruiter to find you\u00a0\n\nIf you're trying to break into tech change your current industry to whichever tech you're trying to break intoHeres a full list of all your options since the linkedIn UI only lets you search instead of browse.\n\n\\[linked removed, just search google for the list\\]\n\nOnce you've done the above you can start getting inbound by putting yourself on the \"hot\" list\n\nWhen displaying search results, LinkedIN Recruiters shows profiles that are more likely to reply on a different list. These are the people who will be contacted first by the recruiter!\n\n  \nhere's how the hot list looks on their end: [https://imgur.com/a/Iych0w8](https://imgur.com/a/Iych0w8)\n\n \\* You want to be in the More Likely To Respond or Open To New Opportunities Group\n\n**Background / Profile Picture**\u00a0\n\nNeither of these are a must, but I do recommend as they do help. For profile pictures obviously use a professional headshot. If you have one of you speaking in public that is also really good for the background. If not use something related to your field such as computers etc. Profile Summary Your profile summary should be an elevator pitch here is an example for Data analyst\n\n>\n\n**Finally your jobs section**\n\nA LinkedIN profile is not a resume. It should allow recruiters what your strongest technologies and job titles are. Don't list out all of your accomplishments or a bunch of percentages etc. Example: Developed various software solutions for a game development company\n\nusing\u00a0**Python**,\u00a0**Spark**,\u00a0**SQL**,\u00a0**Pandas**, and\u00a0**Looker**; this included deploying a\n\nlogistic regression model to boost in-app purchases and improving user\n\nexperience through a\u00a0**Bayesian**\u00a0inference-based multi-arm bandit strategy.\n\nGo through and fill all this out for all your jobs, make sure you're\u00a0**set to open to work,**\u00a0your skills section contains every technology and keyword you can think of and then\u00a0**set your resume to searchable by recruiters.**\u00a0You will have 2-3 linkedin inbound messages a day and a few calls from linkedin recruiters\n\nThe final tip I have for you is to update your linkedIn Profile once per week. Recruiters and linkedIn can see when it was last updated. If your profile was updated recently recruiters see this as more likely to respond and you will get more messages.\n\n**This is without any outbound.** If you combine this with my post on automating LinkedIn outbound you will get crazy results[ like this post.](https://www.reddit.com/r/CSCareerHacking/comments/1h7m3sb/what_an_seo_optimized_linked_in_account_looks_like/)\n\n",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/1iu3204/hacking_the_linked_in_algo_tricks_to_get/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://external-preview.redd.it/60jV1zcoxaoYN2W19biSZ-vlevNaGDIjgevUb6ulr1M.jpg?auto=webp&s=30511f954e47b17d4fe925b53beb8344d96a6040",
-                "domain": "self.cscareerquestions",
-                "datetime": "2025-02-20 22:20:20 IST",
-                "votes": 1027,
-                "nsfw": false,
-                "flairs": [
-                    "Experienced"
-                ],
                 "archived": false
             },
             {
@@ -1503,24 +1479,6 @@
                 "archived": true
             },
             {
-                "title": "I am a former Meta/Google recruiter. I think lot of people here do not understand how recruiters work, I wanted to share my thoughts.",
-                "author": "[deleted]",
-                "url": "https://reddit.com/r/cscareerquestions/comments/1bq2gu7/i_am_a_former_metagoogle_recruiter_i_think_lot_of/",
-                "subreddit": "cscareerquestions",
-                "body": "I am a Tech recruiter, but I browse this subreddit a lot because it directly effects my job prospects.\r  \n\r  \nI think a lot of people here do not understand how recruiters work, and what is really important. I have seen many posts on here where someone posts about how they are not getting hired, and people respond by saying their resume is not good enough and that's why they are not hearing back. And that you should spend lots of time tailoring resumes to jobs. I have looked at these resumes, 98% of these resumes are completely fine. I think people here heavily overestimate how carefully recruiters judge resumes. I never even read most of the resume, just skim for the information I need.\r  \n\r  \nAs a high volume recruiter working at big companies, you do not have time to spend lots of time on resumes. You are looking at hundreds a week and recruiters are generally pretty busy with other stuff like responding to candidates, attending prescreens with candidates, attending calls with hiring teams, and organizing. All they look at is your experience/skills directly relevant to the job, your work experience, and the type of companies you are working for. They are not spending time looking at formatting, analyzing wording, analyzing experience for more than 1 minute, often even less than 30 seconds. Its a numbers game for recruiters they are trying to get through as many as they can.\r  \n\r  \nYou are much better served with your time applying to jobs at a high volume than tailoring resumes to jobs. Right now in this market, the resumes that get looked at is a lot of luck. I look at the first 200 or so on a given job posting, the rest just end up applying too late and never get looked at. You are better served being the first to apply than to heavily tailor for given jobs.\r  \n\r  \nAlso another interesting thing I have learned with my 10 years of recruiting experience is that to never discount resumes that look like the person has not spent a lot of time on it. I have found some of my best candidates among people with just one or two lines for each job they have worked at, and their tech stack. Lot of very good engineering talent is cocky about their experience especially if they have worked at good companies, and they do not feel they need to spend time on their resumes. Its foolish as recruiter to discount these people just because they think spending time on resumes is useless or they are too cool to do it. Cocky is not a bad trait if you can back it up and hiring managers understand this as well.\r  \n\r  \nTLDR: Making perfect resumes is highly overrated, recruiters do not look at it in a lot of detail, and you are better served applying in heavy volume and aiming to be some of the first people to apply.",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/1bq2gu7/i_am_a_former_metagoogle_recruiter_i_think_lot_of/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.cscareerquestions",
-                "datetime": "2024-03-28 23:44:52 IST",
-                "votes": 4586,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
                 "title": "Modern straight man is also a victim of PATRIARCHY and I will tell you HOW",
                 "author": "[deleted]",
                 "url": "https://reddit.com/r/onexindia/comments/1bmgaxl/modern_straight_man_is_also_a_victim_of/",
@@ -1654,24 +1612,6 @@
                 "flairs": [
                     "Productivity"
                 ],
-                "archived": false
-            },
-            {
-                "title": "Data from 1 Year of Applying for Software Engineering Jobs",
-                "author": "resumethrowaway99009",
-                "url": "https://reddit.com/r/cscareerquestions/comments/hz5a81/data_from_1_year_of_applying_for_software/",
-                "subreddit": "cscareerquestions",
-                "body": "#**Intro**\n\nI'm a recent Computer Science graduate from a public university in California. The reason I started studying CS was to become a Software Engineer. I had dreams of working at FAANG and at the time I didn't realize how foolish that was. As I got closer to graduating and started to apply for internships and jobs I began to realize how competitive the field was. I was a middle-of-the-pack CS student at public university. I never had a shot at FAANG.\n\nI was originally set to graduate in December 2019, but decided to take an extra semester and graduate in the spring because I could not find a Software Engineering job. That turned out to be a mistake because I graduated during the peak of Covid-19. I officially graduated in May. I have applied to over 700 positions since July 27th, 2019. I am currently unemployed.\n\nI decided to keep track of all my job applications because I knew I would have to apply to a lot of positions and I needed a way to organize them.\n\nI'm posting now as a postmortem to my Software Engineering job search. Hopefully you can learn something from this, and if not maybe it will at least be entertaining.\n\n#**Data**\n[Here](https://docs.google.com/spreadsheets/d/1_7pS1LQ_aF_AbCm-7CHOZ4EAmnf1c7TmQVqw7m0f53I/edit?usp=sharing) is the raw data I collected. [Here](https://imgur.com/fVgorm6) is a pie chart breakdown of the outcomes.\n\n\nI kept track of: The company name, the position title, the position location, the date that I applied on, the final outcome, whether or not I got an interview, and the platform on which I applied. \n\nLooking back I should have kept track on the date of rejection to figure out the average time it takes to get a response. There are probably other useful data points I could've collected to. Let me know if you have any thoughts on this.\n\n#**Resume & Cover Letter**\n\nI've made many changes to my resume over the course of the year. I'll post a few different versions here, though this is not an exhaustive list. \n\n[V1](https://imgur.com/FluOaoc)\n\n[V2](https://imgur.com/PASQ7ne)\n\n[Current Resume](https://imgur.com/Zw8DAQg)\n\nThere hasn't been any increase in responses to my resume as I've changed it. \n\nI've used a couple different cover letter formats, but I didn't take pictures of them over time. \n\n[Here](https://imgur.com/FVqx2ZZ) is the current cover letter format that I use.  I haven't noticed any increase in response when using a cover letter vs. not using one.\n\n#**Responses**\n\n* Before I began keeping track of my job applications, I was applying to internships my junior year. I applied for ~70 or so and was rejected or ghosted by them all. At the time, I thought 70 applications was a lot.\n\n* During late October of 2019, I got my first response. I did well in a phone screen and then moved to the technical portion. I dropped an easy question because I took the interview at the end of the day. It was also my first technical interview so I was nervous and found it hard to think. Lesson learned. Take your interviews at a time of day when you're sharp and ready (in the morning for me).\n\n* I've received a few coding tests that automatically get sent out to candidates. I usually do okay on those, but not stellar. Not good enough to get a job apparently.\n\n* In June I interviewed with a local company and it went well. I passed the behavioral and the technical portion and was told I was being moved to the final interview stage where I would sit down with senior HR and management. When I followed up with them a week later the recruiter told me that they were \"pausing\" the position.\n\n#**My \"Software Engineering\" experience**\n\n\n**Job Offer**\n\nIf you were to go through my spreadsheet you'd see that I actually got an offer! I removed the companies name from the spreadsheet so as to not dox them since my experience there was very negative.\n\nLate December of 2019 I applied for a Software Engineering job on Indeed. The listing was for a full time SWE and the pay was listed as 4,000 - 7,000/mo. The CEO got in touch with me and I interviewed the same day I applied. The interview went well and he offered me an \"internship\" as a contractor for $17.50/hr. \n\nI knew it was a bad offer, especially for California, but I accepted because I was desperate and foolish.\n\nWithin a week of working there I knew the job wasn't Software Engineering and that I was getting ripped off. In the first two weeks I was there, I didn't see any of the \"engineers\" write a single line of code. \n\nI was working along side the other \"engineers\" getting deliverables out to clients. The other \"engineers\" were making 60k+/yr salaried and I was making less than 30k/yr as a contractor. I'm pretty sure its illegal in California to hire someone as a contractor to do the same work an employee is doing (look at AB5), but that's beside the point. \n\nI stayed because it was experience I could put on my resume. At the end of March half of the company, myself included, was laid off due to covid. \n\n**HPE Internship Offer**\n\nIn late February I applied for and was interviewed for a summer internship with HPE. There were two rounds, one behavioral and one technical and I did well in both. The recruiter called me and offered me the position verbally and I accepted. 10 minutes later she called me back and asked me if I would be returning to school for Fall 2020. I said no, because I had planned to graduate in May. She rescinded the internship offer and I was right back where I started.\n\nIf this ever happens to you I recommend you lie. \n\n#**Conclusion**\n\nSoftware Engineering isn't for everyone. I started my degree very hopeful and optimistic and now I am the opposite. If I knew it would be like this, I wouldn't have gone to college.\n\nI'm not sure what my next steps are, but I know that I am done with Computer Science and Software Engineering. I just don't have the heart anymore.\n\n I'm considering going back to school to study some kind of engineering.\n\nI hope you can gain some insight from this post and if not you may at least find the data cool to look at, or my story fun to read.\n\nThank you.",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/hz5a81/data_from_1_year_of_applying_for_software/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://external-preview.redd.it/TlmRQRSz_vBj8T1J4J_1A7eNtmza6qOVfMQ9wuzcAkc.jpg?auto=webp&s=e5fd8147cbbee83fbfd9413def8487f2db7448b0",
-                "domain": "self.cscareerquestions",
-                "datetime": "2020-07-28 06:52:13 IST",
-                "votes": 1107,
-                "nsfw": false,
-                "flairs": [],
                 "archived": false
             },
             {
@@ -2097,24 +2037,6 @@
                 "archived": true
             },
             {
-                "title": "The process that landed me first round interviews",
-                "author": "raksaj",
-                "url": "https://reddit.com/r/cscareerquestions/comments/lf4fst/the_process_that_landed_me_first_round_interviews/",
-                "subreddit": "cscareerquestions",
-                "body": "Edit: As said in the comments, this is obviously an opinion piece and what worked for me(the word me is in the title). I'm not saying that this is the only way to land a job. Just wanted to share what worked for me and hopefully some of y'all can adapt parts of this if you think it makes sense. \n\n&#x200B;\n\nHey all,\n\nI've been trying to give back more by helping those who can't seem down on their luck when it comes to getting that first round interview. I remember being in that position and it sucks. I'm going to take y'all through what worked for me, why I did it and hopefully help a few of you get that first round/phone interview. There are many good posts here telling you what you can do to land that first job, but not many helping you break through that barrier of getting the first round interview.\n\nThe main reason why I'm doing this is that I see at least 10 posts a day of people saying they can't get a callback or posts claiming that to get a job you need to do 1000 LeetCode problems a day.\n\nThe format of this post will be as follows:\n\n* General tips\n* What worked for me(I was job hunting while not having a job)\n* Following up on a job application\n* My daily schedule\n* Tools that I used to make my job hunt easier\n* How you can adjust parts of this process if you do currently have a job\n* Relevant link(s)\n* Closing notes\n\n# General tips:\n\n* Don't just spray and pray. Yes, this will let you apply for thousands of jobs a day, but you probably aren't interested in most of them and it'll make the process outlined below difficult to follow.\n* Follow up for every single job you apply for(if a blocker is that you can't find the email address of who you need to follow up with, look in the Tools section).\n* You get what you put in. Job hunting is hard, but it requires persistence. The job you want isn't going to come to you just because you clicked the easy apply button on LinkedIn.\n* If you're stressed out about not being able to get LeetCode questions done, start off with 1 a day and time box them. There is no shame at looking at how others solved a similar problem, as long as you're learning and not copying and pasting, you'll get better. Algo questions during the interview process is about finding a pattern and matching it to the practice questions that you've done.\n* Have a daily schedule for follow Monday - Friday and stick to it, I'll list mine below.\n* Don't stress out over this subreddit, I don't believe 25% of the posts I read on here.\n\n# What worked for me:\n\nI kept track of every job I applied for(so I can send followups and not waste time trying to figure out if I had already applied for a job). I did so by using Trello board. I'll include a link at the end of this post. I would apply for 10-15 jobs a day. I'd follow up twice with for every job that I applied to(with a week separating each followup, examples below), before I moved it to the Rejected column of my board.\n\n# Following up on a job application:\n\nI would apply for jobs on Monday - Friday, but only send follow ups from Tuesday - Thursday. Reason being(this is an opinion) most people don't like doing work on Monday and Friday(also, anytime my follow up date fell on a holiday, I would just send the email the following day). I didn't want my email to get lost amongst the weekend emails. I also always attached my resume to all my follow up emails, you'd do this because you make want to make people's lives easier. They're more likely to respond if they don't have to search for you in their job portal.\n\n* Example 1: If I applied for a job on 2/8/2021(which is a Monday), I would send my first follow up email on 2/16/2021(a Tuesday) and the second follow up email on (2/23/2021)(a Tuesday).\n* Example 2: If I applied for a job on 2/19/2021(which is a Friday), I would send my first follow up email on 3/2/2021(a Tuesday) and the second follow up email on (3/9/2021)(a Tuesday).\n* Example 3: If I applied for a job on 2/24/2021(which is a Wednesday), I would send my first follow up email on 3/2/2021(a Wednesday) and the second follow up email on (3/10/2021)(a Wednesday).\n\n&#x200B;\n\n**My first follow up email:**\n\n    Hi {{name of person}},\n    \n    On {{date when you applied, which you should have since it's on your Trello board :) }}, I applied for the {{position title}} at {{name of company}}.\n     \n    Since then, I haven't heard back from anybody and was hoping either you or a colleague could help shed some light on the situation and let me know if the position has been filled or if I'm still in consideration for the role.\n    \n    I've also attached my resume.\n    \n    \n    Thanks for your time,\n    \n    {{your name}}\n\n**My second follow up email:**\n\n    Hi {{name of person}},\n    \n    I'm not to sure if you received my previous email, but I'm following up on my job application for the {{position title}} at {{name of company}} {{date of when you originally applied for the position}}.\n    \n    If you or a colleague can let me know if the position has been filled or if I'm still in consideration, that would be greatly appreciated. \n    \n    I've also attached my resume.\n    \n    Regards,\n    \n    {{your name}}\n\n# My daily schedule:\n\n* Wake up at 9:30am and apply for jobs between 10am-1pm and have lunch.\n* Send follow ups from 1pm-3pm.\n* From 3pm and onwards, I would work on a personal project or work on LeetCode.\n* After 8pm, I'd RELAX. Seriously everyone, don't underestimate this. You need to relax to let your brain recover and be ready for the next day. Otherwise you'll just end up sad and questioning what you're doing.\n\n# Tools that I used to make my job hunt easier:\n\n* I used Trello for keeping track of the jobs I applied to.\n* I used SellHack to find the emails of the Recruiter, CTO or whoever was responsible for keeping track  the job applicants. They only give you 10 free searches a month per account, but you can just create a bunch of accounts. If there is no email or person listed to contact, just use LinkedIn and find someone to email. If it's a small company, email the CTO, if it's a larger company, email a Technical Recruiter in your area. If after 20 mins of trying, you can't find someone to email or your emails keep getting bounced back, just move on.\n\n# How you can adjust parts of this process if you do currently have a job:\n\nI was able to follow my schedule because I didn't have a job. If you do have a job, you may be wondering how you can prepare and send followups during the middle of the day. I won't say that the process is easy, but you can do it mainly by preparing them emails in advance. If you know you have to send out followups the next business day, prepare them the night before(or the weekend before). That way all you need to do is click the send button.\n\n* Example 1: If you have 5 follow ups to send out on Tuesday, prepare them on Saturday or Sunday.\n* Example 2: If you have to send out 5 follow ups on Wednesday and you were busy the weekend prior, prepare them on Monday or Tuesday night.\n\nYou can also apply for jobs at night, use the time where ever you can find it.\n\n# Relevant link(s):\n\n* PDF of my Trello board(just used the first PDF hosting site I could find, if anyone has a better site, please let me know) - [tinyurl.com/1laxxext](https://tinyurl.com/1laxxext)\n\n&#x200B;\n\n# Closing notes:\n\nI wish y'all the best of luck. If you have any questions, please reach out. I don't sign on to Reddit all that often, but I check it at least once a week.\n\nY'all got it, and don't be afraid of being rejected from jobs, it may feel like the end of the word at that moment, but other doors to open. On my personal Trello board, the longest list was my Rejected column, but that was ok. All you need is that 1 offer to get you started.",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/lf4fst/the_process_that_landed_me_first_round_interviews/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://external-preview.redd.it/-ZVTWts35Q7jZSGYQkc1LxgVmSlN3yrQME0anUjkSSQ.jpg?auto=webp&s=e510fc675fe4f53ed746601360df4ba9f9aecbbb",
-                "domain": "self.cscareerquestions",
-                "datetime": "2021-02-08 10:25:52 IST",
-                "votes": 860,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
                 "title": "LPT : Dont't throw away annoying Silica gel little pockets, that come along with new electronic devices, shoes, or purses. Silica gel can prolong the life of anything that would be affected by excess moisture or condensation. Here's what you can use them for:",
                 "author": "Beast667Neighbour",
                 "url": "https://reddit.com/r/LifeProTips/comments/lrbrf9/lpt_dontt_throw_away_annoying_silica_gel_little/",
@@ -2151,26 +2073,6 @@
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
-            },
-            {
-                "title": "How to get first job as swe: two cents from an \"experienced\" FANG engineer",
-                "author": "waveecho",
-                "url": "https://reddit.com/r/cscareerquestions/comments/mwhue9/how_to_get_first_job_as_swe_two_cents_from_an/",
-                "subreddit": "cscareerquestions",
-                "body": "Hello,\n\nI am \"experienced\" software engineer at FANG with 5 yoe. Experienced is in quotes because five years isn't whole lot, but I'm definitely not new grad anymore. I've given dozens of interviews, was a manager for couple of years in my previous company, and met with hundreds of job seekers at career fairs. This subreddit was great when I was looking for new jobs, but it seems now more than ever saturated by either new grads or students, so wanted to give some perspectives on how to get that first job. Everything is my personal opinion, and will be geared towards people looking for entry level swe positions.\n\nSo you've been applying. You've had few bites here and there, but no real offer yet. Some people say job search is numbers game, which is true, to an extent. But if you spend some time introspecting on what you are lacking, then you can hugely improve your odds. There are three main components to job search: your resume, people skill, technical interview skill.\n\nFirst your resume, this is your foundation. If the foundation is solid, it will make your job searching that much easier. You can tell your resume is lacking if your callback rate is low. If your resume isn't the best, then your focus should be improving this. Because it doesn't matter how good of engineer you are or master leetcoder, if you never get an interview in first place to able to show them. Formatting and wording is important, but what I usually look for when looking at resumes of new grads is whether they have internships or significant personal projects. Internship is usually better than personal projects, but if you are having hard time getting internship or it doesn't work with your timeline, then spend couple of months making personal project or, better yet, getting a group of friends to do a project and join hackathons. This not only boosts your resume but also gives you talking points in your interviews. 80 percent of the companies will ask you to tell them about something you built.\n\nNow the personal skills. Or as I would like to call it, do you know how to function in a professional setting. If you pass the resume screening (and online assessments) first step is usually a recruiter call. They are looking for red flags and whether you are really interested in their company. So smile, look engaged, and most importantly sound excited for the opportunity. Do some research about the company beforehand, ask meaningful questions and not something like \"is the lunch free?\"\n\nLastly the technical assessment. This is the most dreaded part for most people. Alas, there isn't a golden bullet here. You just have to grind. Grind leetcode, hit the books, and you will get better eventually. But be sure to leetcode intentionally. Meaning you don't always look at solutions after being stuck couple of minutes. If you had to look at a solution to solve a question, then try redoing it right away or the day after, you will be surprised how many questions you've done before you can't do anymore, this just means you didn't truly master the concept, so take it as sign to study more.\n\nLastly, learn from your failures. Unless you are very lucky or all star new grad from Stanford with 5 internships, you will fail your first interviews. The company will also never tell you what the issue was, so spend time on your own what you think went wrong. Was it technical question? Did you say something wrong? Were you too nervous? Debrief with your friends and mentors. And pat on yourself on the back, because that just means you just got that much better at interviewing.  Think of it as getting exp points in interviewing skills. Also remember that luck plays a huge factor in interviews. So keep trying and don't talk rejections personally. Learn from them and eventually you will have an offer.\n\nHope my perspective will be helpful to at least some of you. Feel free to ask me any questions in the comments. I'll answer all of them.\n\nEdit: If you could do me a favor and ask your question as a top level comment, that would make it easier for me to find you. Thank you.\nEdit2: Adding a couple of caveats here, I'm an American so some suggestions might not be as valid in your home country. Also it's for someone looking for a general SWE engineer role, so for breaking into specific industry like AI, embedded, etc, the process is a bit different.",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/mwhue9/how_to_get_first_job_as_swe_two_cents_from_an/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.cscareerquestions",
-                "datetime": "2021-04-23 04:59:42 IST",
-                "votes": 1139,
-                "nsfw": false,
-                "flairs": [
-                    "Experienced"
-                ],
-                "archived": false
             },
             {
                 "title": "Guide: Soft skills to help you make Senior Engineer",
@@ -2280,26 +2182,6 @@
                 "votes": 23633,
                 "nsfw": false,
                 "flairs": [],
-                "archived": false
-            },
-            {
-                "title": "My failed attempt to jump to a bigger ship w/ 3 YOE, hopefully someone finds it useful!",
-                "author": "SymphonyofSiren",
-                "url": "https://reddit.com/r/cscareerquestions/comments/usrwyf/my_failed_attempt_to_jump_to_a_bigger_ship_w_3/",
-                "subreddit": "cscareerquestions",
-                "body": "I have 3 YOE at a large (not well known) company, originally hired as a junior graphics programmer with some computer vision. Yet the last 3 years my company had me working in the C++ plumbing side of things, solving system-specific features/issues. More recently I was moved to a lead role for various IOS projects despite my annual requests for more graphics/CV roles. I\u2019ve probably only written 4 shaders during my time here. I\u2019ve kept my projects up to date, but they aren\u2019t anything mind blowing. One weekend night, out of frustration I tossed some applications out there not expecting much, but to my surprise got callbacks for 10/13 positions, mainly at some of the giants in our industry. So I got to studying again, while continuing to work full time, and I only had 1 month to prepare. \n\n**The study plan:**\n\nMy primary areas of focus were as such in order of importance:\n\n1. Leetcode (85 done in 4 weeks)\n\n2. C++ (the usual, but with a focus on multithreading)\n\n3. Graphics\n\n4. Linear Algebra\n\n5. Hardware/OS\n\nI filled up 7 pages of paper back to back writing out my notes for #2-5. Monday-Friday, I'd do 3 LC questions from neetcode, where I'd attempt the problem first. After 15 minutes I'd watch the solution, then implement it on my own. Then I'd review the notes written up to the previous day, and write some more notes. For stuff like linear algebra I'd do a final exam w/solutions released somewhere on google from some university. Every Saturday and Sunday was dedicated to re-doing **all** of the LC problems I'd solved up to that point.\n\n**RESULTS:**\n\nMy resume got me good callback rates, and I made it to onsites for about half of the 10 callbacks. My study plan was great as well, there wasn't a single problem I wasn't able to solve, though they weren't always optimal. In the end, the odds didn\u2019t work in my favor. Out of the 10 callbacks:\n\n*Made to onsites:*\n\n- **Some fruit company:** Did perfectly on phone screen, and the tech screen. Onsite I did well on about 75% of the interviews, but it was enough to drop me from the running. I knew I was out of my league here, but it was a valuable experience.\n\n- **A startup:** Crushed nearly everything, some of the interviews on the onsite were a bit shaky since it seemed like they were looking for a unicorn. I honestly used this one for practice, but did get an offer. However the comp wasn't great and I don't want to be at a startup at this point in my career.\n\n- **A game studio owned by Microsoft:** I did solve all the problems they gave me, but it required a hint or two from the interviewer. Someone definitely just did better than me here.\n\n- **Company that makes VR goggles:** They didn't ask me a single question related to graphics lol. From beginning to end it was LC, so again someone probably just did better/faster than me, even though I found optimal solutions.\n\n*Dropped after tech screen:*\n\n- **Rainforest:** I dropped the ball on a LC-medium question that could've been easily optimized, I wasn't on my A-game.\n\n- **A social media app:** Did well on the tech screen, but dropped regardless. Other candidates probably had better backgrounds.\n\n*Dropped after phone screen:*\n\n- **Companies Green, Red, Blue:** For all three, I suspect my lack of graphics driver experience was the culprit.\n\n- **An animation studio:** The devs on the team seemed to like me, but my lack of graphics research experience hurt my chances here.\n\n\nSome obvious pros/cons about myself I could pinpoint:\n\nCons:\n\n- Others likely had superior/more relevant projects/experience like with graphics drivers, subdivision surfaces, CUDA, etc. That would\u2019ve helped me get past the phone screens for places like green and stand out better for the other stages.\n\n- All the tech screens were solely Leetcode. I at least solved all of the ones they gave me, but sometimes had trouble pinpointing how I could optimize or shorten some of them. More grinding is required for the top positions\n\nPros:\n\n- I am very experienced in various parts of the stack with multiple languages and platforms (which happened unintentionally because of my company haha). Companies were interested because of it, hence the good callback rate.\n\n- I may be an introvert, but I can communicate effectively and quickly build rapport. Even if a problem doesn\u2019t go my way, I can talk my way through it and come up with at least a solution.\n\n- Open to relocating, and open to non-remote. This one is huge. It greatly increased my odds.\n\n**Conclusion:**\n\nI still have a job, and even if the comp isn't the best it's still good to live on and build some savings. Despite the stress, this ordeal helped me figure out areas I needed to grow in more and gave me confidence in other regards. I did damn amazing in the LC/technical for only 1 month of studying, and even I couldn't believe I got 10/13 callbacks.\n\nI\u2019ll do my hunting more casually now. I still do want better comp and a job closer to actual graphics, but prepping for and doing 20+ interviews in the span of 3.5 weeks is god damn misery. Suffered severe mood swings. Seriously, don\u2019t do this unless your firing is imminent or something.\n\nIf you're working fulltime with some YOE, and you think you want to switch jobs, don't start applying like I did. You'll get the callbacks. Plan out a study plan over at least 3 months, and take it slow. Apply to a few companies at a time, don't shotgun.\n\nI hope my experience helps anyone looking to do a similar transition!",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/usrwyf/my_failed_attempt_to_jump_to_a_bigger_ship_w_3/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.cscareerquestions",
-                "datetime": "2022-05-19 06:51:08 IST",
-                "votes": 969,
-                "nsfw": false,
-                "flairs": [
-                    "Experienced"
-                ],
                 "archived": false
             },
             {
@@ -2559,44 +2441,6 @@
                 "archived": true
             },
             {
-                "title": "Winter may be coming, some high level tips and advice on how to navigate an tech downturn",
-                "author": "cookingboy",
-                "url": "https://reddit.com/r/cscareerquestions/comments/yqmrci/winter_may_be_coming_some_high_level_tips_and/",
-                "subreddit": "cscareerquestions",
-                "body": "I've been active on this sub for a while now, and the very recent change in atmosphere around here has been quite sobering. I posted [this post](https://www.reddit.com/r/cscareerquestions/comments/uj7hnt/is_anyone_noticing_any_sentiment_changes_in_the/) 6 months ago and the responses back then felt like a different lifetime.\n\nI can only imagine how many students, junior or even experienced engineers are feeling anxious right now dealing with the first industry downturn in their professional career. After thinking for a few days I think I should pen a post that may help some people around here.\n\nSome background about me: I graduated college in the middle of the 2008 recession, but since then I have worked at multiple startups (including one YC and one pre-IPO unicorn), 2 of the FAANG companies, and I helped build a startup that saw a decent exit from acquisition. Until very recently I was in eng leadership position at a medium sized tech company. I'm also an angel investor on the side and from my network connections I tend to hear whispers and rumors a bit earlier than most people (part of the motivation of why I wrote that earlier post).\n\n**Disclaimer**: I will try my best to **not** predict the future in this thread. I want to keep this post as matter-of-fact as possible and I want it to be *descriptive* and if the situation applies, *prescriptive*, but I do not want this post to be *predictive*. I have my thoughts and opinions about the future but I do not want to engage in speculation here.\n\nWith all that said, let's start.\n\n**2 major misconceptions I see a lot around here that I'd like to address**:\n\n1.\t\"If I work for a solidly profitable company with a good business model, the recession won't impact me\" -- This is a popular sentiment that usually gets upvoted to the top. There are 2 things wrong with this statement. First is that no companies exist in a vacuum. A company may have a solid business model and good cashflow on its own (eg, Microsoft, Google, Amazon, etc), but there is no way to guarantee all of their paying customers are in the same shoes, let alone their customers' customers, etc. That's the reason we are seeing all the top companies are giving conservative fiscal outlooks at the moment. Secondly even profitable companies look for reasons to trim fat and cut cost during a downturn. This may start with hiring freezes and may lead to actual layoffs. Different companies do this differently. But just know that leadership do respond to investors and shareholder pressures and sometimes have no choice but to show that they are being fiscally conservative. During the boom time many companies hired people they didn't need just so they can tell a *growth story* to investors and Wall Street, but during a down cycle the reverse can also be true. It's silly I know, but it's what it is.\n\n2.\t\"Engineers aren't going to be impacted\": It is true that engineers are harder to replace and are considered strategic assets for many true tech companies. But as far as cost saving goes, these are some of the *most* delicious fat to trim since engineers tend to command a larger compensation than other roles. Due to the narrative, PR and morale damage, tech companies tend to be a bit conservative with cutting engineers at the beginning stage of a recession. But if things don't get better, cutting engineers *will* be an effective ace-in-the-hole cost cutting measure. Think of it as a \"nuclear option\" for growth tech companies.\n\nThere are some more but I will move on for now.\n\n**Some tips**\n\n1.\tDo Not Panic: I can't stress this enough. Do not worry about things that's out of your control, like macroeconomics or global events. In times like this, I hate to say it, but the best thing to do is be self-centered and focus on yourself. Take a deep breath and know that most mistakes are made by emotional people. And every single minute you are being emotional is a minute you aren't making things better for yourself.\n\n2.\t(Re)Warm Up Your Network: Sometimes it's nice to play by your ego. Recession isn't one of those times. If you can reasonably reach back out to recruiters that you've ghosted in the past, now may be a good time. You don't need to be seriously interested in a job to have them as \"what-if\" options. Similarly true for coworkers and ex-coworkers. Good professional relationships go beyond individual companies and sometimes a solid referral is the difference between weeks of job searching and starting a new position 2 weeks after being laid off. \n\n3.\tIncrease Your Visibility: In some situations I mean that *literally*. Like turning on your webcam once in a while in meetings (and try to use webcam in 1 on 1s especially if your manager/lead does it). I know this is a controversial topic on a sub of introverts and people with social anxieties, but just remember that the people who make decisions during layoff are just that... *people*. They fall for some of the most primitive human flaws, emotions and biases. In the boom time people who are more vocal and visible tend to get rewarded more when compared to people of equal technical skills, and in the bust time they tend to...well keep their jobs better. Be visible to your manager *and* to your coworkers. A few junior engineers telling your manager how amazing of a mentor you've been can go very far in your career, whether it's promotion or layoff. \n\n4.\tPolish Up Interview Skills: Just do enough to make sure you aren't so rusty that you lose confidence. There is no need to spend X hours a day practicing LC unless you think your job security is in imminent risk. It will just unnecessarily stress you out and may even impact your daily job performance, which can lead to unintended consequences.\n\n5.\tFor Graduating Students: Apply to as many places as you can. Keep your expectation realistic. Whatever the type of company you were shooting for 6 months ago, be mentally prepared to accept an offer from a company 1 or 2 tiers below that. It *sucks* I know, but any job on your resume will still be far more valuable than nothing. Edit: Credit to /u/ZhanMing057's [comment](https://www.reddit.com/r/cscareerquestions/comments/yqmrci/winter_may_be_coming_some_high_level_tips_and/ivpgqtk/), grad school is also an option that should be considered by some people.\n\n6.\tKeep a Good Perspective: I am making an exception to the \"no prediction\" thing here. If this is your first recession, well it won't be the last. But on the other hand the boom time we just saw won't be the last one either. These things come in cycles, but the common denominator across booms and busts are *you*, the person. Focus on learning and growth, and there is always opportunities for those even in the worst of the times. And nothing can take your learning and growth away from you. Focus on things you do have, and know that things are never as bad as they look (I tell people the opposite in good times lol).\n\n7.\tIdentify risks and priorities *if* worst case scenario happen, and plan accordingly: Credit to /u/it200219 's [comment here](https://www.reddit.com/r/cscareerquestions/comments/yqmrci/winter_may_be_coming_some_high_level_tips_and/ivp991a/). \n\n**Closing thoughts**\n\nLike I said, I can't predict the future. I *hope* this post is 100% unnecessary in hindsight (and my investment portfolio hopes so too). And if the recession gets bad, you could end up doing all of the above and still get screwed, or (very likely) do *none* of the above and still end up perfectly fine.\n\nBest of luck everyone. I can answer some questions as well.\n\nEdit: One related advice: If your company offers VRIF (Voluntary Reduction in Force), *consider* taking it. Some companies would let people volunteer to get laid off, with the same severance packages. The reason I'm offering this advice is that in a prolonged recession, severance packages get subsequently less generous with latter rounds of layoffs, as the situation becomes more dire. Meta and Stripe's first round came with amazing severance packages. By round 3 (if it gets there), I highly doubt it would remain the same.",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/yqmrci/winter_may_be_coming_some_high_level_tips_and/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.cscareerquestions",
-                "datetime": "2022-11-09 21:22:17 IST",
-                "votes": 990,
-                "nsfw": false,
-                "flairs": [
-                    "Meta"
-                ],
-                "archived": false
-            },
-            {
-                "title": "Is anyone noticing any sentiment changes in the job market?",
-                "author": "cookingboy",
-                "url": "https://reddit.com/r/cscareerquestions/comments/uj7hnt/is_anyone_noticing_any_sentiment_changes_in_the/",
-                "subreddit": "cscareerquestions",
-                "body": "If you zoom out, we have NASDAQ in freefall and a possible recession on the horizon, \n\nIf you zoom into the CS job market, we have started hearing some news that most people on this sub would never have imagined just a year ago. From Robinhood laying off 9% of staff to META expanding hiring freeze all the way to E6/M1 and to EoY, I'm curious if anyone, whether you are a candidate or a hiring manager, have noticed a shift in sentiment or even material changes in terms of hiring.\n\nAs a hiring manager myself my company is now in a \"soft\" hiring freeze with only critical roles being open and those have to be approved by VPs. This is in stark contrast with us dishing out FANG-level offers left and right just six months ago.\n\nAnother concern I have is the impact this has on TC. Many companies have seen their valuation slashed to a fraction of what they were just 12 months ago (every tech company that went IPO last year comes to mind). I know of someone who had a $800k RSU package from Robinhood and it's worth literally 1/3 now. I know of Stripe offering very high TC backed by their sky high valuation but the word on the street is that their private valuation is now *half* of what it was at the beginning of last year, and their IPO plans indefinitely delayed.\n\nAnyway just trying to take a pulse from this community, these are just some early yellow flags I've noticed and it may or may not continue in this trend.\n\n**Edit**: Just heard insider news that Stripe is also going on a hiring freeze for second half of the year. It will become public in the coming days.",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/uj7hnt/is_anyone_noticing_any_sentiment_changes_in_the/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.cscareerquestions",
-                "datetime": "2022-05-06 02:45:12 IST",
-                "votes": 337,
-                "nsfw": false,
-                "flairs": [],
-                "archived": false
-            },
-            {
                 "title": "Do you want to simulate a real software engineering job?",
                 "author": "sbmsr",
                 "url": "https://reddit.com/r/learnprogramming/comments/yrepyf/do_you_want_to_simulate_a_real_software/",
@@ -2612,26 +2456,6 @@
                 "votes": 4728,
                 "nsfw": false,
                 "flairs": [],
-                "archived": true
-            },
-            {
-                "title": "Whose a character that became worse as time went on?",
-                "author": "Watchdog_the_God",
-                "url": "https://reddit.com/r/cartoons/comments/18ny5pq/whose_a_character_that_became_worse_as_time_went/",
-                "subreddit": "cartoons",
-                "body": "",
-                "media": "https://i.redd.it/2jejo7lywp7c1.png",
-                "media_type": "image",
-                "gallery": [],
-                "thumbnail": "https://b.thumbs.redditmedia.com/FZ1qDh11ekteWUs0XhWF002zU-g7tTKcT5jsTH6Ir0s.jpg",
-                "preview_image": "https://preview.redd.it/2jejo7lywp7c1.png?auto=webp&s=7ce2bbc0c112d55e0f3705e476b634ada1b0b1c8",
-                "domain": "i.redd.it",
-                "datetime": "2023-12-22 03:12:26 IST",
-                "votes": 3617,
-                "nsfw": false,
-                "flairs": [
-                    "Media"
-                ],
                 "archived": true
             },
             {
@@ -3141,26 +2965,6 @@
                 "archived": false
             },
             {
-                "title": "Very Valuable Advice I found on Blind to Cope Up the Layoffs",
-                "author": "_0_0_0_0_0_0_0_0_0_",
-                "url": "https://reddit.com/r/cscareerquestions/comments/11xng9v/very_valuable_advice_i_found_on_blind_to_cope_up/",
-                "subreddit": "cscareerquestions",
-                "body": "\"As an engineer who has been through this way too many times, I'll try to give a real answer:\n\n1. Do your job to the best of your ability because its what you are a professional. To be in upper management you have to know how to play politics, to be an engineer you have to actually understand your trade. Do your best so you can look yourself in the mirror and know your worth isn't what a bean counter says it is. Its about self-respect. and if you end up laid off or even PIPed, you can hold your head high. That confidence will move you to the front of the line for the interviews to come.\n\n2. Keep records of what you do. Once a month update your resume. Stand back and look at what you did in a way that will stand out when interviewing. Don't wait until after you are locked out - write it down now while you can review your own work.\n\n3. Listen to your teammates - are they allies or adversaries? Are their review comments helpful or building a case against you in the next ranking. Not everyone is your friend and not everyone is your enemy. Always treat both with respect, but don't be na\u00efve. Quickly discovering who is on your side is the number one thing you can do to protect yourself when politics are played.\n\n4. Talk to your manager, regularly. Never assume they know what you are doing even if they are in stand up. Get yourself on their calendar at least every other week. Make your work visible to them, document it every week. If they like you, it will be used to defend you. If they hate you, they will let you know where you stand earlier.\n\n5. Be visible to your skip level and to other team leads This protects you if your manager isn't liked. I've seen way too many great engineers suffer because of a manager that wasn't liked by their boss.\n\n6. Pay attention in all hands - not the pre-prepared, highly sanitized slides but listen careful for how they respond to questions. Management are employees too - they have been told what they cannot share but they will slip up. Micro-mistakes usually. Chat with a least one co-worker about what you heard, they will hear something different.\n\n7. Watch how your company (all companies actually) treats its employees in bad times - take note of the companies that violate their principles when things get hard. Watch which ones do rolling layoffs, forced URA, prefer hiring over promoting. Do they offer remote and then demand RTO? Take note of this - its indicates a company that doesn't respect you.\n\n8. Watch what the CEO does - does he play follow the leader? Is he afraid of making announcements? Does he hold all-hands and then announce a controversial policy the next day? Take note of this - these are weak leaders and forecasts more of the same in the future.\n\n9. Remember, if you are laid off - its never your fault. I know this seems like an obvious thing, but your mind goes there and will stay there. Layoffs are always mistakes made by upper management - they over hired, they tried to market something that wasn't selling, or they just want their stock options to go up. If you do #1, then don't blame yourself - you did your job. If you did 2-5 you did everything you could to protect yourself. If you did 6-8 you knew it was coming.\n\n10. Finally, and most importantly, make sure you spend time every day becoming better - do a LC problem, update your resume, spend 30 minutes learning something that will get your next job. Take the power back into your hands.\n\nIf this sounds like a \"get over it\" post - it isn't. I just spent 30 minutes typing it out because of Gobble's weak leadership. I'm in the same boat, but I decided to think about the 10 things I could do. #11 is GTFO when I find something that makes me not worry as much. Respect matters more than a big paycheck. Most of big tech has now told us who they are, never forget.\"\n\nSource: https://www.teamblind.com/post/How-the-f-do-you-work-S8VqobOs",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/11xng9v/very_valuable_advice_i_found_on_blind_to_cope_up/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.cscareerquestions",
-                "datetime": "2023-03-21 22:44:38 IST",
-                "votes": 1499,
-                "nsfw": false,
-                "flairs": [
-                    "Experienced"
-                ],
-                "archived": false
-            },
-            {
                 "title": "This tough tough journey of finding a therapist",
                 "author": "IwantitIgotIT111",
                 "url": "https://reddit.com/r/TwoXIndia/comments/11lye6x/this_tough_tough_journey_of_finding_a_therapist/",
@@ -3279,26 +3083,6 @@
                 "archived": true
             },
             {
-                "title": "what are the most in demand skills in 2023?",
-                "author": "wolfakix",
-                "url": "https://reddit.com/r/cscareerquestions/comments/10oarhj/what_are_the_most_in_demand_skills_in_2023/",
-                "subreddit": "cscareerquestions",
-                "body": "the title says it all",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/10oarhj/what_are_the_most_in_demand_skills_in_2023/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.cscareerquestions",
-                "datetime": "2023-01-29 21:20:40 IST",
-                "votes": 843,
-                "nsfw": false,
-                "flairs": [
-                    "Student"
-                ],
-                "archived": false
-            },
-            {
                 "title": "How I landed a remote job",
                 "author": "[deleted]",
                 "url": "https://reddit.com/r/developersIndia/comments/n783fb/how_i_landed_a_remote_job/",
@@ -3373,26 +3157,6 @@
                 "nsfw": false,
                 "flairs": [],
                 "archived": true
-            },
-            {
-                "title": "What makes a \"good\" junior engineer? My 2c as a senior",
-                "author": "awesomefossum",
-                "url": "https://reddit.com/r/cscareerquestions/comments/zjofmk/what_makes_a_good_junior_engineer_my_2c_as_a/",
-                "subreddit": "cscareerquestions",
-                "body": "Something we see a lot in tech community forums are posts asking how to get into tech. This has been answered endlessly and will continue to be with varying degrees of snark depending on the mood of the people replying. Please, [read the friendly manual](https://roadmap.sh)! Something I personally haven't seen nearly as often, despite it being a much more interesting question, is \"How do I succeed as a junior engineer?\"\n\nMost people know and would agree that one's skillset can be broadly delineated into soft skills and technical chops. The interview process is (usually poorly) designed to determine whether the applicant satisfies each of those requirements. So, congrats! You've landed your first job offer. What now?\n\nIn my opinion, soft skills are much more important to be effective as a junior than technical skills. They're also significantly more nebulous and harder to distill into something that you can just go study. They require huge amounts of practice to refine, and unlike tech, there's no test environment. Every interaction you have with another person is influencing their perception of you.\n\nI was recently enough a junior that a lot of this is still fresh, and I mentor juniors regularly at work, so I figured I'd write this post up and recycle some content from a previous comment of mine that was well received in case this is helpful to anyone just starting out.\n\nHope some of this might be helpful to someone, and I'd be super keen to hear from other folks in the comments if you disagree or have anything to add.\n\nCheers!\n\n------\n\nWorry about your mindset first, you'll pick up the tech as you go. Keep in mind, everyone you work with closely will know that you're novice and should set their expectations accordingly. That is a huge blessing as it gives you a ton of room to blatantly not know things. A good junior should be curious, aware of their own limitations, and courageous enough to both try things on your own and ask for help when you need it.\n\nSome of this advice is tailored to my experience with organizations that were not practiced at onboarding and mentoring juniors, but a lot of it is generalizable.\n\nIn no particular order:\n\n- Ask questions when you don't understand something.\n- Try to get a sense for when your question is specific to you being ignorant or whether it contributes to the discussion. If the former, don't interrupt a meeting to ask it. Ask someone on the side after (or during over chat, if you're comfortable with them).\n- https://nohello.net/\n- Learn to fish. People will generally resent being repeatedly asked to spoonfeed you information that can be looked up in internal docs or the internet. You wouldn't ask your senior colleague how to create a VM in Azure. You might ask their opinion on when to use a VM vs. a container.\n- FIND WHERE THE DOCUMENTATION IS AND READ IT! If it's like most orgs, there will be several places to find docs and none of them will be up to date, but if the systems are still in use there will be good info in there even so.\n- If you want serious brownie points, document a bunch of tribal knowledge that's missing from the new hire doc they give you. If there isn't a new hire doc, create one and list stuff you had to do to get onboarded. Permissions in this system or that, setting up MFA, whatever.\n- Try to figure things out on your own before asking for help, but don't be stubborn about it. If you've worked a minimum wage job, you'll be shocked by how much you're left alone in a professional setting. Don't misinterpret this as thinking you're expected to work by yourself all the time.\n- Talk to your manager or some seniors on your team about a rule of thumb for how long you should spin your wheels trying to figure something out on your own before asking for help. I would and have been annoyed to find out someone spent 4 hours on something and didn't make any progress when I knew the answer already.\n- Learn git if you haven't already. Not crazy stuff, but how to create a feature branch and open a PR at least.\n- Try to understand (at a high level) the software development lifecycle at your company within the first few weeks. A good way to approach this is to pick a repository and map out how code goes from a developer's machine to production. Start with just system to system (dev machine -> github -> CI -> CD -> Develop -> UAT -> Staging -> Prod [or whatever it is]) then recursively dig into the actual processes happening in each system until you operate at the same abstraction layer as your senior colleagues.\n- Volunteer for projects, especially things that other people don't want to do. The new pipeline ticket is toil for your senior colleague but represents a learning opportunity for you as well as a chance to deliver business value.\n- Pay attention to things that seem silly. A fresh perspective on systems and processes that your predecessors have been working with for years can be invaluable.\n- For the love of all that is holy, realize that people are smart and things are often the way they are for reasons that you have no knowledge of. Asking why is great, but reserve judgement on merit until you have a more comprehensive understanding of the thing you might be criticizing.\n- Internalize the fact that many of the people you will be working with take a lot of pride in their work. While continuous improvement is an essential part of software development, be careful that you're not calling someone's baby ugly.\n- Internalize the fact that as you level up your technical skills, your ability to drive impactful projects and make meaningful achievements is going to be hugely hampered or enabled by your colleague's opinion of you. Software development is a team sport and if you make people feel bad or are difficult to work with then you will be hamstrung in terms of your ability to get other people pulling in the same direction as you.\n- Work with your supervisor (even ask senior colleagues for input) on a career development plan. You should orient yourself with the expectations of the next level up and use those to guide your progress.\n- Do not abandon tasks unless priorities have shifted and you've been instructed to pivot.\n- Project management is almost entirely about setting expectations. Communicate early and often to stakeholders on if something is delayed or if you hit a roadblock!\n\nEdit:\n\nSome great additions from /u/RationalPsycho42\n\n- Proactively seek negative feedback and take any negative feedback as help\n- Keep track of everything you do. I found daily notes/to-do lists to be invaluable\n\nAnd a few more of my own have helped me advance\n\n- Keep a brag sheet of all your accomplishments that you can refer to during review time\n- Be up front with your manager about your career aspirations and start the conversations early when you want a promotion or a raise. Something like \"reviews are in 2 months, do you have any actionable feedback for me that I can work to address ahead of the review?\" shows you're serious and hungry to continue to grow.",
-                "media": "https://www.reddit.com/r/cscareerquestions/comments/zjofmk/what_makes_a_good_junior_engineer_my_2c_as_a/",
-                "media_type": "text",
-                "gallery": [],
-                "thumbnail": null,
-                "preview_image": "https://external-preview.redd.it/xutYXBR3x_ozgsvFXvZXkedw1H9Py3fTCKogT8OTALM.jpg?auto=webp&s=c700bb9ac1b4f57c7f8739478cddc18a61927ee1",
-                "domain": "self.cscareerquestions",
-                "datetime": "2022-12-12 10:56:08 IST",
-                "votes": 887,
-                "nsfw": false,
-                "flairs": [
-                    "Experienced"
-                ],
-                "archived": false
             }
         ],
         "comments": [
