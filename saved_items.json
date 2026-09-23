@@ -1,6 +1,6 @@
 {
-    "last_fetched_on": "2026-07-14 13:02:40 IST",
-    "last_fetch_duration": 3.515453577041626,
+    "last_fetched_on": "2026-09-23 14:18:26 IST",
+    "last_fetch_duration": 13.963642358779907,
     "counts": {
         "subreddits": {
             "foundsatan": {
@@ -174,7 +174,7 @@
                 "icon": "https://styles.redditmedia.com/t5_s67a0/styles/communityIcon_mcqqczedlvlg1.png"
             },
             "UnethicalLifeProTips": {
-                "posts": 2,
+                "posts": 1,
                 "comments": 0,
                 "icon": "https://styles.redditmedia.com/t5_3cx36/styles/communityIcon_2avlx0gul65g1.jpeg"
             },
@@ -397,6 +397,41 @@
                 "posts": 0,
                 "comments": 0,
                 "icon": "https://b.thumbs.redditmedia.com/FEzf8XF9v-ziV_HGSzEsnlhW4vBUKGfFxJPdLt0xzGI.png"
+            },
+            "TwentiesIndia": {
+                "posts": 1,
+                "comments": 0,
+                "icon": "https://styles.redditmedia.com/t5_cgi20m/styles/communityIcon_k5tsyw4uq5wf1.png"
+            },
+            "LetGirlsHaveFun": {
+                "posts": 1,
+                "comments": 0,
+                "icon": "https://styles.redditmedia.com/t5_acgsrn/styles/communityIcon_iiql1kd4on6c1.png"
+            },
+            "IThinkYouShouldLeave": {
+                "posts": 0,
+                "comments": 1,
+                "icon": "https://styles.redditmedia.com/t5_10aivo/styles/communityIcon_ppbd7sv519zd1.png"
+            },
+            "BrandNewSentence": {
+                "posts": 0,
+                "comments": 1,
+                "icon": "https://a.thumbs.redditmedia.com/P3mdiIAFFTgJX2J9XvOBXUs80a7CxbvniAYfOc0JZ64.png"
+            },
+            "GamingLeaksAndRumours": {
+                "posts": 1,
+                "comments": 0,
+                "icon": "https://styles.redditmedia.com/t5_3ey7w/styles/communityIcon_z3ebim27v6n81.png"
+            },
+            "SiloSeries": {
+                "posts": 1,
+                "comments": 0,
+                "icon": "https://styles.redditmedia.com/t5_2qfkim/styles/communityIcon_phur8yhnx4451.jpg"
+            },
+            "AlignmentChartFills": {
+                "posts": 1,
+                "comments": 0,
+                "icon": "https://styles.redditmedia.com/t5_dhqj8s/styles/communityIcon_jpqvg1zckkfg1.png"
             }
         },
         "votes": {
@@ -405,15 +440,15 @@
                 "comments": 9
             },
             "100-1000": {
-                "posts": 35,
-                "comments": 4
+                "posts": 36,
+                "comments": 5
             },
             "1000-10000": {
-                "posts": 27,
-                "comments": 3
+                "posts": 31,
+                "comments": 4
             },
             "10000-100000": {
-                "posts": 47,
+                "posts": 46,
                 "comments": 2
             },
             "100000-1000000": {
@@ -422,8 +457,16 @@
             }
         },
         "dates": {
-            "2020-07": {
-                "posts": 3,
+            "2026-09": {
+                "posts": 2,
+                "comments": 2
+            },
+            "2026-08": {
+                "posts": 1,
+                "comments": 0
+            },
+            "2026-07": {
+                "posts": 2,
                 "comments": 0
             },
             "2026-05": {
@@ -476,6 +519,10 @@
             },
             "2024-08": {
                 "posts": 3,
+                "comments": 0
+            },
+            "2020-07": {
+                "posts": 2,
                 "comments": 0
             },
             "2024-05": {
@@ -651,22 +698,110 @@
     "content": {
         "posts": [
             {
-                "title": "ULPT: How to dispute medical debt the right, effective way. LPT deleted me because it's a \"legal\" thing but this is actually a life pro top with a shade of shady in here so I guess it fits better here anyway.",
-                "author": "gtfohbitchass",
-                "url": "https://reddit.com/r/UnethicalLifeProTips/comments/hr6ccy/ulpt_how_to_dispute_medical_debt_the_right/",
-                "subreddit": "UnethicalLifeProTips",
-                "body": "edit: stop giving me awards, donate your money to debunking flat-earthers or supporting lobbyists who are trying to fix this bullshit healthcare system.\n\nedit: I'm giving silver to every comment that rocks and would be helpful so look for silver comments. i'm not an expert but there are lawyers and credit counselors chiming in so check their content!\n\nedit 2: I kept getting asked questions about ambulance and I knew there was something I wanted to remember. I finally dug through the old training manual I had created and now I remember - Ambulance billing SHOULD work the same as those below as far as disputes etc.. The exception that I remembered was: the reason people were going into collections CONSTANTLY for ambulance visits, was because ambulance billing is different. They send the check for the ambulance amount to the patient directly, so the patient will pay the ambulance bill - and then the patients would cash that check, and never pay the ambulance bill, and then get put into collections. As far as insurance was concerned, they DID pay the ambulance bill and it's not their problem. But the ambulance company never saw the $ because the patient would spend it. So - before you cash a check, make sure it's really supposed to be kept by you.  \n\n I got looped into a thread about medical collections that started with a very inaccurate \"tip,\" and saw that there was a FREAKING TON of misinformation floating around about what to do when you have medical debt.\n\nSo I thought I'd share the knowledge that I have on the topic from a few years as a trainer in a medical billing & collections agency.\n\n**Disclaimer**: I worked for one agency that had multiple sites nationwide in the US. I am not a lawyer, I am NOT giving legal advice. I am just sharing what I know from a few years in the industry including a competitor study that we did to find out how our competitors handle the same situations. I will not share the name of the company I worked for; they were most definitely shady in some areas and I am not looking to dox myself either. If anyone has more knowledge than me on the topic, please chime in. I am also not looking for a \"Healthcare in the US is broken\" because yeah no shit Sherlock; this isn't the thread where we can fix that. Oh also I will swear sometimes in this post.\n\nIf you have medical debt, these tips may help you to negotiate down or get the debt written off, or to ignore bad advice from people telling you to do something that could have negative repercussions. I'll say \"hospitals\" below but this encompasses all medical providers as far as my experience goes.\n\n***OVERVIEW OF HOW THE INDUSTRY WORKS:***\n\n**Your debt goes in stages:**\n\n* Early Out - debt is still owned and usually managed by hospital; may be outsourced to an agency. This is the stage where they can fix any insurance issues as well so **call as soon as you get the bill before it goes into collections**! They're nice when it's still in Early Out; they have to be aggressive when it goes into collections. Some hospitals send their bills from EO to Bad Debt in 30 days; some wait years. So call right away when you get a bill because there's no way to know their timeline. Oftentimes if the amount is low, they will just write it off or take a small payment in the EBO stage. They will work with you. Once it hits Bad Debt aka Collections, the options can be limited. Additionally, the GENERAL rule in health insurance is that you have to resolve the claim within 1 year. Medicaid/Medicare/Tricare had different rules, but in general - getting your insurance to pay after 1 year is not going to happen. CALL WHEN YOU GET THE BILL!\n* Bad Debt **Contractors** \\- still owned by hospital but using collection agency for the work\n* Bad Debt **Purchasers** \\- sold off to very aggressive collection agency who has little hope to recover the debt.\n\nThere are 2 types of med collection agencies - I don't know if there's an official term for each type, but I'll make up my own.\n\n* **Contract** \\- the kind that I worked for, that has an active contract with the hospital and gets a small % of the collected amount.\n* And **Purchasers** \\- the kind that purchases the debts in bulk at a discount and tries to recoup that money and more from you. Facilities usually go through **Contract** agencies before **Purchaser** agencies.\n\n***COMMON MISCONCEPTIONS:***\n\n* **MISCONCEPTION #1: Your medical debt cannot go to collections because it's medical debt.**\n\n\\--> Yeah, right. I wish this was true. However, without the collections world, hospitals would close - so it's a reality with our current healthcare system. Know that if you were insured and didn't pay your portion, or if you didn't have insurance AND didn't attempt to get state coverage that would cover those bills, OR were turned down for state insurance....the debt usually lies on your shoulders. They can reduce it, do payment plans, etc. but they can absolutely put you in collections for your car accident, and they will often be forced to do so.\n\n* **MISCONCEPTION #2: Medical debt cannot have any long-lasting affects on my credit or property.**\n\n\\--> Falsity false, boys. It sure can. The only reason a hospital may not choose to report to the credit bureaus, seize property, or go after your income is usually because it makes them look bad to the community and it's expensive to do the above. But they can and do report to credit if they choose to. Oftentimes it's the last resort after a certain time frame, but \"Sir, this can affect your credit score if not paid\" can be the last option they can use in order to get payment from repeat offenders or low-income areas where the hospital faces a risk of closing if old debts aren't resolved - hospitals have bills to pay too, y'all. At my facility less than 10% of our providers reported to credit, but many still did and it's common.\n\n* **MISCONCEPTION #3: Just telling the agency that you want an itemized bill will close out the debt.**\n\n\\--> Oh god, false but **COMMONLY** spread misconception. Per FDCPA (Fair Debt Collection Practices Act), it has to pause the collection process (stopping it from reporting to credit & stopping phone calls while they order it from the hospital), but that may be all it does. Once the IB is sent, collection can continue.\n\nOn rare occasion, the hospital pulls up the IB and sees it was mis-billed or the insurance coding was wrong - but they don't go actively looking for problems at this stage, so don't expect that to happen just from your collection agent asking Sally Receptionist at XYZ Hospital to kick out an IB. You should have called sooner to get this resolved.\n\nIf it's a low amount, (for us $50 to $100 or less), it wasn't worth the admin cost of requesting an IB. If it was over that amount, we'd always send it if we couldn't convince the client to pay in installments. It's worth the postage and admin costs to get hundreds of dollars in payments.\n\nYou should know, though, that collection agencies ARE required to send you proof of the debt if you ask, and this is law per FDCPA. However, the statement that the collection agency sends technically counts as your 'proof of debt' because it will contain the date of service, provider name, facility name, and amount. It won't list out each service that was done. But the letter is technically enough to count as proof of debt.\n\nThat's not as good as the IB so you should push for the IB. They don't want to spend the $ on postage so they will try to avoid sending ANYTHING, but push for it!\n\n* **MISCONCEPTION #4: Admitting the debt is yours means they've got you! Hanging up on them stops the process!**\n\n\\--> Bitch, please. They know it's yours; they have your address and social security number and they got in touch with you today, didn't they? The only thing you're doing by acknowledging the debt, is confirming that they got the right John Smith on the line. But they pay for skip tracing systems and can and will find you, at every address you register to, and they can call your family as well at least once to get a better address or phone number for you. We paid a team of people minimum wage to sit and skip trace people all day, 40 hours a week. They can find you. They will find you.\n\n* **MISCONCEPTION #5: Sending an IB is a violation of my HIPAA rights**  \nor  \n**Collection agencies collecting on medical debt are violating my HIPAA rights! Tell them that you didn't authorize them to collect the debt, and they're violating your HIPAA rights, and you get off free!**\n\n\\--> Shut your stupid mouth. Every provider in the USA is required to have you sign something called a Notice of Privacy Practices. You prob signed your NPP in the giant packet before your first appointment. That NPP has very intentional language that lets them use any biller that they choose, and they are permitted per federal law (both FDCPA and HIPAA) to see the bare minimum of your medical info from the appointment in order to collect. They're not violating that law because they can be fined tens of thousands of dollars per violation. Trust me, the paperwork is ironclad. And if my company was any indication of the industry, most of our hospitals did NOT share the reason for the visit, diagnosis, etc. because that was not needed info for collections. We could infer the reason if say it was a labor and delivery provider, but we didn't know why you went.\n\n* **MISCONCEPTION #6: My medical debt has no real consequences on me if I ignore it long enough.**\n\n\\--> Eh, maybe. If that hospital does not report to credit, and the second agency does not report to credit, and the agencies that buy the debt off don't report to credit, then yes - you may not have your credit score affected. There's no way of knowing what agencies they use and what future policies they may follow when it comes to reporting to credit, though. My agency could legally tell you no, we don't report to credit on THIS account, if we didn't. But then we'd give the account back at 90 days, or 1 year, or whatever, and then the hospital would switch the debt over to our competitor for 1 year, and those bastards did report. So don't assume it will never report. Additionally you can be prevented from using that office in the future if you have outstanding bills. Some of our providers even allowed us to garnish wages.\n\n* **MISCONCEPTION #7: Telling them to stop calling me stops all collections for this bill!**\n\n\\--> Telling them to stop contacting you stops them from contacting you. If you say stop calling you, they cannot call you ever again. If you say stop calling this #, they can never call that # again. If you say stop contacting me, they cannot call, write, show up, send smoke signals, use a voodoo doll, etc. This is per FDCPA and you can sue them for literally thousands of dollars if they violate this so go for it! But - just because they can't call/write/etc you, that doesn't stop credit reporting, wage garnishments, etc. if those are in the pipeline of the debt.\n\nIt also legally prevents them from reaching out to you to let you know if they are offering a deal (we offered huge discounts during tax season, for example), it stops them from letting you know if you have future additional bills. Basically you're cutting off your nose to spite your face.\n\nNow, if you know 100% beyond a shadow of a doubt that this bill and all future bills for this hospital will not ever hit your credit report, or if you have a 300 credit score and plan to live in your mom's car forever, then go for it. But again, you may also be prevented from seeing doctors as part of this facility's network forever as a result. (The ER is required to take you regardless of your payment history; nobody else is).\n\n* **MISCONCEPTION #8: They are asking for my information when they call me; that must be fraud!**\n\n\\--> In medical collections, they are bound by HIPAA in addition to FDCPA. They are allowed to ask for your name and give you the address they have on file to see if it's you. They are NOT allowed to mention that they're calling about a medical bill, details on the appointment reasons, or amount until they have confirmed your identity. They cannot tell your family member anything unless it's your legal spouse who verifies your info. ID verification varies but typically it's name/address/year of birth. The agency's lawyer may not be okay with them reading off your YOB so they may ask you to confirm what's on their screen. It seems shady, for sure. But it's for your protection.\n\nYou can never be too careful. Ask for them to send a letter. Get company name. Ask them what their letter envelope looks like - the FDCPA makes it illegal for the letter to state \"collections\" on the outside of the envelope (for your protection) so it may look like junkmail that you threw out; they have to keep the envelope relatively generic. Ask for the rep's name. Ask to call back in and talk to someone else. Tell them you don't know if they're legit. If they are legit, they'll direct you to a website, a phone # for call-in, they'll resend a letter if you tell them you'll pay, etc.\n\nLook up reviews for the agency. But, be aware that the ignorance around collections is widespread and 99% of the bad reviews are going to be people who think it's a scam. That's the nature of collections. But they should be legitimate. They should have a web presence. They should have ads on indeed and other websites to hire people (Collection agents turn over more often than a sex worker in a threesome with one really tall man and one short fat man).\n\n* **MISCONCEPTION #9: If you tell them you have a lawyer, the call is over and collection efforts stop!**\n\n\\--> *Maaaaybe*. We asked for the lawyer's contact info, advised the consumer to have their lawyer contact us, and immediately stopped all communication to the client and reached out to the lawyer. That stopped all calls and letters and stopped any credit reporting. That being said, if no lawyer contacted us after a certain amount of time, it could begin reporting again in the future. So it's not foolproof.\n\nIf the lawyer you gave us confirmed that they do NOT represent you, we could legally reopen.\n\nIf you hung up after saying you have a lawyer, we were stuck waiting to hear from them and if you were lying, well... we're not going to call back...but that doesn't always stop the process.\n\nI don't know the time frame on that because I wasn't in the Legal dept, but there was definitely a limit to how long we waited before reporting to credit.\n\n**LIES COLLECTION AGENTS TELL YOU:**\n\n* ***You have to go through us to pay this debt.*** This may not be true, if the debt exists back in the Contracted stage. The hospital MAY still talk to you about this debt if you call them directly. It's always worth a try. They tell you to go through them because they want their commission if you pay.\n* ***I cannot take less than $x per month for this bill.*** Nah fam, that agent is simply not going to hit their monthly bonus if they let everyone pay $25 per month on a massive bill. Their boss is going to mad if they take a low payment amount on a big debt. But they absolutely can take your payment of whatever amount you'd like. That being said, it doesn't automatically stop it from reporting to credit just because you're making payments. When you set up a payment plan, ask if it stops the credit reporting process just in case.\n* ***\"This is a binding contract; if you miss any payments on this payment arrangement, the balance in full is due.\"*** Bro, the balance in full is already OVERdue....you're in collections. Like, duh.  \nThey are just trying to lock you in to the payment arrangement. Now if you do miss a payment, it can instantly report to credit - so don't miss a payment. But don't think that your $5000 debt that you agreed to pay out at $200/month is suddenly going to go back up to $5000 due tomorrow if you miss a payment. You already owe $5000. They can and will set up your payment arrangement again. Just call them and ask them to move the date if you need to; they're more than happy to do it. Especially since the new collector could get the credit for the new payment arrangement which goes toward their bonus - hooray for them.\n\n**MAGIC WORD:**  \n**I DISPUTE the validity of this debt**. Oh hell yes, use this phrase. It stops all collection efforts, stops credit reporting, and basically creates a full system shutdown on this debt. The agency should ask the reason for the dispute, but you do not have to provide it. They will then kick out an itemized bill to prove the validity of the debt. However - oftentimes if there was a dispute, we just closed out the debt altogether and were done, with zero negative consequences. I used to teach my agents how to tell the difference between a real dispute vs. a fake dispute, but in reality **if the D-word is said, it's a dispute.**\n\nGood, valid, morally and ethically positive reasons to dispute a debt: I didn't receive that service, the appointment was canceled, I never got a bill in the first place, someone else was supposed to pay (divorce or car accident), identify fraud, I was injured during this procedure.\n\nBullshit reasons to dispute: The doctor was mean, I'm racist and the doctor was X ethnicity, I don't want to pay, my insurance should have paid this.\n\nBut again if you say **DISPUTE** \\- they can ask more questions to see if it's a real dispute, but ultimately you CAN sue them if you tell them you're disputing it and they don't immediately pause reporting to credit while they investigate.\n\n**THINGS YOU CAN THEORETICALLY SUE THE AGENCY OVER:**  \n\\-If you say dispute and they don't stop credit reporting to investigate - HUGE no-no; report per FDCPA.  \n\\-If they give out your health information to someone who was not confirmed to be you, per their verification process. HUGE no-no; report per HIPAA.  \n\\-If they say it's a **debt** before confirming it's you that they have on the line - FDCPA violation, do not pass go.\n\n**What to do on every medical collections call:**  \n\\-Get the name of the agency and the representative you're speaking with; write down date and time. This may be needed in the future if they break FDCPA or HIPAA; it can also help with disputes or conversations with management later on.  \n\\-Ask as many questions as you need to in order to help you learn if it's a valid debt. When was this, who was the provider, how much was my original bill, what insurance did you bill to, do I have additional bills in your system?  \n\\-Ask what happened with your insurance. How much did my insurance pay, did they say why this amount was left over?  \n\\-Call your insurance to see what happened if the agency isn't clear. There is a possibility that it can be re-billed even after it's in Bad Debt.  \n\\-Be friendly and polite. Agents have a good bit of freedom to grant discounts and set up comfortable payment plans, and they'll only use those kindnesses if you're not a douche.  \nAlso, they're humans too, probably making $2 above minimum wage, and the job is really tough because people are mean and have heartbreaking stories. Be human. It helps.",
-                "media": "https://www.reddit.com/r/UnethicalLifeProTips/comments/hr6ccy/ulpt_how_to_dispute_medical_debt_the_right/",
+                "title": "Every time I want to skip the gym, I remember these uncles..... within next 10 mins I will be in gym",
+                "author": "Abhishek78601",
+                "url": "https://reddit.com/r/TwentiesIndia/comments/1wevg3q/every_time_i_want_to_skip_the_gym_i_remember/",
+                "subreddit": "TwentiesIndia",
+                "body": "",
+                "media": "https://i.redd.it/q6bi8v0a87ph1.jpeg",
+                "media_type": "image",
+                "gallery": [],
+                "thumbnail": "https://preview.redd.it/q6bi8v0a87ph1.jpeg?width=140&height=133&auto=webp&s=c68238f212cd9768c9f53e03774f70658498cdc7",
+                "preview_image": "https://preview.redd.it/q6bi8v0a87ph1.jpeg?auto=webp&s=6421137f20a35b47c1d70846d29b8a3387ec13da",
+                "domain": "i.redd.it",
+                "datetime": "2026-09-13 08:00:15 IST",
+                "votes": 5806,
+                "nsfw": false,
+                "flairs": [
+                    " \ud83d\udcaa\ud83c\udfcb\ufe0f Health & Fitness"
+                ],
+                "archived": false
+            },
+            {
+                "title": "God forbid a Chinese Lesbian give some pointers on\u2026 huhh\u2026 wow, you know, that\u2019s\u2026 that\u2019s pretty good. That sure is something. Goddamn.",
+                "author": "TikDickler",
+                "url": "https://reddit.com/r/LetGirlsHaveFun/comments/1wdyy83/god_forbid_a_chinese_lesbian_give_some_pointers/",
+                "subreddit": "LetGirlsHaveFun",
+                "body": "",
+                "media": "https://www.reddit.com/gallery/1wdyy83",
+                "media_type": "gallery",
+                "gallery": [
+                    "https://i.redd.it/wvfzvwpjszoh1.jpg",
+                    "https://i.redd.it/id6prwpjszoh1.jpg",
+                    "https://i.redd.it/8w1aixpjszoh1.jpg",
+                    "https://i.redd.it/u9w1dwpjszoh1.jpg",
+                    "https://i.redd.it/flecrwpjszoh1.jpg",
+                    "https://i.redd.it/8gy2expjszoh1.jpg",
+                    "https://i.redd.it/k4yfwvpjszoh1.jpg",
+                    "https://i.redd.it/k5tpqvpjszoh1.jpg",
+                    "https://i.redd.it/bcnyvypjszoh1.jpg"
+                ],
+                "thumbnail": "https://preview.redd.it/wvfzvwpjszoh1.jpg?width=140&height=117&auto=webp&s=eef91f719e0c65754c2736f17b7aa5a02b0f8121",
+                "preview_image": null,
+                "domain": "reddit.com",
+                "datetime": "2026-09-12 06:59:36 IST",
+                "votes": 7237,
+                "nsfw": false,
+                "flairs": [],
+                "archived": false
+            },
+            {
+                "title": "GTA VI Lucia Prologue Leak",
+                "author": "KekanKok",
+                "url": "https://reddit.com/r/GamingLeaksAndRumours/comments/1vz01zk/gta_vi_lucia_prologue_leak/",
+                "subreddit": "GamingLeaksAndRumours",
+                "body": "[source](https://streamable.com/p45m7k)\n\nEdit: there's a detail I want to add since I found the flashback part really interesting. Some [previous leaks](https://www.reddit.com/r/GamingLeaksAndRumours/comments/1qghv7j/gta_6_leak_compilation/) seem to match with what's seen in the prologue, specifically these two parts:\n\n>Lucia has a baby that she abandons at a delicatessen before heading out to a bank robbery and then getting arrested for doing such an act.\n\n>Lucia's baby is only shown in a cutscene as a flashback. There's no information about what happens to the baby after this point.\n\nThere's no baby shown here, but it shows a flashback of Lucia with a messy appearance sitting in a restaurant, and the flashback ends before we can get any context. Could either be a massive coincidence or a real part of the story.",
+                "media": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vz01zk/gta_vi_lucia_prologue_leak/",
                 "media_type": "text",
                 "gallery": [],
                 "thumbnail": null,
-                "preview_image": null,
-                "domain": "self.UnethicalLifeProTips",
-                "datetime": "2020-07-14 23:26:17 IST",
-                "votes": 28773,
+                "preview_image": "https://external-preview.redd.it/nfX3poY7Z3sBF_p64N2BRRuAB55HFpjwFK2oJ0sLfdg.jpeg?auto=webp&s=36f183d4b61cf8db9b7de44401beccb24baec29c",
+                "domain": "self.GamingLeaksAndRumours",
+                "datetime": "2026-08-26 20:49:53 IST",
+                "votes": 4197,
+                "nsfw": false,
+                "flairs": [
+                    "Leak"
+                ],
+                "archived": false
+            },
+            {
+                "title": "Official Release: \"Relic #1175: The Mystery of the Pez\" authored by Robert Sims",
+                "author": "MEGAT0N",
+                "url": "https://reddit.com/r/SiloSeries/comments/1vbym3c/official_release_relic_1175_the_mystery_of_the/",
+                "subreddit": "SiloSeries",
+                "body": "[https://books.apple.com/us/book/silo/id6783494786](https://books.apple.com/us/book/silo/id6783494786)\n\n*Adapted from a handwritten journal, this is the first-ever account of Silo 18\u2019s history. Its author, Robert Sims, served as head of Judicial Security under Mayor Bernard Holland and was responsible for securing red-level relics that some feared could incite unrest within the community. Sims held this position when Juliette Nichols, an engineer (or \u201cMechanical\u201d) from the lowest levels of the silo, returned after going outside and disappearing over a hill.*\n\n*Unbeknownst to anyone, including his wife Camille \u2014 who eventually took over as Mayor \u2014 Sims kept a record of his investigation into Relic #1175, a child\u2019s toy with mysterious connections to Juliette and her murdered co-worker. Sims\u2019 candid and illegal account contains many explosive revelations about the silo\u2019s history and leadership.*\n\n",
+                "media": "https://www.reddit.com/r/SiloSeries/comments/1vbym3c/official_release_relic_1175_the_mystery_of_the/",
+                "media_type": "text",
+                "gallery": [],
+                "thumbnail": null,
+                "preview_image": "https://external-preview.redd.it/5MIPYLwzGoYvQGZK3U2PzgvvCUR8QG7kGERnhVZUdOQ.png?auto=webp&s=51c0b7475cb4f39bca7af974ae956ce1d97ec4f6",
+                "domain": "self.SiloSeries",
+                "datetime": "2026-07-31 23:39:33 IST",
+                "votes": 194,
+                "nsfw": false,
+                "flairs": [
+                    "Apple TV+ Official Post"
+                ],
+                "archived": false
+            },
+            {
+                "title": "What app is loved and is actually great?",
+                "author": "GoldenAimbot",
+                "url": "https://reddit.com/r/AlignmentChartFills/comments/1v45u46/what_app_is_loved_and_is_actually_great/",
+                "subreddit": "AlignmentChartFills",
+                "body": "This post contains content not supported on old Reddit. [Click here to view the full post](https://sh.reddit.com/r/AlignmentChartFills/comments/1v45u46)",
+                "media": "https://www.reddit.com/r/AlignmentChartFills/comments/1v45u46/what_app_is_loved_and_is_actually_great/",
+                "media_type": "text",
+                "gallery": [],
+                "thumbnail": null,
+                "preview_image": "https://external-preview.redd.it/t5xxxbxocxeh1.jpeg?auto=webp&s=35b0ff3449365235680fe6a8c252f7baf9aca47b",
+                "domain": "self.AlignmentChartFills",
+                "datetime": "2026-07-23 12:05:49 IST",
+                "votes": 1294,
                 "nsfw": false,
                 "flairs": [],
-                "archived": true
+                "archived": false
             },
             {
                 "title": "MBA Leaks: Indian Banks CTC post MBA",
@@ -3142,6 +3277,30 @@
             }
         ],
         "comments": [
+            {
+                "post_title": "i hate to do this but I\u2019m afraid our gracious president didn\u2019t wipe properly",
+                "post_subreddit": "IThinkYouShouldLeave",
+                "post_url": "https://www.reddit.com/r/IThinkYouShouldLeave/comments/1waazur/i_hate_to_do_this_but_im_afraid_our_gracious/",
+                "comment_url": "https://reddit.com/r/IThinkYouShouldLeave/comments/1waazur/i_hate_to_do_this_but_im_afraid_our_gracious/p8gta68/",
+                "comment_text": "https://i.redd.it/h32ehskoc7oh1.gif",
+                "author": "Mesofeelyoma",
+                "datetime": "2026-09-08 07:20:46 IST",
+                "votes": 1153,
+                "nsfw": false,
+                "archived": false
+            },
+            {
+                "post_title": "Marvel invented a special kind of water that only exists in the MCU that is opaque to conceal Florence Pugh's gozangas",
+                "post_subreddit": "BrandNewSentence",
+                "post_url": "https://www.reddit.com/r/BrandNewSentence/comments/1w7zo9g/marvel_invented_a_special_kind_of_water_that_only/",
+                "comment_url": "https://reddit.com/r/BrandNewSentence/comments/1w7zo9g/marvel_invented_a_special_kind_of_water_that_only/p7z3pkh/",
+                "comment_text": "The amount of people who a have never been to a spa ",
+                "author": "TidulTheWarlock",
+                "datetime": "2026-09-05 19:32:57 IST",
+                "votes": 436,
+                "nsfw": false,
+                "archived": false
+            },
             {
                 "post_title": "So microsoft decided you can't setup windows 11 offline. Welp, time to go linux",
                 "post_subreddit": "pcmasterrace",
