@@ -1,0 +1,330 @@
+=== REDDIT POST SUMMARY ===
+Title:    Genuine Honeywell PTM7950, got delivered today.
+Author:   grizzlyTearGalaxy
+Score:    17
+URL:      https://www.reddit.com/gallery/1ofqegp
+Fetched:  85 / ~85 comments
+
+=== POST BODY ===
+Planning to install and test it soon.
+
+
+
+Currently running a Ryzen 9 9950X3D with thermal grizzly kryonaut extreme and idle temps hover around 38–42 deg Celcius.
+
+
+
+This new one cost a bit more than what’s available on amazon india and those “budget” options from chinese sites. I’ve tried a few of those before, didn’t notice much difference in idle temps, and they’re clearly NOT genuine honeywell products.
+
+
+
+Let’s see if this one actually performs any better or if it’s just another “premium paste” tax 😅. Will share temp comparisons once I’ve done the swap and some testing. Inputs welcome. 
+
+
+
+P.S.A: THIS IS NOT A MARKETTING OR PAID PARTNERSHIP POST ! 
+
+========================================
+COMMENTS AND REPLIES
+========================================
+
+[Author: AutoModerator | Score: 1]
+Join our Discord server https://discord.gg/WX6jbCD
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/IndianGaming) if you have any questions or concerns.*
+
+[Author: elevennnn11 | Score: 7]
+Bought PTM 7950 for my Legion laptop from Amazon India and it works as expected and similar to previous stock TIM which latest legion laptop use ( ie PTM 7958 )
+
+The listing i bought from was JOYJOM and seller was GLOBAL BAZAAR. For 900rs 40x80
+
+5100rs is just too much for even 80x80 size that too for a TIM , would prefer to pick from ebuy7 genuine sellers if not from Amazon india (MODDIY is most trusted i know but this is too much premium for just a trust )
+
+Other thing is why would you care too much about idle temp when around 40c is already too good . (If for the testing that's okay)
+
+Since you also mentioned 7958-sp tube one , they have slightly worse performance compared to PCM one
+
+PTM Generally make big difference in notebooks where temp are all time high during load , they are in range as other known thernal paste for desktop CPUs .
+
+    [Author: grizzlyTearGalaxy | Score: 2]
+    matlab + fea + virtualization + compiling and gaming in between, these are the workloads I am constantly switching between on this machine, for basic internet browsing, media and other light tasks I have a separate machine so basically this pc is on it's toes most of the time and stays closer to the upper bound temps. Usually, on the previous machine I had to repaste every 4-5 month period otherwise on load temps crossed 80 degs constantly and more with time. This ryzen 9 runs even hotter and I hate repasting, so that's why I want something with longevity of atleast an year or more. I've had this ryzen 9 since april and the grizzly paste have started to show the signs. I have noctua h-1 also but use it on the server builds which I don't mind repasting because I swap parts on those 2 almost every week and the severs have ample space to workaround and easy to access and open, but now if this PTM 7950 works well I'll just put it on all the machines.
+
+        [Author: elevennnn11 | Score: 1]
+        PTM 7950 takes upper hand in longevity even any other non electrically conductive PCM .
+
+            [Author: grizzlyTearGalaxy | Score: 2]
+            yep, that's the only point of contention for me. This build is in a 4U chassis and all the parts are so snuggly fit, repasting is a chore in itself.
+
+    [Author: MERCES_LETIFER_ | Score: 2]
+    Hey can you please review you legion temps now I bought ptm from ebuy7 in 3-4 months its reaching 90-100 already and also plz provide link if it's good
+
+        [Author: elevennnn11 | Score: 1]
+        CPU(7840hs) : 100c at 65w   
+        GPU(4060M) : 75c at 110w   
+        Most of these modern CPU will always try to run at thermal limit .
+
+            [Author: MERCES_LETIFER_ | Score: 2]
+            Yes normal of cpu but gpu reached 87°
+
+                [Author: elevennnn11 | Score: 2]
+                not good then you need to repaste with PTM 7950 or any other non electrically conductive PCM again .
+
+[Author: Dumptac | Score: 5]
+Great, I have had great results with two laptops and a gpu. a tip- put it in freezer for a few mins before application.
+
+    [Author: grizzlyTearGalaxy | Score: 3]
+    yeah that seems to be the appropriate way to put it on. What sort of difference did you observe, before & after?
+
+        [Author: Dumptac | Score: 2]
+        the most difference i have seen is longevity. i.e. even after a year of application on my laptops, the temps have not degraded. earlier I used to repaste yearly.
+
+            [Author: grizzlyTearGalaxy | Score: 2]
+            Well, since I bought the cpu in april and had the grizzly paste applied, the first month the idle temps were around 35-38 and peak load temps 60-65. Right now, it idles at 38-42 and peak 72-76. This was the main concern I went for the PTM7950. I have an average runtime on this 9950x3d machine of around 15-18 hours daily and I have two additional servers, 24x7 operational, which need this new paste even more. I hope  it solves this.
+
+                [Author: mightyn0mad | Score: 1]
+                Are you using a air cooler? And what approx pad size is required for the 9950x?
+
+                    [Author: grizzlyTearGalaxy | Score: 1]
+                    34x34 pad. And yes noctua NH-P1
+
+                        [Author: mightyn0mad | Score: 1]
+                        Might have to get one for me. But heck its costly in moddiy
+
+                            [Author: grizzlyTearGalaxy | Score: 1]
+                            this is what confused me initially. ebuy7 and amazon the prizes don't even touch rs.1000. And moddiy is only selling pc modding parts. I mean either they are the only ones selling genuine ptm7950 or it's a huge markup. Only one way to find out. Let me just test it out, if there is a difference in performance that is justifiable to the prize you can then but it.
+
+                                [Author: mightyn0mad | Score: 1]
+                                Yeah do let us know.
+
+                                [Author: G4bRj3L | Score: 1]
+                                So, is it genuine? Where are the tests? How much improvement has it undergone since then? How long ago was it administered?
+
+                                    [Author: grizzlyTearGalaxy | Score: 1]
+                                    yeah, genuine. 
+
+[Author: zukabus | Score: 3]
+Looking forward for results
+
+    [Author: grizzlyTearGalaxy | Score: 2]
+    waiting on some more parts to arrive, most probably in a week or so.
+
+[Author: UncannyBishop | Score: 2]
+!RemindMe 3 weeks
+
+    [Author: RemindMeBot | Score: 1]
+    I will be messaging you in 21 days on [**2025-11-15 15:27:29 UTC**](http://www.wolframalpha.com/input/?i=2025-11-15%2015:27:29%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://www.reddit.com/r/IndianGaming/comments/1ofqegp/genuine_honeywell_ptm7950_got_delivered_today/nlbnpm5/?context=3)
+    
+    [**2 OTHERS CLICKED THIS LINK**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2FIndianGaming%2Fcomments%2F1ofqegp%2Fgenuine_honeywell_ptm7950_got_delivered_today%2Fnlbnpm5%2F%5D%0A%0ARemindMe%21%202025-11-15%2015%3A27%3A29%20UTC) to send a PM to also be reminded and to reduce spam.
+    
+    ^(Parent commenter can ) [^(delete this message to hide from others.)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%201ofqegp)
+    
+    *****
+    
+    |[^(Info)](https://www.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://www.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|
+    |-|-|-|-|
+
+[Author: Proud-Concept-190 | Score: 1]
+how much did it cost you? are you willing to sell remaining?
+
+    [Author: grizzlyTearGalaxy | Score: 1]
+    around rs.5100~. And sorry buddy, I ordered exactly the amount I needed. But you can order from the website I got it from, they send anywhere in india, basically once the package reaches india, Indian Post handles the domestic delivery so as long as you are not residing in some deeply remote area of our country, it will rwach you without any problem.
+
+        [Author: Proud-Concept-190 | Score: 1]
+        that's quite expensive, maybe i'll get it from ebuy7
+
+            [Author: grizzlyTearGalaxy | Score: 3]
+            Yep, quite expensive but what I gathered from multiple forum posts and from reddit also that moddiy has 100% genuine stuff. I placed an order from ubuy7 also for the same paste, it is still in transit. I'll post about it also once it is delivered. Infact I am trying to get this paste from multiple sources to settle this genuine vs fake debate once and for all.
+
+                [Author: Proud-Concept-190 | Score: 1]
+                thanks , from us all to take time and money to review and verify, btw which seller from ebuy? nadam digital store or geek temperature control?
+                
+                ![gif](giphy|1lk1IcVgqPLkA)
+
+                    [Author: grizzlyTearGalaxy | Score: 2]
+                    and yeah dude, for the community and also I have a couple of major builds coming up so if this paste is that legndary then it'll be worth the money and time. There is also a new variant of PTM paste but it is only available in tube on moddiy, if this one shows some promise I'll test the tube one next.
+
+                        [Author: grizzlyTearGalaxy | Score: 1]
+                        PTM7958
+
+                            [Author: Proud-Concept-190 | Score: 1]
+                            yes, this is the one lenovo uses on their laptops
+
+                    [Author: grizzlyTearGalaxy | Score: 1]
+                    Nadam digital store.
+
+                [Author: darrkass | Score: 1]
+                Any updates, sir?
+
+                [Author: MERCES_LETIFER_ | Score: 1]
+                Yes I ordered from ebuy7 it turns out it is fake as temps are high again after 3-4 months
+
+                    [Author: grizzlyTearGalaxy | Score: 3]
+                    yeah, I was also fed up of this conundrum, the price difference between sellers is quite varying. I am trying to test almost all the ptm's available online. As of now I've tested 18 different sellers. Will upload test results soon.
+
+            [Author: According-Oven-8414 | Score: 1]
+            bro i am also looking at ebuy7 for the ptm 7950, there are so many sellers  and those seem fake, I don't know what to do..
+
+                [Author: Proud-Concept-190 | Score: 1]
+                op is going to buy from nadam seller, and we will know if it's genuine or not and snarks' domain told me thar geek temperature control is authentic, i'll wait for op's review and then decide
+
+                    [Author: According-Oven-8414 | Score: 1]
+                    actually the geek one has more reviews, so better to get from that. i was wondering if it's  even fake, it is better than other pastes like mx6, so why not get it?
+
+                        [Author: Proud-Concept-190 | Score: 2]
+                        yeah, i'm leaning more towards geek too, but will wait for op's review since one mentioned in framework community is nadam digital store
+
+                            [Author: According-Oven-8414 | Score: 1]
+                            actually both of the nadam and geek are selling 0.2 mm, so might not be the real one. I have falledn in this rabbit hole tbh. I am real confused what should i use, idk why i am not using the simple mx6
+
+                                [Author: Proud-Concept-190 | Score: 1]
+                                They're the only ones on ebuy and 0.2 is just because someone rounded it off
+
+                                    [Author: According-Oven-8414 | Score: 1]
+                                    op hasn't  posted yet about the ebuy one, let's  contribute  the shipping charges and get it from moddify?
+
+                                        [Author: Proud-Concept-190 | Score: 1]
+                                        can you wait a month, i have exams till december's first half + how will it ship to 2 different addresses?
+
+                                            [Author: According-Oven-8414 | Score: 1]
+                                            i was thinking to ship to one of the addresses, and then that person will india post to other person, this will save a lot
+
+                                                [Author: Proud-Concept-190 | Score: 1]
+                                                works for me
+
+                                                    [Author: Slatewearshelmets | Score: 1]
+                                                    hey lmk if yall are ordering, im also looking to order but having one person ship to india and then courier it would be best case scenario. also are yall ordering for both cpu and gpu?
+
+                                [Author: MERCES_LETIFER_ | Score: 1]
+                                I bought from geek and it's not
+
+[Author: immaybealive | Score: 1]
+what kind of difference will justify that price ?
+
+if its for longevity, how hard is repasting twice as often ?
+
+    [Author: grizzlyTearGalaxy | Score: 2]
+    bro perception of the value of money is subjective I think and most importantly- relative. Where and in what I place value might be totally different from where and in what you place it so we shouldn't argue on that imo. I repaste around 4 to 5 month interval, 5 machines and particularly this one, the 9950x3d machine, the cooler is noctua nh-p1, both pcie slots are occupied and getting to the cpu to change the paste is a chore in itself. And I don't want to mess something up on this relatively new machine by cheaping out on something like paste so yeah maybe I overpaid and maybe it will not work like I expect it to but atleast I will sleep good  knowing that I followed a first principles approach, THIS makes the cost justifiable.
+
+[Author: Ok_Perspective_8483 | Score: 1]
+Hello, I am also looking for a  for my stock ptm. But i am confuse about what size to order ?  
+I have a laptop with R7 7785HX and rtx4070. Can you suggest me somethin.  
+Also how difficul would be it’s application for 1st time user and should i order 1 spare incase anything goes wrong ?
+
+    [Author: According-Oven-8414 | Score: 1]
+    u ordering  from ebuy or moddify?
+
+        [Author: Ok_Perspective_8483 | Score: 2]
+        moddify is looking as a better option to me after reading all the reviews and all. Ebay or albaba has some counterfeiting issues.   
+        I also looked upon those generic ptms on amazon india but, they seem to be a bit too cheap. Although their reviews suggest otherwise but still i am a bit skeptical.
+
+[Author: According-Oven-8414 | Score: 1]
+RemindMe! 10 days
+
+[Author: GameplayWithSamurai | Score: 1]
+Did you pay any customs on this?
+
+[Author: ItsTheBeastDragon | Score: 1]
+where did you order from?
+
+[Author: darrkass | Score: 1]
+Did you have to pay any customs or more charges on it ?
+
+    [Author: grizzlyTearGalaxy | Score: 1]
+    no. I didn't.
+
+[Author: jackrabbit-199 | Score: 1]
+Op after 2 months how does it look?
+
+    [Author: grizzlyTearGalaxy | Score: 1]
+    it's holding up nicely, idle temps are around 37-41degC. I am playing mostly arc raiders right now so avg temps are around 51-53degC (37% cpu util) max and during benchmarks the most it was pushed was 64degC.  But there are other factors also like due to winters the ambient room temp is 14-16 degC so can't say right now how will it perform during summers with ambient temps of 22-24degC. I have a full blown comparison of almost all the ptm available in the market except a few I am waiting on. Will post soon, but as of now I can say that there is a huge difference between the original honeywell and non brand, one of those turned to slimy messy substance after just a week of benchmark runs (geek temperature control). At first I thought it due to the nature of phase change material but comparing to the others it wasn't supposed to do that.
+
+[Author: Comfortable-Might477 | Score: 1]
+Hey did you have to pay any custom duties?
+
+    [Author: grizzlyTearGalaxy | Score: 1]
+    no custom duties. 
+
+[Author: panther_cmx | Score: 1]
+https://preview.redd.it/4i8o995yrvmg1.png?width=751&format=png&auto=webp&s=d62cfd0843ca9c887b89a9d4d630fa162e035a7d
+
+I got the same from MODDIY,  
+u/grizzlyTearGalaxy , did you pay any custom fees?  
+I had to pay total 468 INR for getting it on hand,  
+Btw its 80x40x0.25mm
+
+    [Author: grizzlyTearGalaxy | Score: 1]
+    No, not a dime. Did you pay it via a link/online or just cash to post man?
+
+        [Author: panther_cmx | Score: 1]
+        Cash to the postman,
+        And he told me to sign in a paper, that was an assessment memo [RP-14],
+        I was confused too, but then I verified it on the India post website and it was legit. So, I paid for it.
+
+            [Author: grizzlyTearGalaxy | Score: 1]
+            yeah then it's okay. Valid  RP14 means their is no funny business.
+
+    [Author: grizzlyTearGalaxy | Score: 1]
+    and another tip, do freeze it for at least 2 hours before applying it and use tweezers for sure, with fingers there's a very high chance to mess it up. 
+
+        [Author: panther_cmx | Score: 1]
+        Yeah I'll take care of it for sure,
+        But where to put, freeze or freezer?
+
+            [Author: grizzlyTearGalaxy | Score: 2]
+            yeah, freezer. And also  Take white permanent marker or anything you can mark with, before removing the cooler or AIO head(whichever you are using), mark the four corners of the cooler/aio on the motherboard because after placing the PTM you have to put the cooler straight down and screw it without sliding the PTM away from the cpu. I learned this the hard way. 
+
+                [Author: panther_cmx | Score: 1]
+                I will use this on my 4070ti super GPU and in my predator helios 16 CPU GPU, 
+                For PC CPU, I am using NT-H2 in that, I have maximum 67 while exporting video and in games its 60-63 average so its fine.
+
+                    [Author: grizzlyTearGalaxy | Score: 1]
+                    nice. these are my temps right now, 9950x3d. Idle.
+                    
+                    https://preview.redd.it/ntf4w95qszmg1.jpeg?width=720&format=pjpg&auto=webp&s=594596fd1153f76426e0230850e22bd25328152a
+
+                        [Author: panther_cmx | Score: 1]
+                        Which cabinet and AIO are you using?
+
+                            [Author: grizzlyTearGalaxy | Score: 1]
+                            fractal define 7 XXL and arctic liquid freezer 3 420mm AIO
+
+                            [Author: grizzlyTearGalaxy | Score: 1]
+                            and also I got airflow guides 3d printed and installed along with fans when I building it. It doesn't have a drastic effect but helps during peak utilization. My mobo's chipset also runs hot normally so I had to do it.
+
+                                [Author: panther_cmx | Score: 1]
+                                Nice, having a nice airflow cabinet and a bigger AIO makes it cooler.
+                                I have a corsair icue 5000d and cooler master nex digital 360,
+                                Idle 40-42, at peak, it helps me a little better and I used nt h2 on the cpu.
+
+                                    [Author: grizzlyTearGalaxy | Score: 1]
+                                    totally. People usually don't give the cabinet enough importance and cheap out on it but it really makes a huge difference. 
+
+                                        [Author: panther_cmx | Score: 1]
+                                        Yeah, 
+                                        In India, most people try to build a pc in budget but they don't even care for cabinets and airflow much and also says my temps are not better with having a good configurations 😂
+
+                                            [Author: grizzlyTearGalaxy | Score: 1]
+                                            I might get some hate for saying this, but gaming has never really been a cheap hobby in India, and even globally it isn’t exactly inexpensive. Most of the gaming ecosystem, whether it’s hardware or games, it's priced with western markets in mind. When you consider purchasing power parity, spending 100 dollars there might feel closer to us spending around 1500-1600, which makes things much tougher for gamers here. I completely understand budget constraints, but gaming is already a hobby where the odds are somewhat stacked against us in terms of pricing. So sometimes I feel that if someone is really getting into it, it might make sense to save up and go all in rather than constantly compromising.
+
+                                                [Author: panther_cmx | Score: 1]
+                                                I completely agree with you 💯
+
+[Author: G4bRj3L | Score: 1]
+I've only found counterfeit Honeywell PTM7950s. Does anyone have a link to an original one that ships to Brazil?
+
+    [Author: grizzlyTearGalaxy | Score: 2]
+    yeah. you can find it on moddiy(.) com.
+
+        [Author: G4bRj3L | Score: 1]
+        I don't know if they ship to Brazil; do they sell on Amazon, Shopee, or Aliexpress?
+
+            [Author: grizzlyTearGalaxy | Score: 1]
+            Yeah they do. 
+
+[Author: Fit-Register6859 | Score: 1]
+No update bro???
+
+
+[Author: rkwinsgaming | Score: 1]
+Any updates? Was it better than the thermal grizzly?
